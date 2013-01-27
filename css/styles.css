@@ -11,11 +11,11 @@ a:hover {
 h1, h2, h3 { 
 	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 p {
 	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 400;
 }
