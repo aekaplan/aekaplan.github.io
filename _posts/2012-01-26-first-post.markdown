@@ -1,6 +1,6 @@
 ---
 layout: default
-title: This is a wayback post
+title: First Post
 ---
 
 # This is a wayback post

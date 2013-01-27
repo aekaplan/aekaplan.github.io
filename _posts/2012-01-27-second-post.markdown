@@ -1,6 +1,6 @@
 ---
 layout: default
-title: This is a wayback post
+title: Second Post
 ---
 
 # This is a wayback post
