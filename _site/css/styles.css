@@ -8,11 +8,14 @@ a:hover {
   text-decoration: underline;
 }
 
-h2 { 
-	font-family: "proxima-nova";
-	text-transform: uppercase; 
+h1, h2, h3 { 
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 300;
 }
 
 p {
-	font-family: "proxima-nova";
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 400;
 }
