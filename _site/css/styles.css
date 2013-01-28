@@ -1,10 +1,15 @@
+.container {
+	width: 42em;
+	margin: 3em auto 2em auto;
+}
+
 a, a:visited {
-  color: #41a096;
+  color: #c42f37;
   text-decoration: none;
 }
 
 a:hover {
-  color: #41a096;
+  color: #c42f37;
   text-decoration: underline;
 }
 
@@ -18,4 +23,5 @@ p {
 	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	line-height: 1.5em;
 }

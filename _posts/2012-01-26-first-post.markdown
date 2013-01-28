@@ -3,6 +3,6 @@ layout: default
 title: First Post
 ---
 
-# First Post
+<h1>First Post</h1>
 
-If it were really 1900, I don't think we would be building a Jekyll site!
+<p>If it were really 1900, I don't think we would be building a Jekyll site!</p>
