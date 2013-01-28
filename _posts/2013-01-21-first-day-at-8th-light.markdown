@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: First Day at 8th Light
+date: January 21, 2013
 ---
 
 <h1>First Day at 8th Light</h1>

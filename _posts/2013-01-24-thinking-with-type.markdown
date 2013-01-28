@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Thinking with Type
+date: January 24, 2013
 ---
 
 <h1>Thinking with Type</h1>

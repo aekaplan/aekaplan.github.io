@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Working with Typography
+date: January 22, 2013
 ---
 
 <h1>Working with Typography</h1>
