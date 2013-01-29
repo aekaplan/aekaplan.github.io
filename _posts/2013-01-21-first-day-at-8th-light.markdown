@@ -15,7 +15,7 @@ date: January 21, 2013
 <ul>
 	<li>Collaboration is key when coming up with a successful design.</li>
 	<li>Whole experiences can be harmonious and have a purpose just by starting with type.</li>
-	<li>Try to find some inspiration, natural references when starting a design. What’s the hook? Type can be that hook!</li>
+	<li>Try to find some inspiration, natural references when starting a design. What's the hook? Type can be that hook!</li>
 	<li>Always provide solutions when communicating with a client.</li>
 </ul>
 
