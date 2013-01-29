@@ -25,8 +25,8 @@
 		<ul class='posts'>
 		{% for post in site.posts do %}
 		    <li>
-				<div class='post-date'>{{ post.date | date: "%m-%d-%y" }}</div>
 				<a href="{{ post.url }}">{{ post.title }}</a>
+				<div class='post-date'>{{ post.date | date: "%B %d, %Y"}}</div>
 			</li>
 		    {% endfor %}
 		  </ul>

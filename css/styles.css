@@ -53,7 +53,7 @@ body {
 	background: #FFF;
    	font-family: "proxima-nova", sans-serif;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.5em;
 	color: #333;
 }
@@ -67,18 +67,18 @@ body {
 /*  #Links
 ================================================== */
 a, a:visited {
-  color: #0099CC;
+  color: #EE4938;
   text-decoration: none;
 }
 
 a:hover {
-  color: #0099CC;
+  color: #EE4938;
   text-decoration: underline;
 }
 
 /*  #Headers
 ================================================== */
-h1, h2, h3, h3 { 
+h1, h2, h3 { 
 	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
 	color: #111;
@@ -133,7 +133,7 @@ li {
  
  ul.posts li {
  	list-style: none;
-	margin: 0;
+	margin-bottom: .5em;
  }
  	
 hr {
@@ -145,10 +145,9 @@ hr {
 }
 
 .post-date {
-	float: left;
-	width: 72px;
 	color: #AAAAAA;
 	font-weight: 300;
+	font-size: .9em;
 }
 
 .date {
@@ -192,7 +191,7 @@ hr {
 	}
 	
 	body { 
-		font-size: 16px; 
+		font-size: 18px; 
 	}
 	
 	h2 {
