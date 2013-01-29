@@ -144,12 +144,26 @@ hr {
 
 /*  #Message Box
 ================================================== */
-.message-box {
+.homework {
 	overflow: hidden;
 	zoom: 1;
-	margin-bottom: 3em;
+	margin-bottom: 2em;
 	padding: 1.5em 1.5em 0;
 	background: #FFF8DC;
+	-webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+	-moz-box-shadow: 0 1px 3px rgba(64,56,41,0.2);
+	box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.recent-posts {
+	overflow: hidden;
+	zoom: 1;
+	margin-bottom: 2em;
+	padding: 1.5em 1.5em 0;
+	background: #F8F8F8;
 	-webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
 	-moz-box-shadow: 0 1px 3px rgba(64,56,41,0.2);
 	box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
