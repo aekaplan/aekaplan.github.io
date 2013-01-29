@@ -67,12 +67,12 @@ body {
 /*  #Links
 ================================================== */
 a, a:visited {
-  color: #FF6600;
+  color: #FF6633;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FF6600;
+  color: #FF6633;
   text-decoration: underline;
 }
 
@@ -144,7 +144,7 @@ hr {
 
 /*  #Message Box
 ================================================== */
-.homework {
+.box {
 	overflow: hidden;
 	zoom: 1;
 	margin-bottom: 2em;
@@ -158,18 +158,8 @@ hr {
 	-moz-box-sizing: border-box;
 }
 
-.recent-posts {
-	overflow: hidden;
-	zoom: 1;
-	margin-bottom: 2em;
-	padding: 1.5em 1.5em 0;
+.gray {
 	background: #F8F8F8;
-	-webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
-	-moz-box-shadow: 0 1px 3px rgba(64,56,41,0.2);
-	box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 }
 
 /*  #Mobile (Portrait)
