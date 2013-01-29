@@ -85,14 +85,14 @@ h1, h2, h3, h3 {
 }
 
 h1 {
-	font-size: 2.222em;
+	font-size: 2em;
 	line-height: 1.2em;
 	margin-bottom: .7em;
 	font-weight: 400;
 }
 
 h2 {
-	font-size: 1.777em;
+	font-size: 1.555em;
 	line-height: 1.18466667em;
 	margin-bottom: 1.18466667em;
 	font-weight: 300;
@@ -136,10 +136,21 @@ hr {
 }
 
 .date {
+	width: 9.4em;
 	font-size: 1em;
 	text-transform: uppercase;
 	color: #AAAAAA;
 	font-weight: 300;
+	background: #f8f8f8;
+	padding: .4em;
+	text-align: center;
+	margin-bottom: 1em;
+	-webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+	-moz-box-shadow: 0 1px 3px rgba(64,56,41,0.2);
+	box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 /*  #Message Box
