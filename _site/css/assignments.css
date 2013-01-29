@@ -1,0 +1,78 @@
+/*  #Assignment 1 Styles
+================================================== */
+h1 {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-size: 1.5em;
+	font-weight: 700;
+	padding: .5em;
+	text-align: center;
+}
+
+
+h2 { text-align: center; }
+
+.bold {
+	font-weight: 700;
+}
+
+/*  #Examples
+================================================== */
+
+.example1 {
+	background: #7DFDD7;
+	padding: 1.6%;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+
+.remove-bottom { margin-bottom: 0; }
+
+.example2 {
+	text-align: center;
+	background: #99C7FF;
+	padding: 1.6%;
+	font-weight: 300;
+	margin-bottom: 1.5em;
+}
+	
+.example3 {
+	text-align: center;
+	width: 46.8%;
+	display: inline-block;
+	background: #99C7FF;
+	padding: 1.6%;
+	font-weight: 300;
+	margin-bottom: 1.5em;
+}
+
+.example4 {
+	text-align: center;
+	width: 46.8%;
+	display: inline-block;
+	background: #EAA6EA;
+	padding: 1.6%;
+	color: #333;
+	font-weight: 300;
+	margin-bottom: 1.5em;
+}
+
+.example5 {
+	width: 46.8%;
+	text-align: center;
+	background: #FF7575;
+	padding: 1.6%;
+	font-weight: 300;
+	margin-bottom: 1.5em;
+}
+
+hr {
+	border: dashed #333;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 1.5em 0;
+	height: 0;
+}
+
+.next { display: inline-block; }

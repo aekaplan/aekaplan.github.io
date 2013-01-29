@@ -5,6 +5,7 @@
  
   <!-- Homepage CSS -->
   <link rel="stylesheet" href="/css/styles.css" type="text/css" />
+  <link rel="stylesheet" href="/css/assignments.css" type="text/css" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!-- Typekit -->
@@ -13,13 +14,37 @@
 </head>
 
 <body>
-<div class='container'>
-	<h1><a href="/index.html">Adam Kaplan</a></h1>
-	<hr />
-	 <div class='box'>	
-	<h1>Assignment 1</h1>
-	<h3>Inline and Block level HTML Elements</h3>
-	<p>Do some research on inline and block level HTML elements. Using a little CSS for simple styles, (color, type, etc) make a visual representation of those elements and their natural behavior.</p>
+	<div class='container'>
+		<div class='box'>	
+	<h1>Assignment 1: Inline &amp; Block Elements</h1>
+	<h2>display: block;</h2>
+	<div class='example1'>display: block</div>
+	<p><span class='bold'>What does it do?</span> The element is displayed as a block-level element. Default style for headers and paragraphs. </p>
+	<hr>
+	<div class='example1 remove-bottom'>h1</div><div class='example2'>p</div>
+	<p><span class='bold'>Fig A:</span> An example of the default style on two block-level elements.</p>		
+</div>	
+
+
+<div class='box'>
+	<h2>display: inline-block;</h2>		
+	<div class='example3'>display: inline-block</div>
+	<p><span class='bold'>What does it do?</span> The element is placed as an inline element (on the same line as adjacent content), but it 
+		behaves as a block element.</p>
+	<hr>
+	
+	<div class='example3'>p</div><div class='example4'>p</div>
+	<p><span class='bold'>Fig A:</span> Two paragraphs with inline-block style added. Paragraphs are now placed next to one another on the same line.</p>
+	<hr>
+	<div class='example1 remove-bottom'>h1</div>
+	<div class='example3'>p</div><div class='example4'>p</div>
+	<p><span class='bold'>Fig B:</span> A block-level element with two inline-block elements.</p>
+	
+	<hr>
+		
+	<div class='example1 remove-bottom'>h1 { display: block; }</div>
+	<div class='example3'>p { display: inline-block; }</div><div class='example4'>p { display: inline-block; }</div>
+	<p><span class='bold'>Fig C:</span> An example of the CSS.</p>
 </div>
 	</div>
 </body>

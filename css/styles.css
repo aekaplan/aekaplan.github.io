@@ -100,8 +100,8 @@ h2 {
 
 h3 {
 	font-size: 1.333em;
-	line-height: 0.88866667em;
-	margin-bottom: 0.88866667em;
+	line-height: 1.1em;
+	margin-bottom: 1.1em;
 	font-weight: 400;
 }
 	
@@ -168,7 +168,7 @@ hr {
 	overflow: hidden;
 	zoom: 1;
 	margin-bottom: 1.5em;
-	padding: 1.5em 1.5em 0;
+	padding: 1.5em 3% 0;
 	background: #FFF8DC;
 	-webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
 	-moz-box-shadow: 0 1px 3px rgba(64,56,41,0.2);

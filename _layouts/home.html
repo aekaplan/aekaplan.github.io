@@ -16,7 +16,19 @@
 <div class='container'>
 	<h1><a href="/index.html">Adam Kaplan</a></h1>
 	<hr />
-	{{ content }}
+	 <div class='box gray'>
+		 <h3>Recent Posts</h3>
+		 	<ul class='posts'>
+				{% for post in site.posts do %}
+				    <li>
+						<a href="{{ post.url }}">{{ post.title }}</a>
+						<div class='post-date'>{{ post.date | date: "%B %d, %Y" }}</div>
+						<p>{{ post.content | strip_html | truncatewords:25 }}</p>
+					</li>
+ 			    {% endfor %}
+ 			  </ul>
+	  </div>
+	 {{ content }}
 	</div>
 </body>
 </html>
