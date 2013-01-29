@@ -126,13 +126,30 @@ ul, ol {
 li { 
 	list-style: disc outside;
  }
-	
+ 
+ ul.posts {
+	 margin: 0 0 1.5em 0;
+ }
+ 
+ ul.posts li {
+ 	list-style: none;
+	margin: 0;
+ }
+ 	
 hr {
 	border: solid #ddd;
 	border-width: 1px 0 0;
 	clear: both;
 	margin: 1.5em 0;
 	height: 0;
+}
+
+.post-date {
+	float: left;
+	width: 75px;
+	color: #AAAAAA;
+	font-weight: 300;
+	margin-right: .5em;
 }
 
 .date {

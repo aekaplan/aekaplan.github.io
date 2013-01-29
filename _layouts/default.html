@@ -18,13 +18,14 @@
 	<hr />
 	 <div class='box gray'>
 		 <h3>Recent Posts</h3>
-		 	<ul>
+		 	<ul class='posts'>
 				{% for post in site.posts do %}
-			    <li>
-			      <a href="{{ post.url }}">{{ post.title }}</a>
-			    </li>
-			    {% endfor %}
-			  </ul>
+				    <li>
+						<div class='post-date'>{{ post.date | date: "%m-%d-%y" }}</div>
+						<a href="{{ post.url }}">{{ post.title }}</a>
+					</li>
+ 			    {% endfor %}
+ 			  </ul>
 	  </div>
 	 {{ content }}
 	</div>
