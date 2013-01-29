@@ -67,12 +67,12 @@ body {
 /*  #Links
 ================================================== */
 a, a:visited {
-  color: #FF6633;
+  color: #FF9900;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FF6633;
+  color: #FF9900;
   text-decoration: underline;
 }
 
