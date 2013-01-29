@@ -66,20 +66,18 @@ body {
 
 /*  #Links
 ================================================== */
-
 a, a:visited {
-  color: #ED9121;
+  color: #FF6600;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ED9121;
+  color: #FF6600;
   text-decoration: underline;
 }
 
 /*  #Headers
 ================================================== */
-
 h1, h2, h3, h3 { 
 	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
