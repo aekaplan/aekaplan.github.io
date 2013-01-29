@@ -59,9 +59,9 @@ body {
 }
 	
 .container {
-	width: 80%;
+	width: 90%;
 	max-width: 700px;
-	margin: 3em auto;
+	margin: 2em auto;
 }
 
 /*  #Links
@@ -87,9 +87,9 @@ h1, h2, h3, h3 {
 }
 
 h1 {
-	font-size: 2.369em;
+	font-size: 2.222em;
 	line-height: 1.2em;
-	margin-bottom: 1em;
+	margin-bottom: .8em;
 	font-weight: 400;
 }
 
@@ -165,7 +165,7 @@ hr {
 
 @media only screen and (max-width: 518px) {
 	.container { 
-		width: 85%; 
+		width: 90%; 
 	}
 	
 	body { 
