@@ -4,8 +4,6 @@ title: First Day at 8th Light
 date: January 21, 2013
 ---
 
-<h1>First Day at 8th Light</h1>
-
 <h2>Hi there! Today was the first day of my Novice Apprenticeship at <a href='http://www.8thlight.com/' target='blank'>8th Light</a>.</h2>
 
 <p>I started my morning with a design standup with Stephanie and Chris. We talked about what it means to work on a story. Everyone plays a small part in helping to shape and complete a project at 8th Light. All this collaboration will go a long way in helping me refine my design process.</p>
