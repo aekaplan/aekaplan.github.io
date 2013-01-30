@@ -16,6 +16,11 @@ h2 { text-align: center; }
 	font-weight: 700;
 }
 
+.red {
+	font-weight: 400;
+	color: #FF7575;
+}
+
 /*  #Examples
 ================================================== */
 
@@ -68,6 +73,10 @@ h2 { text-align: center; }
 	margin-bottom: 1.5em;
 }
 
+.blue {
+	background: #99C7FF;
+}
+
 .example6 {
 	width: 15.6%;
 	text-align: center;
@@ -91,7 +100,7 @@ h2 { text-align: center; }
 	width: 15.6%;
 	display: inline-block;
 	text-align: center;
-	background: #FF7575;
+	background: #99C7FF;
 	padding: 1.6%;
 	font-weight: 300;
 	margin: 0 1em 1.5em 0;
