@@ -44,7 +44,7 @@ h2 { text-align: center; }
 	
 .example3 {
 	text-align: center;
-	width: 50.00000000%;
+	width: 50%;
 	display: inline-block;
 	background: #99C7FF;
 	padding: 1.6%;
@@ -57,7 +57,7 @@ h2 { text-align: center; }
 
 .example4 {
 	text-align: center;
-	width: 50.00000000%;
+	width: 50%;
 	display: inline-block;
 	background: #EAA6EA;
 	padding: 1.6%;
