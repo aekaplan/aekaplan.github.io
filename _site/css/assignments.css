@@ -44,23 +44,29 @@ h2 { text-align: center; }
 	
 .example3 {
 	text-align: center;
-	width: 46.8%;
+	width: 50.00000000%;
 	display: inline-block;
 	background: #99C7FF;
 	padding: 1.6%;
 	font-weight: 300;
 	margin-bottom: 1.5em;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 .example4 {
 	text-align: center;
-	width: 46.8%;
+	width: 50.00000000%;
 	display: inline-block;
 	background: #EAA6EA;
 	padding: 1.6%;
 	color: #333;
 	font-weight: 300;
 	margin-bottom: 1.5em;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 .example5 {
