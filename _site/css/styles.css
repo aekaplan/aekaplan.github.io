@@ -165,7 +165,6 @@ hr {
 /*  #Message Box
 ================================================== */
 .box {
-	overflow: hidden;
 	zoom: 1;
 	margin-bottom: 1.5em;
 	padding: 1.5em 3% 0;
