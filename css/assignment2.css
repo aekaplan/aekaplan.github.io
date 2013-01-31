@@ -3,15 +3,15 @@
 .container {
 	overflow: hidden;
 	width: 90%;
-	max-width: 800px;
+	max-width: 700px;
 	margin: 1.5em auto;
 }
 
-h1, h2, h3 { 
+.article, h2, h3 { 
 	font-family: "adelle", serif; 
 	font-style: normal;}
 
-h1 {
+.article {
 	font-size: 2.3em;
 	line-height: 1em;
 	font-weight: 400;
@@ -73,19 +73,15 @@ h4 {
 	margin-bottom: 1.5em;
 }
 
-header { 
-	background: #E41B17;
-	padding: 6% 0 0;
-}
-
 .stripe-bg {
-	background: url('../images/bg2.png');
+	background: #E41B17 url('../images/bg2.png');
 	padding: 1em 1em 1em 0;	
+	margin: 6% 0 0;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1) {
 	.stripe-bg {
-		background: url('../images/bg2-2x.png');
+		background: #E41B17 url('../images/bg2-2x.png');
 		background-size: 14px 14px;
 	}
 	}
@@ -103,7 +99,7 @@ header {
 
 .author {
 	margin: 0 auto;
-	padding: 32% 0 0 66%;
+	padding: 25% 0 0 65%;
 }
 
 .multimedia {
@@ -217,7 +213,7 @@ header {
 		font-size: .8em; 
 	}
 	
-	h1 { 
+	.article { 
 		font-size: 1.8em;
 		text-align: center; 
 	}

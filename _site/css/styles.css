@@ -64,31 +64,47 @@ body {
 	margin: 1.5em auto;
 }
 
+header { 
+	margin-bottom: 2em;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid #ddd;
+ }
+
 /*  #Links
 ================================================== */
 a, a:visited {
-  color: #EE4938;
-  text-decoration: none;
+	color: #EE4938;
+	text-decoration: none;
 }
 
 a:hover {
-  color: #EE4938;
-  text-decoration: underline;
+	color: #EE4938;
+	text-decoration: underline;
+}
+
+.masthead a:hover {  
+	text-decoration: none; 
 }
 
 /*  #Headers
 ================================================== */
+.masthead { 
+	margin-bottom: 0;
+	line-height: 1em;
+	font-size: 2em;
+}
+
 h1, h2, h3 { 
 	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
-	color: #111;
+	color: #333;
 }
 
 h1 {
 	font-size: 2em;
-	line-height: 1.2em;
+	line-height: 1.1em;
 	margin-bottom: .7em;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 h2 {
@@ -102,7 +118,7 @@ h3 {
 	font-size: 1.333em;
 	line-height: 1.1em;
 	margin-bottom: 1.1em;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 .post-date {
@@ -120,7 +136,7 @@ h3 {
 	background: #f8f8f8;
 	padding: .4em;
 	text-align: center;
-	margin-bottom: .6em;
+	margin-bottom: 1em;
 }
 
 /*  #Body

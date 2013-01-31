@@ -1,6 +1,7 @@
 /*  #Assignment 1 Styles
 ================================================== */
-h1 {
+
+.assignment {
 	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
 	font-size: 1.5em;
@@ -9,13 +10,8 @@ h1 {
 	text-align: center;
 }
 
-
 h2 { 
 	text-align: center; 
-}
-
-.bold {
-	font-weight: 700;
 }
 
 .red {

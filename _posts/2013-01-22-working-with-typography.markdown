@@ -19,7 +19,7 @@ date: January 22, 2013
 
 <p>I choose Proxima Nova Regular served via <a href='https://typekit.com/' target='blank'>Typekit</a>. Next, I gave the headers some personality by using Semibold to make them standout.</p>
 
-<h2>Em > Pixels</h2>
+<h3>Em > Pixels</h3>
 
 <p>I went out of my comfort zone and switched from using pixels to ems. Just because the body type looks good on a phone doesn't mean it will look right on a larger display. Ems scale well and keep the relationships with the surrounding elements.</p>
 
@@ -29,7 +29,7 @@ date: January 22, 2013
 
 <em>Chris Coyier's article <a href='http://css-tricks.com/why-ems/' target='blank'>Why Ems?</a> helped me better understand these concepts.</em>
 
-<h2>Modular Scales</h2>
+<h3>Modular Scales</h3>
 
 <p>Now lets combine ems with Tim Brown's presentation on Modular Scales:</p>
 
