@@ -164,7 +164,7 @@ header {
 		clear: left;
 	}
 }
-/*Changed from 400px*/
+/*Changed from 400px to 518px*/
 @media screen and (max-width: 518px) {
 	.col {
 		width: 100% !important;
