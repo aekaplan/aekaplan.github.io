@@ -27,7 +27,7 @@ h2 {
 h3 {
 	font-weight: 100;
 	color: #fff;
-	font-size: .6em;
+	font-size: .7em;
 	line-height: 1.5em;
 }
 
@@ -67,7 +67,7 @@ h4 {
 /*  #Elements
 ================================================== */
 .bg {
-	background: #E41B17 url('../images/bg.png') no-repeat;
+	background: #E41B17 url('../images/bg.jpg') no-repeat;
 	background-size: 100%;
 	padding: 4%;
 	margin-bottom: 1.5em;
@@ -103,7 +103,7 @@ header {
 
 .author {
 	margin: 0 auto;
-	padding: 35% 0 0 70%;
+	padding: 32% 0 0 66%;
 }
 
 .multimedia {
