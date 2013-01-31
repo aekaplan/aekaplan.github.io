@@ -121,17 +121,26 @@ h3 {
 	font-weight: 700;
 }
 
-.post-date {
-	color: #AAAAAA;
+h4 {
+	font-size: 1.1em;
+	line-height: 1em;
+	margin-bottom: 0;
+	font-weight: 700;
+}
+
+.recent-date {
+	color: #909090;
 	font-weight: 300;
-	font-size: .9em;
+	font-size: .8em;
+	margin-bottom: .5em;
+	text-transform: uppercase;
 }
 
 .date {
 	width: 8.6em;
 	font-size: 1em;
 	text-transform: uppercase;
-	color: #AAAAAA;
+	color: #909090;
 	font-weight: 300;
 	background: #f8f8f8;
 	padding: .4em;
@@ -188,7 +197,7 @@ hr {
 	border: solid #ddd;
 	border-width: 1px 0 0;
 	clear: both;
-	margin: 1.5em 0;
+	margin: 1.5em 0 2em;
 	height: 0;
 }
 

@@ -24,8 +24,8 @@
 		 	<ul class='posts'>
 				{% for post in site.posts do %}
 				    <li>
-						<a href="{{ post.url }}">{{ post.title }}</a>
-						<div class='post-date'>{{ post.date | date: "%B %d, %Y" }}</div>
+						<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+						<div class='recent-date'>{{ post.date | date: "%B %d, %Y" }}</div>
 						<p>{{ post.content | strip_html | truncatewords:25 }}</p>
 					</li>
  			    {% endfor %}
