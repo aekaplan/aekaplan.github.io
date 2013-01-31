@@ -56,7 +56,6 @@ strong { font-weight: 400; }
 
 /*  #Elements
 ================================================== */
-
 .bg {
 	background: #E41B17 url('../images/bg.png') no-repeat;
 	background-size: 100%;
@@ -75,9 +74,9 @@ header {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1) {
-	.stripe-bg {
-		background: url('../images/bg2-2x.png');
-		background-size: 14px 14px;
+.stripe-bg {
+	background: url('../images/bg2-2x.png');
+	background-size: 14px 14px;
 }
 }
 
@@ -104,7 +103,7 @@ header {
 
 .larger-hide { display: none; }
 
-/*  #nth-of-type responsive design
+/*  #nth-of-type Responsive Design
 ================================================== */
 .example {
 	margin-bottom: 1em;
@@ -115,14 +114,14 @@ header {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1) {
-	.stripe-bg {
-		background: #F8F8F8 url('../images/bg2-2x.png');
-		background-size: 14px 14px;
+.example {
+	background: #F8F8F8 url('../images/bg2-2x.png');
+	background-size: 14px 14px;
 }
 }
 
 .wrapper {
-overflow: hidden;
+	overflow: hidden;
 }
 
 .grid3 .col:nth-of-type(3n+1),
@@ -131,13 +130,11 @@ overflow: hidden;
 	clear: left;
 }
 	
-/* col */
 .col {
 	float: left;
 	margin-left: 3.2%;
 }
 
-/* grid1 col */
 .fullwidth .col {
 	float: none;
 	margin-left: 0;
@@ -145,12 +142,10 @@ overflow: hidden;
 	overflow: hidden;
 }
 
-/* grid3 col */
 .grid3 .col {
 	width: 31.2%;
 }
 
-/* grid2 col */
 .grid2 .col {
 	width: 48.4%;
 }
@@ -169,7 +164,7 @@ overflow: hidden;
 		clear: left;
 	}
 }
-/*use to be 400px*/
+/*Changed from 400px*/
 @media screen and (max-width: 518px) {
 	.col {
 		width: 100% !important;
@@ -178,7 +173,7 @@ overflow: hidden;
 	}
 }
 
-/*  #magazine responsive design
+/*  #Magazine Responsive Design
 ================================================== */
 @media only screen and (max-width: 518px) {
 	.container { width: 90%; }
