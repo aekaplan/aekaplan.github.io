@@ -108,7 +108,6 @@
 .stripe-bg {
 	background: #E41B17 url('../images/bg2.png');
 	padding: 1em 1em 1em 0;	
-	margin: 6% 0 0;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1) {
