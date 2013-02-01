@@ -17,7 +17,7 @@ date: January 24, 2013
 	<li>Don't trap data in heavily guarded cells</li>
 </ul>
 
-<img src='/images/Thinking-with-Type-1.jpg' />
-<img src='/images/Thinking-with-Type-2.jpg' />
-<img src='/images/Thinking-with-Type-3.jpg' />
-<img src='/images/Thinking-with-Type-4.jpg' />
+<img src='/images/type1.jpg' />
+<img src='/images/type2.jpg' />
+<img src='/images/type3.jpg' />
+<img src='/images/type4.jpg' />

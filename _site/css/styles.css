@@ -137,7 +137,7 @@ h4 {
 }
 
 .date {
-	width: 8.6em;
+	display: inline-block;
 	font-size: 1em;
 	text-transform: uppercase;
 	color: #909090;

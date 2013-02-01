@@ -25,7 +25,7 @@ date: February 1, 2013
 
 <h3>Results</h3>
 
-<p>Stephanie noticed that a background image I was using was taking a long time to load. By following these simple guidelines, my image went from 2mb to 80kb! That's a huge reduction in size. Thanks Stephanie. </p>
+<p>Stephanie noticed an image I was using was taking a long time to load. By following these simple guidelines, my image went from 2mb to 80kb! That's a huge reduction in size. Thanks Stephanie. </p>
 
 <p>Here are a few resources that helped me:</p>
 <ul>
