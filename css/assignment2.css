@@ -7,11 +7,12 @@
 	margin: 1.5em auto;
 }
 
-.article, h2, h3 { 
+.title, sub-title, .author { 
 	font-family: "adelle", serif; 
-	font-style: normal;}
+	font-style: normal;
+}
 
-.article {
+.title {
 	font-size: 2.3em;
 	line-height: 1em;
 	font-weight: 400;
@@ -19,19 +20,19 @@
 	color: #fff;
 }
 
-h2 {
+.subtitle {
 	font-weight: 300;
 	color: #fff; 
 }
 
-h3 {
+.author {
 	font-weight: 100;
 	color: #fff;
 	font-size: .7em;
 	line-height: 1.5em;
 }
 
-h4 {
+.focus {
 	font-family: "proxima-nova", sans-serif;
 	font-weight: 400;
 	color: #fff;
@@ -117,25 +118,25 @@ h4 {
 	}
 	}
 
-.focus { 
+.focus-box { 
 	display: inline-block;
-	padding: 1% 2.5%;
+	padding: 2% 2.5%;
 	text-transform: uppercase;
 	background: rgba(0,0,0,0.85);
 }
 
-.title {
+.article {
 	padding: 5% 0 0 10%;
 }
 
-.author {
+.author-box {
 	margin: 0 auto;
 	padding: 25% 0 0 65%;
 }
 
 /*  #nth-of-type Responsive Design
 ================================================== */
-.larger-hide { 
+.mobile-bg  { 
 	display: none; 
 }
 
@@ -227,49 +228,48 @@ h4 {
 		font-size: .8em; 
 	}
 	
-	.article { 
+	.title { 
 		font-size: 1.8em;
 		text-align: center; 
 	}
 	
-	.title {
+	.article {
 		padding: 3% 0 0;
 		
 	}
 	
-	h2 { 
+	.subtitle { 
 		font-size: 1.2em;
 		text-align: center;
 	}
 	
-	h3 { 
+	.author { 
 		font-size: .8em;
 	}
 	
-	h4 { 
+	.author-box { 
+		text-align: center; 
+		padding: 0; 
+	}
+	
+	.focus { 
 		font-size: .7em;
 	}
 	 
 	.bg { 
 		background: #E41B17;
 	}
-	
-	.author { 
-		text-align: center; 
-		padding: 0; 
-	}
-	
-	.focus { 
+		
+	.focus-box { 
 		text-align: center; 
 		display: block; 
-		padding: 2% 2.5%; 
 	}
 	
 	.stripe-bg { 
 		padding: .8em 0; 
 	}
 	
-	.mobile-show { 
+	.mobile-bg { 
 		display: block;
 		margin-bottom: 1.5em; 
 	}
