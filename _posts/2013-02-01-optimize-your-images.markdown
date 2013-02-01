@@ -4,7 +4,7 @@ title: Optimize your Images
 date: February 1, 2013
 ---
 
-<h2>When using images on the web, always remove unnecessary bytes. The smaller the image the faster the load!</h2>
+<h2>When using images on the web, always remove unnecessary bytes. The smaller the image size the faster the load!</h2>
 
 <p>Here are a few simple guidelines when using Photoshop:</p>
 
