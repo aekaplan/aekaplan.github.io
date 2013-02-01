@@ -198,7 +198,9 @@ h4 {
 		clear: left;
 	}
 	
-	.bg { padding: 4%; }
+	.bg { 
+		padding: 4%;
+	 }
 }
 
 /*Changed from 400px to 518px*/
