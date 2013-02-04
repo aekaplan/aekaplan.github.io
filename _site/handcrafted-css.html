@@ -31,7 +31,7 @@
 
 	<h1>Handcrafted CSS</h1>
 	
-	<p>I'm going to review a few of the best practices and new CSS I learned from reading <a href='http://handcraftedcss.com/' target='blank'>
+	<p>I'm going to review a few of the best practices I learned from reading <a href='http://handcraftedcss.com/' target='blank'>
 		Handcrafted CSS: More Bulletproof Web Design</a> by Dan Cederholm. 
 	
 	<p><em>Note: This is not meant to be walkthrough!</em></p>
@@ -69,11 +69,11 @@
 	</ul>
 
 	<p>Looks ok, but the usability is still bad. Currently, I have no hover state to tell the user which item they are selecting. 
-		A divider to visually separate the items is needed too.</p> 
+		A divider to visually separate each list item is needed as well.</p> 
 
 	<h3>Example 2</h3>
 	
-	<p>So now I need to make improvements by adding a bottom border and a hover state to my CSS:</p>	
+	<p>I'm going to make improvements by adding a bottom border and a hover state to my CSS:</p>	
 	<code>ul.lst li a { <strong>border-bottom: 1px solid #ddd;</strong> display: block; overflow: hidden; padding: 2%; }</code>
 	<code>ul.lst li:hover { <strong> background: #fff8dc;</strong> }</code>
 
@@ -85,11 +85,11 @@
 	</ul>
 
 	<p><strong>Move your mouse over the different items</strong>. Almost perfect, but there are still two issues. Notice the double border at 
-		the very bottom? I also want add a soft background color to every other row to improve readability.
+		the very bottom? I also want to add a background color to every other row. This should help improve readability.
 
 	<h3>:nth-of-type(n)</h3>
 
-	<p>Setting a background on every other menu item will really help each item stand out. With the <strong>:nth-of-type(n)</strong>
+	<p>Now I need to set a background color on every other row. But how? Using the <strong>:nth-of-type(n)</strong>
 		selector, I can easily achieve this:</p>
 
 	<div class=box>
