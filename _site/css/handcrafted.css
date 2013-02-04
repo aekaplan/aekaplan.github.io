@@ -19,12 +19,13 @@ ul.lst li a {
 ul.lst li span {
 	float: left;	
 	width: 75%;
+	font-weight: 300;
 }
 	
 ul.lst li em {
 	float: right;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 300;
 	color: #aaaaaa; 
 }
 
@@ -54,12 +55,13 @@ ul.lst2 li:hover {
 ul.lst2 li span {
 	float: left;	
 	width: 75%;
+	font-weight: 300;
 }
 	
 ul.lst2 li em {
 	float: right;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 300;
 	color: #aaaaaa; 
 }
 
@@ -89,12 +91,13 @@ ul.lst3 li:hover {
 ul.lst3 li span {
 	float: left;	
 	width: 75%;
+	font-weight: 300;
 }
 	
 ul.lst3 li em {
 	float: right;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 300;
 	color: #aaaaaa; 
 }
 
