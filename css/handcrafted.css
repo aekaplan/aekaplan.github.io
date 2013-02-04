@@ -8,18 +8,20 @@ h1, h2, h3 {
 	font-family: "adelle", serif; 
 }
 
-code { 
-	font-family: "droid-sans-mono",sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	color: #f6f2ec;
-	font-size: .7em;
+.code { 
 	background: #333;
-	display: block;	
-	overflow: hidden;
 	margin-bottom: 1.5em;
 	padding: 2%;
 }
+
+.code > p {
+	font-family: "droid-sans-mono", sans-serif;
+	font-weight: 400;
+	color: #f6f2ec;
+	font-size: .7em;
+	line-height: 1.5em;
+	margin-bottom: 0;
+}	
 
 blockquote {
 	background: #fff;
@@ -32,7 +34,7 @@ blockquote {
 blockquote > p {
 	margin-bottom: 0;
 	color: #444;
-	font-size: 1.1em;
+	font-size: .9em;
 	font-weight: 300;
 }
 
