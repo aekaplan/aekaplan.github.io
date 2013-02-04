@@ -80,7 +80,7 @@
 	
 	<div class='code'>
 		<p>
-			ul.lst li a { display: block; overflow: hidden; padding: 2%; }
+			ul.lst li a { display: block; overflow: hidden; padding: 3%; }
 		</p>
 	</div>
 
@@ -92,7 +92,7 @@
 	</ul>
 
 	<p>
-		Looks ok, but the usability is still bad. I need a border to visually separate each 
+		Looks ok, but I can still make improvements. I need a border to visually separate each 
 		list item and a hover color to show the current selection.
 	</p> 
 
@@ -104,7 +104,7 @@
 	
 	<div class='code'>
 		<p>
-			ul.lst li a { border-bottom: 1px solid #ddd; display: block; overflow: hidden; padding: 2%; }
+			ul.lst li a { border-bottom: 1px solid #ddd; display: block; overflow: hidden; padding: 3%; }
 		</p>
 	</div>
 	
@@ -122,8 +122,8 @@
 	</ul>
 
 	<p>
-		<strong>Hover over the different list items</strong>. Almost there, but there are 
-		still two issues. Notice the double border at the very bottom? I also want to add 
+		<strong>Hover over the different list items</strong>. Almost there, but I still have 
+		two issues. Notice the double border at the very bottom? Also, I want to add 
 		a background color to every other row. This should help improve readability.
 	</p>
 
@@ -131,7 +131,7 @@
 
 	<p>
 		I could create an even and odd class for my background and then apply it to my HTML. 
-		Not ideal.By using the <strong>:nth-of-type(n)</strong> selector I can achieve these 
+		Not really the best solution. By using the <strong>:nth-of-type(n)</strong> selector I can achieve these 
 		results without all the extra markup: 
 	</p>
 
