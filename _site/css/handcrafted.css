@@ -9,8 +9,10 @@ h1, h2, h3 {
 }
 
 code { 
+	font-size: .9em;
+	letter-spacing: 0.1em;
 	font-weight: 300;
-	color: #fff;
+	color: #f6f2ec;
 	display: block;	
 	overflow: hidden;
 	margin-bottom: 1.5em;
@@ -19,10 +21,6 @@ code {
 	-webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
 	-moz-box-shadow: 0 1px 3px rgba(64,56,41,0.2);
 	box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
-}
-
-code > strong { 
-	font-weight: 600; 
 }
 
 /*  #Example 1
@@ -78,7 +76,7 @@ ul.lst2 li a {
 }
 
 ul.lst2 li:hover {
-	background: #fff8dc;
+	background: #fff8c6;
 }
 
 ul.lst2 li span {
@@ -115,7 +113,7 @@ ul.lst3 li a {
 }
 
 ul.lst3 li:hover {
-	background: #fff8dc;
+	background: #fff8c6;
 }
 
 ul.lst3 li span {
@@ -136,7 +134,7 @@ ul.lst3 li:nth-of-type(even) {
 }
 
 ul.lst3 li:nth-of-type(even):hover {
-	background: #fff8dc;
+	background: #fff8c6;
 }
 
 /*remove the bottom border*/
