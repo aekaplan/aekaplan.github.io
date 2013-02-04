@@ -6,9 +6,11 @@ date: January 24, 2013
 
 <p>I just finished reading <a href='http://www.thinkingwithtype.com/' target='blank'>Thinking with Type</a> by Ellen Lupton. There are a lot of great concepts in this book, so I decided to create a few designs using typography to show off my favorites.</p>
 
-<h2>Think more, design less.</h2>
+<blockquote>
+	<p>Think more, design less.</p>
+</blockquote>
 
-<p>Some type crimes to be aware of:</p>
+<b>Some type crimes to be aware of:</p>
 
 <ul>
 	<li>Horizontal and vertical scaling</li>

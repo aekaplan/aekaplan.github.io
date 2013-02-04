@@ -204,13 +204,27 @@ hr {
 	height: 0;
 }
 
+blockquote {
+	border-left: 7px solid #EE4938;
+	color: #333;
+	margin-bottom: 1.5em;
+	padding: 2% 4%;
+}
+
+blockquote > p {
+	margin-bottom: 0;
+	color: #444;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
 /*  #Boxes
 ================================================== */
 .box {
 	overflow: hidden;
 	margin-bottom: 1.5em;
 	padding: 3% 3% 0;
-	background: #fff8dc;
+	background: #f8f8f8;
 	-webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
 	-moz-box-shadow: 0 1px 3px rgba(64,56,41,0.2);
 	box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
@@ -218,10 +232,6 @@ hr {
 
 .gray {
 	background: #f8f8f8;
-}
-
-.yellow {
-	background: #fff8c6;
 }
 
 /*  #Posts

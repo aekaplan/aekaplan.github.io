@@ -9,16 +9,31 @@ h1, h2, h3 {
 }
 
 code { 
-	font-size: .9em;
+	font-family: "droid-sans-mono",sans-serif;
+	font-style: normal;
+	font-weight: 400;
 	color: #f6f2ec;
+	font-size: .7em;
+	background: #333;
 	display: block;	
 	overflow: hidden;
 	margin-bottom: 1.5em;
-	padding: 3%;
-	background: #EE4938;
-	-webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
-	-moz-box-shadow: 0 1px 3px rgba(64,56,41,0.2);
-	box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+	padding: 2%;
+}
+
+blockquote {
+	background: #fff;
+	border-left: 7px solid #EE4938;
+	color: #333;
+	margin-bottom: 1.5em;
+	padding: 2% 4%;
+}
+
+blockquote > p {
+	margin-bottom: 0;
+	color: #444;
+	font-size: 1.1em;
+	font-weight: 300;
 }
 
 /*  #Example 1
@@ -74,7 +89,7 @@ ul.lst2 li a {
 }
 
 ul.lst2 li:hover {
-	background: #fff8c6;
+	background: #e0e0e0;;
 }
 
 ul.lst2 li span {
@@ -110,10 +125,6 @@ ul.lst3 li a {
 	color: #555;
 }
 
-ul.lst3 li:hover {
-	background: #fff8c6;
-}
-
 ul.lst3 li span {
 	float: left;	
 	width: 75%;
@@ -131,11 +142,11 @@ ul.lst3 li:nth-of-type(even) {
 	background: #f8f8f8;
 }
 
-ul.lst3 li:nth-of-type(even):hover {
-	background: #fff8c6;
-}
-
 /*remove the bottom border*/
 ul.lst3 li:nth-last-of-type(1) a {
 	border-bottom: 0;
+}
+
+ul.lst3 li:hover {
+	background: #e0e0e0;
 }

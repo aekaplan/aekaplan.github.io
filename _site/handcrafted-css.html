@@ -47,11 +47,11 @@
 	
 	<p>Dan recommended making the entire row clickable including link titles and prices. Why you ask?</p>
 	
-	<div class='box yellow'>
+	<blockquote>
 		<p><strong>Fitts's law:</strong> a model of human movement primarily used in human–computer interaction 
 			that predicts that the time required to rapidly move to a target area is a function of the 
 			distance to the target and the size of the target.</p>
-	</div>
+	</blockquote>
 		
 		<p>So by increasing the clickable area, this will help increase usability and make for a better user 
 			experience. Sounds awesome!</p>
@@ -59,10 +59,10 @@
 		<p>I'm already familiar with <strong>display: block</strong> but I will need to clear my floats when using
 			 block-level elements within containers. </p>
 		
-	<div class='box yellow'>
+	<blockquote>
 		<p><strong>overflow: hidden:</strong> a method of self-clearing any floats that occur within the 
 			container element.</p>
-	</div>
+	</blockquote>
 	
 	<p>Here is the CSS I added to my list item's a tag:</p>	
 	<code>ul.lst li a { display: block; overflow: hidden; padding: 2%; }</code>
@@ -98,26 +98,27 @@
 	<p>I could create an even and odd class for my background and then apply it to my HTML. Not ideal.
 		By using the <strong>:nth-of-type(n)</strong> selector I can achieve these results without all the extra markup: </p>
 
-	<div class='box yellow'>
+	<blockquote>
 		<p>The <strong>:nth-of-type(n)</strong> selector matches every element that is the nth child, of a particular 
 			type, of its parent. N can be a number, a keyword, or a formula.</p>
-	</div>
+	</blockquote>
 
-	<p>Just what I need. These are two keywords I will use:</p>
-	<div class='box yellow'>	
+	<p>Just what I need. These are the two keywords I will use:</p>
+	
+	<blockquote>
 		<p><strong>nth-of-type(even)</strong><br/><strong>nth-of-type(odd)</strong></p>
 		<p>
 		Odd and even are keywords that can be used to match child elements whose index is odd or even. <em>Note: the index of the first child is 1.</em></p>
-	</div>
+	</blockquote>
 
 	<p>Now I can set the background color for every other row with no extra markup:</p>
 	<code>ul.lst li:nth-of-type(even) { background: #f8f8f8; }</code>
 
 	<p>Next, I need to remove the bottom border on the last row to avoid double borders:</p>
 
-	<div class='box yellow'>
+	<blockquote>
 		<p><strong>:nth-last-of-type(n)</strong> selector matches every element that is the nth child, of a particular type, of its parent, counting from the last child.</p>
-	</div>
+	</blockquote>
 
 	<p>Here is what the CSS looks like:</p>
 
