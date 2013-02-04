@@ -29,13 +29,21 @@
 
 	<h1>Handcrafted CSS</h1>
 	
-	<p>I'm going to review a few of the best practices I learned from reading <a href='http://handcraftedcss.com/' target='blank'>
-		Handcrafted CSS: More Bulletproof Web Design</a> by Dan Cederholm. 
+	<p>I'm going to review a few of the best practices I learned from reading 
+		<a href='http://handcraftedcss.com/' target='blank'> Handcrafted CSS: More Bulletproof Web Design</a> 
+		by Dan Cederholm. <em>Note: This article is not meant to be walkthrough.</em></p>
 	
-	<p><em>Note: This is not meant to be walkthrough.</em></p>
-	<p><strong>Assignment:</strong> Work with floats to create a coffee menu with optimal markup. Keep usability in mind.</p>
+	<p><strong>Assignment:</strong> Work with floats to create a menu with optimal markup. 
+		Keep usability in mind.</p>
 	
 	<h3>Example 1</h3>
+	
+	<ul class="lst">
+		<li><a href="#"><span>Latte</span> <em>$2.79</em></a></li>
+		<li><a href="#"><span>Cappuccino</span> <em>$2.99</em> </a></li>
+		<li><a href="#"><span>Espresso</span> <em>$2.00</em> </a></li>
+		<li><a href="#"><span>Half-caf, latte (with a twist of lemon)</span> <em>$10.49</em></a></li>
+	</ul>
 	
 	<p>Dan recommended making the entire row clickable including link titles and prices. Why you ask?</p>
 	
@@ -45,11 +53,11 @@
 			distance to the target and the size of the target.</p>
 	</div>
 		
-		<p>So by increasing the clickable area, this will help increase usability and make for a better user experience. 
-			Sounds awesome!</p>
+		<p>So by increasing the clickable area, this will help increase usability and make for a better user 
+			experience. Sounds awesome!</p>
 			
-		<p>I'm already familiar with <strong>display: block</strong> but I will need to clear my floats when using block-level
-			elements within containers.</p>
+		<p>I'm already familiar with <strong>display: block</strong> but I will need to clear my floats when using
+			 block-level elements within containers. </p>
 		
 	<div class=box>
 		<p><strong>overflow: hidden:</strong> a method of self-clearing any floats that occur within the 
@@ -66,12 +74,12 @@
 		<li><a href="#"><span>Half-caf, latte (with a twist of lemon)</span> <em>$10.49</em></a></li>
 	</ul>
 
-	<p>Looks ok, but the usability is still bad. Currently, I have no hover state to tell the user which item they are selecting. 
-		A divider to visually separate each list item is needed as well.</p> 
+	<p>Looks ok, but the usability is still bad. I need a divider to visually separate each list item. A hover color to 
+		tell the user which item they are selecting is needed as well.</p> 
 
 	<h3>Example 2</h3>
 	
-	<p>I'm going to make improvements by adding a bottom border and a hover state to my CSS:</p>	
+	<p>Time to make those improvements by adding a bottom border and a hover color to my CSS:</p>	
 	<code>ul.lst li a { <strong>border-bottom: 1px solid #ddd;</strong> display: block; overflow: hidden; padding: 2%; }</code>
 	<code>ul.lst li:hover { <strong> background: #fff8dc;</strong> }</code>
 
@@ -87,22 +95,22 @@
 
 	<h3>:nth-of-type(n)</h3>
 
-	<p>So how do I set a background color to every other row? By using the <strong>:nth-of-type(n)</strong>
-		selector:</p>
+	<p>I could create an even and odd class for my background and then apply it to my HTML. Not ideal.
+		By using the <strong>:nth-of-type(n)</strong> selector we can achieve these results without all the extra markup: </p>
 
 	<div class=box>
 		<p>The <strong>:nth-of-type(n)</strong> selector matches every element that is the nth child, of a particular 
 			type, of its parent. N can be a number, a keyword, or a formula.</p>
 	</div>
 
-	<p>Luckily, there are some keywords I can use to help match child elements:</p>
+	<p>Just what I need. There are also two keywords I can use to help match child elements:</p>
 	<div class=box>	
 		<p><strong>p:nth-of-type(even)</strong><br/>
 		<strong>p:nth-of-type(odd)</strong><br/>
 		Odd and even are keywords that can be used to match child elements whose index is odd or even (the index of the first child is 1).</p>
 	</div>
 
-	<p>Now I can set the background color for every other row:</p>
+	<p>Now I can set the background color for every other row with no extra markup to my HTML:</p>
 	<code><strong>ul.lst li:nth-of-type(even) { background: #f6f4f0; }</strong></code>
 
 	<p>Next, I need to remove the bottom border on the fourth row to avoid double borders. I used this formula:</p>
@@ -124,10 +132,8 @@
 		<li><a href="#"><span>Half-caf, latte (with a twist of lemon)</span> <em>$10.49</em></a></li>
 	</ul>
 
-	<p>Perfect! I really improved usability by making a few simple changes. I love learning. </p>
-	
-	<p>Check back soon for more examples from my reading of <a href='http://handcraftedcss.com/' target='blank'>Handcrafted 
-			CSS: More Bulletproof Web Design</a>.</p>
+	<p>Perfect! I learned how to use optimal code while improving the usability of my design. Check back soon for more 
+		examples from my reading of <a href='http://handcraftedcss.com/' target='blank'>Handcrafted CSS: More Bulletproof Web Design</a>.</p>
 
 </div><!-- container -->
 </body>
