@@ -132,22 +132,14 @@ h4 {
 	font-weight: 600;
 }
 
-.recent-date {
-	color: #909090;
-	font-weight: 300;
-	font-size: .8em;
-	margin-bottom: .5em;
-	text-transform: uppercase;
-}
-
 .date {
 	display: inline-block;
-	font-size: 1em;
+	font-size: .9em;
 	text-transform: uppercase;
-	color: #909090;
+	color: #777;
 	font-weight: 300;
 	background: #f8f8f8;
-	padding: .4em;
+	padding: 1%;
 	text-align: center;
 	margin-bottom: 1em;
 }
@@ -205,6 +197,7 @@ hr {
 }
 
 blockquote {
+	background: #f8f8f8;
 	border-left: 7px solid #EE4938;
 	color: #333;
 	margin-bottom: 1.5em;
@@ -214,7 +207,7 @@ blockquote {
 blockquote > p {
 	margin-bottom: 0;
 	color: #444;
-	font-size: 1.1em;
+	font-size: .9em;
 	font-weight: 300;
 }
 
@@ -224,9 +217,9 @@ blockquote > p {
 	overflow: hidden;
 	margin-bottom: 1.5em;
 	padding: 3% 3% 0;
-	background: #f8f8f8;
+	background: #fff8dc;
 	-webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
-	-moz-box-shadow: 0 1px 3px rgba(64,56,41,0.2);
+	-moz-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
 	box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
 }
 
@@ -251,9 +244,14 @@ ul.posts li a {
 	overflow: hidden;
 	padding: 3%;
 	border-bottom: 1px solid #ddd;
+	-webkit-transition: background 0.3s ease;
+	-moz-transition: background 0.3s ease;
+	-o-transition: background 0.3s ease;
+	-ms-transition: background 0.3s ease;
+	transition: background 0.3s ease;
 }
 
-ul.posts li:hover {
+ul.posts li a:hover {
 	background: #f8f8f8;
 }
 
