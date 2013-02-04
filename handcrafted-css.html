@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+	<title>Handcrafted CSS</title>
+	
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="/css/styles.css" type="text/css" />
+  <link rel="stylesheet" href="/css/handcrafted.css" type="text/css" />
+  
+	<!-- Typekit
+  ================================================== -->
+  <script type="text/javascript" src="//use.typekit.net/vcp0eam.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+<body>
+	
+<div class='container'>
+	<header>
+		<h1 class='masthead'><a href="/index.html">ak</a></h1>
+	</header>
+
+	<h1>Handcrafted CSS</h1>
+	
+	<p>I'm going to review a few of the best practices and CSS I learned from reading <a href='http://handcraftedcss.com/' target='blank'>
+		Handcrafted CSS: More Bulletproof Web Design</a> by Dan Cederholm. 
+	
+	<p><em>Note: This is not meant to be walkthrough!</em></p>
+	<p><strong>Assignment:</strong> Work with floats to create a coffee menu with optimal markup. Keep usability in mind.</p>
+	
+	<h3>Example 1</h3>
+	
+	<p>Dan recommended making the entire row clickable including link titles and prices. Why you ask?</p>
+	
+	<div class=box>
+		<p><strong>Fitts's law:</strong> is a model of human movement primarily used in human–computer interaction 
+			and ergonomics that predicts that the time required to rapidly move to a target area is a function of the 
+			distance to the target and the size of the target.</p>
+	</div>
+		
+		<p>So by increasing the clickable area, this will help increase usability and make for a better user experience. 
+			Sounds awesome!</p>
+			
+		<p>I'm already familiar with <strong>display: block</strong> but I will need to clear my floats when using block-level
+			elements within containers.</p>
+		
+	<div class=box>
+		<p><strong>overflow: hidden:</strong> a method of self-clearing any floats that occur within the 
+			container element.</p>
+	</div>
+	
+	<p>Here is the CSS I added to my list item's a tag:</p>	
+	<code>ul.lst li a { <strong>display: block; overflow: hidden;</strong> padding: 2%; }</code>
+
+	<ul class="lst">
+		<li><a href="/handcrafted-css.html"><span>Latte</span> <em>2.79</em></a></li>
+		<li><a href="/handcrafted-css.html"><span>Cappuccino</span> <em>2.99</em> </a></li>
+		<li><a href="/handcrafted-css.html"><span>Espresso</span> <em>2.00</em> </a></li>
+		<li><a href="/handcrafted-css.html"><span>Half-caf, latte (with a twist of lemon)</span> <em>10.49</em></a></li>
+	</ul>
+
+	<p>Looks ok, but the usability is still bad. Currently, I have no hover state to tell the user which item they are selecting. 
+		A divider to visually separate the items is needed too.</p> 
+
+	<h3>Example 2</h3>
+	
+	<p>So now I need to make improvements by adding a bottom border and a hover state to my CSS:</p>	
+	<code>ul.lst li a { <strong>border-bottom: 1px solid #ddd;</strong> display: block; overflow: hidden; padding: 2%; }</code>
+	<code>ul.lst li:hover { <strong> background: #fff8dc;</strong> }</code>
+
+	<ul class="lst2">
+		<li><a href="/handcrafted-css.html"><span>Latte</span> <em>2.79</em></a></li>
+		<li><a href="/handcrafted-css.html"><span>Cappuccino</span> <em>2.99</em> </a></li>
+		<li><a href="/handcrafted-css.html"><span>Espresso</span> <em>2.00</em> </a></li>
+		<li><a href="/handcrafted-css.html"><span>Half-caf, latte (with a twist of lemon)</span> <em>10.49</em></a></li>
+	</ul>
+
+	<p><strong>Move your mouse over the different items</strong>. Almost perfect, but there are still two issues. Notice the double border at 
+		the very bottom? I also want add a soft background color to every other row to improve readability.
+
+	<h3>:nth-of-type(n)</h3>
+
+	<p>Setting a background on every other menu item will really help each item stand out. With the <strong>:nth-of-type(n)</strong>
+		selector, I can easily achieve this:</p>
+
+	<div class=box>
+		<p>The <strong>:nth-of-type(n)</strong> selector matches every element that is the nth child, of a particular 
+			type, of its parent. N can be a number, a keyword, or a formula.</p>
+	</div>
+
+	<p>Luckily, there are some keywords I can use to help match child elements:</p>
+	<div class=box>	
+		<p><strong>p:nth-of-type(even)</strong><br/>
+		<strong>p:nth-of-type(odd)</strong><br/>
+		Odd and even are keywords that can be used to match child elements whose index is odd or even (the index of the first child is 1).</p>
+	</div>
+
+	<p>Now I can set the background color for every other row:</p>
+	<code><strong>ul.lst li:nth-of-type(even) { background: #F6F4F0; }</strong></code>
+
+	<p>Next, I need to remove the bottom border on the fourth row to avoid double borders. I used this formula:</p>
+
+	<div class=box>
+		<p><strong>(an + b)</strong>.<br /> A represents a cycle size, n is a counter (starts at 0), and b is an offset value.
+	</div>
+
+	<p>Here is what the CSS looks like:</p>
+
+	<code><strong>ul.lst li:nth-of-type(4n+0) { border-bottom: 0; }</strong></code>
+
+	<h3>Example 3: Final results</h3>
+
+	<ul class="lst3">
+		<li><a href="/handcrafted-css.html"><span>Latte</span> <em>2.79</em></a></li>
+		<li><a href="/handcrafted-css.html"><span>Cappuccino</span> <em>2.99</em> </a></li>
+		<li><a href="/handcrafted-css.html"><span>Espresso</span> <em>2.00</em> </a></li>
+		<li><a href="/handcrafted-css.html"><span>Half-caf, latte (with a twist of lemon)</span> <em>10.49</em></a></li>
+	</ul>
+
+	<p>Perfect! By making a few simple changes, I really improved usability overall. I love this stuff! </p>
+	
+	<p>Check back soon for more examples from my reading of <a href='http://handcraftedcss.com/' target='blank'>Handcrafted 
+			CSS: More Bulletproof Web Design</a>.</p>
+
+</div><!-- container -->
+</body>
+</html>

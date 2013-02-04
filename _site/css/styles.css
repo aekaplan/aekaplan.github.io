@@ -60,12 +60,12 @@ body {
 	
 .container {
 	width: 90%;
-	max-width: 700px;
+	max-width: 600px;
 	margin: 1.5em auto;
 }
 
 header { 
-	margin-bottom: 2em;
+	margin-bottom: 1.5em;
 	padding-bottom: 1.5em;
 	border-bottom: 1px solid #ddd;
  }
@@ -117,7 +117,7 @@ h2 {
 h3 {
 	font-size: 1.333em;
 	line-height: 1.1em;
-	margin-bottom: 1.1em;
+	margin-bottom: 1em;
 	font-weight: 700;
 }
 
@@ -215,6 +215,20 @@ hr {
 
 .gray {
 	background: #F8F8F8;
+}
+
+/* Background colors
+#F6F4F0
+#f6f2ec*/
+
+code { 
+	font-weight: 400;
+	color: #333;
+	display: block;	
+	overflow: hidden;
+	margin-bottom: 1.5em;
+	padding: 2%;
+	background: #F6F4F0;
 }
 
 /*  #Mobile (Portrait)

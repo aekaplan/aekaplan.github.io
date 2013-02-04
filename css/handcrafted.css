@@ -1,0 +1,112 @@
+/*  #Example 1
+================================================== */
+ul.lst {
+	margin: 0 0 1.5em;
+	border: 1px solid #ddd;
+}
+
+ul.lst li {
+	list-style: none;
+}
+
+ul.lst li a {
+	display: block;
+	overflow: hidden;
+	padding: 2%;
+	color: #333;
+}
+
+ul.lst li span {
+	float: left;	
+	width: 75%;
+}
+	
+ul.lst li em {
+	float: right;
+	font-style: normal;
+	font-weight: normal;
+	color: #aaaaaa; 
+}
+
+/*  #Example 2
+================================================== */
+ul.lst2 {
+	margin: 0 0 1.5em;
+	border: 1px solid #ddd;
+}
+
+ul.lst2 li {
+	list-style: none;
+}
+
+ul.lst2 li a {
+	display: block;
+	overflow: hidden;
+	padding: 2%;
+	border-bottom: 1px solid #ddd;
+	color: #333;
+}
+
+ul.lst2 li:hover {
+	background: #fff8dc;
+}
+
+ul.lst2 li span {
+	float: left;	
+	width: 75%;
+}
+	
+ul.lst2 li em {
+	float: right;
+	font-style: normal;
+	font-weight: normal;
+	color: #aaaaaa; 
+}
+
+/*  #Example 3
+================================================== */
+ul.lst3 {
+	margin: 0 0 1.5em;
+	border: 1px solid #ddd;
+}
+
+ul.lst3 li {
+	list-style: none;
+}
+
+ul.lst3 li a {
+	display: block;
+	overflow: hidden;
+	padding: 2%;
+	border-bottom: 1px solid #ddd;
+	color: #333;
+}
+
+ul.lst3 li:hover {
+	background: #fff8dc;
+}
+
+ul.lst3 li span {
+	float: left;	
+	width: 75%;
+}
+	
+ul.lst3 li em {
+	float: right;
+	font-style: normal;
+	font-weight: normal;
+	color: #aaaaaa; 
+}
+
+ul.lst3 li:nth-of-type(even) {
+	background: #f6f4f0;
+}
+
+ul.lst3 li:nth-of-type(even):hover {
+	background: #fff8dc;
+}
+
+/*remove the bottom border*/
+ul.lst3 li:nth-of-type(4n+0) a {
+	border-bottom: 0;
+}
