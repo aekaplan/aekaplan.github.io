@@ -140,6 +140,6 @@ ul.lst3 li:nth-of-type(even):hover {
 }
 
 /*remove the bottom border*/
-ul.lst3 li:nth-of-type(4n+0) a {
+ul.lst3 li:nth-last-of-type(1) a {
 	border-bottom: 0;
 }

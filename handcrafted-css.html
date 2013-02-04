@@ -113,16 +113,15 @@
 	<p>Now I can set the background color for every other row with no extra markup:</p>
 	<code>ul.lst li:nth-of-type(even) <strong>{ background: #f8f8f8; }</strong></code>
 
-	<p>Next, I need to remove the bottom border on the fourth row to avoid double borders. I used this formula:</p>
+	<p>Next, I need to remove the bottom border on the last row to avoid double borders:</p>
 
 	<div class=box>
-		<p><strong>(an + b)</strong></p> 
-		<p><strong>a</strong> represents a cycle size, <strong>n</strong> is a counter (starts at 0), and <strong>b</strong> is an offset value.</p>
+		<p><strong>:nth-last-of-type(n)</strong> selector matches every element that is the nth child, of a particular type, of its parent, counting from the last child.</p>
 	</div>
 
 	<p>Here is what the CSS looks like:</p>
 
-	<code>ul.lst li:nth-of-type(4n+0) <strong>{ border-bottom: 0; }</strong></code>
+	<code>ul.lst3 li:nth-last-of-type(1) a <strong>{ border-bottom: 0; }</strong></code>
 
 	<h3>Example 3: Final results</h3>
 

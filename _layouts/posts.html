@@ -32,17 +32,19 @@
 	
 	<hr />	 
  	
-	<div class='box gray'>
 		<h3>Recent Posts</h3>
 		<ul class='posts'>
-		{% for post in site.posts limit:1 %}
-		    <li>
-				<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-				<div class='recent-date'>{{ post.date | date: "%B %d, %Y" }}</div>
-				<p>{{ post.content | strip_html | truncatewords:24 }}</p>
-			</li>
-		    {% endfor %}
-		  </ul>
+		{% for post in site.posts limit:3 %}
+    <li>
+		<a href="{{ post.url }}">
+			<span>{{ post.title }}</span>
+			<em>{{ post.date | date: "%m/%d/%y" }}</em>
+			<p>{{ post.content | strip_html | truncatewords:24 }}</p>
+		</a>
+	</li>
+  {% endfor %}
+</ul>
+
 </div><!-- container -->
 </body>
 </html>

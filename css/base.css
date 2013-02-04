@@ -187,16 +187,7 @@ ul, ol {
 li { 
 	list-style: disc outside;
  }
- 
-ul.posts {
-	 margin: 0 0 1.5em 0;
- }
- 
-ul.posts li {
- 	list-style: none;
-	margin-bottom: .5em;
- }
- 	
+  	
 hr {
 	border: solid #ddd;
 	border-width: 1px 0 0;
@@ -218,6 +209,61 @@ hr {
 }
 
 .gray {
+	background: #f8f8f8;
+}
+
+/*  #Posts
+================================================== */
+ul.posts {
+	margin: 0 0 1.5em;
+	border: 1px solid #ddd;
+	background: #fff;
+}
+
+ul.posts li {
+	list-style: none;
+}
+
+ul.posts li a {
+	display: block;
+	overflow: hidden;
+	padding: 3%;
+	border-bottom: 1px solid #ddd;
+}
+
+ul.posts li:hover {
+	background: #f8f8f8;
+}
+
+ul.posts li span {
+	float: left;	
+	width: 80%;
+	font-weight: 600;
+}
+	
+ul.posts li em {
+	float: right;
+	font-style: normal;
+	font-weight: 300;
+	color: #555;
+	font-size: .9em;
+}
+
+ul.posts li p {
+	float: left;
+	padding-top: 1%;
+	margin-bottom: 0;
+	font-weight: 400;
+	color: #555;
+}
+
+/*remove the bottom border*/
+ul.posts li:nth-last-of-type(1) a {
+	border-bottom: 0;
+}
+
+/*highlight first posts*/
+ul.posts li:nth-of-type(1) a {
 	background: #f8f8f8;
 }
 
