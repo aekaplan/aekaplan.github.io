@@ -1,3 +1,5 @@
+/*  #Resets
+================================================== */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -23,6 +25,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -51,7 +54,7 @@ table {
 ================================================== */
 body {
 	background: #FFF;
-   	font-family: "proxima-nova", sans-serif;
+  font-family: "proxima-nova", sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 1.5em;
@@ -89,6 +92,7 @@ a:hover {
 /*  #Headers
 ================================================== */
 .masthead { 
+	font-family: "proxima-nova",sans-serif;
 	margin-bottom: 0;
 	line-height: 1em;
 	font-size: 2em;
@@ -206,33 +210,19 @@ hr {
 .box {
 	overflow: hidden;
 	margin-bottom: 1.5em;
-	padding: 4% 4% 0;
-	background: #FFF8DC;
+	padding: 3% 3% 0;
+	background: #fff8dc;
 	-webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
 	-moz-box-shadow: 0 1px 3px rgba(64,56,41,0.2);
 	box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
 }
 
 .gray {
-	background: #F8F8F8;
-}
-
-code { 
-	font-weight: 400;
-	color: #333;
-	display: block;	
-	overflow: hidden;
-	margin-bottom: 1.5em;
-	padding: 4%;
-	background: #F8F8F8;
-	-webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
-	-moz-box-shadow: 0 1px 3px rgba(64,56,41,0.2);
-	box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+	background: #f8f8f8;
 }
 
 /*  #Mobile (Portrait)
 ================================================== */
-
 @media only screen and (max-width: 518px) {
 	.container { 
 		width: 90%; 

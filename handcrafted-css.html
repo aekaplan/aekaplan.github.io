@@ -48,8 +48,8 @@
 	<p>Dan recommended making the entire row clickable including link titles and prices. Why you ask?</p>
 	
 	<div class=box>
-		<p><strong>Fitts's law:</strong> is a model of human movement primarily used in human–computer interaction 
-			and ergonomics that predicts that the time required to rapidly move to a target area is a function of the 
+		<p><strong>Fitts's law:</strong> a model of human movement primarily used in human–computer interaction 
+			that predicts that the time required to rapidly move to a target area is a function of the 
 			distance to the target and the size of the target.</p>
 	</div>
 		
@@ -103,25 +103,26 @@
 			type, of its parent. N can be a number, a keyword, or a formula.</p>
 	</div>
 
-	<p>Just what I need. There are also two keywords I can use to help match child elements:</p>
+	<p>Just what I need. These are two keywords I will use to match the child elements:</p>
 	<div class=box>	
-		<p><strong>p:nth-of-type(even)</strong><br/>
-		<strong>p:nth-of-type(odd)</strong><br/>
-		Odd and even are keywords that can be used to match child elements whose index is odd or even (the index of the first child is 1).</p>
+		<p><strong>p:nth-of-type(even)</strong><br/><strong>p:nth-of-type(odd)</strong></p>
+		<p>
+		Odd and even are keywords that can be used to match child elements whose index is odd or even. <em>Note: the index of the first child is 1.</em></p>
 	</div>
 
-	<p>Now I can set the background color for every other row with no extra markup to my HTML:</p>
-	<code><strong>ul.lst li:nth-of-type(even) { background: #f8f8f8; }</strong></code>
+	<p>Now I can set the background color for every other row with no extra markup:</p>
+	<code>ul.lst li:nth-of-type(even) <strong>{ background: #f8f8f8; }</strong></code>
 
 	<p>Next, I need to remove the bottom border on the fourth row to avoid double borders. I used this formula:</p>
 
 	<div class=box>
-		<p><strong>(an + b)</strong>.<br /> A represents a cycle size, n is a counter (starts at 0), and b is an offset value.
+		<p><strong>(an + b)</strong></p> 
+		<p><strong>a</strong> represents a cycle size, <strong>n</strong> is a counter (starts at 0), and <strong>b</strong> is an offset value.</p>
 	</div>
 
 	<p>Here is what the CSS looks like:</p>
 
-	<code><strong>ul.lst li:nth-of-type(4n+0) { border-bottom: 0; }</strong></code>
+	<code>ul.lst li:nth-of-type(4n+0) <strong>{ border-bottom: 0; }</strong></code>
 
 	<h3>Example 3: Final results</h3>
 
@@ -132,8 +133,8 @@
 		<li><a href="#"><span>Half-caf, latte (with a twist of lemon)</span> <em>$10.49</em></a></li>
 	</ul>
 
-	<p>Perfect! This book has helped me learn how to use optimal code while improving the usability of my designs. Check back soon for more 
-		examples from <a href='http://handcraftedcss.com/' target='blank'>Handcrafted CSS: More Bulletproof Web Design</a>.</p>
+	<p>Perfect! This tutorial has helped me learn how to use optimal code while improving the usability of my designs. Check back soon and I 
+		have more examples from <a href='http://handcraftedcss.com/' target='blank'>Handcrafted CSS: More Bulletproof Web Design</a>.</p>
 
 </div><!-- container -->
 </body>

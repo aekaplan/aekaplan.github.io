@@ -4,6 +4,27 @@ body {
 	background: #f6f2ec;
 }
 
+h1, h2, h3 {
+	font-family: "adelle", serif; 
+}
+
+code { 
+	font-weight: 300;
+	color: #fff;
+	display: block;	
+	overflow: hidden;
+	margin-bottom: 1.5em;
+	padding: 3%;
+	background: #EE4938;
+	-webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+	-moz-box-shadow: 0 1px 3px rgba(64,56,41,0.2);
+	box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+}
+
+code > strong { 
+	font-weight: 600; 
+}
+
 /*  #Example 1
 ================================================== */
 ul.lst {
@@ -19,7 +40,7 @@ ul.lst li {
 ul.lst li a {
 	display: block;
 	overflow: hidden;
-	padding: 2%;
+	padding: 3%;
 	color: #555;
 }
 
@@ -51,7 +72,7 @@ ul.lst2 li {
 ul.lst2 li a {
 	display: block;
 	overflow: hidden;
-	padding: 2%;
+	padding: 3%;
 	border-bottom: 1px solid #ddd;
 	color: #555;
 }
@@ -88,7 +109,7 @@ ul.lst3 li {
 ul.lst3 li a {
 	display: block;
 	overflow: hidden;
-	padding: 2%;
+	padding: 3%;
 	border-bottom: 1px solid #ddd;
 	color: #555;
 }
@@ -111,7 +132,7 @@ ul.lst3 li em {
 }
 
 ul.lst3 li:nth-of-type(even) {
-	background: #F8F8F8;
+	background: #f8f8f8;
 }
 
 ul.lst3 li:nth-of-type(even):hover {
