@@ -89,7 +89,7 @@ ul.lst2 li a {
 }
 
 ul.lst2 li:hover {
-	background: #e0e0e0;;
+	background: #ddd;
 }
 
 ul.lst2 li span {
@@ -148,5 +148,5 @@ ul.lst3 li:nth-last-of-type(1) a {
 }
 
 ul.lst3 li:hover {
-	background: #e0e0e0;
+	background: #ddd;
 }
