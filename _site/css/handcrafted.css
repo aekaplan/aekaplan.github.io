@@ -1,8 +1,15 @@
+/*  #Basic Styles
+================================================== */
+body {
+	background: #f6f2ec;
+}
+
 /*  #Example 1
 ================================================== */
 ul.lst {
 	margin: 0 0 1.5em;
 	border: 1px solid #ddd;
+	background: #fff;
 }
 
 ul.lst li {
@@ -13,7 +20,7 @@ ul.lst li a {
 	display: block;
 	overflow: hidden;
 	padding: 2%;
-	color: #333;
+	color: #555;
 }
 
 ul.lst li span {
@@ -26,7 +33,7 @@ ul.lst li em {
 	float: right;
 	font-style: normal;
 	font-weight: 300;
-	color: #aaaaaa; 
+	color: #555;
 }
 
 /*  #Example 2
@@ -34,6 +41,7 @@ ul.lst li em {
 ul.lst2 {
 	margin: 0 0 1.5em;
 	border: 1px solid #ddd;
+	background: #fff;
 }
 
 ul.lst2 li {
@@ -45,7 +53,7 @@ ul.lst2 li a {
 	overflow: hidden;
 	padding: 2%;
 	border-bottom: 1px solid #ddd;
-	color: #333;
+	color: #555;
 }
 
 ul.lst2 li:hover {
@@ -62,7 +70,7 @@ ul.lst2 li em {
 	float: right;
 	font-style: normal;
 	font-weight: 300;
-	color: #aaaaaa; 
+	color: #555;
 }
 
 /*  #Example 3
@@ -70,6 +78,7 @@ ul.lst2 li em {
 ul.lst3 {
 	margin: 0 0 1.5em;
 	border: 1px solid #ddd;
+	background: #fff;
 }
 
 ul.lst3 li {
@@ -81,7 +90,7 @@ ul.lst3 li a {
 	overflow: hidden;
 	padding: 2%;
 	border-bottom: 1px solid #ddd;
-	color: #333;
+	color: #555;
 }
 
 ul.lst3 li:hover {
@@ -98,11 +107,11 @@ ul.lst3 li em {
 	float: right;
 	font-style: normal;
 	font-weight: 300;
-	color: #aaaaaa; 
+	color: #555;
 }
 
 ul.lst3 li:nth-of-type(even) {
-	background: #f6f4f0;
+	background: #F8F8F8;
 }
 
 ul.lst3 li:nth-of-type(even):hover {

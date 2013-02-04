@@ -201,7 +201,7 @@ hr {
 	height: 0;
 }
 
-/*  #Message Box
+/*  #Boxes
 ================================================== */
 .box {
 	overflow: hidden;
@@ -217,18 +217,17 @@ hr {
 	background: #F8F8F8;
 }
 
-/* Background colors
-#F6F4F0
-#f6f2ec*/
-
 code { 
 	font-weight: 400;
 	color: #333;
 	display: block;	
 	overflow: hidden;
 	margin-bottom: 1.5em;
-	padding: 2%;
-	background: #F6F4F0;
+	padding: 4%;
+	background: #F8F8F8;
+	-webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+	-moz-box-shadow: 0 1px 3px rgba(64,56,41,0.2);
+	box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
 }
 
 /*  #Mobile (Portrait)
