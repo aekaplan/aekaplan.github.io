@@ -1,5 +1,8 @@
-/*  #Assignment 1 Styles
+/*  #Basic Styles
 ================================================== */
+.container {
+	max-width: 650px;
+}
 
 .assignment {
 	font-family: "proxima-nova",sans-serif;
@@ -14,6 +17,14 @@ h2 {
 	text-align: center; 
 }
 
+hr {
+	border: dashed #333;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 1.5em 0 2em;
+	height: 0;
+}
+
 .red {
 	font-weight: 400;
 	color: #FF7575;
@@ -21,7 +32,6 @@ h2 {
 
 /*  #Examples
 ================================================== */
-
 .example1 {
 	background: #62FDCE;
 	padding: 1.6%;
@@ -109,12 +119,4 @@ h2 {
 	padding: 1.6%;
 	font-weight: 300;
 	margin: 0 1em 1.5em 0;
-}
-
-hr {
-	border: dashed #333;
-	border-width: 1px 0 0;
-	clear: both;
-	margin: 1.5em 0 2em;
-	height: 0;
 }

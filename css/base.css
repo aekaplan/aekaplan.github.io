@@ -53,7 +53,7 @@ table {
 /*  #Basic Styles
 ================================================== */
 body {
-	background: #FFF;
+	background: #fff;
   font-family: "proxima-nova", sans-serif;
 	font-weight: 400;
 	font-size: 20px;
@@ -284,9 +284,9 @@ ul.posts li:nth-last-of-type(1) a {
 }
 
 /*highlight first posts*/
-ul.posts li:nth-of-type(1) a {
+/*ul.posts li:nth-of-type(1) a {
 	background: #f8f8f8;
-}
+}*/
 
 /*  #Mobile (Portrait)
 ================================================== */
