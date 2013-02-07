@@ -28,17 +28,23 @@
 			
 			<div class='widget'>
 	   		<h1>February</h1>
-				<span class='status-large'>6</span>
+					<div class='status'>
+						<span class='number'>6</span>
+					</div>
 			</div>
 			
 			<div class='widget orange'>
 	   		<h1>Widget</h1>
-				<span class='status-large'>1</span>
+				<div class='status'>
+					<span class='number'>6</span>
+				</div>
 			</div>
 			
 			<div class='widget orange'>
 	   		<h1>Widget</h1>
-				<span class='status-large'>1</span>
+				<div class='status'>
+					<span class='number'>6</span>
+				</div>
 			</div>
 			
 	  </div><!-- col -->	
@@ -47,12 +53,22 @@
 	<div class='grid3'>		
 	  <div class="col">
 				
-		<div class='widget-half'>
-	   	<h1>Chicago<span class='thin'></span></h1>
+		<div class='widget-half chicago'>
+	   	<h1>Chicago <span class='thin'>IL</span></h1>
+			<div class='status'>
+				<img src="images/il.png" width="94" height="153" alt="Illinois" class='il'>
+				<span class='time'>1:30</span><span class='am-pm'>pm</span>
+				<span class='temperature'>º20</span>
+			</div>
 		</div>
-		
+
 		<div class='widget-half'>
-	   	<h1>Tampa<span class='thin'></span></h1>
+			<h1>Tampa <span class='thin'>FL</span></h1>
+	   	<div class='status'>
+				<img src='images/fl.png' width="176" height="153" alt="Florida" class='fl' >
+				<span class='time'>1:30<span class='am-pm'>pm</span></span>
+				<span class='temperature'>º80</span>
+			</div>
 		</div>	
 			
 		<div class='widget'>
@@ -73,26 +89,25 @@
 			
 		<div class='widget red'>
    		<h1>Server: <span class='thin'>Cluster 1</span></h1>
-			<span class='status-small'>down</span>
+			<div class='status'>
+				<span class='server-status'>down</span>
+			</div>
 		</div>
 			
-		<div class='widget red2'>
+		<div class='widget'>
    		<h1>Active <span class='thin'>Visitors</span></h1>
-			<span class='status-small'>13</span>
-		</div>
-		
-		<div class='widget red3'>
-   		<h1>Active <span class='thin'>Visitors</span></h1>
-			<span class='status-small'>13</span>
+			<div class='status'>
+				<span class='active-users'>13</span>
+			</div>
 		</div>
 			
 		<div class='widget'>
    		<h1>Travis <span class='thin'>Status</span></h1>
 			<div class='pass'>
-				<span class='pass-number'>25</span>
+				<div class='pass-number'>25</div>
 			</div>
 			<div class='fail'>
-				<span class='fail-number'>3</span>
+				<div class='fail-number'>3</div>
 			</div>
 		</div>
 

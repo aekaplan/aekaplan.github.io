@@ -79,7 +79,7 @@ h1 {
 	color: #fffef4;
 	font-weight: 600;
 	background: #525271;
-	padding: .6em;
+	padding: .4em;
 	margin: 0;
 }
 
@@ -87,26 +87,64 @@ h1 {
 	font-weight: 100;
 }
 
-.status-large {
+.time {
 	font-family: "droid-sans-mono", sans-serif;
-	font-weight: 400;
-	padding: 10%;
-	display: block;
 	text-transform: uppercase;
 	color: #fffef4;
-	text-align: center;
+	font-size: 2em;
+}
+
+.am-pm {
+	font-family: "proxima-nova",sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #fffef4;
+}
+
+.temperature {
+	font-family: "droid-sans-mono", sans-serif;
+	text-transform: uppercase;
+	color: #fffef4;
+	font-size: 1.5em;
+	color: #9FC9EB;
+}
+
+.number {
+	font-family: "droid-sans-mono", sans-serif;
+	font-weight: 400;
+	padding: 5%;
+	text-transform: uppercase;
+	color: #fffef4;
 	font-size: 3em;
 	line-height: 1em;
 }
 
-.status-small {
+.server-status {
 	font-family: "droid-sans-mono", sans-serif;
-	padding: 5%;
-	display: block;
 	text-transform: uppercase;
 	color: #fffef4;
-	text-align: center;
 	font-size: 2em;
+	line-height: 1em;
+}
+
+.active-users {
+	font-family: "droid-sans-mono", sans-serif;
+	text-transform: uppercase;
+	color: #fffef4;
+	font-size: 2em;
+	line-height: 1em;
+}
+
+.il {
+	clear: both; 
+	display: block;
+	margin: 0 auto .6em;
+}
+
+.fl { 
+	clear: both;
+	display: block;
+	margin: 0 auto .6em;
 }
 
 .pass {
@@ -132,7 +170,7 @@ h1 {
 	padding: 5%;
 	text-align: center;
 	float: left;
-	background: #F24E4E;
+	background: #f24e4e;
 	-webkit-box-sizing: border-box; 
 	-moz-box-sizing: border-box;    
 	box-sizing: border-box;
@@ -194,15 +232,25 @@ ul.schedule li:nth-of-type(odd) {
 }
 
 .widget {
+	clear: both;
 	background: #6d6c93;
 	margin-bottom: .6em;
 }
 
+.status {
+	text-align: center;
+	padding: 5%;
+}
+
 .widget-half {
 	float: left;
-	width: 50%;
+	width: 48.7%;
 	background: #6d6c93;
 	margin-bottom: .6em;
+}
+
+.chicago {
+	margin-right: .6em;
 }
 
 .green {
@@ -210,15 +258,7 @@ ul.schedule li:nth-of-type(odd) {
 }
 
 .red {
-	background: #D1274B;
-}
-
-.red2 {
-	background: #F24E4E;
-}
-
-.red3 {
-background: #ee4938;
+	background: #f24e4e;
 }
 
 .orange {
