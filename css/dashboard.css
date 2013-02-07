@@ -1,0 +1,210 @@
+/*  #Resets
+================================================== */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*  #Body Styles
+================================================== */
+body {
+	background: #353544;
+  font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.5em;
+	color: #353544;
+}
+
+.container {
+	width: 100%;
+  max-width: 1920px;
+	background: red;
+	margin: 1.5em auto;
+}
+
+/*  #Styles
+================================================== */
+h1 {
+	font-family: "proxima-nova",sans-serif;
+	display: block;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 1em;
+	text-transform: uppercase;
+	color: #fffef4;
+	font-weight: 600;
+	background: #525271;
+	padding: .6em;
+	margin: 0;
+}
+
+.widget-header {
+	font-family: "droid-sans-mono", sans-serif;
+	font-weight: 300;
+}
+
+.status {
+	font-family: "droid-sans-mono", sans-serif;
+	font-weight: 400;
+	padding: 10%;
+	display: block;
+	text-transform: uppercase;
+	color: #fffef4;
+	text-align: center;
+	font-size: 3em;
+	line-height: 1em;
+}
+
+p {	
+	color: #8484ad;
+}
+
+.widget p {
+	color: #fffef4;
+	margin-bottom: 0;
+}
+
+ul.schedule {
+	margin: 0;
+}
+
+ul.schedule li {
+	list-style: none;
+	display: block;
+	overflow: hidden;
+	padding: 3%;
+	color: #fffef4;
+}
+
+ul.schedule li .date {
+	font-family: "droid-sans-mono", sans-serif;
+	display: inline-block;
+	font-weight: 400;
+	width: 10%;
+}
+	
+ul.schedule li .title {
+	font-weight: 300;
+}
+
+ul.schedule li:nth-of-type(odd) {
+	background: #78779A;
+}
+
+/*  #nth-of-type
+================================================== */
+.col {
+	float: left;
+	margin-left: 1.2%;
+	margin-bottom: 30px;
+}
+
+.widget {
+	background: #6D6C93;
+	margin-bottom: .6em;
+}
+
+.green {
+	background: #5ebfbc;
+}
+
+.red {
+	background: #EE4938;
+}
+
+.orange {
+	background: #e5925a;
+}
+
+.grid4 .col {
+	width: 15.9%;
+}
+
+.grid3 .col {
+	width: 31.2%;
+}
+
+.grid2 .col {
+	width: 48.4%;
+}
+
+@media screen and (max-width: 518px) {
+	.col {
+		width: 100% !important;
+		margin-left: 0 !important;
+		clear: none !important;
+	}
+}
+
+/*  #Transitions
+================================================== */
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.2s;
+     -moz-transition-duration: 0.2s;
+      -ms-transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.masonry {
+  -webkit-transition-property: width, height;
+     -moz-transition-property: width, height;
+      -ms-transition-property: width, height;
+       -o-transition-property: width, height;
+          transition-property: width, height;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
