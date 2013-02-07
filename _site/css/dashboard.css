@@ -62,9 +62,9 @@ body {
 }
 
 .container {
+	overflow: hidden;
 	width: 100%;
   max-width: 1920px;
-	background: red;
 	margin: 1.5em auto;
 }
 
@@ -75,7 +75,6 @@ h1 {
 	display: block;
 	text-align: center;
 	font-size: 1.2em;
-	line-height: 1em;
 	text-transform: uppercase;
 	color: #fffef4;
 	font-weight: 600;
@@ -84,12 +83,11 @@ h1 {
 	margin: 0;
 }
 
-.widget-header {
-	font-family: "droid-sans-mono", sans-serif;
-	font-weight: 300;
+.thin {
+	font-weight: 100;
 }
 
-.status {
+.status-large {
 	font-family: "droid-sans-mono", sans-serif;
 	font-weight: 400;
 	padding: 10%;
@@ -99,6 +97,53 @@ h1 {
 	text-align: center;
 	font-size: 3em;
 	line-height: 1em;
+}
+
+.status-small {
+	font-family: "droid-sans-mono", sans-serif;
+	padding: 5%;
+	display: block;
+	text-transform: uppercase;
+	color: #fffef4;
+	text-align: center;
+	font-size: 2em;
+}
+
+.pass {
+	width: 70%;
+	padding: 5%;
+	float: left;
+	background: #5ebfbc;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;    
+	box-sizing: border-box;
+}
+
+.fail {
+	width: 30%;
+	padding: 5%;
+	text-align: center;
+	float: left;
+	background: #ee4938;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;    
+	box-sizing: border-box;
+}
+
+.pass-number {
+	display: block;
+	color: #fffef4;
+	text-align: center;
+	font-size: 2em;
+	font-family: "droid-sans-mono", sans-serif;
+}
+
+.fail-number {
+	display: block;
+	color: #fffef4;
+	text-align: center;
+	font-size: 2em;
+	font-family: "droid-sans-mono", sans-serif;
 }
 
 p {	
@@ -125,15 +170,15 @@ ul.schedule li {
 ul.schedule li .date {
 	font-family: "droid-sans-mono", sans-serif;
 	display: inline-block;
-	font-weight: 400;
 	width: 18%;
 }
 	
 ul.schedule li .title {
 	display: inline-block;
 	font-family: "proxima-nova", sans-serif;
-	font-weight: 400;
-	width: 70%;
+	font-weight: 300;
+	width: 80%;
+	vertical-align: top;
 }
 
 ul.schedule li:nth-of-type(odd) {
@@ -144,12 +189,12 @@ ul.schedule li:nth-of-type(odd) {
 ================================================== */
 .col {
 	float: left;
-	margin-left: 1.2%;
+	margin-left: .6em;
 	margin-bottom: 30px;
 }
 
 .widget {
-	background: #6D6C93;
+	background: #6d6c93;
 	margin-bottom: .6em;
 }
 
@@ -158,7 +203,7 @@ ul.schedule li:nth-of-type(odd) {
 }
 
 .red {
-	background: #EE4938;
+	background: #ee4938;
 }
 
 .orange {
@@ -183,31 +228,4 @@ ul.schedule li:nth-of-type(odd) {
 		margin-left: 0 !important;
 		clear: none !important;
 	}
-}
-
-/*  #Transitions
-================================================== */
-.masonry,
-.masonry .masonry-brick {
-  -webkit-transition-duration: 0.2s;
-     -moz-transition-duration: 0.2s;
-      -ms-transition-duration: 0.2s;
-       -o-transition-duration: 0.2s;
-          transition-duration: 0.2s;
-}
-
-.masonry {
-  -webkit-transition-property: width, height;
-     -moz-transition-property: width, height;
-      -ms-transition-property: width, height;
-       -o-transition-property: width, height;
-          transition-property: width, height;
-}
-
-.masonry .masonry-brick {
-  -webkit-transition-property: left, right, top;
-     -moz-transition-property: left, right, top;
-      -ms-transition-property: left, right, top;
-       -o-transition-property: left, right, top;
-          transition-property: left, right, top;
 }
