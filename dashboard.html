@@ -18,132 +18,164 @@
   ================================================== -->
   <script type="text/javascript" src="//use.typekit.net/vcp0eam.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	
+	<!-- Javascript
+  ================================================== -->
+	<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+	<script language="javascript" src="/js/jquery.tweet.js" type="text/javascript"></script>
+	<script type='text/javascript'>
+	    jQuery(function($){
+	        $(".tweet").tweet({
+	            username: "8thlightinc",
+	            count: 4,
+	            loading_text: "Loading tweets",
+							refresh_interval: 60
+		    }).bind("loaded",function(){$(this).find("a").attr("target","_blank");});
+		  });
+	</script>
 	</head>
 <body>
 
 <div class="container">
-	
-	<div class='grid4'>
-	  <div class="col">
-			
-			<div class='widget'>
-					<div class='status'>
-						<span class='title'>LOGO <br/> DASHBOARD</span>
-					</div>
+
+	<div class='column-slim'>		
+		<div class='logo-widget'>
+			<div class='content'>
+				<img src="images/logo.png" width="164" height="162" alt="Logo" class='logo'>
+				<span class='logo-title'>dashboard</span>
 			</div>
-			
-			<div class='widget'>
-	   		<h1>February</h1>
-					<div class='status'>
-						<span class='number'>6</span>
-					</div>
-			</div>
-			
-	  </div><!-- col -->	
-	</div>
-		
-	<div class='grid3'>		
-	  <div class="col">
+			<h1 class='date'>February 20, <span class='thin'>2013</span></h1>
+		</div>
 				
-		<div class='widget-half margin-right'>
+	<div class='widget green'>
+ 		<h1>Server: <span class='thin'>Cluster 1</span></h1>
+		<div class='content'>
+			<span class='server-status'>up</span>
+		</div>
+	</div>
+	
+	<div class='widget red'>
+ 		<h1>Server: <span class='thin'>Cluster 2</span></h1>
+		<div class='content'>
+			<span class='server-status'>down</span>
+		</div>
+	</div>
+			
+	<div class='widget'>
+ 		<h1>Active <span class='thin'>Visitors</span></h1>
+		<div class='content'>
+			<span class='active-users'>13</span>
+		</div>
+	</div>
+			
+	<div class='widget'>
+ 		<h1>Travis <span class='thin'>Status</span></h1>
+		<div class='pass'>
+			<div class='pass-number'>25</div>
+		</div>
+		<div class='fail'>
+			<div class='fail-number'>3</div>
+		</div>
+	</div>
+
+	</div><!-- column-slim -->
+	
+	<div class="column-wide">		
+		<div class='widget-half left'>
 	   	<h1>Chicago <span class='thin'>IL</span></h1>
-			<div class='status'>
+			<div class='content'>
 				<img src="images/il.png" width="94" height="153" alt="Illinois" class='il'>
-				<span class='time'>1:30</span><span class='am-pm'>pm</span>
+				<span class='time'>1:30</span><span class='meridiem'>pm</span>
 			</div>
 			<div class='temperature'>º30</div>
-		</div>
+	</div>
 
-		<div class='widget-half'>
-			<h1>Tampa <span class='thin'>FL</span></h1>
-	   	<div class='status'>
-				<img src='images/fl.png' width="176" height="153" alt="Florida" class='fl' >
-				<span class='time'>1:30<span class='am-pm'>pm</span></span>
-			</div>
-			<div class='temperature'>º100</div>
+	<div class='widget-half'>
+		<h1>Tampa <span class='thin'>FL</span></h1>
+   	<div class='content'>
+			<img src='images/fl.png' width="176" height="153" alt="Florida" class='fl' >
+			<span class='time'>1:30</span><span class='meridiem'>pm</span>
+		</div>
+		<div class='temperature'>º100</div>
+	</div>
+		
+	<div class='widget orange'>
+ 		<h1>Today</h1>
+		<div class='content'>
+			<p class='today'>Today's event and description can go here. Today's event and description can go here.</p>
+		</div>
+	</div>
+	
+	<div class='widget'>
+ 		<h1>Chicago <span class='thin'>Events</span></h1>
+			<ul>
+				<li><span class='event-date'>02/07</span> <span class='title'>Event title and description</span></li>
+				<li><span class='event-date'>02/06</span> <span class='title'>Event title and description</span></li>
+			</ul>
+	</div>
+			
+	<div class='widget'>
+ 		<h1>Tampa <span class='thin'>Events</span></h1>
+		<ul>
+			<li><span class='event-date'>02/07</span> <span class='title'>Event title and description</span></li>
+			<li><span class='event-date'>02/06</span> <span class='title'>Event title and description</span></li>
+		</ul>
+	</div>		
+</div><!-- column-wide -->	
+
+<div class='column-slim'>			
+			
+		<div class='widget'>
+			<h1>metra <span class='thin'>Schedule</span></h1>
+				<ul class='center-list'>
+					<li><span class='schedule-date'>3:00</span><span class='meridiem'>pm</span></li>
+					<li><span class='schedule-date'>3:30</span><span class='meridiem'>pm</span></li>
+					<li><span class='schedule-date'>4:00</span><span class='meridiem'>pm</span></li>
+					<li><span class='schedule-date'>4:30</span><span class='meridiem'>pm</span></li>
+				</ul>
 		</div>
 		
-		<div class='widget orange'>
-   		<h1>Today</h1>
-			<div class='status'>
+		<div class='widget'>
+			<h1>cta <span class='thin'>Schedule</span></h1>
+				<ul class='center-list'>
+					<li><span class='schedule-date'>3:00</span><span class='meridiem'>pm</span></li>
+					<li><span class='schedule-date'>3:30</span><span class='meridiem'>pm</span></li>
+					<li><span class='schedule-date'>4:00</span><span class='meridiem'>pm</span></li>
+					<li><span class='schedule-date'>4:30</span><span class='meridiem'>pm</span></li>
+				</ul>
+		</div>
+		
+		<div class='widget'>
+			<div class='hat'>
+				<img src="images/8lu.png" width="115" height="53" alt="8lu" class='university'>
+			<h1 class='university-title'>8lu</h1>
+			</div>
+			<div class='content'>
 				<p class='today'>Today's event and description can go here.</p>
 			</div>
 		</div>
-		
-		<div class='widget'>
-   		<h1>Top 5 <span class='thin'>Blog Posts</span></h1>
-			<ul class='schedule'>
-				<li><span class='event-date'>01</span> <span class='title'>Working with Typography</span></li>
-				<li><span class='event-date'>02</span> <span class='title'>Working with Typography</span></li>
-				<li><span class='event-date'>03</span> <span class='title'>Working with Typography</span></li>
-				<li><span class='event-date'>04</span> <span class='title'>Working with Typography</span></li>
-				<li><span class='event-date'>05</span> <span class='title'>Working with Typography</span></li>
-			</ul>
-		</div>
-	</div><!-- col -->	
-</div>
+							
+  </div><!-- column-slim -->	
 
-<div class='grid4'>
-  <div class="col">
-			
-		<div class='widget red'>
-   		<h1>Server: <span class='thin'>Cluster 1</span></h1>
-			<div class='status'>
-				<span class='server-status'>down</span>
-			</div>
-		</div>
-			
-		<div class='widget'>
-   		<h1>Active <span class='thin'>Visitors</span></h1>
-			<div class='status'>
-				<span class='active-users'>13</span>
-			</div>
-		</div>
-			
-		<div class='widget'>
-   		<h1>Travis <span class='thin'>Status</span></h1>
-			<div class='pass'>
-				<div class='pass-number'>25</div>
-			</div>
-			<div class='fail'>
-				<div class='fail-number'>3</div>
-			</div>
-		</div>
-
-			
-  </div><!-- col -->	
-</div>
-
-<div class='grid3'>
-  <div class="col">
-		
-		<div class='widget'>
-   		<h1>Twitter <span class='thin'>(bird logo)</span></h1>
-				<ul class='schedule'>
-					<li><span class='event-date'>1</span><span class='title'>RT @WindyCityRails: Entrepreneur's Guide to Buying Custom Software. @8thLightInc nails it. 
-					http://bit.ly/MGRJs</span></li>
-					<li><span class='event-date'>2</span><span class='title'>RT @WindyCityRails: Entrepreneur's Guide to Buying Custom Software. @8thLightInc nails it. 
-					http://bit.ly/MGRJs</span></li>
-		</div>
-			
-		<div class='widget'>
-   		<h1>Chicago <span class='thin'>Events</span></h1>
-				<ul class='schedule'>
-					<li><span class='event-date'>02/07</span> <span class='title'>This is a long blog title right here</span></li>
-					<li><span class='event-date'>02/06</span> <span class='title'>This is a long blog title right here</span></li>
-				</ul>
-		</div>
-			
-		<div class='widget'>
-   		<h1>Tampa <span class='thin'>Events</span></h1>
-			<ul class='schedule'>
-				<li><span class='event-date'>02/07</span> <span class='title'>This is a long blog title right here</span></li>
-				<li><span class='event-date'>02/06</span> <span class='title'>This is a long blog title right here</span></li>
-			</ul>
-		</div>
-			
-  </div><!-- col -->	
-</div>
+<div class='column-wide'>	
+	
+	<div class='widget'>
+ 		<h1>Twitter</h1>
+		<div class="tweet"></div>
+	</div>
+	
+	<div class='widget'>
+ 		<h1>Top 5 <span class='thin'>Blog Posts</span></h1>
+		<ul>
+			<li><span class='event-date'>01</span> <span class='title'>Working with Typography</span></li>
+			<li><span class='event-date'>02</span> <span class='title'>Working with Typography</span></li>
+			<li><span class='event-date'>03</span> <span class='title'>Working with Typography</span></li>
+			<li><span class='event-date'>04</span> <span class='title'>Working with Typography</span></li>
+			<li><span class='event-date'>05</span> <span class='title'>Working with Typography</span></li>
+		</ul>
+	</div>	
+	
+  </div><!-- column-wide -->	
 
 </div><!-- container -->
 </body>

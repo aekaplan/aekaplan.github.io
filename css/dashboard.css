@@ -65,8 +65,11 @@ body {
 	overflow: hidden;
 	width: 100%;
   max-width: 1920px;
-	margin: 1.5em auto;
+	margin: .6em auto;
 }
+
+a, a:visited { color: #9FC9EB; text-decoration: none; outline: 0; }
+a:hover, a:focus, a:active { color: #9FC9EB; text-decoration: underline; }
 
 /*  #Styles
 ================================================== */
@@ -80,6 +83,13 @@ h1 {
 	background: #525271;
 	padding: .4em;
 	margin: 0;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.hat {
+	background: #525271;
+	padding: .4em;
+	margin: 0;
 }
 
 h2 {
@@ -90,6 +100,7 @@ h2 {
 	color: #fffef4;
 	font-weight: 700;
 	margin-bottom: .4em;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 .thin {
@@ -97,24 +108,16 @@ h2 {
 }
 
 .date {
-	font-family: "droid-sans-mono", sans-serif;
+	background: #6d6c93;
 	text-transform: uppercase;
 	color: #fffef4;
-	font-size: 2em;
-}
-
-.calendar { 
-	float: left;
-	width: 24.7%;
-	background: #F07241;
-	padding: 5%;
-	-webkit-box-sizing: border-box; 
-	-moz-box-sizing: border-box;    
-	box-sizing: border-box;
+	font-size: 1.2em;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 .today {
 	text-align: left; 
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 .time {
@@ -122,13 +125,16 @@ h2 {
 	text-transform: uppercase;
 	color: #fffef4;
 	font-size: 2em;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
-.am-pm {
+.meridiem {
 	font-family: "proxima-nova",sans-serif;
 	font-weight: 100;
 	text-transform: uppercase;
 	color: #fffef4;
+	font-size: 1em;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 .temperature {
@@ -141,6 +147,7 @@ h2 {
 	color: #9FC9EB;
 	padding: 5%;
 	background: #78779A;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 .number {
@@ -151,6 +158,7 @@ h2 {
 	color: #fffef4;
 	font-size: 3em;
 	line-height: 1em;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 .server-status {
@@ -159,6 +167,7 @@ h2 {
 	color: #fffef4;
 	font-size: 2em;
 	line-height: 1em;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 .active-users {
@@ -167,6 +176,7 @@ h2 {
 	color: #fffef4;
 	font-size: 2em;
 	line-height: 1em;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 .il {
@@ -179,6 +189,39 @@ h2 {
 	clear: both;
 	display: block;
 	margin: 0 auto .6em;
+}
+
+.university {
+	clear: both;
+	display: block;
+	margin: 0 auto .1em;
+}
+
+.university-title {
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #fffef4;
+	font-weight: 600;
+	padding: 3%;
+	margin: 0;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.logo { 
+	clear: both;
+	display: block;
+	margin: 0 auto .6em;
+}
+
+.logo-title {
+	font-family: "proxima-nova",sans-serif;
+	text-align: center;
+	font-size: 1.6em;
+	color: #fffef4;
+	font-weight: 100;
+	margin-bottom: .4em;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 .pass {
@@ -197,6 +240,7 @@ h2 {
 	text-align: center;
 	font-size: 2em;
 	font-family: "droid-sans-mono", sans-serif;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 .fail {
@@ -216,27 +260,33 @@ h2 {
 	text-align: center;
 	font-size: 2em;
 	font-family: "droid-sans-mono", sans-serif;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
-ul.schedule {
+ul {
 	margin: 0;
 }
 
-ul.schedule li {
+ul li {
 	list-style: none;
 	display: block;
 	overflow: hidden;
 	padding: 3%;
 	color: #fffef4;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
-ul.schedule li .event-date {
+.center-list {
+	text-align: center;
+}
+
+ul li .event-date {
 	font-family: "droid-sans-mono", sans-serif;
 	display: inline-block;
 	width: 18%;
 }
 	
-ul.schedule li .title {
+ul li .title {
 	display: inline-block;
 	font-family: "proxima-nova", sans-serif;
 	font-weight: 300;
@@ -244,15 +294,28 @@ ul.schedule li .title {
 	vertical-align: top;
 }
 
-ul.schedule li:nth-of-type(odd) {
+ul li .schedule-date {
+	display: inline-block;
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+ul li:nth-of-type(odd) {
 	background: #78779A;
 }
 
 /*  #nth-of-type
 ================================================== */
-.col {
-	float: left;
-	margin-left: .6em;
+.logo-widget {
+	overflow: hidden;
+	clear: both;
+	margin-bottom: .6em;
+	background: #525271;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.25);
 }
 
 .widget {
@@ -260,11 +323,9 @@ ul.schedule li:nth-of-type(odd) {
 	clear: both;
 	background: #6d6c93;
 	margin-bottom: .6em;
-}
-
-.status {
-	text-align: center;
-	padding: 5%;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.25);
 }
 
 .widget-half {
@@ -272,9 +333,17 @@ ul.schedule li:nth-of-type(odd) {
 	width: 48.7%;
 	background: #6d6c93;
 	margin-bottom: .6em;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.25);
 }
 
-.margin-right {
+.content {
+	text-align: center;
+	padding: 5%;
+}
+
+.left {
 	margin-right: .6em;
 }
 
@@ -290,18 +359,53 @@ ul.schedule li:nth-of-type(odd) {
 	background: #F07241;
 }
 
-.grid4 .col {
-	width: 15.9%;
+.logo-background {
+	background: #525271;
 }
 
-.grid3 .col {
+.column-slim {
+	width: 17%;
+	float: left;
+	margin-left: .6em;
+}
+.column-wide {
 	width: 31.2%;
+	float: left;
+	margin-left: .6em;
 }
 
-.grid2 .col {
-	width: 48.4%;
+/* #Tweet! http://tweet.seaofclouds.com/
+================================================== */
+.tweet_list {
+	list-style: none;
+	padding: 0;
+	margin: 0 !important;
 }
 
+.tweet_list li {
+	list-style: none;
+	margin: 0;
+	padding: 3%;
+}
+	  
+.tweet_time {
+	text-transform: uppercase;
+	font-size: .9em; 
+	display: block;
+	font-weight: 100;
+}
+  
+.tweet_time a {
+	border: none;
+	color: #fffef4;
+}
+	  
+iframe {
+  margin-bottom: 20px;
+}
+
+/* #Responsive
+================================================== */
 @media screen and (max-width: 518px) {
 	.col {
 		width: 100% !important;
