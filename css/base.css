@@ -52,17 +52,13 @@ table {
 
 /*  #Basic Styles
 ================================================== */
-  tab does this work?
-    second line?
-
-
 body {
-	background: #fff;
+  background: #fff;
   font-family: "proxima-nova", sans-serif;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 1.5em;
-	color: #333;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5em;
+  color: #333;
 }
 	
 .container {
