@@ -6,7 +6,7 @@ date: January 29, 2013
 
 <h2>I accomplished my goal of leaving Wordpress today! It was a hard challenge but my blog is now powered by <a href='http://jekyllrb.com/' target='blank'>Jekyll</a> and hosted on <a href='http://github.com/' target='blank'>Github</a>.</h2>
 
-<h3>Why Jekyll?</h3>
+<p>So why Jekyll?</p>
 
 <ul>
 	<li>No heavy CMS, database or FTP to deal with.</li>
