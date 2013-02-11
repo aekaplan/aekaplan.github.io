@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+	<title>test</title>
+	
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+	<!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="/css/position.css" type="text/css" />
+  
+	<!-- Typekit
+  ================================================== -->
+  <script type="text/javascript" src="//use.typekit.net/vcp0eam.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	
+	<!-- Javascript
+  ================================================== -->
+	<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+	</head>
+<body>
+  
+<div class='background one'>
+<div class='mask'></div>
+  <div class="container"> 
+    <header>
+      <h1 class='masthead'><a href="/index.html">ak</a></h1>
+    </header>  
+    
+    <div class="content">
+      <h1 class='position'>Position:</h1>
+        <p>
+          The position property controls the type of positioning used by an element within its parent elements. 
+          The effect of the position attribute depends on a lot of factors, for example the value of position property of parent elements.
+        </p>
+        <p>
+        In this tutorial, we are going to look at how positioning will change the relationship between parent and child elements.
+      </p>
+    </div><!-- content -->
+  </div><!-- container -->
+</div><!-- background -->
+
+<div class='two'>
+  <div class="container"> 
+    <div class="wrapper grid2">
+    	<div class="col">
+        <div class='example1'></div>
+        <h2>Parent</h2>
+        <p>
+          A parent element is an element that contains other elements. 
+        </p>
+    	</div>
+	
+    	<div class="col">
+        <div class='example2'></div>
+        <h2>Child</h2>   
+        <p>
+           All elements that are contained within that parent are called "child" elements.
+        </p>
+    	</div>      
+     </div><!-- wrapper -->     
+  </div><!-- container -->
+</div><!-- background -->
+
+<div class='background three'>
+<div class='mask'></div>
+  <div class="container">     
+      
+      <div class="wrapper grid2">
+        <h1 class='position'>properties:</h1>
+      	<div class="col">
+          <h2>position: static;</h2>   
+          <p>
+            Default. Object has no special positioning; it follows the layout rules of HTML. 
+            Values of top, bottom, left and right have no impact.
+          </p> 
+        </div>
+        
+        <div class="col">
+          <h2>position: absolute;</h2>
+          <p>
+            Object is positioned relative to parent element's position—or to the body object if its 
+            parent element is not positioned—using the top and left properties.
+          </p>
+        </div>
+        
+        <div class="col">
+          <h2>position: relative;</h2>
+          <p>
+            Object is positioned according to the normal flow, and then offset by the top and left properties.
+          </p>
+        </div>
+       
+       <div class="col">
+         <h2>position: fixed;</h2>
+        <p>
+          Object is positioned relative to the viewport containing the content. Object stays in the viewport when scrolling. Usually used for navigation on mobile devices. Limited support.
+        </p>
+      </div>
+     </div><!-- wrapper -->
+  </div><!-- container -->
+</div><!-- background -->
+
+<div class='two'>
+  <div class="container"> 
+    <h1 class='family'>Examples</h1> 
+  
+    <div class="wrapper grid2">
+    	<div class="col">
+        <div class='parent static'>
+          <div class='child static'></div>
+        </div>
+        
+          <h3>parent: static<br /> child: static</h3>
+         
+          <blockquote>
+            <p><strong>position: static;</strong> Default. Object has no special positioning; it follows the layout rules of HTML. 
+            Values of top, bottom, left and right have no impact.</p>
+          </blockquote>
+      </div>
+	
+    	<div class="col">
+        <div class='parent static'>
+          <div class='child absolute'></div>
+        </div>
+        <h3>parent: static<br /> child: absolute</h3>
+         
+        <p>
+          <strong>position: absolute;</strong> Object is positioned relative to parent element's position—or to the body object if its 
+          parent element is not positioned—using the top and left properties.
+        </p>
+      
+      </div>
+     </div><!-- wrapper -->
+  </div><!-- container -->
+</div><!-- background -->
+
+</body>
+</html>

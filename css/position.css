@@ -1,0 +1,323 @@
+/*  #Resets
+================================================== */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ 
+/*  #Basic Styles
+================================================== */
+body {
+  background: #fff;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+	
+.container {
+	width: 90%;
+	max-width: 700px;
+	margin: 0 auto;
+  padding: 1.5em 0;
+}
+
+.content { 
+   position: relative;
+   z-index: 200;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+header { 
+  position: relative;
+  z-index: 200;
+	margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+	border-bottom: 1px solid #ddd;
+}
+
+.masthead { 
+	font-family: "proxima-nova",sans-serif;
+	margin-bottom: 0;
+	line-height: 1em;
+	font-size: 2em;
+}
+
+/*  #Background Images
+================================================== */
+.background {
+  position: relative;
+}
+
+.one {
+  background: url('../images/position1.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.two {
+  background: url('../images/grid.png');
+}
+
+.three {
+  background: url('../images/position2.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.mask {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+/*  #Examples
+================================================== */
+.example1 {
+  width: 295px;
+  height: 260px;
+  margin-bottom: .3em;
+  background: url('../images/parent.png');
+}
+
+.example2 {
+  width: 295px ;
+  height: 260px;
+  margin-bottom: .3em;
+  background: url('../images/example.png');
+}
+
+.parent {
+  width: 295px ;
+  height: 260px;
+  margin-bottom: .5em;
+  background: url('../images/parent.png');
+  border: 2px solid #fff;
+}
+
+.child {
+  width: 165px ;
+  height: 150px;
+  margin-bottom: .5em;
+  background: url('../images/child.png');
+  border: 2px solid #EE4938;
+}
+
+.static {
+  position: static;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+	
+/*  #Links
+================================================== */
+a, a:visited {
+	color: #EE4938;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #EE4938;
+	text-decoration: underline;
+}
+
+.masthead a:hover {  
+	text-decoration: none; 
+}
+
+/*  #Headers
+================================================== */
+h1, h2, h3 { 
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	color: #333;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1.1em;
+	margin-bottom: .5em;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.333em;
+	line-height: 1.1em;
+	margin-bottom: .5em;
+	font-weight: 700;
+  text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	margin-bottom: .2em;
+	font-weight: 300;
+}
+
+.position {
+	font-size: 5em;
+	line-height: 1.1em;
+	margin-bottom: .2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.family {
+	font-size: 3em;
+	line-height: 1.1em;
+	margin-bottom: .1em;
+}
+
+/*  #Body
+================================================== */
+p {
+	font-family: "proxima-nova",sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	line-height: 1.5em;
+	margin: 0 0 1.5em 0;
+  font-weight: 400;
+  color: #333;
+}
+
+strong {
+	font-weight: 700;
+}
+
+em {
+	font-style: italic;
+}
+   	
+hr {
+	border: solid #ddd;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 1.5em 0 2em;
+	height: 0;
+}
+
+.background p,
+.background h1,
+.background h2,
+.background h3 {
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+/*  #Columns
+================================================== */
+.wrapper {
+	overflow: hidden;
+  position: relative;
+  z-index: 200;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.grid3 .col:nth-of-type(3n+1),
+.grid2 .col:nth-of-type(2n+1) {
+	margin-left: 0;
+	clear: left;
+}
+	
+.col {
+	float: left;
+	margin-left: 3.2%;
+}
+
+.grid3 .col {
+	width: 31.2%;
+}
+
+.grid2 .col {
+	width: 48.4%;
+}
+
+/*  #Mobile (Portrait)
+================================================== */
+@media only screen and (max-width: 518px) {
+	.container { 
+		width: 90%; 
+	}
+	
+	body { 
+		font-size: 18px; 
+	}
+	
+	.position {
+		font-size: 3em;
+	}
+	.col {
+		width: 100% !important;
+		margin-left: 0 !important;
+		clear: none !important;
+}
