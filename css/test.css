@@ -50,6 +50,51 @@ table {
 	border-spacing: 0;
 }
 
+/*  #Background Images
+================================================== */
+.background {
+  position: relative;
+  background: url('../images/mountains.jpg');
+  color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+	
+.mask {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.content { 
+  position: relative;
+  width: 100%;
+  z-index: 200;
+  padding: 1.5em 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+ 
+.container2 {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container3 {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 /*  #Basic Styles
 ================================================== */
 body {
@@ -58,7 +103,6 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.5em;
-  color: #333;
 }
 	
 .container {
@@ -68,8 +112,9 @@ body {
 }
 
 header { 
-	margin-bottom: 1.5em;
-	padding-bottom: 1.5em;
+  position: relative;
+  z-index: 200;
+	padding: 1.5em 0;
 	border-bottom: 1px solid #ddd;
  }
 
@@ -154,6 +199,21 @@ p {
 	margin: 0 0 1.5em 0;
   font-weight: 400;
   color: #9a99b4;
+}
+
+.content > p {
+  color: #fffef4;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.content > h1 {
+  color: #fffef4;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.content > h3 {
+  color: #fffef4;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 strong {
