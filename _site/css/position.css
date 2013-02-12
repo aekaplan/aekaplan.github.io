@@ -151,7 +151,6 @@ h1, h2, h3 {
 	font-size: 5em;
 	line-height: 1.1em;
 	margin-bottom: .4em;
-  text-align: center;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -160,7 +159,6 @@ h1, h2, h3 {
   font-size: 3.5em;
   line-height: 1.1em;
   margin-bottom: .4em;
-  text-align: center;
   text-transform: uppercase;
   font-weight: 100;
 }

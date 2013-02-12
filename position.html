@@ -29,7 +29,7 @@
     </header>  
     
     <div class="content">
-      <h1 class='position'>Position:</h1>
+      <h1 class='position'>Position</h1>
         <h3>
           The position property controls the type of positioning used by an element within its parent elements. 
         </h3>
@@ -73,9 +73,9 @@
   <div class="container">     
       
     <div class="content grid2">
-      <h1 class='position'>properties:</h1>
+      <h1 class='position'>Properties</h1>
       <div class="col">
-        <h2>display: static;</h2>   
+        <h2>position: static;</h2>   
         <p>
           Default. Object has no special positioning; it follows the layout rules of HTML. 
           Values of top, bottom, left and right have no impact.
@@ -83,7 +83,7 @@
       </div>
         
       <div class="col">
-        <h2>display: absolute;</h2>
+        <h2>position: absolute;</h2>
         <p>
           Object is positioned relative to parent element's position—or to the body object if its 
           parent element is not positioned—using the top and left properties.
@@ -91,14 +91,14 @@
       </div>
         
       <div class="col">
-        <h2>display: relative;</h2>
+        <h2>position: relative;</h2>
         <p>
           Object is positioned according to the normal flow, and then offset by the top and left properties.
         </p>
       </div>
        
      <div class="col">
-       <h2>display: fixed;</h2>
+       <h2>position: fixed;</h2>
       <p>
         An element with fixed position is positioned relative to the browser window. It will not move even if the window is scrolled.
         <em>See any :)</em>
@@ -131,8 +131,8 @@
          
           <h3>parent: static <br/> child: absolute</h3> 
             <p>
-              By setting the child to <strong>display: absolute</strong> and using the top, bottom, left and right</strong> properties, I can move the child anywhere. I had
-            to use some crazy number to get him here (bottom: 965px; left: 305px;) This is where <strong>display: relative</strong> shines!
+              By setting the child to <strong>position: absolute</strong> and using the top, bottom, left and right</strong> properties, I can move the child anywhere. I had
+            to use some crazy number to get him here (bottom: 965px; left: 305px;) This is where <strong>position: relative</strong> shines!
             </p>
       </div>  
 	
@@ -142,8 +142,8 @@
         </div>
         <h3>parent: relative <br/> child: absolute</h3> 
         <p>
-          If I set the parent to <strong>display: relative</strong> and the child to <strong>display: absolute</strong>, 
-          we get this. Since we are using display: relative <strong>the child will always stay relative to the parent</strong> (inside the dotted box).
+          If I set the parent to <strong>position: relative</strong> and the child to <strong>position: absolute</strong>, 
+          we get this. Since we are using position: relative <strong>the child will always stay relative to the parent</strong> (inside the dotted box).
           Now I only have to use bottom: 0, left: 0. 
         </p>
       </div>
