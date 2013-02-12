@@ -317,6 +317,9 @@ a:hover {
   background: url('../images/parent.png');
   border: 2px dashed #fff;
   margin: 1em 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .child {
@@ -325,6 +328,9 @@ a:hover {
   background: url('../images/child.png');
   bottom: 0;
   left: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .parent1 {
@@ -334,6 +340,9 @@ a:hover {
   border: 2px dashed #fff;
   margin: 1em 0;
   z-index: 100;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .child1 {
@@ -343,6 +352,9 @@ a:hover {
   bottom: 125px;
   right: 440px;
   z-index: 1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .parent2 {
@@ -352,6 +364,9 @@ a:hover {
   border: 2px dashed #fff;
   margin: 1em 0;
   z-index: 1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .child2 {
@@ -361,6 +376,9 @@ a:hover {
   bottom: 125px;
   right: 84px;
   z-index: 100;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .child3 {
@@ -370,6 +388,9 @@ a:hover {
   bottom: 965px;
   left: 305px;
   z-index: 100;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .static {
