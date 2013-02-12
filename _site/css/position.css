@@ -234,6 +234,7 @@ hr {
 
 ul, ol {
 	margin: 0 0 1.5em 2em;
+  color: #333;
 }
 
 li { 
@@ -250,6 +251,14 @@ a, a:visited {
 a:hover {
 	color: #EE4938;
 	text-decoration: underline;
+}
+
+.smiley a {
+	color: #fff;
+}
+
+.smiley a:hover {
+	text-decoration: none; 
 }
 
 .masthead a:hover {  
@@ -299,6 +308,7 @@ a:hover {
   width: 69px ;
   height: 102px;
   background: url('../images/spider.png');
+  z-index: 999;
 }
 
 .parent {
