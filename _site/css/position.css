@@ -68,11 +68,12 @@ body {
 }
 
 .content { 
-   position: relative;
-   z-index: 200;
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  z-index: 200;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 header { 
@@ -88,6 +89,7 @@ header {
 	margin-bottom: 0;
 	line-height: 1em;
 	font-size: 2em;
+  font-weight: 700;
 }
 
 /*  #Background Images
@@ -106,10 +108,6 @@ header {
 }
 
 .two {
-  background: url('../images/grid.png');
-}
-
-.three {
   background: url('../images/position2.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -118,78 +116,27 @@ header {
   background-position: center;
 }
 
+.web {
+  background: url('../images/web.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.background-texture {
+  background: url('../images/grid.png');
+}
+
 .mask {
   background: rgba(0,0,0,0.5);
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
   z-index: 100;
-}
-
-/*  #Examples
-================================================== */
-.example1 {
-  width: 295px;
-  height: 260px;
-  margin-bottom: .3em;
-  background: url('../images/parent.png');
-}
-
-.example2 {
-  width: 295px ;
-  height: 260px;
-  margin-bottom: .3em;
-  background: url('../images/example.png');
-}
-
-.parent {
-  width: 295px ;
-  height: 260px;
-  margin-bottom: .5em;
-  background: url('../images/parent.png');
-  border: 2px solid #fff;
-}
-
-.child {
-  width: 165px ;
-  height: 150px;
-  margin-bottom: .5em;
-  background: url('../images/child.png');
-  border: 2px solid #EE4938;
-}
-
-.static {
-  position: static;
-}
-
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
-.fixed {
-  position: fixed;
-}
-	
-/*  #Links
-================================================== */
-a, a:visited {
-	color: #EE4938;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #EE4938;
-	text-decoration: underline;
-}
-
-.masthead a:hover {  
-	text-decoration: none; 
 }
 
 /*  #Headers
@@ -200,11 +147,38 @@ h1, h2, h3 {
 	color: #333;
 }
 
-h1 {
-	font-size: 2em;
+.position {
+	font-size: 5em;
 	line-height: 1.1em;
-	margin-bottom: .5em;
-	font-weight: 700;
+	margin-bottom: .4em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.z-index {
+  font-size: 3.5em;
+  line-height: 1.1em;
+  margin-bottom: .4em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.position-fixed {
+	font-size: 3em;
+	line-height: 1.1em;
+	margin-bottom: .7em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.smiley {
+	font-size: 3.5em;
+	line-height: 1.1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
 }
 
 h2 {
@@ -218,25 +192,11 @@ h2 {
 h3 {
 	font-size: 1.3em;
 	line-height: 1.3em;
-	margin-bottom: .2em;
+	margin-bottom: .6em;
 	font-weight: 300;
 }
 
-.position {
-	font-size: 5em;
-	line-height: 1.1em;
-	margin-bottom: .2em;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.family {
-	font-size: 3em;
-	line-height: 1.1em;
-	margin-bottom: .1em;
-}
-
-/*  #Body
+/*  #Basic Styles
 ================================================== */
 p {
 	font-family: "proxima-nova",sans-serif;
@@ -272,18 +232,32 @@ hr {
   text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
-/*  #Columns
-================================================== */
-.wrapper {
-	overflow: hidden;
-  position: relative;
-  z-index: 200;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+ul, ol {
+	margin: 0 0 1.5em 2em;
 }
 
-.grid3 .col:nth-of-type(3n+1),
+li { 
+	list-style: disc outside;
+ }
+	
+/*  #Links
+================================================== */
+a, a:visited {
+	color: #EE4938;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #EE4938;
+	text-decoration: underline;
+}
+
+.masthead a:hover {  
+	text-decoration: none; 
+}
+
+/*  #Columns
+================================================== */
 .grid2 .col:nth-of-type(2n+1) {
 	margin-left: 0;
 	clear: left;
@@ -294,12 +268,137 @@ hr {
 	margin-left: 3.2%;
 }
 
-.grid3 .col {
-	width: 31.2%;
-}
-
 .grid2 .col {
 	width: 48.4%;
+}
+
+.clear {
+  clear: both;
+}
+
+/*  #Examples
+================================================== */
+.example1 {
+  width: 295px;
+  height: 260px;
+  margin-bottom: .5em;
+  background: url('../images/parent.png');
+}
+
+.example2 {
+  width: 295px ;
+  height: 260px;
+  margin-bottom: .5em;
+  background: url('../images/example.png');
+}
+
+.spider {
+  position:fixed;
+  top: 15px;
+  left: 15px;
+  width: 69px ;
+  height: 102px;
+  background: url('../images/spider.png');
+}
+
+.parent {
+  width: 295px ;
+  height: 260px;
+  background: url('../images/parent.png');
+  border: 2px dashed #fff;
+  margin: 1em 0;
+}
+
+.child {
+  width: 165px ;
+  height: 150px;
+  background: url('../images/child.png');
+  bottom: 0;
+  left: 0;
+}
+
+.parent1 {
+  width: 295px ;
+  height: 260px;
+  background: url('../images/parent.png');
+  border: 2px dashed #fff;
+  margin: 1em 0;
+  z-index: 100;
+}
+
+.child1 {
+  width: 165px ;
+  height: 150px;
+  background: url('../images/child.png');
+  bottom: 125px;
+  right: 440px;
+  z-index: 1;
+}
+
+.parent2 {
+  width: 295px ;
+  height: 260px;
+  background: url('../images/parent.png');
+  border: 2px dashed #fff;
+  margin: 1em 0;
+  z-index: 1;
+}
+
+.child2 {
+  width: 165px ;
+  height: 150px;
+  background: url('../images/child.png');
+  bottom: 125px;
+  right: 84px;
+  z-index: 100;
+}
+
+.child3 {
+  width: 165px ;
+  height: 150px;
+  background: url('../images/child.png');
+  bottom: 965px;
+  left: 305px;
+  z-index: 100;
+}
+
+.static {
+  position: static;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.box {
+	overflow: hidden;
+	margin-bottom: 1.5em;
+	padding: 3% 3% 0;
+	background: #f8f8f8;
+	-webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+	-moz-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+	box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.box > p {
+    color: #333;
+    text-shadow: none;
+}
+
+.box > h2 {
+  color: #333;
+  text-shadow: none;
 }
 
 /*  #Mobile (Portrait)
@@ -314,8 +413,14 @@ hr {
 	}
 	
 	.position {
-		font-size: 3em;
+		font-size: 2.7em;
 	}
+  
+  .position-fixed,
+  .z-index {
+  	font-size: 2em;
+  }
+  
 	.col {
 		width: 100% !important;
 		margin-left: 0 !important;
