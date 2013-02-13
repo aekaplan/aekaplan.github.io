@@ -26,11 +26,13 @@
 		<h1 class='masthead'><a href="/index.html">ak</a></h1>
 	</header>
 	
-	<h1 class='posts'>{{ page.title }}</h1>
-	<div class='date'>{{ page.date | date: "%B %d, %Y" }}</div>
-		{{ content }}
+  <article>
+	  <h1 class='posts'>{{ page.title }}</h1>
+	  <div class='date'>{{ page.date | date: "%B %d, %Y" }}</div>
+    {{ content }}
+  </article>
 	
-	<hr />	 
+  <hr />	 
  	
 		<h3>Recent Posts</h3>
 		<ul class='posts'>
