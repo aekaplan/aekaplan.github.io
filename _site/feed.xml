@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description>Novice Design Apprentice 8th Light.</description>
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Optimize your Images</title>
+				<description>&lt;h2&gt;When using images on the web, always remove unnecessary bytes.&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;Here are a few simple guidelines when using Photoshop:&lt;/p&gt;
+
+
+
+
+&lt;ul&gt;
+    &lt;li&gt;Always use the &lt;strong&gt;Save for Web&lt;/strong&gt; option&lt;/li&gt;
+    &lt;li&gt;Try to find a balance between &lt;strong&gt;image quality&lt;/strong&gt; and &lt;strong&gt;file size&lt;/strong&gt;&lt;/li&gt;
+    &lt;li&gt;Use &lt;strong&gt;High&lt;/strong&gt; if the image will be visible, &lt;strong&gt;Medium&lt;/strong&gt; or &lt;strong&gt;Low&lt;/strong&gt; for backgrounds&lt;/li&gt;
+    &lt;li&gt;Make sure you have the &lt;strong&gt;Optimized&lt;/strong&gt; setting checked&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;img src='/images/optimize.jpg' /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Test different file types and optimizations methods&lt;/li&gt;
+    &lt;li&gt;Use JPGs for photos and PNGs when you need transparency&lt;/li&gt;
+    &lt;li&gt;Use appropriately sized photos when possible&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;h3&gt;Results&lt;/h3&gt;
+
+
+
+
+&lt;p&gt;Stephanie noticed that one of the images on my website was loading slow. By following these simple guidelines, my image went from 2mb to 80kb! That's a huge reduction in size. Thanks Stephanie!&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Here are a few resources that helped me:&lt;/p&gt;
+
+
+&lt;ul class='clean'&gt;
+    &lt;li&gt;&lt;a href='http://help.adobe.com/en_US/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html' target='blank'&gt;Photoshop: Save for Web&lt;/li&gt;
+        &lt;li&gt;&lt;a href='https://developers.google.com/speed/articles/optimizing-images' target='blank'&gt;Google Developers: Optimizing Images&lt;/li&gt;
+            &lt;li&gt;&lt;a href='http://www.smushit.com/ysmush.it/' target='blank'&gt;Smush It: A free online tool to help you optimize your images.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				<pubDate>Fri, 01 Feb 2013 00:00:00 -0600</pubDate>
+				<link>/optimize-your-images.html</link>
+				<guid isPermaLink="true">/optimize-your-images.html</guid>
+			</item>
+		
+			<item>
+				<title>Moved from Wordpress to Jekyll</title>
+				<description>&lt;h2&gt;I accomplished my goal of leaving Wordpress today! It was a hard challenge but my blog is now powered by &lt;a href='http://jekyllrb.com/' target='blank'&gt;Jekyll&lt;/a&gt; and hosted on &lt;a href='http://github.com/' target='blank'&gt;Github&lt;/a&gt;.&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;So why Jekyll?&lt;/p&gt;
+
+
+
+
+&lt;ul&gt;
+    &lt;li&gt;No heavy CMS, database or FTP to deal with.&lt;/li&gt;
+    &lt;li&gt;Hosting is free using Github pages!&lt;/li&gt;
+    &lt;li&gt;I now get version control and deployment in one place.&lt;/li&gt;
+    &lt;li&gt;Direct control over my markup. No more rich-text editor for writing posts.&lt;/li&gt;
+    &lt;li&gt;Super fast! I went from 5 s to 300 ms improving load times by 94%.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;p&gt;This site is under construction! I'm learning new skills so I can make this blog awesome. Check back soon.&lt;/p&gt;
+
+</description>
+				<pubDate>Tue, 29 Jan 2013 00:00:00 -0600</pubDate>
+				<link>/moved-from-wordpress-to-jekyll.html</link>
+				<guid isPermaLink="true">/moved-from-wordpress-to-jekyll.html</guid>
+			</item>
+		
+			<item>
+				<title>Thinking with Type</title>
+				<description>&lt;h2&gt;I just finished reading &lt;a href='http://www.thinkingwithtype.com/' target='blank'&gt;Thinking with Type&lt;/a&gt; by Ellen Lupton.&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;There are a lot of great concepts in this book, so I decided to create a few designs using typography to show off my favorites.&lt;/p&gt;
+
+
+
+
+&lt;blockquote&gt;
+    &lt;p&gt;Think more, design less.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;&lt;b&gt;Some type crimes to be aware of:&lt;/p&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Horizontal and vertical scaling&lt;/li&gt;
+    &lt;li&gt;Vertically stacking lowercase&lt;/li&gt;
+    &lt;li&gt;Using too many signals (bold, italic, underlined, caps)&lt;/li&gt;
+    &lt;li&gt;Don't trap data in heavily guarded cells&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;img src='/images/type1.jpg' /&gt;
+&lt;img src='/images/type2.jpg' /&gt;
+&lt;img src='/images/type3.jpg' /&gt;
+&lt;img src='/images/type4.jpg' /&gt;&lt;/p&gt;
+</description>
+				<pubDate>Thu, 24 Jan 2013 00:00:00 -0600</pubDate>
+				<link>/thinking-with-type.html</link>
+				<guid isPermaLink="true">/thinking-with-type.html</guid>
+			</item>
+		
+			<item>
+				<title>Working with Typography</title>
+				<description>&lt;h2&gt;One of the things that I really wanted to get out of this apprenticeship was to learn how to use typography.&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;To get started, Stephanie sent me the video &lt;a href='http://vimeo.com/17079380' target='blank'&gt;More Perfect Typography&lt;/a&gt; by Tim Brown. I got a lot out of his presentation:&lt;/p&gt;
+
+
+
+
+&lt;ul&gt;
+    &lt;li&gt;Start with type!&lt;/li&gt;
+    &lt;li&gt;Type sets the tone for the experience.&lt;/li&gt;
+    &lt;li&gt;Type can make the content feel natural or put a twist on the design.&lt;/li&gt;
+    &lt;li&gt;Pick a font size that looks crisp. Find that sweet spot between sizes.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;p&gt;Practice makes perfect, so I decided to apply these guidelines to my blog. I started by setting the body text first. When trying out fonts, use your actual content. It really helps give you a better idea of what the final design will look like.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;I choose Proxima Nova Regular served via &lt;a href='https://typekit.com/' target='blank'&gt;Typekit&lt;/a&gt;. Next, I gave the headers some personality by using Semibold to make them standout.&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;Em &gt; Pixels&lt;/h3&gt;
+
+
+
+
+&lt;p&gt;I went out of my comfort zone and switched from using pixels to ems. Just because the body type looks good on a phone doesn't mean it will look right on a larger display. Ems scale well and keep the relationships with the surrounding elements.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;I'm also using ems for my padding and margins. You can reserve an amount of space relative to the current font size. For example, if you use ems and make a change to your font size, all the spacing around your site will size down accordingly.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;With pixels you would have to change every definition in every media query. Why not let typography define your design instead!&lt;/p&gt;
+
+
+&lt;p&gt;&lt;em&gt;Chris Coyier's article &lt;a href='http://css-tricks.com/why-ems/' target='blank'&gt;Why Ems?&lt;/a&gt; helped me better understand these concepts.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3&gt;Modular Scales&lt;/h3&gt;
+
+
+
+
+&lt;p&gt;Now lets combine ems with Tim Brown's presentation on Modular Scales:&lt;/p&gt;
+
+
+
+
+&lt;ul&gt;
+    &lt;li&gt;A modular scale is a sequence of numbers that relate to one another in a meaningful way.&lt;/li&gt;
+    &lt;li&gt;When using a modular scale, chose numbers based off others.&lt;/li&gt;
+    &lt;li&gt;Be more perfect - but not exactly perfect! Measurements can relate to one another even without all the strictness.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;p&gt;At first, I was a little intimidated with the math that goes with using a modular scale.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;em&gt;Modular Scale = (Key type size + ratio)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;18px @ 1:1.333&lt;/p&gt;
+
+
+
+
+&lt;ul&gt;
+    &lt;li&gt;h1 = 2.369em&lt;/li&gt;
+    &lt;li&gt;h2 = 1.777em&lt;/li&gt;
+    &lt;li&gt;h3 = 1.333em&lt;/li&gt;
+    &lt;li&gt;p = 1em/1.5em (line height)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;p&gt;I applied this equation to my blog and I'm thrilled with the results! Everything looks more natural and balanced. Numbers aren't everything. Design to me is still about intuition. As designers, we have a sense of when something feels right or wrong.&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;These new concepts helped me set the design for my blog: simple and clean.&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;I'm not taking myself too seriously yet. After all, learning should be fun! I really enjoyed my first assignment with typography. Thanks Stephanie!&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Here is a list of resources that helped me along the way:&lt;/p&gt;
+
+
+
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href='http://vimeo.com/17079380' target='blank'&gt;More Perfect Typography&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href='http://informationarchitects.net/blog/100e2r/' target='blank'&gt;100% Easy-2-Read Standard&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href='http://informationarchitects.net/blog/the-web-is-all-about-typography-period/' target='blank'&gt;Web Design is 95% Typography&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href='http://wm4.wilsonminer.com/posts/2008/oct/20/relative-readability/' target='blank'&gt;Relative Readability&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href='http://css-tricks.com/why-ems/' target='blank'&gt;Why Ems?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				<pubDate>Tue, 22 Jan 2013 00:00:00 -0600</pubDate>
+				<link>/working-with-typography.html</link>
+				<guid isPermaLink="true">/working-with-typography.html</guid>
+			</item>
+		
+			<item>
+				<title>First Day at 8th Light</title>
+				<description>&lt;h2&gt;Hi there! Today was the first day of my Novice Apprenticeship at &lt;a href='http://www.8thlight.com/' target='blank'&gt;8th Light&lt;/a&gt;.&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;I started my morning with a design standup with Stephanie and Chris. We talked about what it means to work on a story. Everyone plays a small part in helping to shape and complete a project at 8th Light. All this collaboration will go a long way in helping me refine my design process.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;A few things I learned today:&lt;/p&gt;
+
+
+
+
+&lt;ul&gt;
+    &lt;li&gt;Collaboration is key when coming up with a successful design.&lt;/li&gt;
+    &lt;li&gt;Whole experiences can be harmonious and have a purpose just by starting with type.&lt;/li&gt;
+    &lt;li&gt;Try to find some inspiration, natural references when starting a design. What's the hook? Type can be that hook!&lt;/li&gt;
+    &lt;li&gt;Always provide solutions when communicating with a client.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;p&gt;Stay tuned for a post on working with typography!&lt;/p&gt;
+
+</description>
+				<pubDate>Mon, 21 Jan 2013 00:00:00 -0600</pubDate>
+				<link>/first-day-at-8th-light.html</link>
+				<guid isPermaLink="true">/first-day-at-8th-light.html</guid>
+			</item>
+		
+	</channel>
+</rss>
