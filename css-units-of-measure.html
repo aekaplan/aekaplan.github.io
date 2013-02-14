@@ -68,15 +68,16 @@
       <h2><span class='bg white'>px</span></h2>
     	
       <h3 class='intro'>
-        A pixel is an absolute unit of measurement. When you use pixels, you are telling the 
-        browsers to render the letters an exact number of pixels in height.
-      </h3>
+        Pixels are fixed-size units. Don't let the name fool you, pixels don't really have anything to do with screen pixels.</h3> 
+        
+       <p>It's actually considered an <a href='http://inamidst.com/stuff/notes/csspx' target='blank'>angular measurement</a>. 
+         I started using pixels but have since moved to ems and percents. More on that later.</p>
       
       <div class="col">
         <div class='example1'></div>
         <h3>Good</h3> 
         <ul>
-          <li>Use for setting a max-width</l1>
+          <li>For setting a max-width on containers and media queries</l1>
           <li>Fine-grained control</l1>
         	<li>Great for any time you want to define a particular size</l1>
         </ul>
@@ -86,12 +87,20 @@
         <div class='example2'></div>
         <h3>Bad</h3> 
         <ul>
-          <li>Inflexible. 10px is always 10px!</li>
-          <li>Doesn't scale according to the width of the browser</l1>
-        	<li>Better ways to size text using em or rems</l1>
+          <li>Inflexible - 10px is always 10px</li>
+          <li>Doesn't scale according to the width of the browser</li>
+        	<li>Better ways to size text for responsive web design using percents em or rems</l1>
         </ul>  
-    	</div>  
-         
+    	</div> 
+      
+      <h3>Examples</h3>
+
+      <p>I'm a huge advocate for mobile-first <strong>responsive web design</strong>. Here are two examples of where I use px the most: </p>
+                
+      <div class='gist'>
+        <script src="https://gist.github.com/aekaplan/709ca9d07c6d32b3137f.js"></script>
+      </div> 
+        
      </div><!-- content -->        
   </div><!-- container -->
 </div><!-- background -->
@@ -113,8 +122,8 @@
         <ul>
           <li>Flexible</l1>
         	<li>Can reserve an amount of space relative to the current font-size</l1>
-        	<li>Easily change your font size in one place.</li>
-          <li>Keeps relationships with margin and padding using ems.</l1>
+        	<li>Easily change your font size in one place</li>
+          <li>Keeps relationships with margin and padding using ems</l1>
         </ul>
     	</div>
 	
@@ -122,9 +131,9 @@
         <div class='example2'></div>
         <h3>Bad</h3> 
         <ul>
-          <li>Nested lists, will cascade and grow the font size of the child lists.</li>
-          <li>Numbers can be confusing.</l1>
-        	<li>This is where rems come in!</l1>
+          <li>Nested lists will cascade and grow the font size of the child lists</li>
+          <li>Numbers can be confusing</l1>
+        	<li>This is where rems come in</l1>
         </ul>  
     	</div>  
          
