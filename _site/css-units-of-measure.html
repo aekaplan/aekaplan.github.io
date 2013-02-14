@@ -13,13 +13,25 @@
 	<!-- CSS
   ================================================== -->
   <link rel="stylesheet" href="/css/css-units-of-measure.css" type="text/css" />
+	
+  <!-- Scripts
+  ================================================== -->
+  <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+  <script type='text/javascript'>
+  	jQuery(document).ready(function($) {
+  		$(".scroll").click(function(event){		
+  			event.preventDefault();
+  			$('html,body').animate({scrollTop:$(this.hash).offset().top}, 400);
+  		});
+  	})
+  </script>
   
 	<!-- Typekit
   ================================================== -->
   <script type="text/javascript" src="//use.typekit.net/vcp0eam.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	</head>
-<body>
+<body id='top'>
   
 <div class='background-texture'>
   <div class="container"> 
@@ -28,30 +40,109 @@
     </header>  
     
     <div class="content">
-      <h1 class='position'>CSS Units
-        <span class='of'>of</span>
-      </h1>
-        <h3>
-          The position property controls the type of positioning used by an element within its parent elements. 
-        </h3>
-        
-        <p>
-          The effect of the position attribute depends on a lot of factors, for example the value of position property of parent elements.    
-        </p>
-        <p>
-          In this tutorial, we are going to look at how positioning will change the relationship between parent and child elements.
-        </p>
+      <h1>CSS Units
+      <span class='of'>
+        <span class='of-bg'>of</span>
+      </span>
+      <span class='measure'>measure</span></h1>      
+      
+      <h3 class='intro'>
+        With so many units of measurement available, which unit is the best for the job? Let's find out!
+      </h3>
+
+      <ul class="units">
+        <li><a class="scroll" href="#px"><span>px</span></a></li>
+      	<li><a class="scroll" href="#em"><span>em</span></a></li>
+      	<li><a class="scroll" href="#rem"><span>rem</span></a></li>
+      	<li><a class="scroll" href="#percent"><span>%</span></a></li>
+      </ul>
         
     </div><!-- content -->
   </div><!-- container -->
 </div><!-- background -->
 
-<div class='background'>
-  <div class="container"> 
+<div class='background white'>
+  <div class="container" id='px'> 
     <div class="content grid2">      
-    	<div class="col">
+      
+      <h2><span class='bg white'>px</span></h2>
+    	
+      <h3 class='intro'>
+        A pixel is an absolute unit of measurement. When you use pixels, you are telling the 
+        browsers to render the letters an exact number of pixels in height.
+      </h3>
+      
+      <div class="col">
         <div class='example1'></div>
-        <h2>Parent</h2>
+        <h3>Good</h3> 
+        <ul>
+          <li>Use for setting a max-width</l1>
+          <li>Fine-grained control</l1>
+        	<li>Great for any time you want to define a particular size</l1>
+        </ul>
+    	</div>
+	
+    	<div class="col">
+        <div class='example2'></div>
+        <h3>Bad</h3> 
+        <ul>
+          <li>Inflexible. 10px is always 10px!</li>
+          <li>Doesn't scale according to the width of the browser</l1>
+        	<li>Better ways to size text using em or rems</l1>
+        </ul>  
+    	</div>  
+         
+     </div><!-- content -->        
+  </div><!-- container -->
+</div><!-- background -->
+
+<div class='background gray'>
+  <div class="container" id='em'> 
+    <div class="content grid2">      
+      
+      <h2><span class='bg gray'>em</span></h2>
+      
+      <h3 class='intro'>
+        An em it is a unit that is relative to the currently chosen font size. This unit is highly recommended for 
+        responsive web design.
+      </h3>
+      
+      <div class="col">
+        <div class='example1'></div>
+        <h3>Good</h3> 
+        <ul>
+          <li>Flexible</l1>
+        	<li>Can reserve an amount of space relative to the current font-size</l1>
+        	<li>Easily change your font size in one place.</li>
+          <li>Keeps relationships with margin and padding using ems.</l1>
+        </ul>
+    	</div>
+	
+    	<div class="col">
+        <div class='example2'></div>
+        <h3>Bad</h3> 
+        <ul>
+          <li>Nested lists, will cascade and grow the font size of the child lists.</li>
+          <li>Numbers can be confusing.</l1>
+        	<li>This is where rems come in!</l1>
+        </ul>  
+    	</div>  
+         
+     </div><!-- content -->        
+  </div><!-- container -->
+</div><!-- background -->
+
+<div class='background white'>
+  <div class="container" id='rem'> 
+    <div class="content grid2">      
+      
+      <h2>
+        <span class='bg white'>rem</span>
+      </h2>
+    	
+      <div class="col">
+        <div class='example1'></div>
+        <h3>Parent</h3>
         <p>
           A parent element is an element that contains other elements. 
         </p>
@@ -59,7 +150,37 @@
 	
     	<div class="col">
         <div class='example2'></div>
-        <h2>Child</h2>   
+        <h3>Child</h3>   
+        <p>
+           All elements that are contained within that parent are called "child" elements.
+        </p>
+        
+        <p>
+          In this tutorial, we are going to look at how positioning will change the relationship between parent and child elements.
+        </p>
+    	</div>     
+     </div><!-- content -->        
+  </div><!-- container -->
+</div><!-- background -->
+
+<div class='background gray'>
+  <div class="container" id='percent'> 
+    <div class="content grid2">      
+      
+      <h2>
+        <span class='bg gray'>vw/vh</span>
+       </h2>    	
+      <div class="col">
+        <div class='example1'></div>
+        <h3>Parent</h3>
+        <p>
+          A parent element is an element that contains other elements. 
+        </p>
+    	</div>
+	
+    	<div class="col">
+        <div class='example2'></div>
+        <h3>Child</h3>   
         <p>
            All elements that are contained within that parent are called "child" elements.
         </p>
