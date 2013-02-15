@@ -68,10 +68,6 @@ body {
   position: relative;
 }
 
-.content { 
-
-}
-
 header { 
 	margin-bottom: 1.5em;
 }
@@ -90,7 +86,7 @@ header {
 
 /*  #Background Images
 ================================================== */
-.background-texture {
+.gray  {
   background: url('../images/grid.png');
 }
 
@@ -98,9 +94,6 @@ header {
   background: #fff;
 }
 
-.gray  {
-  background: url('../images/grid.png');
-}
 
 /*  #Headers
 ================================================== */
@@ -136,6 +129,12 @@ h3 {
 	line-height: 1.3em;
 	margin-bottom: .6em;
 	font-weight: 700;
+}
+
+.top {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
 }
 
 .intro {
@@ -210,8 +209,8 @@ em {
 }
    	
 hr {
+  border-width: 1px 0 0;
 	border: solid #333;
-	border-width: 1px 0 0;
 	clear: both;
 	margin: 1.5em 0 2em;
 	height: 0;
@@ -269,17 +268,71 @@ ul.units li:nth-last-of-type(1) a {
   
 /*  #Elements
 ================================================== */ 
-.box {
-  overflow: hidden;
-  margin-bottom: 1.5em;
-  padding: 3% 2%;
-  background: #f8f8f8;
-  -webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
-  -moz-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
-  box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+.box-em {
+  float: left;
+  width: 43%;
+  margin-right: 2%;
+  margin-bottom: 1em;
+  padding: 1em;
+  background: #009999;
 }
 
-.box > p {
+.box-em > p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.box-rem {
+  text-align: center;
+  float: left;
+  width: 43%;
+  padding: 1rem;
+  background: #00b3b3;
+}
+
+.box-rem > p {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.box-width-pixel {
+  text-align: center;
+  width: 700px;
+  padding: 10px;
+  margin-bottom: 1em;
+  background: #009999;
+}
+
+.box-width-pixel > p {
+  background: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+	
+.box-width-percent {
+  text-align: center;
+  width: 100%;
+  padding: 1.5%;
+  margin-bottom: 1em;
+  background: #00b3b3;
+}
+
+.box-width-percent > p {
+  background: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333;
+  font-size: 1.5em;
   margin-bottom: 0;
 }
 	

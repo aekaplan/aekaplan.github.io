@@ -33,22 +33,18 @@
 	</head>
 <body id='top'>
   
-<div class='background-texture'>
+<div class='background gray'>
   <div class="container"> 
     <header>
       <h1 class='masthead'><a href="/index.html">ak</a></h1>
     </header>  
     
-    <div class="content">
+    <div class="full-width">
       <h1>CSS Units
       <span class='of'>
         <span class='of-bg'>of</span>
       </span>
       <span class='measure'>measure</span></h1>      
-      
-      <h3 class='intro'>
-        Which one is the best? Let's find out!
-      </h3>
 
       <ul class="units cf">
         <li><a class="scroll" href="#px"><span>px</span></a></li>
@@ -57,133 +53,208 @@
       	<li><a class="scroll" href="#percent"><span>%</span></a></li>
       </ul>
         
-    </div><!-- content -->
+    </div><!-- full-width -->
   </div><!-- container -->
 </div><!-- background -->
 
 <div class='background white'>
   <div class="container" id='px'> 
-    <div class="content cf full-width">      
-      
+    <div class="full-width cf">      
       <h2><span class='bg white'>px</span></h2>
     	
-      <h3 class='intro'>Pixels are fixed-size units.</h3> 
+      <h3 class='intro'>Pixels are fixed-size units and fall into a type of measurement called absolute lengths.</h3> 
         
-       <p>Don't let the name fool you, pixels have little to do with the pixels on your screen. They are actually considered an 
-        non-linear <a href='http://inamidst.com/stuff/notes/csspx' target='blank'>angular measurement</a>.</p>
+     <p>
+       <strong>Absolute lengths</strong>: are fixed in relation to each other and anchored to some physical measurement. Other absolute length units 
+       include mm, cmm and inches.
+     </p>
       
-        <h3>use for:</h3> 
-        <ul>
-          <li>fixed widths and heights</li>
-          <li>setting a max-width on containers</l1>
-          <li>setting media queries</li>
-          <li>fine-grained control</l1>
-        </ul>
-    
-    </div><!-- content -->   
-      
-     <div class="content fullwidth">  
-      
+      <h3>use for:</h3> 
+      <ul>
+        <li>fixed widths and heights</li>
+        <li>setting a min/max-widths</l1>
+        <li>setting media queries</li>
+        <li>borders, box and text shadows</l1>
+      </ul>
+          
       <h3>examples</h3>
-      <p>Here are two examples of where I use pixels the most: </p>          
+      <p>Here are some examples of where I use pixels: </p>          
       <script src="https://gist.github.com/aekaplan/709ca9d07c6d32b3137f.js"></script>
-        
-     </div><!-- content --> 
+     </div><!-- full-width --> 
             
   </div><!-- container -->
 </div><!-- background -->
 
 <div class='background gray'>
   <div class="container" id='em'> 
-    <div class="content fullwidth">     
-    
+    <div class="fullwidth">     
       <h2><span class='bg gray'>em</span></h2>
       
-      <h3 class='intro'>An em is a unit of measure that is relative to the current font size.</h3>
-      <p>Set the base font size in the body tag to take advantage of em's responsive capabilities. Remember, 1em is equal
-        to 100% of the base font size, so 1.5em is 150% etc.</p> 
-      </h3>
+      <h3 class='intro'>An em is a unit of measure that is relative to the current font size and considered a relative length.</h3>
+      
+      <p>
+        <strong>Relative lengths</strong>: are units that specify a length relative to another length. Other relative length units include rem, percents and vw/vh. 
+      </p>
+      
+      <p>
+        The em unit is relative to the font-size of the parent. For example, 1em is equal to 100% of the base font size, so 1.5em is 150% etc.
+      </p> 
       
       <h3>use for:</h3> 
       <ul>
         <li>easily changing your base font size in one place</li>
         <li>flexible responsive web design</l1>
-      	<li>reserving an amount of space relative to your current base font-size</l1>
+      	<li>reserving an amount of space relative to your current font-size</l1>
         <li>maintaing the relationship between font size and margin/padding</l1>
       </ul>
       
       <h3>examples</h3>
-      <p>I set my base font-size to 125% or 20px with a line-height of 1.5em. I like my fonts readable!</p>
+      <p>
+        I set my base font-size to 125% or 20px with a line-height of 1.5em. This makes my fonts readable!
+        Check out the <a href='http://informationarchitects.net/blog/100e2r/'>100% Easy-2-Read Standard</a>. 
+        If you don't specify a font size, the browser will default to 16px.
+      </p>
       <script src="https://gist.github.com/aekaplan/ede95c5692c3e3eddbed.js"></script>
       
-      <p>Let's add some font sizes, line-heights and margins using ems.</p>
+      <p>
+        Let's add some font sizes, line-heights and margins using ems.
+      </p>
       <script src="https://gist.github.com/aekaplan/3362a32c7f57bf1a1026.js"></script>
     
-      <p>Now I want to change my font size to scale with different displays. We can use media queries and the power of ems to target
-        large, medium and small displays.</p>     
+      <p>
+        Now I want to change my font size to scale with different displays. We can use media queries and 
+        the power of ems to target large, medium and small displays.
+      </p>     
       <script src="https://gist.github.com/aekaplan/0a1f0610975ebe3c2436.js"></script>
       
-      <p>Go ahead, resize your browser and watch the text resize. Notice that the margins and 
-        padding stay relative to the font size? That's the power of em!</p>
-     </div><!-- content -->   
+      <p>
+        Go ahead, resize your browser and watch the text resize. Notice how the margins and 
+        padding stay relative to the font size? That's the power of em!
+      </p> 
+     </div><!-- full-width -->   
           
   </div><!-- container -->
 </div><!-- background -->
 
 <div class='background white'>
   <div class="container" id='rem'> 
-    <div class="content cf grid2">      
-      
+    <div class="fullwidth cf">      
       <h2>
         <span class='bg white'>rem</span>
       </h2>
+      
+      <h3 class='intro'>The rem or "root em unit" bases it's font size off the root HTML element instead of nesting and multiplying font sizes (em).</h3>
     	
-      <div class="col">
-        <h3>Parent</h3>
-        <p>
-          A parent element is an element that contains other elements. 
-        </p>
-    	</div>
-	
-    	<div class="col">
-        <h3>Child</h3>   
-        <p>
-           All elements that are contained within that parent are called "child" elements.
-        </p>
+      <p>
+        One of the issues with using ems for font sizing is that they compound as they nest. For example, a list within 
+        a list will multiply in size as you continue to nest. The rem units are constant throughout your html.
+      </p>
+       
+      <h3>examples</h3>      
+      <p>
+       Here is what I mean:
+      </p>
+      
+      <script src="https://gist.github.com/aekaplan/9b2226f79b2f917b88ea.js"></script>
+      
+      <p>
+        Now let's set the body and h1 tag and it will be relative to the root of the HTML. 
+      </p>
+     
+      <script src="https://gist.github.com/aekaplan/78224688206812bc9539.js"></script>
+      
+      <p>
+        Simple enough! Let's look at another example. 
+      </p>
         
-        <p>
-          In this tutorial, we are going to look at how positioning will change the relationship between parent and child elements.
-        </p>
-    	</div>     
-     </div><!-- content -->        
+        Below I have 2 boxes. Resize your browser and watch them get larger and smaller.
+        Even though I have my body font size set to 125%, the boxed sized with rems will always stay relative to HTML font size (100%). 
+      </p>  
+        <div class='box-em'>
+         <p>Sized with ems</p>
+        </div>
+        
+        <div class='box-rem'>
+         <p>Sized with rems</p>
+        </div>
+     </div><!-- full-width -->   
+          
   </div><!-- container -->
 </div><!-- background -->
 
 <div class='background gray'>
   <div class="container" id='percent'> 
-    <div class="content cf grid2">      
-      
+    <div class="fullwidth cf">      
       <h2>
-        <span class='bg gray'>vw/vh</span>
-       </h2>    	
-      <div class="col">
-        <h3>Parent</h3>
-        <p>
-          A parent element is an element that contains other elements. 
-        </p>
-    	</div>
-	
-    	<div class="col">
-        <h3>Child</h3>   
-        <p>
-           All elements that are contained within that parent are called "child" elements.
-        </p>
-        
-        <p>
-          In this tutorial, we are going to look at how positioning will change the relationship between parent and child elements.
-        </p>
-    	</div>     
-     </div><!-- content -->        
+        <span class='bg gray'>%</span>
+      </h2>  
+        	
+      <h3 class='intro'>The percent (%) unit is very much like an em and is considered a relative length. </h3>
+    	
+      <p>
+        Percents scale font sizes and make widths on divs and containers fluid. It's the building block
+        for responsive web design where everything needs to be dynamic.
+      </p>
+      
+      <h3>use for:</h3> 
+      <ul>
+        <li>fluid widths and heights</li>
+        <li>scalable font-sizes</l1>
+        <li>padding and margins</li>
+      </ul>
+       
+      <h3>examples</h3>      
+      <p>
+       Since you have already seen how percents effect font sizes, let's look at how widths and paddings are effected.
+      Looks the same right? 
+      </p>
+      
+      <div class='box-width-pixel'>
+       <p>Sized with pixels</p>
+      </div>
+             
+      <div class='box-width-percent'>
+       <p>Sized with percents</p>
+      </div>
+      
+      <p>
+      Now shrink your browser and watch what happens. The box built with percents scales beautifully while the box
+      built with pixels stays the same. Notice how the padding shrinks to stay relative to the box when using percents? 
+      </p>
+    
+      <p>
+      <strong>This example really shows the power of using percents to easily make your content fluid</strong>.
+      </p>
+       	
+     </div><!-- full-width -->        
+  </div><!-- container -->
+</div><!-- background -->
+
+<div class='background white'>
+  <div class="container" id='rem'> 
+    <div class="fullwidth cf">      
+      <h2>
+        <span class='bg white'>end</span>
+      </h2>
+      
+      <h3 class='intro'>To me the winner is clear: relative units of measurement work best but every unit has it's place.</h3>
+    	
+      <p>
+        By using a combination of percents, ems/rems and pixels, you can achieve a layout that is both beautiful and fluid. <strong>Responsive
+        web design is good design!</strong>
+      </p>
+            
+      <h3>resources:</h3> 
+      <ul>
+        <li><a href='http://www.narga.net/understanding-font-sizing-in-css-em-px-pt-percent-rem/' target='blank'>Understanding font sizing in CSS</a></li>
+        <li><a href='http://snook.ca/archives/html_and_css/font-size-with-rem' target='blank'>Font size with rem</a></l1>
+        <li><a href='http://gregrickaby.com/2012/10/web-typography-using-rem.html' target='blank'>Web Typography Using The Golden Ratio And REM’s</a></li>
+        <li><a href='http://css-tricks.com/why-ems/' target='blank'>Why ems?</a></li>
+      </ul>
+    
+      <h3 class='top'><a href='#top' class='scroll top'>Back to top &uarr;</a></h3>
+     </div><!-- full-width -->   
+          
   </div><!-- container -->
 </div><!-- background -->
 
