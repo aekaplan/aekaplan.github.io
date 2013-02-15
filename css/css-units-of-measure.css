@@ -53,22 +53,23 @@ table {
 /*  #Basic Styles
 ================================================== */
 body {
-  background: #fff;
+  font-size: 125%;
+  line-height: 1.5em;
   font-family: "proxima-nova", sans-serif;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5em;
+  background: #fff;
 }
 	
 .container {
-	width: 90%;
 	max-width: 700px;
+  width: 90%;
 	margin: 0 auto;
   padding: 2em 0;
+  position: relative;
 }
 
 .content { 
-  overflow: hidden;
+
 }
 
 header { 
@@ -140,7 +141,7 @@ h3 {
 .intro {
 	font-size: 1.5em;
 	line-height: 1.3em;
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 	font-weight: 300;
 }
 
@@ -225,7 +226,6 @@ ul, ol {
 /*  #Elements
 ================================================== */  
 ul.units {
-  overflow: hidden;
   margin: 0 auto;
   background: url('../images/wood_pattern.png');
 }
@@ -259,7 +259,6 @@ ul.units li a:hover {
 
 ul.units li span {
   font-size: 1.2em;
-  line-height: .5em;
   font-weight: 700;
   letter-spacing: .1em;
 }
@@ -302,6 +301,11 @@ a:hover {
 
 /*  #Columns
 ================================================== */
+.fullwidth .col {
+  float: none;
+  margin-left: 0;
+}
+
 .grid2 .col:nth-of-type(2n+1) {
 	margin-left: 0;
 	clear: left;
@@ -316,18 +320,10 @@ a:hover {
 	width: 48.4%;
 }
 
-.clear {
-  clear: both;
-}
-
 /*  #Gist
 ================================================== */
-.gist {
-  width: 100%;
-  overflow: hidden;
-}
-
 .gist .gist-file .gist-data {
+  font-size: .8em !important;
   background-color: #fff !important;
   border-bottom: 0 !important;
 }
@@ -336,17 +332,33 @@ a:hover {
   display: none;
 }
 
+/*  #Clearfix
+================================================== */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
 /*  #Mobile (Portrait)
 ================================================== */
-@media only screen and (max-width: 518px) {
-  .container { 
-    width: 90%; 
-  }
-  
-  body { 
-    font-size: 18px; 
-  }
-  
+@media only screen and (min-width: 320px) {
+  body {
+    font-size: 112.5%;
+	} 
+       
   .position {
     font-size: 2.7em;
   }
@@ -360,4 +372,17 @@ a:hover {
     width: 100% !important;
     margin-left: 0 !important;
     clear: none !important;
+  }
+}
+
+@media only screen and (min-width: 700px) {  
+	body {
+		font-size: 125%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+		font-size: 150%;
+	}
 }

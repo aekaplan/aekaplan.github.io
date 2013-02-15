@@ -47,10 +47,10 @@
       <span class='measure'>measure</span></h1>      
       
       <h3 class='intro'>
-        With so many units of measurement available, which unit is the best for the job? Let's find out!
+        Which one is the best? Let's find out!
       </h3>
 
-      <ul class="units">
+      <ul class="units cf">
         <li><a class="scroll" href="#px"><span>px</span></a></li>
       	<li><a class="scroll" href="#em"><span>em</span></a></li>
       	<li><a class="scroll" href="#rem"><span>rem</span></a></li>
@@ -63,94 +63,82 @@
 
 <div class='background white'>
   <div class="container" id='px'> 
-    <div class="content grid2">      
+    <div class="content cf full-width">      
       
       <h2><span class='bg white'>px</span></h2>
     	
-      <h3 class='intro'>
-        Pixels are fixed-size units. Don't let the name fool you, pixels don't really have anything to do with screen pixels.</h3> 
+      <h3 class='intro'>Pixels are fixed-size units.</h3> 
         
-       <p>It's actually considered an <a href='http://inamidst.com/stuff/notes/csspx' target='blank'>angular measurement</a>. 
-         I started using pixels but have since moved to ems and percents. More on that later.</p>
+       <p>Don't let the name fool you, pixels have little to do with the pixels on your screen. They are actually considered an 
+        non-linear <a href='http://inamidst.com/stuff/notes/csspx' target='blank'>angular measurement</a>.</p>
       
-      <div class="col">
-        <div class='example1'></div>
-        <h3>Good</h3> 
+        <h3>use for:</h3> 
         <ul>
-          <li>For setting a max-width on containers and media queries</l1>
-          <li>Fine-grained control</l1>
-        	<li>Great for any time you want to define a particular size</l1>
+          <li>fixed widths and heights</li>
+          <li>setting a max-width on containers</l1>
+          <li>setting media queries</li>
+          <li>fine-grained control</l1>
         </ul>
-    	</div>
-	
-    	<div class="col">
-        <div class='example2'></div>
-        <h3>Bad</h3> 
-        <ul>
-          <li>Inflexible - 10px is always 10px</li>
-          <li>Doesn't scale according to the width of the browser</li>
-        	<li>Better ways to size text for responsive web design using percents em or rems</l1>
-        </ul>  
-    	</div> 
+    
+    </div><!-- content -->   
       
-      <h3>Examples</h3>
-
-      <p>I'm a huge advocate for mobile-first <strong>responsive web design</strong>. Here are two examples of where I use px the most: </p>
-                
-      <div class='gist'>
-        <script src="https://gist.github.com/aekaplan/709ca9d07c6d32b3137f.js"></script>
-      </div> 
+     <div class="content fullwidth">  
+      
+      <h3>examples</h3>
+      <p>Here are two examples of where I use pixels the most: </p>          
+      <script src="https://gist.github.com/aekaplan/709ca9d07c6d32b3137f.js"></script>
         
-     </div><!-- content -->        
+     </div><!-- content --> 
+            
   </div><!-- container -->
 </div><!-- background -->
 
 <div class='background gray'>
   <div class="container" id='em'> 
-    <div class="content grid2">      
-      
+    <div class="content fullwidth">     
+    
       <h2><span class='bg gray'>em</span></h2>
       
-      <h3 class='intro'>
-        An em it is a unit that is relative to the currently chosen font size. This unit is highly recommended for 
-        responsive web design.
+      <h3 class='intro'>An em is a unit of measure that is relative to the current font size.</h3>
+      <p>Set the base font size in the body tag to take advantage of em's responsive capabilities. Remember, 1em is equal
+        to 100% of the base font size, so 1.5em is 150% etc.</p> 
       </h3>
       
-      <div class="col">
-        <div class='example1'></div>
-        <h3>Good</h3> 
-        <ul>
-          <li>Flexible</l1>
-        	<li>Can reserve an amount of space relative to the current font-size</l1>
-        	<li>Easily change your font size in one place</li>
-          <li>Keeps relationships with margin and padding using ems</l1>
-        </ul>
-    	</div>
-	
-    	<div class="col">
-        <div class='example2'></div>
-        <h3>Bad</h3> 
-        <ul>
-          <li>Nested lists will cascade and grow the font size of the child lists</li>
-          <li>Numbers can be confusing</l1>
-        	<li>This is where rems come in</l1>
-        </ul>  
-    	</div>  
-         
-     </div><!-- content -->        
+      <h3>use for:</h3> 
+      <ul>
+        <li>easily changing your base font size in one place</li>
+        <li>flexible responsive web design</l1>
+      	<li>reserving an amount of space relative to your current base font-size</l1>
+        <li>maintaing the relationship between font size and margin/padding</l1>
+      </ul>
+      
+      <h3>examples</h3>
+      <p>I set my base font-size to 125% or 20px with a line-height of 1.5em. I like my fonts readable!</p>
+      <script src="https://gist.github.com/aekaplan/ede95c5692c3e3eddbed.js"></script>
+      
+      <p>Let's add some font sizes, line-heights and margins using ems.</p>
+      <script src="https://gist.github.com/aekaplan/3362a32c7f57bf1a1026.js"></script>
+    
+      <p>Now I want to change my font size to scale with different displays. We can use media queries and the power of ems to target
+        large, medium and small displays.</p>     
+      <script src="https://gist.github.com/aekaplan/0a1f0610975ebe3c2436.js"></script>
+      
+      <p>Go ahead, resize your browser and watch the text resize. Notice that the margins and 
+        padding stay relative to the font size? That's the power of em!</p>
+     </div><!-- content -->   
+          
   </div><!-- container -->
 </div><!-- background -->
 
 <div class='background white'>
   <div class="container" id='rem'> 
-    <div class="content grid2">      
+    <div class="content cf grid2">      
       
       <h2>
         <span class='bg white'>rem</span>
       </h2>
     	
       <div class="col">
-        <div class='example1'></div>
         <h3>Parent</h3>
         <p>
           A parent element is an element that contains other elements. 
@@ -158,7 +146,6 @@
     	</div>
 	
     	<div class="col">
-        <div class='example2'></div>
         <h3>Child</h3>   
         <p>
            All elements that are contained within that parent are called "child" elements.
@@ -174,13 +161,12 @@
 
 <div class='background gray'>
   <div class="container" id='percent'> 
-    <div class="content grid2">      
+    <div class="content cf grid2">      
       
       <h2>
         <span class='bg gray'>vw/vh</span>
        </h2>    	
       <div class="col">
-        <div class='example1'></div>
         <h3>Parent</h3>
         <p>
           A parent element is an element that contains other elements. 
@@ -188,7 +174,6 @@
     	</div>
 	
     	<div class="col">
-        <div class='example2'></div>
         <h3>Child</h3>   
         <p>
            All elements that are contained within that parent are called "child" elements.
