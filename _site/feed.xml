@@ -7,6 +7,40 @@
 		<atom:link href="http://www.adamkaplandesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Apprenticeship Projects</title>
+				<description>&lt;h2&gt;I have learned so much over the past few weeks and wanted to show off some of my projects.&lt;/h2&gt;
+
+
+&lt;p&gt;✎ &lt;strong&gt;BONUS:&lt;/strong&gt; This post was written in Vim, which I'm currently learning.&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;Projects&lt;/h3&gt;
+
+
+
+
+&lt;ul class='post'&gt;
+  &lt;li&gt;&lt;a href='http://adamkaplandesign.com/units-of-measure.html' target='_blank'&gt;CSS Units of Measurement&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href='http://adamkaplandesign.com/position-properties.html' target='_blank'&gt;Position Properties&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href='http://adamkaplandesign.com/handcrafted-css' target='_blank'&gt;Handcrafted CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href='http://adamkaplandesign.com/semantic-news-article.html' target='_blank'&gt;Semantic News Article&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href='http://adamkaplandesign.com/inline-and-block-elements.html' target='_blank'&gt;Inline and Block Elements&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;p&gt;Check back soon for more!&lt;/p&gt;
+
+</description>
+				<pubDate>Mon, 18 Feb 2013 00:00:00 -0600</pubDate>
+				<link>http://www.adamkaplandesign.com/apprenticeship-projects.html</link>
+				<guid isPermaLink="true">http://www.adamkaplandesign.com/apprenticeship-projects.html</guid>
+			</item>
+		
+			<item>
 				<title>Optimize your Images</title>
 				<description>&lt;h2&gt;When using images on the web, always remove unnecessary bytes.&lt;/h2&gt;
 
