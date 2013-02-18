@@ -4,7 +4,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-	<title>CSS Units of Measure</title>
+	<title>Units of Measure</title>
 	
 	<!-- Mobile Specific Metas
   ================================================== -->
@@ -12,7 +12,7 @@
  
 	<!-- CSS
   ================================================== -->
-  <link rel="stylesheet" href="/css/css-units-of-measure.css" type="text/css" />
+  <link rel="stylesheet" href="/css/units-of-measure.css" type="text/css" />
 	
   <!-- Scripts
   ================================================== -->
@@ -23,6 +23,12 @@
   			event.preventDefault();
   			$('html,body').animate({scrollTop:$(this.hash).offset().top}, 400);
   		});
+      
+      causeRepaintsOn = $("h4");
+      
+      $(window).resize(function() {
+      	causeRepaintsOn.css("z-index", 1);
+      });
   	})
   </script>
   
@@ -51,6 +57,7 @@
       	<li><a class="scroll" href="#em"><span>em</span></a></li>
       	<li><a class="scroll" href="#rem"><span>rem</span></a></li>
       	<li><a class="scroll" href="#percent"><span>%</span></a></li>
+        <li><a class="scroll" href="#vw"><span>vw</span></a></li>
       </ul>
         
     </div><!-- full-width -->
@@ -122,7 +129,7 @@
       <script src="https://gist.github.com/aekaplan/3362a32c7f57bf1a1026.js"></script>
     
       <p>
-        Now I want to change my font size to scale with different displays. We can use media queries and 
+        Now I want to change my font size to scale with different displays. We can use media queries, percents and 
         the power of ems to target large, medium and small displays.
       </p>     
       <script src="https://gist.github.com/aekaplan/0a1f0610975ebe3c2436.js"></script>
@@ -218,7 +225,7 @@
       </div>
       
       <p>
-      Now shrink your browser and watch what happens. The box built with percents scales beautifully while the box
+      Now shrink your browser and watch what happens. The box built with percents scale beautifully while the box
       built with pixels stays the same. Notice how the padding shrinks to stay relative to the box when using percents? 
       </p>
     
@@ -231,17 +238,46 @@
 </div><!-- background -->
 
 <div class='background white'>
-  <div class="container" id='rem'> 
+  <div class="container" id='vw'> 
     <div class="fullwidth cf">      
       <h2>
-        <span class='bg white'>end</span>
+        <span class='bg white'>vw</span>
       </h2>
       
-      <h3 class='intro'>To me the winner is clear: relative units of measurement work best but every unit has it's place.</h3>
+      <h4>Responsive Header: resize your browser!</h4>
+      
+      <p>The text above uses a new unit called <strong>vw</strong> which scales the font size based off the viewport width. <strong>These units would help eliminate the need to size fonts using
+        media queries.</strong></p>
+      
+      <ul>
+        <li>1vw = 1% of viewport width</li>
+        <li>1vh = 1% of viewport height</li>
+        <li>1vmin = 1vw or 1vh, whichever is smaller</li>
+      </ul>
+      
+      <script src="https://gist.github.com/aekaplan/c08ceb31ac305c1aca61.js"></script>
+      
+      <p>
+        Pretty cool right? Browser support is too weak to use these units on live sites. <a href='http://css-tricks.com/viewport-sized-typography/'>Check out this tutorial</a> to learn more.
+      </p>
+     </div><!-- full-width -->   
+  
+  </div><!-- container -->
+</div><!-- background -->
+      
+<div class='background gray'>
+  <div class="container"> 
+    <div class="fullwidth cf"> 
+            
+      <h2>
+        <span class='bg gray'>:)</span>
+      </h2>    
+      
+      <h3 class='intro'>Relative units work best with responsive design but absolute units have their place.</h3>
     	
       <p>
-        By using a combination of percents, ems/rems and pixels, you can achieve a layout that is both beautiful and fluid. <strong>Responsive
-        web design is good design!</strong>
+        By using a combination of percents, ems/rems and pixels, you can achieve a layout that is both beautiful and fluid. 
+        <strong>Responsive web design is good design!</strong>
       </p>
             
       <h3>resources:</h3> 
@@ -254,7 +290,7 @@
       </ul>
     
       <h3 class='top'><a href='#top' class='scroll top'>Back to top &uarr;</a></h3>
-     </div><!-- full-width -->   
+    </div><!-- full-width -->   
           
   </div><!-- container -->
 </div><!-- background -->

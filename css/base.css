@@ -247,7 +247,6 @@ blockquote > p {
 ul.posts {
 	margin: 0 0 1.5em;
 	background: #fff;
-	border: 1px solid #ddd;
 }
 
 ul.posts li {
@@ -257,8 +256,7 @@ ul.posts li {
 ul.posts li a {
 	display: block;
 	overflow: hidden;
-	padding: 3% 2%;
-	border-bottom: 1px solid #ddd;
+  padding: 1%;
 	-webkit-transition: background 0.3s ease;
 	-moz-transition: background 0.3s ease;
 	-o-transition: background 0.3s ease;
@@ -267,7 +265,8 @@ ul.posts li a {
 }
 
 ul.posts li a:hover {
-	background: #f8f8f8;
+  background: #fff8dc;
+  text-decoration: underline;
 }
 
 ul.posts li span {
@@ -301,7 +300,7 @@ ul.posts li:nth-last-of-type(1) a {
 
 /*highlight first posts*/
 /*ul.posts li:nth-of-type(1) a {
-	background: #f8f8f8;
+  background: #fff8dc;
 }*/
 
 /*  #Mobile (Portrait)
