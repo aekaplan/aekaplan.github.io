@@ -252,7 +252,7 @@ blockquote > p {
   content:"✎  ";
 }
 
-.note p:last-child {
+.note > p {
   margin-bottom: 0;
 }
 
@@ -358,7 +358,8 @@ ul.posts li {
 ul.posts li a {
   display: block;
   overflow: hidden;
-  padding: 1%;
+  padding: .5%;
+  border-bottom: 1px solid #eee;
   -webkit-transition: background 0.3s ease;
   -moz-transition: background 0.3s ease;
   -o-transition: background 0.3s ease;
@@ -367,7 +368,7 @@ ul.posts li a {
 }
 
 ul.posts li a:hover {
-  background: #fff8dc;
+  background: #e8e8e8;
   text-decoration: underline;
 }
 
@@ -400,6 +401,11 @@ ul.posts li:nth-last-of-type(1) a {
   border-bottom: 0;
 }
 
+/*highlight even rows*/
+/*ul.posts li:nth-of-type(even) a {
+  background: #f8f8f8;
+}*/
+
 /*highlight first posts*/
 /*ul.posts li:nth-of-type(1) a {
   background: #fff8dc;
@@ -425,7 +431,7 @@ ul.posts li:nth-last-of-type(1) a {
   *zoom: 1;
 }
 
-i/*  #Mobile (Portrait)
+/*  #Mobile (Portrait)
 ================================================== */
 @media only screen and (max-width: 518px) {
   .container {
