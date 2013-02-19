@@ -4,12 +4,10 @@ title: Apprenticeship Projects
 date: February 18, 2013
 ---
 
-<h2>I have learned so much over the past few weeks and wanted to show off some of my projects.</h2>
-<div class='note'>
-  <p>
-    ✎  <strong>BONUS:</strong> This post was written in Vim, which I'm currently learning.
-  </p>
-</div>
+<h2>I have learned so much over the past few weeks and wanted to share my current projects.</h2>
+<p>
+  Each week, Stephanie gives me a new assignment to work on. I really enjoy how each project builds off one another. This helps concepts stick while still providing a new challenge. Take a look!
+</p>
 
 <h3>Projects</h3>
 
@@ -21,4 +19,8 @@ date: February 18, 2013
   <li><a href='http://adamkaplandesign.com/inline-and-block-elements.html' target='_blank'>Inline and Block Elements</a></li>
 </ul>
 
-<p>Check back soon for more!</p>
+<div class='note'>
+  <p>
+    ✎  <strong>BONUS:</strong> This post was written in Vim, which I'm currently learning.
+  </p>
+</div>
