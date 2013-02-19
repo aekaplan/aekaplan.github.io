@@ -252,7 +252,7 @@ blockquote > p {
   content:"✎  ";
 }
 
-.note > p {
+.note p:last-child {
   margin-bottom: 0;
 }
 
@@ -405,7 +405,27 @@ ul.posts li:nth-last-of-type(1) a {
   background: #fff8dc;
 }*/
 
-/*  #Mobile (Portrait)
+/*  #Clearfix
+================================================== */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+
+i/*  #Mobile (Portrait)
 ================================================== */
 @media only screen and (max-width: 518px) {
   .container {
