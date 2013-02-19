@@ -5,7 +5,11 @@ date: February 18, 2013
 ---
 
 <h2>I have learned so much over the past few weeks and wanted to show off some of my projects.</h2>
-<p>✎ <strong>BONUS:</strong> This post was written in Vim, which I'm currently learning.</p>
+<div class='note'>
+  <p>
+    ✎  <strong>BONUS:</strong> This post was written in Vim, which I'm currently learning.
+  </p>
+</div>
 
 <h3>Projects</h3>
 

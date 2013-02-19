@@ -11,7 +11,11 @@
 				<description>&lt;h2&gt;I have learned so much over the past few weeks and wanted to show off some of my projects.&lt;/h2&gt;
 
 
-&lt;p&gt;✎ &lt;strong&gt;BONUS:&lt;/strong&gt; This post was written in Vim, which I'm currently learning.&lt;/p&gt;
+&lt;div class='note'&gt;
+  &lt;p&gt;
+    ✎  &lt;strong&gt;BONUS:&lt;/strong&gt; This post was written in Vim, which I'm currently learning.
+  &lt;/p&gt;
+&lt;/div&gt;
 
 
 
