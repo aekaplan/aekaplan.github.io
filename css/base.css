@@ -239,12 +239,8 @@ blockquote > p {
   box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
 }
 
-.gray {
-  background: #f8f8f8;
-}
-
 .note {
-  background: #E8E8E8;
+  background: #e8e8e8;
   padding: 2%;
   margin-bottom: 1.5em;
   -webkit-border-radius: 4px;
@@ -252,8 +248,16 @@ blockquote > p {
   border-radius: 4px;
 }
 
+.note p:before {
+  content:"✎  ";
+}
+
 .note > p {
   margin-bottom: 0;
+}
+
+.yellow {
+  background: #fff8dc;
 }
 
 .shadow {

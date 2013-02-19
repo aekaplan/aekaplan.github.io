@@ -34,9 +34,9 @@
 
 
 
-&lt;div class='note'&gt;
+&lt;div class='note yellow'&gt;
   &lt;p&gt;
-    ✎  &lt;strong&gt;BONUS:&lt;/strong&gt; This post was written in Vim, which I'm currently learning.
+    This post was written in Vim, which I'm currently learning.
   &lt;/p&gt;
 &lt;/div&gt;
 
