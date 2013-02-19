@@ -1,6 +1,6 @@
 /*  #Resets
 ================================================== */
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -14,42 +14,42 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
- 
+
 /*  #Basic Styles
 ================================================== */
 body {
@@ -59,24 +59,24 @@ body {
   font-weight: 400;
   background: #fff;
 }
-	
+
 .container {
-	max-width: 700px;
+  max-width: 700px;
   width: 90%;
-	margin: 0 auto;
+  margin: 0 auto;
   padding: 2em 0;
   position: relative;
 }
 
-header { 
-	margin-bottom: 1.5em;
+header {
+  margin-bottom: 1.5em;
 }
 
-.masthead { 
-	font-family: "proxima-nova",sans-serif;
-	margin-bottom: 0;
-	line-height: 1em;
-	font-size: 2em;
+.masthead {
+  font-family: "proxima-nova",sans-serif;
+  margin-bottom: 0;
+  line-height: 1em;
+  font-size: 2em;
   font-weight: 700;
   text-transform: none;
   border: none;
@@ -97,10 +97,10 @@ header {
 
 /*  #Headers
 ================================================== */
-h1, h2, h3, h4 { 
-	font-family: "proxima-nova",sans-serif;
-	font-style: normal;
-	color: #333;
+h1, h2, h3, h4 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  color: #333;
 }
 
 h1 {
@@ -120,15 +120,15 @@ h2 {
   font-size: 2.7em;
   position: relative;
   text-align: center;
-  z-index: 1; 
-  margin-bottom: 1em; 
+  z-index: 1;
+  margin-bottom: 1em;
 }
 
 h3 {
-	font-size: 1.5em;
-	line-height: 1.3em;
-	margin-bottom: .6em;
-	font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin-bottom: .6em;
+  font-weight: 700;
 }
 
 h4 {
@@ -147,10 +147,10 @@ h4 {
 }
 
 .intro {
-	font-size: 1.5em;
-	line-height: 1.3em;
-	margin-bottom: .5em;
-	font-weight: 300;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin-bottom: .5em;
+  font-weight: 300;
 }
 
 h2:before {
@@ -163,19 +163,19 @@ h2:before {
   z-index: -1;
 }
 
-.bg { 
-  padding: 0 10px; 
+.bg {
+  padding: 0 10px;
 }
 
 .of {
-  font-family: "adelle", serif; 
+  font-family: "adelle", serif;
   display: block;
   font-size: .6em;
   position: relative;
   text-align: center;
   text-transform: none;
-  z-index: 1; 
-  margin: 0; 
+  z-index: 1;
+  margin: 0;
 }
 
 .of:before {
@@ -188,9 +188,9 @@ h2:before {
   z-index: -1;
 }
 
-.of-bg { 
-  background: url('../images/grid.png'); 
-  padding: 0 10px; 
+.of-bg {
+  background: url('../images/grid.png');
+  padding: 0 10px;
 }
 
 .measure {
@@ -201,39 +201,39 @@ h2:before {
 /*  #Basic Styles
 ================================================== */
 p {
-	font-family: "proxima-nova",sans-serif;
-	font-size: 1em;
-	font-style: normal;
-	line-height: 1.5em;
-	margin: 0 0 1.5em 0;
+  font-family: "proxima-nova",sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  line-height: 1.5em;
+  margin: 0 0 1.5em 0;
   font-weight: 400;
   color: #333;
 }
 
 strong {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 em {
-	font-style: italic;
+  font-style: italic;
 }
-   	
+
 hr {
   border-width: 1px 0 0;
-	border: solid #333;
-	clear: both;
-	margin: 1.5em 0 2em;
-	height: 0;
+  border: solid #333;
+  clear: both;
+  margin: 1.5em 0 2em;
+  height: 0;
 }
 
 ul, ol {
-	margin: 0 0 1.5em 2em;
+  margin: 0 0 1.5em 2em;
   color: #333;
   list-style: square outside;
 }
 
 /*  #Elements
-================================================== */  
+================================================== */
 ul.units {
   margin: 0 auto;
   background: url('../images/wood_pattern.png');
@@ -275,9 +275,9 @@ ul.units li span {
 ul.units li:nth-last-of-type(1) a {
   border-right: 1px solid #333;
 }
-  
+
 /*  #Elements
-================================================== */ 
+================================================== */
 .box-em {
   float: left;
   width: 43%;
@@ -328,7 +328,7 @@ ul.units li:nth-last-of-type(1) a {
   font-size: 30px;
   margin-bottom: 0;
 }
-	
+
 .box-width-percent {
   text-align: center;
   width: 100%;
@@ -345,21 +345,21 @@ ul.units li:nth-last-of-type(1) a {
   font-size: 1.5em;
   margin-bottom: 0;
 }
-	
+
 /*  #Links
 ================================================== */
 a, a:visited {
-	color: #EE4938;
-	text-decoration: none;
+  color: #EE4938;
+  text-decoration: none;
 }
 
 a:hover {
-	color: #EE4938;
-	text-decoration: underline;
+  color: #EE4938;
+  text-decoration: underline;
 }
 
-.masthead a:hover {  
-	text-decoration: none; 
+.masthead a:hover {
+  text-decoration: none;
 }
 
 /*  #Columns
@@ -370,17 +370,17 @@ a:hover {
 }
 
 .grid2 .col:nth-of-type(2n+1) {
-	margin-left: 0;
-	clear: left;
+  margin-left: 0;
+  clear: left;
 }
-	
+
 .col {
-	float: left;
-	margin-left: 3.2%;
+  float: left;
+  margin-left: 3.2%;
 }
 
 .grid2 .col {
-	width: 48.4%;
+  width: 48.4%;
 }
 
 /*  #Gist
@@ -391,7 +391,7 @@ a:hover {
   border-bottom: 0 !important;
 }
 
-.gist-meta { 
+.gist-meta {
   display: none;
 }
 
@@ -420,17 +420,17 @@ a:hover {
 @media only screen and (min-width: 320px) {
   body {
     font-size: 112.5%;
-	} 
-       
+  }
+
   .position {
     font-size: 2.7em;
   }
-  
+
   .position-fixed,
   .z-index {
     font-size: 2em;
   }
-  
+
   .col {
     width: 100% !important;
     margin-left: 0 !important;
@@ -438,14 +438,14 @@ a:hover {
   }
 }
 
-@media only screen and (min-width: 700px) {  
-	body {
-		font-size: 125%;
+@media only screen and (min-width: 700px) {
+  body {
+    font-size: 125%;
   }
 }
 
 @media screen and (min-width: 1300px) {
   body {
-		font-size: 150%;
-	}
+    font-size: 150%;
+  }
 }
