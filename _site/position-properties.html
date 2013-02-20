@@ -1,102 +1,103 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<!-- Basic Page Needs
+  <head>
+  <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-	<title>Position Properties</title>
-	
-	<!-- Mobile Specific Metas
+  <title>Position Properties</title>
+
+  <!-- Mobile Specific Metas
   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
- 
-	<!-- CSS
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
   ================================================== -->
+  <link rel="stylesheet" href="/css/normalize.css" type="text/css" />
   <link rel="stylesheet" href="/css/position-properties.css" type="text/css" />
-  
-	<!-- Typekit
+
+  <!-- Typekit
   ================================================== -->
   <script type="text/javascript" src="//use.typekit.net/vcp0eam.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	</head>
+  </head>
 <body>
-  
+
 <div class='background one'>
 <div class='mask'></div>
-  <div class="container"> 
+  <div class="container">
     <header>
       <h1 class='masthead'><a href="/index.html">ak</a></h1>
-    </header>  
-    
+    </header>
+
     <div class="content">
       <h1 class='position'>Position</h1>
         <h3>
-          The position property controls the type of positioning used by an element within its parent elements. 
+          The position property controls the type of positioning used by an element within its parent elements.
         </h3>
-        
+
         <p>
-          The effect of the position attribute depends on a lot of factors, for example the value of position property of parent elements.    
+          The effect of the position attribute depends on a lot of factors, for example the value of position property of parent elements.
         </p>
         <p>
           In this tutorial, we are going to look at how positioning will change the relationship between parent and child elements.
         </p>
-        
+
     </div><!-- content -->
   </div><!-- container -->
 </div><!-- background -->
 
 <div class='background-texture'>
-  <div class="container"> 
-    <div class="content grid2">      
-    	<div class="col">
+  <div class="container">
+    <div class="content grid2">
+      <div class="col">
         <div class='example1'></div>
         <h2>Parent</h2>
         <p>
-          A parent element is an element that contains other elements. 
+          A parent element is an element that contains other elements.
         </p>
-    	</div>
-	
-    	<div class="col">
+      </div>
+
+      <div class="col">
         <div class='example2'></div>
-        <h2>Child</h2>   
+        <h2>Child</h2>
         <p>
            All elements that are contained within that parent are called "child" elements.
         </p>
-    	</div>     
-     </div><!-- content -->  
-        
+      </div>
+     </div><!-- content -->
+
   </div><!-- container -->
 </div><!-- background -->
 
 <div class='background two'>
 <div class='mask'></div>
-  <div class="container">     
-      
+  <div class="container">
+
     <div class="content grid2">
       <h1 class='position'>Properties</h1>
       <div class="col">
-        <h2>position: static;</h2>   
+        <h2>position: static;</h2>
         <p>
-          Default. Object has no special positioning; it follows the layout rules of HTML. 
+          Default. Object has no special positioning; it follows the layout rules of HTML.
           Values of top, bottom, left and right have no impact.
-        </p> 
+        </p>
       </div>
-        
+
       <div class="col">
         <h2>position: absolute;</h2>
         <p>
-          Object is positioned relative to parent element's position—or to the body object if its 
+          Object is positioned relative to parent element's position—or to the body object if its
           parent element is not positioned—using the top and left properties.
         </p>
       </div>
-        
+
       <div class="col">
         <h2>position: relative;</h2>
         <p>
           Object is positioned according to the normal flow, and then offset by the top and left properties.
         </p>
       </div>
-       
+
      <div class="col">
        <h2>position: fixed;</h2>
       <p>
@@ -105,52 +106,52 @@
       </p>
     </div>
      </div><!-- content -->
-     
+
   </div><!-- container -->
 </div><!-- background -->
 
 <div class='background-texture'>
-  <div class="container">   
+  <div class="container">
     <div class="content grid2">
-    	<div class="col">
+      <div class="col">
         <div class='parent static'>
           <div class='child static'></div>
         </div>
-         
-          <h3>parent: static <br/> child: static</h3> 
+
+          <h3>parent: static <br/> child: static</h3>
             <p>
               <strong>Default position</strong>. Normally you would not need to set this but it's good to see for reference. <strong>Let's
               get this fawn back down to his dad!</strong>
             </p>
-      </div>  
-      
-    	<div class="col">
+      </div>
+
+      <div class="col">
         <div class='parent static'>
           <div class='child3 absolute'></div>
         </div>
-         
-          <h3>parent: static <br/> child: absolute</h3> 
+
+          <h3>parent: static <br/> child: absolute</h3>
             <p>
               By setting the child to <strong>position: absolute</strong> and using the top, bottom, left and right</strong> properties, I can move the child anywhere. I had
             to use some crazy number to get him here (bottom: 965px; left: 305px;) This is where <strong>position: relative</strong> shines!
             </p>
-      </div>  
-	
-    	<div class="col">
+      </div>
+
+      <div class="col">
         <div class='parent relative'>
           <div class='child absolute'></div>
         </div>
-        <h3>parent: relative <br/> child: absolute</h3> 
+        <h3>parent: relative <br/> child: absolute</h3>
         <p>
-          If I set the parent to <strong>position: relative</strong> and the child to <strong>position: absolute</strong>, 
+          If I set the parent to <strong>position: relative</strong> and the child to <strong>position: absolute</strong>,
           we get this. Since we are using position: relative <strong>the child will always stay relative to the parent</strong> (inside the dotted box).
-          Now I only have to use bottom: 0, left: 0. 
+          Now I only have to use bottom: 0, left: 0.
         </p>
       </div>
-      
-    	<div class="col">
+
+      <div class="col">
         <div class='box'>
-          <h3>Resources:</h3> 
+          <h3>Resources:</h3>
             <ul class='clean'>
               <li><a href='http://www.barelyfitz.com/screencast/html-training/css/positioning/' target='blank'>Learn CSS Positioning in Ten Steps</a></li>
               <li><a href='http://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/' target='blank'>Absolute, Relative, Fixed Positioning: How Do They Differ?</a></li>
@@ -159,50 +160,50 @@
             </ul>
         </div>
       </div>
-        </div><!-- content -->   
-      
-    <div class="content grid2">     
+        </div><!-- content -->
+
+    <div class="content grid2">
       <h1 class='z-index'>What is z-index?</h1>
-      
+
       <h3>The z-index property specifies the <strong>stack order</strong> of an element. An element with <strong>greater</strong> stack order is always <strong>in front</strong> of an element with a <strong>lower</strong> stack order.</h3>
-      
-    	<div class="col">
+
+      <div class="col">
         <div class='parent1 relative'></div>
           <div class='child1 absolute'></div>
-        <h3>parent: z-index: 100 <br/> child: z-index: 1</h3> 
+        <h3>parent: z-index: 100 <br/> child: z-index: 1</h3>
         <p>
         </p>
       </div>
-      
-    	<div class="col">
+
+      <div class="col">
         <div class='parent2 relative'></div>
           <div class='child2 absolute'></div>
         </div>
-        <h3>parent: z-index: 1 <br/> child: z-index: 100</h3> 
+        <h3>parent: z-index: 1 <br/> child: z-index: 100</h3>
         <p>
         </p>
       </div>
-            
+
      </div><!-- content -->
-     
+
   </div><!-- container -->
 </div><!-- background -->
 
 <div class='background web'>
 <div class='mask'></div>
   <div class="container">
-    <div class='content'>  
-      <h1 class='position-fixed'>So... why is that spider following me?</h1>   
-      
+    <div class='content'>
+      <h1 class='position-fixed'>So... why is that spider following me?</h1>
+
       <div class='box'>
-        <h2>position: fixed;</h2>   
+        <h2>position: fixed;</h2>
         <p>
-         A fixed position element is positioned relative to the viewport, or the browser window itself. 
+         A fixed position element is positioned relative to the viewport, or the browser window itself.
          The viewport doesn't change when the window is scrolled, so a fixed positioned element always stays in place as the page is scrolled.
-        </p> 
-        
-        <h2>Tips:</h2>    
-        
+        </p>
+
+        <h2>Tips:</h2>
+
         <ul>
           <li>Can be used on navigations to keep them visible at all times.</li>
           <li>Used more rarely compared to other position properties.</li>
@@ -210,12 +211,12 @@
           <li>Can overlap other elements.</li>
         </ul>
       </div>
-      
-      <h1 class='smiley'><a href="/index.html">:)</a></h1>   
-   
+
+      <h1 class='smiley'><a href="/index.html">:)</a></h1>
+
       <div class='spider'></div>
      </div><!-- content -->
-     
+
   </div><!-- container -->
 </div><!-- background -->
 </body>

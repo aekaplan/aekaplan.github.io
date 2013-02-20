@@ -1,124 +1,125 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<!-- Basic Page Needs
+  <head>
+  <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-	<title>Inline &amp; Block Elements</title>
-	
-	<!-- Mobile Specific Metas
+  <title>Inline &amp; Block Elements</title>
+
+  <!-- Mobile Specific Metas
   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
- 
-	<!-- CSS
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="/css/base.css" type="text/css" />
+  <link rel="stylesheet" href="/css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="/css/base.css" type="text/css" />
   <link rel="stylesheet" href="/css/inline-and-block-elements.css" type="text/css" />
-  
-	<!-- Typekit
+
+  <!-- Typekit
   ================================================== -->
   <script type="text/javascript" src="//use.typekit.net/vcp0eam.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	</head>
+  </head>
 <body>
-	
+
 <div class='container'>
-	<header>
-		<h1 class='masthead'><a href="/index.html">ak</a></h1>
-	</header>
+  <header>
+    <h1 class='masthead'><a href="/index.html">ak</a></h1>
+  </header>
 
 <h3>Assignment 1: Inline &amp; Block Elements</h3>
-<p>Do some research on inline and block level HTML elements. Using a little CSS for simple styles, 
-	(color, type, etc) make a visual representation of those elements and their natural behavior.</p>
+<p>Do some research on inline and block level HTML elements. Using a little CSS for simple styles,
+  (color, type, etc) make a visual representation of those elements and their natural behavior.</p>
 
 <div class='box'>
-	<h2>display: block;</h2>
-	<div class='example1'>display: block</div>
-	<p><strong>What does it do?</strong> The element is displayed as a block-level element which 
-		takes up the full width available. Block-level elements force new lines.</p>
-	
-	<hr>
-	
-	<div class='example1 remove-bottom'>h1</div><div class='example2'>p</div>
-	<p><strong>Fig A:</strong> Default <strong>block-display</strong> for headers and paragraphs.</p>	
-	
-	<hr>
-	<p>Other elements with default block-display include:</p>
-		<ul>
-			<li><strong>div:</strong> all-purpose box</li>
-			<li><strong>h1-h6:</strong> headings</li>
-			<li><strong>p:</strong> paragraphs</li>
-			<li><strong>ul, ol, li</strong> lists and list items</li>
-		</ul>	
-</div>	
+  <h2>display: block;</h2>
+  <div class='example1'>display: block</div>
+  <p><strong>What does it do?</strong> The element is displayed as a block-level element which
+    takes up the full width available. Block-level elements force new lines.</p>
 
-<div class='box'>
-	<h2>display: inline</h2>		
-	<div class='example5'>display: inline</div><br /><br />
-	<p><strong>What does it do?</strong> The element is displayed as an inline-level element (like a span). 
-		The element will only take up as much width as needed. Inline elements do not force new lines. </p>
-	
-	<hr>
-	<div class='example5'>p - example one</div><div class='example5 blue'>p - example two</div><br /><br />
-	
-	<p><strong>Fig A:</strong> Two paragraphs with an <strong>inline</strong> style.</p>
-	
-	<hr>
-	
-	<div class='example6'>li</div><div class='example6'>li</div><div class='example6'>li</div>
-	<p><strong>Fig B:</strong> Default list style using display <strong>block</strong>.</p>
-	
-	<hr>
-	
-	<div class='example7'>li</div><div class='example7'>li</div><div class='example7'>li</div><br /><br />
-	<p><strong>Fig C:</strong> The same list with display <strong>inline</strong> added. Now we have a horizontal 
-		list perfect for navigations. <span class='red'>Note: Inline elements ignore widths and heights.</span></p>
-	<hr>
-	<div class='example8'>li</div><div class='example8'>li</div><div class='example8'>li</div>
-	<p><strong>Fig D:</strong> List with display <strong>inline-block</strong> added. Now we can define widths, 
-		heights, margins and padding. More on inline-block below.</p>
-	
-	<hr>
-	<p><span class='red'>This red text uses a span with an inline style.</span> Other elements with a default 
-		inline style:</p>
-		<ul>
-			<li><strong>span:</strong> all-purpose inline element</li>
-			<li><strong>a:</strong> anchor for links</li>
-			<li><strong>strong:</strong> makes text bold</li>
-			<li><strong>em:</strong> makes text italic</li>
-		</ul>
+  <hr>
+
+  <div class='example1 remove-bottom'>h1</div><div class='example2'>p</div>
+  <p><strong>Fig A:</strong> Default <strong>block-display</strong> for headers and paragraphs.</p>
+
+  <hr>
+  <p>Other elements with default block-display include:</p>
+    <ul>
+      <li><strong>div:</strong> all-purpose box</li>
+      <li><strong>h1-h6:</strong> headings</li>
+      <li><strong>p:</strong> paragraphs</li>
+      <li><strong>ul, ol, li</strong> lists and list items</li>
+    </ul>
 </div>
 
 <div class='box'>
-	<h2>display: inline-block;</h2>		
-	<div class='example3'>display: inline-block</div>
-	<p><strong>What does it do?</strong> The element is placed as an inline element (on the same line as adjacent content), 
-		but it behaves as a block element. This allows you to set a width and height, top and bottom margins and paddings.</p>
-	<hr>
-	
-	<div class='example3'>p</div><div class='example4'>p</div>
-	<p><strong>Fig A:</strong> Two paragraphs with <strong>inline-block</strong> style added. Paragraphs are now placed next 
-		to one another on the same line.</p>
-	
-	<hr>
-	
-	<div class='example1 remove-bottom'>h1</div>
-	<div class='example3'>p</div><div class='example4'>p</div>
-	<p><strong>Fig B:</strong> A block-level element with two <strong>inline-block</strong> elements.</p>
-	
-	<hr>
-		
-	<div class='example1 remove-bottom'>h1 { display: block; }</div>
-	<div class='example3'>p { display: inline-block; }</div><div class='example4'>p { display: inline-block; }</div>
-	<p><strong>Fig C:</strong> CSS example.</p>
+  <h2>display: inline</h2>
+  <div class='example5'>display: inline</div><br /><br />
+  <p><strong>What does it do?</strong> The element is displayed as an inline-level element (like a span).
+    The element will only take up as much width as needed. Inline elements do not force new lines. </p>
+
+  <hr>
+  <div class='example5'>p - example one</div><div class='example5 blue'>p - example two</div><br /><br />
+
+  <p><strong>Fig A:</strong> Two paragraphs with an <strong>inline</strong> style.</p>
+
+  <hr>
+
+  <div class='example6'>li</div><div class='example6'>li</div><div class='example6'>li</div>
+  <p><strong>Fig B:</strong> Default list style using display <strong>block</strong>.</p>
+
+  <hr>
+
+  <div class='example7'>li</div><div class='example7'>li</div><div class='example7'>li</div><br /><br />
+  <p><strong>Fig C:</strong> The same list with display <strong>inline</strong> added. Now we have a horizontal
+    list perfect for navigations. <span class='red'>Note: Inline elements ignore widths and heights.</span></p>
+  <hr>
+  <div class='example8'>li</div><div class='example8'>li</div><div class='example8'>li</div>
+  <p><strong>Fig D:</strong> List with display <strong>inline-block</strong> added. Now we can define widths,
+    heights, margins and padding. More on inline-block below.</p>
+
+  <hr>
+  <p><span class='red'>This red text uses a span with an inline style.</span> Other elements with a default
+    inline style:</p>
+    <ul>
+      <li><strong>span:</strong> all-purpose inline element</li>
+      <li><strong>a:</strong> anchor for links</li>
+      <li><strong>strong:</strong> makes text bold</li>
+      <li><strong>em:</strong> makes text italic</li>
+    </ul>
+</div>
+
+<div class='box'>
+  <h2>display: inline-block;</h2>
+  <div class='example3'>display: inline-block</div>
+  <p><strong>What does it do?</strong> The element is placed as an inline element (on the same line as adjacent content),
+    but it behaves as a block element. This allows you to set a width and height, top and bottom margins and paddings.</p>
+  <hr>
+
+  <div class='example3'>p</div><div class='example4'>p</div>
+  <p><strong>Fig A:</strong> Two paragraphs with <strong>inline-block</strong> style added. Paragraphs are now placed next
+    to one another on the same line.</p>
+
+  <hr>
+
+  <div class='example1 remove-bottom'>h1</div>
+  <div class='example3'>p</div><div class='example4'>p</div>
+  <p><strong>Fig B:</strong> A block-level element with two <strong>inline-block</strong> elements.</p>
+
+  <hr>
+
+  <div class='example1 remove-bottom'>h1 { display: block; }</div>
+  <div class='example3'>p { display: inline-block; }</div><div class='example4'>p { display: inline-block; }</div>
+  <p><strong>Fig C:</strong> CSS example.</p>
 </div>
 
 <h3>Sources</h3>
 <ul class='clean'>
-	<li><a href='http://robertnyman.com/2010/02/24/css-display-inline-block-why-it-rocks-and-why-it-sucks/' target='blank'>Robert Nyman</a></li>
-	<li><a href='http://www.impressivewebs.com/inline-block/' target='blank'>What is Inline-Block?</a></li>
-	<li><a href='http://www.webdesignfromscratch.com/html-css/css-block-and-inline/' target='blank'>CSS Block vs Inline CSS Display Styles</a></li>
-	<li><a href='http://www.w3schools.com/cssref/pr_class_display.asp' target='blank'>CSS Display Properties</a></li>
+  <li><a href='http://robertnyman.com/2010/02/24/css-display-inline-block-why-it-rocks-and-why-it-sucks/' target='blank'>Robert Nyman</a></li>
+  <li><a href='http://www.impressivewebs.com/inline-block/' target='blank'>What is Inline-Block?</a></li>
+  <li><a href='http://www.webdesignfromscratch.com/html-css/css-block-and-inline/' target='blank'>CSS Block vs Inline CSS Display Styles</a></li>
+  <li><a href='http://www.w3schools.com/cssref/pr_class_display.asp' target='blank'>CSS Display Properties</a></li>
 </ul>
 
 </div><!-- container -->

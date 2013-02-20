@@ -19,7 +19,7 @@ date: February 18, 2013
   <li><a href='http://adamkaplandesign.com/inline-and-block-elements.html' target='_blank'>Inline and Block Elements</a></li>
 </ul>
 
-<div class='note yellow'>
+<div class='note'>
   <p>
     This post was written in Vim, which I'm currently learning.
   </p>
