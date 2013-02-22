@@ -1,14 +1,14 @@
-/*  #Layout
-================================================== */
+/* Layout
+-------------------------------------------------------------- */
 .container {
-  max-width: 650px;
+  max-width: 30em;
   width: 90%;
   margin: 1.5em auto;
   position: relative;
 }
 
 body {
-  font-size: 112.5%;
+  font-size: 100%;
   line-height: 1.5em;
   font-family: "skolar",serif;
   font-weight: 400;
@@ -33,8 +33,19 @@ header {
   letter-spacing: 0;
 }
 
-/*  #Headers
-================================================== */
+.column {
+  width: 100%;
+  margin-left: 0;
+  clear: none;
+}
+
+.fullwidth .column {
+  float: none;
+  margin-left: 0;
+}
+
+/* Basic Styles
+-------------------------------------------------------------- */
 h1, h2, h3 {
   font-family: "skolar",serif;
   font-style: normal;
@@ -66,8 +77,6 @@ h3 {
   text-transform: uppercase;
 }
 
-/*  #Basic Styles
-================================================== */
 p {
   font-size: 1em;
   font-style: normal;
@@ -84,6 +93,17 @@ em {
   font-style: italic;
 }
 
+blockquote {
+  border-left: 7px solid #EE4938;
+  margin: 0 0 1.5em;
+  padding: .5em 1em;
+}
+
+blockquote p {
+  margin-bottom: 0;
+  font-style: italic;
+}
+
 hr {
   border-width: 1px 0 0;
   border: solid #333;
@@ -95,11 +115,32 @@ hr {
 ul, ol {
   margin: 0 0 1.5em 2em;
   color: #333;
-  list-style: square outside;
+  list-style: disc outside;
+  padding: 0;
 }
 
-/*  #Links
-================================================== */
+/* Elements
+-------------------------------------------------------------- */
+.note {
+  background: #fff8dc;
+  padding: .5em;
+  margin-bottom: 1.5em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #fbeed5;
+}
+
+.note p:before {
+  content:"✎  ";
+}
+
+.note p:last-child {
+  margin-bottom: 0;
+}
+
+/* Links
+-------------------------------------------------------------- */
 a, a:visited {
   color: #EE4938;
   text-decoration: none;
@@ -114,71 +155,8 @@ a:hover {
   text-decoration: none;
 }
 
-/*  #Elements
-================================================== */
-ul {
-  margin: 0 auto;
-  background: url('../images/wood_pattern.png');
-}
-
-ul li {
-  float: left;
-  list-style: none;
-  width: 20%;
-}
-
-ul li a {
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
-  border-left: 1px solid #333;
-  text-align: center;
-  color: #333;
-  display: block;
-  padding: 1em 1em;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-ul  li a:hover {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.7);
-  text-decoration: none;
-}
-
-ul  li span {
-  font-size: 1.2em;
-  font-weight: 700;
-  letter-spacing: .1em;
-}
-
-ul  li:nth-last-of-type(1) a {
-  border-right: 1px solid #333;
-}
-
-/*  #Boxes
-================================================== */
-.note {
-  background: #fff8dc;
-  padding: .5em;
-  margin-bottom: 1.5em;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-}
-
-.note p:before {
-  content:"✎  ";
-}
-
-.note p:last-child {
-  margin-bottom: 0;
-}
-
-/*  #Gist
-================================================== */
+/* Gist
+-------------------------------------------------------------- */
 .gist .gist-file .gist-data {
   font-size: .8em !important;
   background-color: #fff !important;
@@ -189,8 +167,8 @@ ul  li:nth-last-of-type(1) a {
   display: none;
 }
 
-/*  #Clearfix
-================================================== */
+/* Clearfix
+-------------------------------------------------------------- */
 .cf:before,
 .cf:after {
   content: " ";
@@ -205,24 +183,11 @@ ul  li:nth-last-of-type(1) a {
   *zoom: 1;
 }
 
-/*  #Columns
-================================================== */
-.column {
-  width: 100%;
-  margin-left: 0;
-  clear: none;
-}
-
-.fullwidth .column {
-  float: none;
-  margin-left: 0;
-}
-
 /* Mobile First RWD
 -------------------------------------------------------------- */
 @media screen and (min-width: 640px) {
   body {
-    font-size: 137.5%;
+    font-size: 112.5%;
   }
 
   .column {
@@ -245,8 +210,14 @@ ul  li:nth-last-of-type(1) a {
   }
 }
 
+@media screen and (min-width: 900px) {
+  body {
+    font-size: 125%;
+  }
+}
+
 @media screen and (min-width: 1100px) {
   body {
-    font-size: 150%;
+    font-size: 137.5%;
   }
 }
