@@ -35,13 +35,8 @@ header {
 
 .column {
   width: 100%;
-  margin-left: 0;
+  margin: 0;
   clear: none;
-}
-
-.fullwidth .column {
-  float: none;
-  margin-left: 0;
 }
 
 /* Basic Styles
@@ -192,21 +187,24 @@ a:hover {
 
   .column {
     float: left;
-    margin-left: 3.2%;
+    margin-right: 5%;
   }
 
-  .grid2 .column {
-    width: 48.4%;
+  .one-third {
+    width: 30%;
   }
 
-  .grid3 .column {
-    width: 31.2%;
+  .half {
+    width: 47.5%;
   }
 
-  .grid2 .column:nth-of-type(2n+1),
-  .grid3 .column:nth-of-type(3n+1) {
-    margin-left: 0;
-    clear: left;
+  .two-third {
+    width: 65%;
+  }
+
+  .row .column:last-child {
+    margin-right: 0;
+    clear: right;
   }
 }
 
