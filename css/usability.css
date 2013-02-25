@@ -1,125 +1,126 @@
-  /* Layout
-  -------------------------------------------------------------- */
-  .container {
-    max-width: 30em;
-    width: 90%;
-    margin: 1.5em auto;
-    position: relative;
-  }
+/* Layout
+-------------------------------------------------------------- */
+.container {
+  max-width: 30em;
+  width: 90%;
+  margin: 1.5em auto;
+  position: relative;
+}
 
-  body {
-    font-size: 100%;
-    line-height: 1.5em;
-    font-family: "skolar",serif;
-    font-weight: 400;
-    background: #fff;
-  }
+body {
+  font-size: 100%;
+  line-height: 1.5em;
+  font-family: "skolar",serif;
+  font-weight: 400;
+  background: #fff;
+}
 
-  header {
-    margin-bottom: 1.5em;
-    padding-bottom: 1.5em;
-    border-bottom: 1px solid #ddd;
-  }
+header {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #ddd;
+}
 
-  .masthead {
-    font-family: "proxima-nova",sans-serif;
-    margin-bottom: 0;
-    line-height: 1em;
-    font-size: 2em;
-    font-weight: 700;
-    text-transform: none;
-    border: none;
-    text-align: left;
-    letter-spacing: 0;
-  }
+.masthead {
+  font-family: "proxima-nova",sans-serif;
+  margin-bottom: 0;
+  line-height: 1em;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: none;
+  border: none;
+  text-align: left;
+  letter-spacing: 0;
+}
 
-  .column {
-    width: 100%;
-    margin: 0;
-    clear: none;
-  }
+.column {
+  width: 100%;
+  margin: 0;
+  clear: none;
+}
 
-  /* Basic Styles
-  -------------------------------------------------------------- */
-  h1, h2, h3 {
-    font-family: "skolar",serif;
-    font-style: normal;
-    font-weight: 700;
-    color: #333;
-    margin: 0;
-  }
+/* Basic Styles
+-------------------------------------------------------------- */
+h1, h2, h3 {
+  font-family: "skolar",serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+}
 
-  h1 {
-    font-family: "proxima-nova",sans-serif;
-    font-size: 2.7em;
-    line-height: 1em;
-    margin-bottom: .5em;
-    text-transform: uppercase;
-  }
+h1 {
+  font-family: "proxima-nova",sans-serif;
+  font-size: 2.7em;
+  line-height: 1em;
+  margin-bottom: .5em;
+  text-transform: uppercase;
+}
 
-  h2 {
-    font-size: 1.5em;
-    line-height: 1.3em;
-    font-weight: 400;
-    margin-bottom: .5em;
-  }
+h2 {
+  font-size: 1.5em;
+  line-height: 1.3em;
+  font-weight: 400;
+  margin-bottom: .5em;
+}
 
-  h3 {
-    font-family: "proxima-nova",sans-serif;
-    font-size: 1.5em;
-    line-height: 1.3em;
-    margin-bottom: .6em;
-    text-transform: uppercase;
-  }
+h3 {
+  font-family: "proxima-nova",sans-serif;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin-bottom: .6em;
+  text-transform: uppercase;
+}
 
-  p {
-    font-size: 1em;
-    font-style: normal;
-    line-height: 1.5em;
-    margin: 0 0 1.5em 0;
-    color: #333;
-  }
+p {
+  font-size: 1em;
+  font-style: normal;
+  line-height: 1.5em;
+  margin: 0 0 1.5em 0;
+  color: #333;
+}
 
-  strong {
-    font-weight: 700;
-  }
+strong {
+  font-weight: 700;
+}
 
-  em {
-    font-style: italic;
-  }
+em {
+  font-style: italic;
+}
 
-  blockquote {
-    border-left: 7px solid #EE4938;
-    margin: 0 0 1.5em;
-    padding: .5em 1em;
-  }
+blockquote {
+  border-left: 7px solid #EE4938;
+  margin: 0 0 1.5em;
+  padding: .5em 1em;
+}
 
-  blockquote p {
-    margin-bottom: 0;
-    font-style: italic;
-  }
+blockquote p {
+  margin-bottom: 0;
+  font-style: italic;
+}
 
-  hr {
-    border-width: 1px 0 0;
-    border: solid #333;
-    clear: both;
-    margin: 1.5em 0 2em;
-    height: 0;
-  }
+hr {
+  border-width: 1px 0 0;
+  border: solid #333;
+  clear: both;
+  margin: 1.5em 0 2em;
+  height: 0;
+}
 
-  ul, ol {
-    margin: 0 0 1.5em 2em;
-    color: #333;
-    list-style: disc outside;
-    padding: 0;
-  }
+ul, ol {
+  margin: 0 0 1.5em 2em;
+  color: #333;
+  list-style: disc outside;
+  padding: 0;
+}
 
-  img {
-    width: 100%
-  }
+img {
+  width: 100%;
+  margin-bottom: 1.5em;
+}
 
-  /* Elements
-  -------------------------------------------------------------- */
+/* Elements
+-------------------------------------------------------------- */
 .note {
   background: #fff8dc;
   padding: .5em;
@@ -154,10 +155,21 @@ a:hover {
   text-decoration: none;
 }
 
+.back-to-top {
+  display: block;
+  text-align: right;
+  margin-bottom: 1.5em;
+}
+
 /* Gist
 -------------------------------------------------------------- */
-.gist .gist-file .gist-data {
+.gist {
+  margin-bottom: 1.5em;
+}
+
+.gist-file .gist-data {
   font-size: .8em !important;
+  color: #333 !important;
   background-color: #fff !important;
   border-bottom: 0 !important;
 }
