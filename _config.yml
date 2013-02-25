@@ -6,4 +6,4 @@ pygments: true
 markdown: rdiscount
 permalink: /:title.html
 rdiscount:
-  extensions: [smart]
+  extensions: ["smart"]
