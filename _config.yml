@@ -5,5 +5,5 @@ auto: true
 pygments: true
 markdown: rdiscount
 permalink: /:title.html
-rdiscount
+rdiscount:
   extensions: [smart]

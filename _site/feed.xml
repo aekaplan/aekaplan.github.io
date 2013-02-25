@@ -220,7 +220,7 @@
 &lt;p&gt;With pixels you would have to change every definition in every media query. Why not let typography define your design instead!&lt;/p&gt;
 
 
-&lt;p&gt;&lt;em&gt;Chris Coyier's article &lt;a href='http://css-tricks.com/why-ems/' target='blank'&gt;Why Ems?&lt;/a&gt; helped me better understand these concepts.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Chris Coyier&amp;rsquo;s article &lt;a href='http://css-tricks.com/why-ems/' target='blank'&gt;Why Ems?&lt;/a&gt; helped me better understand these concepts.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3&gt;Modular Scales&lt;/h3&gt;
 
