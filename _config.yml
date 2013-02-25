@@ -4,6 +4,6 @@ url: http://www.adamkaplandesign.com
 auto: true
 pygments: true
 markdown: rdiscount
-rdiscount:
-  extensions: [smart]
 permalink: /:title.html
+rdiscount
+  extensions: [smart]
