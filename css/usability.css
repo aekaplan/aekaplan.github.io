@@ -3,7 +3,8 @@
 .container {
   max-width: 30em;
   width: 90%;
-  margin: 1.5em auto;
+  margin: 0 auto;
+  padding: 1.5em 0;
   position: relative;
 }
 
@@ -91,7 +92,7 @@ em {
 blockquote {
   border-left: 7px solid #EE4938;
   margin: 0 0 1.5em;
-  padding: .5em 1em;
+  padding: 0 1em;
 }
 
 blockquote p {
@@ -158,7 +159,7 @@ a:hover {
 .back-to-top {
   display: block;
   text-align: right;
-  margin-bottom: 1.5em;
+  margin-bottom: 0;
 }
 
 /* Gist
