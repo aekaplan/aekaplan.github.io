@@ -201,7 +201,7 @@ Mixins are one of Sass’s most powerful features. They allow re-use of styles w
 
 
 &lt;p&gt;
-So let's say I want to add a nice fade transition to my a and buttons classes:
+So let's say I want to add a nice fade transition to my link and button classes:
 &lt;/p&gt;
 
 
@@ -248,7 +248,7 @@ Now we can reuse box-border on other properties quickly without all the mess.
 
 
 
-&lt;p&gt;While SCSS is not an extension of the CSS standard itself, it gives you powerful new features that CSS lacks. Thanks of reading!&lt;/p&gt;
+&lt;p&gt;While SCSS is not an extension of the CSS standard itself, it gives you powerful new features that CSS lacks. Thanks for reading!&lt;/p&gt;
 
 
 
