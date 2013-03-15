@@ -7,6 +7,258 @@
 		<atom:link href="http://www.adamkaplandesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>SCSS</title>
+				<description>&lt;h2&gt;I’ve been learning some Sassy CSS and wanted to talk about three awesome features that it provides: variables, nesting and mixins.&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;
+  At a high level, Sass is simply a CSS preprocessor with two syntaxes:
+&lt;/p&gt;
+
+
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+  The most commonly used syntax is known as “SCSS” (for “Sassy CSS”), and is a superset of CSS3’s syntax. This means that every valid CSS3 stylesheet is valid SCSS as well. SCSS files use the extension .scss.
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+    The second, older syntax is known as the &lt;a href=&quot;http://sass-lang.com/docs/yardoc/file.INDENTED_SYNTAX.html&quot; target=&quot;_blank&quot;&gt; indented syntax&lt;/a&gt; (or just “.sass”). Inspired by &lt;a href=&quot;http://haml.info/&quot; target=&quot;_blank&quot;&gt;Haml’s&lt;/a&gt; terseness, it’s intended for people who prefer conciseness over similarity to CSS. 
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;
+I prefer using SCSS because it uses brackets and semi-colons, just like CSS. It also doesn’t care about indentation levels or white-space, like the second syntax. SCSS contains all the features of CSS, but has been expanded to include the features of Sass as well.
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;Installing SCSS&lt;/h3&gt;
+
+
+&lt;p&gt;You will need to get Sass setup on your project before you can start using it. A lot of the new frameworks come with Sass pre-installed. Here are some great resources to help you:&lt;/p&gt;
+
+
+
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sass-lang.com/download.html&quot; target=&quot;_blank&quot;&gt;Install Sass&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check out the &lt;a href=&quot;http://sass-lang.com/&quot;&gt;sassy documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The Rails &lt;a href=&quot;http://guides.rubyonrails.org/asset_pipeline.html&quot;&gt;asset pipeline&lt;/a&gt; supports SCSS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://middlemanapp.com/&quot; target=&quot;_blank&quot;&gt;Middleman&lt;/a&gt; comes with SCSS by default.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;h3&gt;Variables&lt;/h3&gt;
+
+
+
+
+&lt;p&gt;
+I was recently pairing with my mentor Stephanie and we decided on the blue hex #25A8E0 for our links and buttons. Now try remembering that hex number each time you need to use it. Hard, right? We kept forgetting and had to stop and look it up.
+&lt;/p&gt;
+
+
+
+
+&lt;p&gt;
+  This is where variables becomes a huge time saver:
+&lt;/p&gt;
+
+
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+  Variables allow you to re-use colors, sizes, and other values without repeating yourself. This means that changes that should be small, such as tweaking the coloring or the sizing, can be done in one place, not all over the stylesheet.
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+
+&lt;p&gt;
+SCSS allows you to set variables that can be used throughout your stylesheet. Variables start with $ and are declared just like properties. You can use any value that the CSS property allows such as colors, numbers or text.
+&lt;/p&gt;
+
+
+
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/3b4f85f8e2702beae02f.js&quot;&gt;&lt;/script&gt;
+
+
+
+
+&lt;p&gt;Pretty awesome right? I just set my variables and label them. Now I only have to remember $blue rather than #25A8E0.&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;Nesting&lt;/h3&gt;
+
+
+
+
+&lt;p&gt;
+Repeating yourself in your CSS is annoying and makes your files unnecessarily long. SCSS allows you to avoid this by nesting child selectors within parent selectors.
+&lt;/p&gt;
+
+
+
+
+&lt;p&gt;With CSS, you might be writing something like this:&lt;/p&gt;
+
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/bda0d4a3a13010d47348.js&quot;&gt;&lt;/script&gt;
+
+
+
+
+&lt;blockquote&gt;
+&lt;p&gt;
+  &amp; is a Sass special character. In a selector, &amp; will be replaced verbatim with the parent selector.
+&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+
+
+
+&lt;p&gt;
+   Let's take the previous example and nest them:
+&lt;/p&gt;
+
+
+
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/40517eb78456c82dd0f3.js&quot;&gt;&lt;/script&gt;
+
+
+
+
+&lt;p&gt;
+  Much cleaner! Now let's look at an example for a navigation:
+&lt;/p&gt;
+
+
+
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/7f752f6b4634dfce0592.js&quot;&gt;&lt;/script&gt;
+
+
+
+
+&lt;p&gt;
+  That’s a lot of repeating. Instead, let’s nest this bad boy:
+&lt;/p&gt;
+
+
+
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/0507587eb3a9b40693ac.js&quot;&gt;&lt;/script&gt;
+
+
+
+
+&lt;p&gt;
+Boom! This is a great example of how to &lt;a href=&quot;http://en.wikipedia.org/wiki/Don't_repeat_yourself&quot; target=&quot;_blank&quot;&gt;DRY up&lt;/a&gt; your CSS code. It does take some getting use to, but after a short while you’ll never want to go back to plain ole CSS.
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;Mixins&lt;/h3&gt;
+
+
+
+
+&lt;p&gt;
+Mixins are one of Sass’s most powerful features. They allow re-use of styles without having to memorize or copy and paste them.
+&lt;/p&gt;
+
+
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+  Mixins are defined using the “@mixin” directive, which takes a block of styles that can then be included in another selector using the “@include” directive.
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+
+&lt;p&gt;
+So let's say I want to add a nice fade transition to my a and buttons classes:
+&lt;/p&gt;
+
+
+
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/c0b66222424af6b1c0d9.js&quot;&gt;&lt;/script&gt;
+
+
+
+
+&lt;p&gt;
+That’s a lot of repetition! Let’s use @mixin directive and set a name of fade:
+&lt;/p&gt;
+
+
+
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/2c7f314ff56abd923d95.js&quot;&gt;&lt;/script&gt;
+
+
+
+
+&lt;p&gt;
+  Pretty handy right? Let's get more complicated with some properties that would be harder to remember:
+&lt;/p&gt;
+
+
+
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/a58c4838a609b5eff1bb.js&quot;&gt;&lt;/script&gt;
+
+
+
+
+&lt;p&gt;
+Now we can reuse box-border on other properties quickly without all the mess.
+&lt;/p&gt;
+
+
+
+
+&lt;h2&gt;Give SCSS a try! It makes your front-end coding easier and faster.&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;While SCSS is not an extension of the CSS standard itself, it gives you powerful new features that CSS lacks. Thanks of reading!&lt;/p&gt;
+
+
+
+</description>
+				<pubDate>Thu, 14 Mar 2013 00:00:00 -0500</pubDate>
+				<link>http://www.adamkaplandesign.com/scss.html</link>
+				<guid isPermaLink="true">http://www.adamkaplandesign.com/scss.html</guid>
+			</item>
+		
+			<item>
 				<title>Apprenticeship Projects</title>
 				<description>&lt;h2&gt;I have learned so much over the past few weeks and wanted to share my current projects.&lt;/h2&gt;
 
@@ -150,7 +402,12 @@
 &lt;/blockquote&gt;
 
 
-&lt;p&gt;&lt;b&gt;Some type crimes to be aware of:&lt;/p&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Some type crimes to be aware of:&lt;/p&gt;
+
+
+
 
 &lt;ul&gt;
     &lt;li&gt;Horizontal and vertical scaling&lt;/li&gt;

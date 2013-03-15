@@ -1,25 +1,32 @@
-/*  #Basic Styles
+/*  #Layout
 ================================================== */
+.container {
+  width: 90%;
+  max-width: 30em;
+  margin: 0 auto;
+  padding: 1.5em 0;
+}
+
 body {
   background: #fff;
   font-family: "proxima-nova", sans-serif;
   font-weight: 400;
-  font-size: 125%;
+  font-size: 105%;
   line-height: 1.5em;
   color: #333;
-}
-
-.container {
-  width: 90%;
-  max-width: 650px;
-  margin: 1.5em auto;
 }
 
 header {
   margin-bottom: 1.5em;
   padding-bottom: 1.5em;
   border-bottom: 1px solid #ddd;
- }
+}
+
+.column {
+  width: 100%;
+  margin: 0;
+  clear: none;
+}
 
 /*  #Links
 ================================================== */
@@ -54,27 +61,23 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 2em;
-  line-height: 1.1em;
-  margin-bottom: .7em;
+  font-size: 2.7em;
+  line-height: 1em;
+  margin-bottom: 0.5em;
   font-weight: 700;
-}
-
-.posts {
-  margin-bottom: 0;
 }
 
 h2 {
   font-size: 1.5em;
   line-height: 1.3em;
-  margin-bottom: .5em;
-  font-weight: 300;
+  margin-bottom: 0.5em;
+  font-weight: 400;
 }
 
 h3 {
-  font-size: 1.333em;
-  line-height: 1.1em;
-  margin-bottom: .5em;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  margin-bottom: 0.6em;
   font-weight: 700;
 }
 
@@ -89,11 +92,11 @@ h4 {
   font-size: 1em;
   color: #999;
   font-weight: 300;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   text-transform: uppercase;
 }
 
-/*  #Body
+/*  #Basic Styles
 ================================================== */
 p {
   font-family: "proxima-nova",sans-serif;
@@ -159,21 +162,14 @@ hr {
 }
 
 blockquote {
-  background: #f8f8f8;
   border-left: 7px solid #EE4938;
-  color: #333;
   margin: 0 0 1.5em;
-  padding: 2% 4%;
-  -webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
-  -moz-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
-  box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+  padding: 0 1em;
 }
 
 blockquote p {
   margin-bottom: 0;
-  color: #444;
-  font-size: .9em;
-  font-weight: 300;
+  font-style: italic;
 }
 
 /*  #Boxes
@@ -188,6 +184,8 @@ blockquote p {
   box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
 }
 
+/* Elements
+-------------------------------------------------------------- */
 .note {
   background: #fff8dc;
   padding: .5em;
@@ -202,7 +200,7 @@ blockquote p {
   content:"✎  ";
 }
 
-.note p {
+.note p:last-child {
   margin-bottom: 0;
 }
 
@@ -295,12 +293,34 @@ figure {
   width: 20%;
   background: #666666;
 }
+
+/* Gist
+-------------------------------------------------------------- */
+.gist {
+  margin-bottom: 1.5em;
+}
+
+.gist-file .gist-data {
+  font-size: .8em !important;
+  color: #333 !important;
+  background-color: #fff !important;
+  border-bottom: 0 !important;
+}
+
+.gist-meta {
+  display: none;
+}
+
 /*  #Posts
 ================================================== */
 ul.posts {
   margin: 0 0 1.5em;
   background: #fff;
   padding: 0;
+}
+
+ul.posts:last-child {
+  margin: 0;
 }
 
 ul.posts li {
@@ -310,18 +330,13 @@ ul.posts li {
 ul.posts li a {
   display: block;
   overflow: hidden;
-  padding: .5em;
+  padding: .5em 0;
   border-bottom: 1px solid #eee;
   -webkit-transition: background 0.3s ease;
   -moz-transition: background 0.3s ease;
   -o-transition: background 0.3s ease;
   -ms-transition: background 0.3s ease;
   transition: background 0.3s ease;
-}
-
-ul.posts li a:hover {
-  background: #e8e8e8;
-  text-decoration: underline;
 }
 
 ul.posts li span {
@@ -383,18 +398,44 @@ ul.posts li:nth-last-of-type(1) a {
   *zoom: 1;
 }
 
-/*  #Mobile (Portrait)
-================================================== */
-@media only screen and (max-width: 518px) {
-  .container {
-    width: 90%;
-  }
-
+/* Mobile First RWD
+-------------------------------------------------------------- */
+@media screen and (min-width: 640px) {
   body {
-    font-size: 18px;
+    font-size: 112.5%;
   }
 
-  h2 {
-    font-size: 1.5em;
+  .column {
+    float: left;
+    margin-right: 5%;
+  }
+
+  .one-third {
+    width: 30%;
+  }
+
+  .half {
+    width: 47.5%;
+  }
+
+  .two-third {
+    width: 65%;
+  }
+
+  .row .column:last-child {
+    margin-right: 0;
+    clear: right;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    font-size: 125%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    font-size: 137.5%;
   }
 }
