@@ -51,7 +51,7 @@ Remember that nothing is final. You <strong>will</strong> iterate on your wirefr
 It's better to spend the time iterating and experimenting with wireframes while the project is still lightweight and easy to change.
 </p>
 
-<h3>"Think more, design less"</h3>
+<h3>&#8220;Think more, design less&#8221;</h3>
 <p>
 This quote from <a href="http://www.thinkingwithtype.com/" target="_blank">"Thinking with Type"</a> by Ellen Lupton really applies in the real world. I spend a lot of time thinking about the user experience and walking through every aspect of my design, asking myself questions like, "Do I need this?" or "Is this too complicated?" This critical thinking will prove invaluable when you get to prototyping.
 </p>
