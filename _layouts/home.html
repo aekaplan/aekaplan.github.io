@@ -27,8 +27,9 @@
     <h1 class='masthead'><a href="/index.html">ak</a></h1>
   </header>
 
-  {{ content }}
-
+<p><strong>Resident Design Apprentice</strong> at <a href='http://www.8thlight.com/' target='_blank'>8th Light</a>. Say
+<a href='mailto:adam.kaplan@icloud.com'>hello</a> or <a href='https://twitter.com/helloadamkaplan' target='_blank'>follow me</a> on Twitter. 
+  <a href='http://www.adamkaplandesign.com/feed.xml' target='_blank'>RSS feed</a>.</p>
   <h3>Recent Posts</h3>
       <ul class='posts'>
         {% for post in site.posts do %}
@@ -40,6 +41,8 @@
         </li>
       {% endfor %}
       </ul>
+
+  {{ content }}
 </div><!-- container -->
 </body>
 </html>
