@@ -30,7 +30,7 @@ A basic visual guide used to suggest the layout of fundamental elements in a web
 </p>
 
 <p>
-I prefer low-fidelity wireframes because they allow you to focus on the core functionality and user experience while avoiding time-consuming specifics. Oftentimes if you deliver a wireframe that looks "too finished" the client might think it's the final design. 
+I prefer low-fidelity wireframes because they allow you to focus on the core functionality and user experience while avoiding time-consuming specifics. Oftentimes if you deliver a wireframe that look &#8220;too finished&#8221; the client might think it's the final design. 
 </p>
 
 <p>
@@ -53,7 +53,7 @@ It's better to spend the time iterating and experimenting with wireframes while 
 
 <h3>&#8220;Think more, design less&#8221;</h3>
 <p>
-This quote from <a href="http://www.thinkingwithtype.com/" target="_blank">"Thinking with Type"</a> by Ellen Lupton really applies in the real world. I spend a lot of time thinking about the user experience and walking through every aspect of my design, asking myself questions like, "Do I need this?" or "Is this too complicated?" This critical thinking will prove invaluable when you get to prototyping.
+This quote from <a href="http://www.thinkingwithtype.com/" target="_blank">&#8220;Thinking with Type&#8221;</a> by Ellen Lupton really applies in the real world. I spend a lot of time thinking about the user experience and walking through every aspect of my design, asking myself questions like, &#8220;Do I need this? &#8221; or &#8220;Is this too complicated?&#8221; This critical thinking will prove invaluable when you get to prototyping.
 </p>
 
 <p>
