@@ -7,6 +7,91 @@
 		<atom:link href="http://www.adamkaplandesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Wireframing</title>
+				<description>&lt;h2&gt;Wireframing is a useful first step in the design process, allowing you to focus on defining the information hierarchy and user experience.&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;What is wireframing?&lt;/p&gt;
+
+
+
+
+&lt;blockquote&gt;
+&lt;p&gt;
+A basic visual guide used to suggest the layout of fundamental elements in a web interface.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+
+&lt;p&gt;&lt;p&gt;Wireframing allows you to focus on:&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;planning the  general layout&lt;/li&gt;
+  &lt;li&gt;determing how the user will interact with your interface&lt;/li&gt;
+  &lt;li&gt;the range of functions available to your user&lt;/li&gt;
+  &lt;li&gt;the kinds of information displayed&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Meet Balsamiq&lt;/h3&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+&lt;a href=&quot;http://www.balsamiq.com/&quot; target=&quot;_blank&quot;&gt;Balsamiq&lt;/a&gt; is a wire framing application for quick mockups. It&amp;rsquo;s like sketching except that it&amp;rsquo;s digital, allowing you to easily tweak and rearrange your ideas.
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+I prefer low-fidelity wireframes because they allow you to focus on the core functionality and user experience while avoiding time-consuming specifics. Oftentimes if you deliver a wireframe that looks &amp;ldquo;too finished&amp;rdquo; the client might think it&amp;rsquo;s the final design.
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+This keeps the conversations focused on what matters: the user experience!
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Distraction Free&lt;/h3&gt;
+&lt;p&gt;
+Wireframing lets you work distraction-free because you don&amp;rsquo;t have to worry about picking fonts, colors or writing copy. You also have the freedom to try as many layouts or options you&amp;rsquo;d like. Moving around elements and playing with how placement effects on ease of use is a very rewarding experience. Put on some music and experiment!
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Iterate&lt;/h3&gt;
+&lt;p&gt;
+Remember that nothing is final. You &lt;strong&gt;will&lt;/strong&gt; iterate on your wireframes before you move on to the prototyping stage; it&amp;rsquo;s almost unavoidable. Don&amp;rsquo;t be afraid to throw out ideas that don&amp;rsquo;t work and try out several layouts.
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+It&amp;rsquo;s better to spend the time iterating and experimenting with wireframes while the project is still lightweight and easy to change.
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;&amp;ldquo;Think more, design less&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;
+This quote from &lt;a href=&quot;http://www.thinkingwithtype.com/&quot; target=&quot;_blank&quot;&gt;&amp;ldquo;Thinking with Type&amp;rdquo;&lt;/a&gt; by Ellen Lupton really applies in the real world. I spend a lot of time thinking about the user experience and walking through every aspect of my design, asking myself questions like, &amp;ldquo;Do I need this?&amp;rdquo; or &amp;ldquo;Is this too complicated?&amp;rdquo; This critical thinking will prove invaluable when you get to prototyping.
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+The time you spend developing the user experience while wireframing will serve as a guide to building an awesome product.
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Feedback is Welcome&lt;/h3&gt;
+&lt;p&gt;
+It&amp;rsquo;s important to get feedback as soon as possible. Don&amp;rsquo;t be afraid to show your wireframes. Get some initial thoughts from the client. Sit some users down for informal &lt;a href=&quot;http://adamkaplandesign.com/usability-testing.html&quot; target=&quot;_blank&quot;&gt;usability testing&lt;/a&gt;. The sooner you let the client or user into the process, the sooner you know how successful your design is.
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+I often pair with my mentor, Stephanie, and get instant feedback on my decisions. We bounce ideas off each other all the time, leading to more developed user experiences and better designs.
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;
+Just remember to keep it simple, put usability first, seek out feedback and experiment.
+&lt;/h2&gt;&lt;/p&gt;
+</description>
+				<pubDate>Thu, 21 Mar 2013 00:00:00 -0500</pubDate>
+				<link>http://www.adamkaplandesign.com/wireframing.html</link>
+				<guid isPermaLink="true">http://www.adamkaplandesign.com/wireframing.html</guid>
+			</item>
+		
+			<item>
 				<title>SCSS</title>
 				<description>&lt;h2&gt;I’ve been learning some Sassy CSS and wanted to talk about three awesome features that it provides: variables, nesting and mixins.&lt;/h2&gt;
 
