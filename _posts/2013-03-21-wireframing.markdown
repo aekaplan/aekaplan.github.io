@@ -26,7 +26,7 @@ A basic visual guide used to suggest the layout of fundamental elements in a web
 <h3>Meet Balsamiq</h3>
 
 <p>
-<a href="http://www.balsamiq.com/" target="_blank">Balsamiq</a> is a wire framing application for quick mockups. It's like sketching except that it's digital, allowing you to easily tweak and rearrange your ideas. 
+<a href="http://www.balsamiq.com/" target="_blank">Balsamiq</a> is a wireframing application for quick mockups. It's like sketching except that it's digital, allowing you to easily tweak and rearrange your ideas. 
 </p>
 
 <p>
