@@ -30,7 +30,7 @@ header {
 
 /*  #Links
 ================================================== */
-a, a:visited {
+a {
   color: #EE4938;
   text-decoration: none;
 }
@@ -81,19 +81,48 @@ h3 {
   font-weight: 600;
 }
 
+.section-header {
+  font-size: 1.8em;
+  line-height: 1.4em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
 h4 {
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1em;
   margin-bottom: 0;
   font-weight: 600;
 }
 
+h4 a {
+  color: #333;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
+  -ms-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out
+}
+
+h4 a:hover {
+  color: #EE4938;
+  text-decoration: none;
+}
+
 .date {
   font-size: 1em;
   color: #999;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 0.5em;
   text-transform: uppercase;
+}
+
+.dates {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: #A0A0A0;
+  font-weight: 400;
+  margin-bottom: 0.5em;
 }
 
 /*  #Basic Styles
@@ -151,6 +180,7 @@ li {
 
 .clean li {
   list-style: none;
+  margin-bottom: 1em;
 }
 
 hr {

@@ -37,14 +37,12 @@
 
  <hr />
 
-  <h3>Recent Posts</h3>
-  <ul class='posts'>
+  <h3 class="section-header">Recent Posts</h3>
+  <ul class='clean'>
     {% for post in site.posts limit:4 %}
     <li>
-      <a href="{{ post.url }}">
-        <span>{{ post.title }}</span>
-        <em>{{ post.date | date: "%m/%d/%y" }}</em>
-      </a>
+      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      <span class="date">{{ post.date | date: "%m/%d/%y" }}</span>
     </li>
     {% endfor %}
   </ul>
