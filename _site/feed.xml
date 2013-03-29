@@ -7,6 +7,183 @@
 		<atom:link href="http://www.adamkaplandesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Write Better CSS</title>
+				<description>&lt;h2&gt;Writing better CSS can be easy. Remember to normalize, organize and alphabetize!&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;
+I'm going to be giving a short presentation titled &quot;Write Better CSS&quot; at Apprentice Learning Hour but wanted to start collecting my thoughts here first. Spoilers ahead!
+&lt;/p&gt;
+
+
+
+
+&lt;p&gt;
+Steps to writing better CSS (I couldn't help myself with the naming):
+&lt;/p&gt;
+
+
+
+
+&lt;ul&gt;
+  &lt;li&gt;Normalize&lt;/li&gt;
+  &lt;li&gt;Organize&lt;/li&gt;
+  &lt;li&gt;Alphabetize&lt;/li&gt;
+  &lt;li&gt;DRY and write reusable CSS&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;h3&gt;Normalize&lt;/h3&gt;
+
+
+&lt;p&gt;
+Resets remove the default styles for all elements while &lt;a href=&quot;http://necolas.github.com/normalize.css/&quot; target=&quot;_blank&quot;&gt;normalize&lt;/a&gt; retains most of the useful default browser styles. When starting a new project, I prefer normalize over resets.
+&lt;/p&gt;
+
+
+
+
+&lt;blockquote&gt;
+&lt;p&gt;
+Normalize.css is a small CSS file that provides better cross-browser consistency in the default styling of HTML elements. It’s a modern, HTML5-ready, alternative to the traditional CSS reset. 
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+
+&lt;p&gt;
+It also corrects bugs commonly found in browser inconsistencies and doesn't clutter your debugging tool. Simply download and use &lt;a href=&quot;http://necolas.github.com/normalize.css/&quot; target=&quot;_blank&quot;&gt;normalize.css&lt;/a&gt; as-is, or customize it to meet your requirements.
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;Organize&lt;/h3&gt;
+
+
+&lt;p&gt;
+Organize your CSS code to reflect the flow of your website's layout. For example, your navigation CSS should be at the top of your file and your footer should be closer to the bottom:
+&lt;/p&gt;
+
+
+
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/4f1cad35c6c791542c10.js&quot;&gt;&lt;/script&gt;
+
+
+
+
+&lt;p&gt;
+Put properties related to one another close together and &lt;em&gt;use comments sparingly&lt;/em&gt; to break up the different sections of your CSS. The combination of a few comments and grouping similar elements together will make it much easier to quickly find what your looking for.
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;Alphabetize your properties&lt;/h3&gt;
+
+
+&lt;p&gt;
+Write your CSS properties in alphabetical order; it will help reduce the time it takes to find a specific property.
+&lt;/p&gt;
+
+
+
+
+&lt;p&gt;
+Jen Myers' post on &lt;a href=&quot;http://jenmyers.tumblr.com/post/45339751868/why-you-should-order-css-properties-alphabetically&quot; target=&quot;_blank&quot;&gt;Why you should order CSS properties alphabetically&lt;/a&gt; made me a believer:
+&lt;/p&gt;
+
+
+
+
+&lt;blockquote&gt;
+&lt;p&gt;
+Here’s the simple truth up-front: alphabetical CSS ordering makes your CSS most easily accessible to the widest group of people with the least amount of clutter in your stylesheets.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+
+&lt;p&gt;
+This principle is fairly new to me, but has really helped make my code more navigable. Which example makes it easier to find specific properties:
+&lt;/p&gt;
+
+
+
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/8f0f05409107f339cafb.js&quot;&gt;&lt;/script&gt;
+
+
+
+
+&lt;p&gt;
+The second CSS block is easter to skim through, right? I know the z-index will always be at the bottom of the block. Don't worry about alphabetizing vendor prefixes (like box-sizing or transition, for example) with the rest of your properties, as you will want to keep those grouped together.
+&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;Don't repeat yourself and write reusable CSS&lt;/h3&gt;
+
+
+&lt;p&gt;
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Don't_repeat_yourself&quot; target=&quot;_blank&quot;&gt;DRY&lt;/a&gt; up your code! Repeating yourself leads to huge CSS files and unnecessary code bloat. Take the time to plan out your elements in a simple and reusable way. Reuse your classes and tag on additional classes when needed.
+&lt;/p&gt;
+
+
+
+
+&lt;p&gt;
+Here's some really repetitive code:
+&lt;/p&gt;
+
+
+
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/4cf7c42030c0885770d8.js&quot;&gt;&lt;/script&gt;
+
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/1cd17e1728522e397c33.js&quot;&gt;&lt;/script&gt;
+
+
+
+
+&lt;p&gt;
+Lets DRY this up and make it a bit more reusable:
+&lt;/p&gt;
+
+
+
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/1de0549cc4ee559823d9.js&quot;&gt;&lt;/script&gt;
+
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/c068be2d748c8c9f03c1.js&quot;&gt;&lt;/script&gt;
+
+
+
+
+&lt;h3&gt;Be consistent and thoughtful... and clean up your code!&lt;/h3&gt;
+
+
+&lt;p&gt;
+These simple steps will make your CSS more organized, lightweight and easier to read. This will only benefit you and anyone else who needs to make changes to your code.
+&lt;/p&gt;
+
+</description>
+				<pubDate>Thu, 28 Mar 2013 00:00:00 -0500</pubDate>
+				<link>http://www.adamkaplandesign.com/write-better-css.html</link>
+				<guid isPermaLink="true">http://www.adamkaplandesign.com/write-better-css.html</guid>
+			</item>
+		
+			<item>
 				<title>Wireframing</title>
 				<description>&lt;h2&gt;Wireframing is a useful first step in the design process, allowing you to focus on defining the information hierarchy and user experience.&lt;/h2&gt;
 
@@ -427,7 +604,7 @@ Now we can reuse box-border on other properties quickly without all the mess.
 &lt;p&gt;Here are a few resources that helped me:&lt;/p&gt;
 
 
-&lt;ul class='clean'&gt;
+&lt;ul&gt;
     &lt;li&gt;&lt;a href='http://help.adobe.com/en_US/creativesuite/cs/using/WS6E857477-27FE-4a88-B8A4-074DC3C65F68.html' target='blank'&gt;Photoshop: Save for Web&lt;/li&gt;
         &lt;li&gt;&lt;a href='https://developers.google.com/speed/articles/optimizing-images' target='blank'&gt;Google Developers: Optimizing Images&lt;/li&gt;
             &lt;li&gt;&lt;a href='http://www.smushit.com/ysmush.it/' target='blank'&gt;Smush It: A free online tool to help you optimize your images.&lt;/a&gt;&lt;/li&gt;
