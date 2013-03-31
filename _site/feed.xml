@@ -85,7 +85,7 @@ Put properties related to one another close together and &lt;em&gt;use comments 
 
 
 
-&lt;h3&gt;Alphabetize your properties&lt;/h3&gt;
+&lt;h3&gt;Alphabetize Your Properties&lt;/h3&gt;
 
 
 &lt;p&gt;
@@ -130,7 +130,7 @@ The second CSS block is easter to skim through, right? I know the z-index will a
 
 
 
-&lt;h3&gt;Don't repeat yourself and write reusable CSS&lt;/h3&gt;
+&lt;h3&gt;Don't Repeat Yourself and Write Reusable CSS&lt;/h3&gt;
 
 
 &lt;p&gt;
@@ -170,12 +170,23 @@ Lets DRY this up and make it a bit more reusable:
 
 
 
-&lt;h3&gt;Be consistent and thoughtful... and clean up your code!&lt;/h3&gt;
+&lt;h3&gt;Be Consistent and Thoughtful... and Clean up Your Code!&lt;/h3&gt;
 
 
 &lt;p&gt;
 These simple steps will make your CSS more organized, lightweight and easier to read. This will only benefit you and anyone else who needs to make changes to your code.
 &lt;/p&gt;
+
+
+
+
+&lt;div class=&quot;note&quot;&gt;
+&lt;p&gt;
+My &quot;Write Better CSS&quot; presentation will be on April 12.
+&lt;/p&gt;
+&lt;/div&gt;
+
+
 
 </description>
 				<pubDate>Thu, 28 Mar 2013 00:00:00 -0500</pubDate>
@@ -560,20 +571,20 @@ There are two different types of testing available each with their own implicati
 &lt;div class='column half'&gt;
 &lt;h3&gt;Qualitative&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Deals with descriptions&lt;/li&gt;
-&lt;li&gt;Do it yourself or with a few people&lt;/li&gt;
-&lt;li&gt;Gain insight through context&lt;/li&gt;
-&lt;li&gt;Capture emotion&lt;/li&gt;
+  &lt;li&gt;Deals with descriptions&lt;/li&gt;
+  &lt;li&gt;Do it yourself or with a few people&lt;/li&gt;
+  &lt;li&gt;Gain insight through context&lt;/li&gt;
+  &lt;li&gt;Capture emotion&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
 &lt;div class='column half'&gt;
 &lt;h3&gt;Quantitative&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Deals with numbers&lt;/li&gt;
-&lt;li&gt;Requires larger sample size&lt;/li&gt;
-&lt;li&gt;Data/fact driven&lt;/li&gt;
-&lt;li&gt;Prove something&lt;/li&gt;
+  &lt;li&gt;Deals with numbers&lt;/li&gt;
+  &lt;li&gt;Requires larger sample size&lt;/li&gt;
+  &lt;li&gt;Data/fact driven&lt;/li&gt;
+  &lt;li&gt;Prove something&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -640,7 +651,7 @@ With the design ready to go, we had to demo the app for the Chiditerod volunteer
 
 
 
-&lt;h3&gt;(Unwitting) test participants&lt;/h3&gt;
+&lt;h3&gt;(Unwitting) Test Participants&lt;/h3&gt;
 
 
 &lt;p&gt;
@@ -691,7 +702,7 @@ I gathered some useful insights:
 
 
 
-&lt;h3&gt;Fixing the problems&lt;/h3&gt;
+&lt;h3&gt;Fixing the Problems&lt;/h3&gt;
 
 
 
@@ -720,7 +731,7 @@ people test it is invaluable. Having another set of eyes catches things that you
 
 
 
-&lt;h3&gt;The final design&lt;/h3&gt;
+&lt;h3&gt;The Final Design&lt;/h3&gt;
 
 
 &lt;p&gt;

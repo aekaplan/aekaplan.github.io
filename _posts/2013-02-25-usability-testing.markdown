@@ -28,20 +28,20 @@ There are two different types of testing available each with their own implicati
 <div class='column half'>
 <h3>Qualitative</h3>
 <ul>
-<li>Deals with descriptions</li>
-<li>Do it yourself or with a few people</li>
-<li>Gain insight through context</li>
-<li>Capture emotion</li>
+  <li>Deals with descriptions</li>
+  <li>Do it yourself or with a few people</li>
+  <li>Gain insight through context</li>
+  <li>Capture emotion</li>
 </ul>
 </div>
 
 <div class='column half'>
 <h3>Quantitative</h3>
 <ul>
-<li>Deals with numbers</li>
-<li>Requires larger sample size</li>
-<li>Data/fact driven</li>
-<li>Prove something</li>
+  <li>Deals with numbers</li>
+  <li>Requires larger sample size</li>
+  <li>Data/fact driven</li>
+  <li>Prove something</li>
 </ul>
 </div>
 </div><!--row-->
@@ -80,7 +80,7 @@ The final design was simple and clean, just like we wanted:
 With the design ready to go, we had to demo the app for the Chiditerod volunteers and organizers. I didn't realize it at the time, but I was about to get my first opportunity to do some qualitative usability testing.
 </p>
 
-<h3>(Unwitting) test participants</h3>
+<h3>(Unwitting) Test Participants</h3>
 <p>
 We finally had a working prototype (with responsive elements) and it was time to show off the app to the Chiditarod team for feedback. This was such a rewarding experience.
 </p>
@@ -111,7 +111,7 @@ I gathered some useful insights:
 <li>Comments were made regarding the extra white space, font and button sizes</li>
 </ul>
 
-<h3>Fixing the problems</h3>
+<h3>Fixing the Problems</h3>
 
 <p>
 When it came time to implement these changes, I turned to my reading to help me:
@@ -128,7 +128,7 @@ I gained so much insight from watching the volunteers use ChiScore. It's one thi
 people test it is invaluable. Having another set of eyes catches things that you might have missed.
 </p>
 
-<h3>The final design</h3>
+<h3>The Final Design</h3>
 <p>
 I came up with a few simple solutions and I'm really happy with the results! Here is the final design incorporating all my notes and feedback from the meeting:
 </p>

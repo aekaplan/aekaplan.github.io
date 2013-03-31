@@ -46,7 +46,7 @@ Organize your CSS code to reflect the flow of your website's layout. For example
 Put properties related to one another close together and <em>use comments sparingly</em> to break up the different sections of your CSS. The combination of a few comments and grouping similar elements together will make it much easier to quickly find what your looking for.
 </p>
 
-<h3>Alphabetize your properties</h3>
+<h3>Alphabetize Your Properties</h3>
 <p>
 Write your CSS properties in alphabetical order; it will help reduce the time it takes to find a specific property.
 </p>
@@ -71,7 +71,7 @@ This principle is fairly new to me, but has really helped make my code more navi
 The second CSS block is easter to skim through, right? I know the z-index will always be at the bottom of the block. Don't worry about alphabetizing vendor prefixes (like box-sizing or transition, for example) with the rest of your properties, as you will want to keep those grouped together.
 </p>
 
-<h3>Don't repeat yourself and write reusable CSS</h3>
+<h3>Don't Repeat Yourself and Write Reusable CSS</h3>
 <p>
 <a href="http://en.wikipedia.org/wiki/Don't_repeat_yourself" target="_blank">DRY</a> up your code! Repeating yourself leads to huge CSS files and unnecessary code bloat. Take the time to plan out your elements in a simple and reusable way. Reuse your classes and tag on additional classes when needed.
 </p>
@@ -90,7 +90,14 @@ Lets DRY this up and make it a bit more reusable:
 <script src="https://gist.github.com/aekaplan/1de0549cc4ee559823d9.js"></script>
 <script src="https://gist.github.com/aekaplan/c068be2d748c8c9f03c1.js"></script>
 
-<h3>Be consistent and thoughtful... and clean up your code!</h3>
+<h3>Be Consistent and Thoughtful... and Clean up Your Code!</h3>
 <p>
 These simple steps will make your CSS more organized, lightweight and easier to read. This will only benefit you and anyone else who needs to make changes to your code.
 </p>
+
+<div class="note">
+<p>
+My "Write Better CSS" presentation will be on April 12.
+</p>
+</div>
+
