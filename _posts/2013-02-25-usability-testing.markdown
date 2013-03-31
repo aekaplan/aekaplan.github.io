@@ -171,5 +171,5 @@ Just ask a friend, family member or coworker. You will be surprised what another
 </p>
 
 <div class="note">
-<p>This post uses my own handcrafted framework for easily making columns responsive. Thanks for reading!</p>
+<p>This article uses my own handcrafted framework for easily making columns responsive.</p>
 </div>

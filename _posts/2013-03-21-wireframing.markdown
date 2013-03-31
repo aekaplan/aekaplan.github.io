@@ -69,6 +69,6 @@ It's important to get feedback as soon as possible. Don't be afraid to show your
 I often pair with my mentor, Stephanie, and get instant feedback on my decisions. We bounce ideas off each other all the time, leading to more developed user experiences and better designs.
 </p>
 
-<h2>
+<p>
 Just remember to keep it simple, put usability first, seek out feedback and experiment.
-</h2>
+</p>
