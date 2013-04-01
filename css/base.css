@@ -218,7 +218,8 @@ blockquote p {
 }
 
 .note p:before {
-  content:"✎ Note: ";
+  content:"Note: ";
+  font-weight: 600;
 }
 
 .note p:last-child {
