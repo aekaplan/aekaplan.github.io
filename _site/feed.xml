@@ -7,6 +7,25 @@
 		<atom:link href="http://www.adamkaplandesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Apprentice Learning Hour Presentation</title>
+				<description>&lt;h2&gt;
+Learn how to write better CSS in 3 easy steps: reset, order and dry up.
+&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;
+I received a lot of positive feedback on my first presentation. You can &lt;a href=&quot;https://speakerdeck.com/aekaplan/write-better-css&quot; target=&quot;_blank&quot;&gt;view my slides&lt;/a&gt; on Speaker Deck.
+&lt;/p&gt;
+
+</description>
+				<pubDate>Fri, 12 Apr 2013 00:00:00 -0500</pubDate>
+				<link>http://www.adamkaplandesign.com/apprentice-learning-hour.html</link>
+				<guid isPermaLink="true">http://www.adamkaplandesign.com/apprentice-learning-hour.html</guid>
+			</item>
+		
+			<item>
 				<title>Color Theory</title>
 				<description>&lt;h2&gt;
 Color is a great way to make your website beautiful while enhancing its usability.
@@ -1218,131 +1237,6 @@ Just ask a friend, family member or coworker. You will be surprised what another
 				<pubDate>Thu, 24 Jan 2013 00:00:00 -0600</pubDate>
 				<link>http://www.adamkaplandesign.com/thinking-with-type.html</link>
 				<guid isPermaLink="true">http://www.adamkaplandesign.com/thinking-with-type.html</guid>
-			</item>
-		
-			<item>
-				<title>Working with Typography</title>
-				<description>&lt;h2&gt;One of the things that I really wanted to get out of this apprenticeship was to learn how to use typography.&lt;/h2&gt;
-
-
-
-
-&lt;p&gt;To get started, Stephanie sent me the video &lt;a href='http://vimeo.com/17079380' target='blank'&gt;More Perfect Typography&lt;/a&gt; by Tim Brown. I got a lot out of his presentation:&lt;/p&gt;
-
-
-
-
-&lt;ul&gt;
-    &lt;li&gt;Start with type!&lt;/li&gt;
-    &lt;li&gt;Type sets the tone for the experience.&lt;/li&gt;
-    &lt;li&gt;Type can make the content feel natural or put a twist on the design.&lt;/li&gt;
-    &lt;li&gt;Pick a font size that looks crisp. Find that sweet spot between sizes.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;p&gt;Practice makes perfect, so I decided to apply these guidelines to my blog. I started by setting the body text first. When trying out fonts, use your actual content. It really helps give you a better idea of what the final design will look like.&lt;/p&gt;
-
-
-
-
-&lt;p&gt;I choose Proxima Nova Regular served via &lt;a href='https://typekit.com/' target='blank'&gt;Typekit&lt;/a&gt;. Next, I gave the headers some personality by using Semibold to make them standout.&lt;/p&gt;
-
-
-
-
-&lt;h3&gt;Em &gt; Pixels&lt;/h3&gt;
-
-
-
-
-&lt;p&gt;I went out of my comfort zone and switched from using pixels to ems. Just because the body type looks good on a phone doesn't mean it will look right on a larger display. Ems scale well and keep the relationships with the surrounding elements.&lt;/p&gt;
-
-
-
-
-&lt;p&gt;I'm also using ems for my padding and margins. You can reserve an amount of space relative to the current font size. For example, if you use ems and make a change to your font size, all the spacing around your site will size down accordingly.&lt;/p&gt;
-
-
-
-
-&lt;p&gt;With pixels you would have to change every definition in every media query. Why not let typography define your design instead!&lt;/p&gt;
-
-
-&lt;p&gt;&lt;em&gt;Chris Coyier&amp;rsquo;s article &lt;a href='http://css-tricks.com/why-ems/' target='blank'&gt;Why Ems?&lt;/a&gt; helped me better understand these concepts.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3&gt;Modular Scales&lt;/h3&gt;
-
-
-
-
-&lt;p&gt;Now lets combine ems with Tim Brown's presentation on Modular Scales:&lt;/p&gt;
-
-
-
-
-&lt;ul&gt;
-    &lt;li&gt;A modular scale is a sequence of numbers that relate to one another in a meaningful way.&lt;/li&gt;
-    &lt;li&gt;When using a modular scale, chose numbers based off others.&lt;/li&gt;
-    &lt;li&gt;Be more perfect - but not exactly perfect! Measurements can relate to one another even without all the strictness.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;p&gt;At first, I was a little intimidated with the math that goes with using a modular scale.&lt;/p&gt;
-
-
-&lt;p&gt;&lt;em&gt;Modular Scale = (Key type size + ratio)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;18px @ 1:1.333&lt;/p&gt;
-
-
-
-
-&lt;ul&gt;
-    &lt;li&gt;h1 = 2.369em&lt;/li&gt;
-    &lt;li&gt;h2 = 1.777em&lt;/li&gt;
-    &lt;li&gt;h3 = 1.333em&lt;/li&gt;
-    &lt;li&gt;p = 1em/1.5em (line height)&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;p&gt;I applied this equation to my blog and I'm thrilled with the results! Everything looks more natural and balanced. Numbers aren't everything. Design to me is still about intuition. As designers, we have a sense of when something feels right or wrong.&lt;/p&gt;
-
-
-
-
-&lt;h2&gt;These new concepts helped me set the design for my blog: simple and clean.&lt;/h2&gt;
-
-
-
-
-&lt;p&gt;I'm not taking myself too seriously yet. After all, learning should be fun! I really enjoyed my first assignment with typography. Thanks Stephanie!&lt;/p&gt;
-
-
-
-
-&lt;p&gt;Here is a list of resources that helped me along the way:&lt;/p&gt;
-
-
-
-
-&lt;ul&gt;
-    &lt;li&gt;&lt;a href='http://vimeo.com/17079380' target='blank'&gt;More Perfect Typography&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href='http://informationarchitects.net/blog/100e2r/' target='blank'&gt;100% Easy-2-Read Standard&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href='http://informationarchitects.net/blog/the-web-is-all-about-typography-period/' target='blank'&gt;Web Design is 95% Typography&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href='http://wm4.wilsonminer.com/posts/2008/oct/20/relative-readability/' target='blank'&gt;Relative Readability&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href='http://css-tricks.com/why-ems/' target='blank'&gt;Why Ems?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-				<pubDate>Tue, 22 Jan 2013 00:00:00 -0600</pubDate>
-				<link>http://www.adamkaplandesign.com/working-with-typography.html</link>
-				<guid isPermaLink="true">http://www.adamkaplandesign.com/working-with-typography.html</guid>
 			</item>
 		
 	</channel>
