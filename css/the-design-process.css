@@ -1,0 +1,325 @@
+* {
+  box-sizing: border-box;
+  webkit-box-sizing: border-box;
+  mox-box-sizing: border-box; }
+
+/* line 28, layout.css.scss */
+.container {
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0; }
+
+/* line 35, layout.css.scss */
+body {
+  background: #FFF;
+  color: #666;
+  font-size: 100%;
+  font-family: "ff-tisa-web-pro",serif;
+  line-height: 1.5em; }
+
+/* line 43, layout.css.scss */
+.column {
+  float: none;
+  margin-right: 0;
+  margin-bottom: 2em;
+  width: 100%; }
+  /* line 48, layout.css.scss */
+  .column:last-child {
+    margin-bottom: 0; }
+
+/* line 53, layout.css.scss */
+header {
+  background: #71c8de;
+  color: #b1e1ed;
+  text-align: center; }
+  /* line 57, layout.css.scss */
+  header h1 {
+    color: #f1fafc;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 1.2em;
+    margin-bottom: 0.5em; }
+  /* line 64, layout.css.scss */
+  header h2 {
+    color: #b1e1ed;
+    font-family: "ff-tisa-web-pro",serif;
+    font-size: 1.3em; }
+  /* line 69, layout.css.scss */
+  header h3 {
+    font-family: "leander-script-pro",cursive;
+    font-size: 3em; }
+  /* line 73, layout.css.scss */
+  header p {
+    text-align: left;
+    font-size: 1.2em; }
+
+/* Basic Styles
+-------------------------------------------------------------- */
+/* line 81, layout.css.scss */
+h1, h2, h3 {
+  font-family: "ff-meta-web-pro",sans-serif;
+  margin: 0; }
+
+/* line 86, layout.css.scss */
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1em;
+  margin-bottom: 0.5em; }
+
+/* line 93, layout.css.scss */
+h2 {
+  font-size: 1.5em;
+  line-height: 1.3em;
+  font-weight: 400;
+  margin: 0 0 0.5em; }
+
+/* line 100, layout.css.scss */
+h3 {
+  line-height: 1.3em;
+  margin: 0; }
+
+/* line 105, layout.css.scss */
+p {
+  font-size: 1em;
+  margin-bottom: 1em; }
+
+/* line 110, layout.css.scss */
+a, a:hover {
+  color: #71debd; }
+
+/* Elements
+-------------------------------------------------------------- */
+/* line 116, layout.css.scss */
+.blue {
+  background: #b1e1ed;
+  color: #46b8d5; }
+  /* line 119, layout.css.scss */
+  .blue h1 {
+    color: #71c8de; }
+
+/* line 124, layout.css.scss */
+.white {
+  background: #f1fafc;
+  color: #71c8de; }
+
+/* line 129, layout.css.scss */
+.blue-bg {
+  background: #91d5e6;
+  color: #31b0d0; }
+
+/* line 134, layout.css.scss */
+.white-bg {
+  background: #dcf3f8;
+  color: #31b0d0; }
+
+/* line 139, layout.css.scss */
+.points-box {
+  border-radius: 4px;
+  mox-border-radius: 4px;
+  webkit-border-radius: 4px;
+  display: block;
+  font-size: 1em;
+  margin-top: 1.5em;
+  padding: 0.5em; }
+  /* line 147, layout.css.scss */
+  .points-box p {
+    font-size: 0.9em;
+    float: left;
+    margin: 0 0 0 10px; }
+
+/* line 154, layout.css.scss */
+.button {
+  background: #48b8d4;
+  border-radius: 50%;
+  moz-border-radius: 50%;
+  webkit-border-radius: 50%;
+  color: #fff;
+  clear: both;
+  display: block;
+  font-size: 1.8em;
+  height: 60px;
+  margin: 1.5em auto 0;
+  text-decoration: none;
+  width: 60px;
+  -moz-transition: background-color 0.4s ease;
+  -ms-transition: background-color 0.4s ease;
+  -o-transition: background-color 0.4s ease;
+  -webkit-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease; }
+  /* line 168, layout.css.scss */
+  .button .button-text {
+    display: block;
+    padding-top: 12px;
+    text-align: center; }
+  /* line 173, layout.css.scss */
+  .button:hover {
+    background: #33b0d0;
+    color: #FFF; }
+
+/* line 179, layout.css.scss */
+img {
+  width: 100%;
+  height: auto; }
+
+/* line 184, layout.css.scss */
+.map {
+  background: url("/images/map.png");
+  background-size: 100px 84px;
+  height: 84px;
+  width: 100px;
+  margin: 0 auto 1em; }
+
+/* line 192, layout.css.scss */
+.clock {
+  background: url("/images/clock.png");
+  background-size: 31px 31px;
+  float: left;
+  height: 31px;
+  width: 31px; }
+
+/* line 200, layout.css.scss */
+.discovery {
+  background: url("/images/discovery.png");
+  background-size: 280px 250px;
+  width: 280px;
+  height: 250px;
+  margin: 0 auto; }
+
+/* line 208, layout.css.scss */
+.wireframing {
+  background: url("/images/wireframing.png");
+  background-size: 280px 250px;
+  width: 280px;
+  height: 250px;
+  margin: 0 auto; }
+
+/* line 216, layout.css.scss */
+.prototyping {
+  background: url("/images/prototyping.png");
+  background-size: 280px 250px;
+  width: 280px;
+  height: 250px;
+  margin: 0 auto; }
+
+/* line 224, layout.css.scss */
+.user-testing {
+  background: url("/images/user-testing.png");
+  background-size: 280px 250px;
+  width: 280px;
+  height: 250px;
+  margin: 0 auto; }
+
+/* line 232, layout.css.scss */
+.visual-design {
+  background: url("/images/visual-design.png");
+  background-size: 280px 250px;
+  width: 280px;
+  height: 250px;
+  margin: 0 auto; }
+
+/* line 240, layout.css.scss */
+.implementation {
+  background: url("/images/implementation.png");
+  background-size: 280px 250px;
+  width: 280px;
+  height: 250px;
+  margin: 0 auto; }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* line 251, layout.css.scss */
+  .clock {
+    background: url("/images/clock-2x.png");
+    background-size: 31px 31px; }
+
+  /* line 256, layout.css.scss */
+  .map {
+    background: url("/images/map-2x.png");
+    background-size: 100px 84px; }
+
+  /* line 261, layout.css.scss */
+  .discovery {
+    background: url("/images/discovery-2x.png");
+    background-size: 280px 250px; }
+
+  /* line 266, layout.css.scss */
+  .wireframing {
+    background: url("/images/wireframing-2x.png");
+    background-size: 280px 250px; }
+
+  /* line 271, layout.css.scss */
+  .prototyping {
+    background: url("/images/prototyping-2x.png");
+    background-size: 280px 250px; }
+
+  /* line 276, layout.css.scss */
+  .user-testing {
+    background: url("/images/user-testing-2x.png");
+    background-size: 280px 250px; }
+
+  /* line 281, layout.css.scss */
+  .visual-design {
+    background: url("/images/visual-design-2x.png");
+    background-size: 280px 250px; }
+
+  /* line 286, layout.css.scss */
+  .implementation {
+    background: url("/images/implementation-2x.png");
+    background-size: 280px 250px; } }
+/* Clearfix
+-------------------------------------------------------------- */
+/* line 295, layout.css.scss */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table; }
+
+/* line 300, layout.css.scss */
+.cf:after {
+  clear: both; }
+
+/* line 304, layout.css.scss */
+.cf {
+  *zoom: 1; }
+
+/* Mobile First RWD
+-------------------------------------------------------------- */
+@media screen and (min-width: 640px) {
+  /* line 311, layout.css.scss */
+  .container {
+    padding: 5em 0; }
+
+  /* line 315, layout.css.scss */
+  body {
+    font-size: 125%; }
+
+  /* line 319, layout.css.scss */
+  header h1, h1 {
+    font-size: 3.2em; }
+
+  /* line 323, layout.css.scss */
+  .column {
+    float: left;
+    margin-right: 3.2%; }
+
+  /* line 328, layout.css.scss */
+  .one-third {
+    width: 30%; }
+
+  /* line 332, layout.css.scss */
+  .half {
+    width: 47.5%; }
+
+  /* line 336, layout.css.scss */
+  .full {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 0;
+    overflow: hidden; }
+
+  /* line 343, layout.css.scss */
+  .column:nth-of-type(2n+2) {
+    margin-right: 0;
+    clear: right; } }
+
