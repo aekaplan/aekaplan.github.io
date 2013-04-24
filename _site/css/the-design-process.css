@@ -166,9 +166,9 @@ img {
 /* line 184, layout.css.scss */
 .map {
   background: url("/images/map.png");
-  background-size: 100px 84px;
-  height: 84px;
-  width: 100px;
+  background-size: 101px 85px;
+  height: 85px;
+  width: 101px;
   margin: 0 auto 1em; }
 
 /* line 192, layout.css.scss */
@@ -183,48 +183,48 @@ img {
 .discovery {
   background: url("/images/discovery.png");
   background-size: 280px 250px;
-  width: 280px;
   height: 250px;
+  width: 280px;
   margin: 0 auto; }
 
 /* line 208, layout.css.scss */
 .wireframing {
   background: url("/images/wireframing.png");
   background-size: 280px 250px;
-  width: 280px;
   height: 250px;
+  width: 280px;
   margin: 0 auto; }
 
 /* line 216, layout.css.scss */
 .prototyping {
   background: url("/images/prototyping.png");
   background-size: 280px 250px;
-  width: 280px;
   height: 250px;
+  width: 280px;
   margin: 0 auto; }
 
 /* line 224, layout.css.scss */
 .user-testing {
   background: url("/images/user-testing.png");
   background-size: 280px 250px;
-  width: 280px;
   height: 250px;
+  width: 280px;
   margin: 0 auto; }
 
 /* line 232, layout.css.scss */
 .visual-design {
   background: url("/images/visual-design.png");
   background-size: 280px 250px;
-  width: 280px;
   height: 250px;
+  width: 280px;
   margin: 0 auto; }
 
 /* line 240, layout.css.scss */
 .implementation {
   background: url("/images/implementation.png");
   background-size: 280px 250px;
-  width: 280px;
   height: 250px;
+  width: 280px;
   margin: 0 auto; }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -236,7 +236,7 @@ img {
   /* line 256, layout.css.scss */
   .map {
     background: url("/images/map-2x.png");
-    background-size: 100px 84px; }
+    background-size: 101px 85px; }
 
   /* line 261, layout.css.scss */
   .discovery {
