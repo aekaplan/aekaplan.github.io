@@ -110,8 +110,8 @@ h4 a:hover {
 }
 
 .date {
-  font-size: 0.9em;
   color: #A0A0A0;
+  font-size: 1em;
   font-weight: 400;
   text-transform: uppercase;
 }
