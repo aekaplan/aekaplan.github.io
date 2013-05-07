@@ -1,0 +1,122 @@
+/*  #Basic Styles
+================================================== */
+.container {
+  max-width: 650px;
+}
+
+.assignment {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: .5em;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  border: dashed #333;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 1.5em 0 2em;
+  height: 0;
+}
+
+.red {
+  font-weight: 400;
+  color: #FF7575;
+}
+
+/*  #Examples
+================================================== */
+.example1 {
+  background: #62FDCE;
+  padding: 1.6%;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.remove-bottom {
+  margin-bottom: 0;
+}
+
+.example2 {
+  text-align: center;
+  background: #99C7FF;
+  padding: 1.6%;
+  font-weight: 300;
+  margin-bottom: 1.5em;
+}
+
+.example3 {
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+  background: #99C7FF;
+  padding: 1.6%;
+  font-weight: 300;
+  margin-bottom: 1.5em;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.example4 {
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+  background: #EAA6EA;
+  padding: 1.6%;
+  color: #333;
+  font-weight: 300;
+  margin-bottom: 1.5em;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.example5 {
+  width: 46.8%;
+  display: inline;
+  text-align: center;
+  background: #FF7575;
+  padding: 1.6%;
+  font-weight: 300;
+  margin-bottom: 1.5em;
+}
+
+.blue {
+  background: #99C7FF;
+}
+
+.example6 {
+  text-align: center;
+  background: #FF7575;
+  padding: 1.6%;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+
+.example7 {
+  width: 15.6%;
+  display: inline;
+  text-align: center;
+  background: #FF7575;
+  padding: 1.6%;
+  font-weight: 300;
+  margin-right: 1em;
+}
+
+.example8 {
+  width: 15.6%;
+  display: inline-block;
+  text-align: center;
+  background: #99C7FF;
+  padding: 1.6%;
+  font-weight: 300;
+  margin: 0 1em 1.5em 0;
+}
