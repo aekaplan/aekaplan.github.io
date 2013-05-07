@@ -27,7 +27,7 @@ date: January 22, 2013
 
 <p>With pixels you would have to change every definition in every media query. Why not let typography define your design instead!</p>
 
-<em>Chris Coyier's article <a href='http://css-tricks.com/why-ems/' target='blank'>Why Ems?</a> helped me better understand these concepts.</em>
+<p><em>Chris Coyier's article <a href='http://css-tricks.com/why-ems/' target='blank'>Why Ems?</a> helped me better understand these concepts.</em></p>
 
 <h3>Modular Scales</h3>
 
@@ -41,7 +41,8 @@ date: January 22, 2013
 
 <p>At first, I was a little intimidated with the math that goes with using a modular scale.</p>
 
-<em>Modular Scale = (Key type size + ratio)</em>
+<div class="note">
+<h4>Modular Scale = (Key type size + ratio)</h4>
 <p>18px @ 1:1.333</p>
 
 <ul>
@@ -50,6 +51,7 @@ date: January 22, 2013
 	<li>h3 = 1.333em</li>
 	<li>p = 1em/1.5em (line height)</li>
 </ul>
+</div>
 
 <p>I applied this equation to my blog and I'm thrilled with the results! Everything looks more natural and balanced. Numbers aren't everything. Design to me is still about intuition. As designers, we have a sense of when something feels right or wrong.</p>
 

@@ -2,7 +2,4 @@ name: Adam Kaplan
 description: Design Apprentice at 8th Light
 url: http://www.adamkaplandesign.com
 pygments: true
-markdown: rdiscount
 permalink: /:title.html
-rdiscount:
-  extensions: ["smart"]

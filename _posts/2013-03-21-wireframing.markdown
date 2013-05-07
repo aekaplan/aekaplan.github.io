@@ -14,13 +14,13 @@ A basic visual guide used to suggest the layout of fundamental elements in a web
 </p>
 </blockquote>
 
-<p>Wireframing allows you to focus on:<p>
+<p>Wireframing allows you to focus on:</p>
 
 <ul>
-  <li>planning the  general layout</li>
-  <li>determing how the user will interact with your interface</li>
-  <li>the range of functions available to your user</li>
-  <li>the kinds of information displayed</li>
+<li>planning the general layout</li>
+<li>determing how the user will interact with your interface</li>
+<li>the range of functions available to your user</li>
+<li>the kinds of information displayed</li>
 </ul>
 
 <h3>Meet Balsamiq</h3>
@@ -51,7 +51,7 @@ Remember that nothing is final. You <strong>will</strong> iterate on your wirefr
 It's better to spend the time iterating and experimenting with wireframes while the project is still lightweight and easy to change.
 </p>
 
-<h3>&#8220;Think more, design less&#8221;</h3>
+<h3>Think more, design less</h3>
 <p>
 This quote from <a href="http://www.thinkingwithtype.com/" target="_blank">&#8220;Thinking with Type&#8221;</a> by Ellen Lupton really applies in the real world. I spend a lot of time thinking about the user experience and walking through every aspect of my design, asking myself questions like, &#8220;Do I need this?&#8221; or &#8220;Is this too complicated?&#8221; This critical thinking will prove invaluable when you get to prototyping.
 </p>

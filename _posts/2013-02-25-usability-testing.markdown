@@ -44,7 +44,7 @@ There are two different types of testing available each with their own implicati
   <li>Prove something</li>
 </ul>
 </div>
-</div><!--row-->
+</div>
 
 <p>
 I'm more interested in gaining insight through qualitative research so I can actually apply my learnings rather than rely on pure, emotionless statistics. The whole idea behind <a href="http://www.sensible.com/rsme.html" target="_blank">Rocket Surgery Made Easy</a> is that you can do qualitative testing yourself or with just a few people.
@@ -139,27 +139,21 @@ I came up with a few simple solutions and I'm really happy with the results! Her
 When the team names get too long, I hide them using some css:
 </p>
 
-<div class='gist'>
-<script src="https://gist.github.com/aekaplan/67c25d2358791c079013.js"></script>
-</div>
+<script src="https://gist.github.com/aekaplan/67c25d2358791c079013.js"> </script>
 
 <p>
 For the mobile layout, I completely redesigned the Check Out button by changing the language back to "Check Out" from the icon "X".
 </p>
 
 <div class="row cf">
-<div class='column half'>
-<p>
-<img src="/images/checkin2-mobile.jpg" alt="Mobile Checkin" />
-</p>
-</div>
+  <div class='column half'>
+    <img src="/images/checkin2-mobile.jpg" alt="Mobile Checkin" />
+  </div>
 
-<div class="column half">
-<p>
-<img src="/images/checkin3-mobile.jpg" alt="Mobile Checkin" />
-</p>
+  <div class="column half">
+    <img src="/images/checkin3-mobile.jpg" alt="Mobile Checkin" />
+  </div>
 </div>
-</div><!-- row -->
 
 <p>
 The Check Out link also becomes a button making it easier to see and tap. To allow for more information on the screen, I decreased the font size and tightened the overall white space.
