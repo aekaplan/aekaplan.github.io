@@ -47,10 +47,10 @@ a:hover {
 /*  #Headers
 -------------------------------------------------------------- */
 .masthead {
-  font-family: "proxima-nova",sans-serif;
-  margin-bottom: 0;
-  line-height: 1em;
   font-size: 1.8em;
+  font-family: "proxima-nova",sans-serif;
+  line-height: 1em;
+  margin-bottom: 0;
 }
 
 h1, h2, h3, h4 {
