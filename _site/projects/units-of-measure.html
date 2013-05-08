@@ -24,9 +24,7 @@
         event.preventDefault();
         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 400);
       });
-
       causeRepaintsOn = $("h4");
-
       $(window).resize(function() {
         causeRepaintsOn.css("z-index", 1);
       });
@@ -48,10 +46,11 @@
 
     <div class="full-width">
       <h1>CSS Units
-      <span class='of'>
-        <span class='of-bg'>of</span>
-      </span>
-      <span class='measure'>measure</span></h1>
+        <span class='of'>
+          <span class='of-bg'>of</span>
+        </span>
+        <span class='measure'>measure</span>
+      </h1>
 
       <ul class="units cf">
         <li><a class="scroll" href="#px"><span>px</span></a></li>

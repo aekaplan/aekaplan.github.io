@@ -4,7 +4,9 @@ title: Moved from Wordpress to Jekyll
 date: January 29, 2013
 ---
 
-<h2>I accomplished my goal of leaving Wordpress today! It was a hard challenge but my blog is now powered by <a href='http://jekyllrb.com/' target='blank'>Jekyll</a> and hosted on <a href='http://github.com/' target='blank'>Github</a>.</h2>
+<h2>I accomplished my goal of leaving Wordpress today!</h2>
+
+<p>It was a hard challenge but my blog is now powered by <a href='http://jekyllrb.com/' target='blank'>Jekyll</a> and hosted on <a href='http://github.com/' target='blank'>Github</a>.</p>
 
 <p>So why Jekyll?</p>
 

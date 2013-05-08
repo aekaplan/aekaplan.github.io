@@ -483,7 +483,7 @@ Just ask a friend, family member or coworker. You will be surprised what another
 		
 			<item>
 				<title>Moved from Wordpress to Jekyll</title>
-				<description>&lt;h2&gt;I accomplished my goal of leaving Wordpress today! It was a hard challenge but my blog is now powered by &lt;a href=&#39;http://jekyllrb.com/&#39; target=&#39;blank&#39;&gt;Jekyll&lt;/a&gt; and hosted on &lt;a href=&#39;http://github.com/&#39; target=&#39;blank&#39;&gt;Github&lt;/a&gt;.&lt;/h2&gt;&lt;p&gt;So why Jekyll?&lt;/p&gt;&lt;ul&gt;
+				<description>&lt;h2&gt;I accomplished my goal of leaving Wordpress today!&lt;/h2&gt;&lt;p&gt;It was a hard challenge but my blog is now powered by &lt;a href=&#39;http://jekyllrb.com/&#39; target=&#39;blank&#39;&gt;Jekyll&lt;/a&gt; and hosted on &lt;a href=&#39;http://github.com/&#39; target=&#39;blank&#39;&gt;Github&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;So why Jekyll?&lt;/p&gt;&lt;ul&gt;
 	&lt;li&gt;No heavy CMS, database or FTP to deal with.&lt;/li&gt;
 	&lt;li&gt;Hosting is free using Github pages!&lt;/li&gt;
 	&lt;li&gt;I now get version control and deployment in one place.&lt;/li&gt;

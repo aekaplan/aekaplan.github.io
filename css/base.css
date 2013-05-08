@@ -17,15 +17,51 @@ body {
 }
 
 header {
-  margin-bottom: 1.5em;
-  padding-bottom: 1.5em;
-  border-bottom: 1px solid #ddd;
+  margin-bottom: 3em;
 }
 
 .column {
   width: 100%;
   margin: 0;
   clear: none;
+}
+
+/*  #Nav
+-------------------------------------------------------------- */
+.nav {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  font-size: 1em;
+  float: left;
+  line-height: 1em;
+  list-style: none;
+  margin: 0.5em 1em 0 0;
+}
+
+.nav li:last-of-type {
+  margin-right: 0;
+}
+
+.nav li a {
+  color: #8c9397;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
+  -ms-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out
+}
+
+.nav li a:hover {
+  color: #EE4938;
+  text-decoration: none;
+}
+
+.bio {
+  color: #8c9397;
 }
 
 /*  #Links
@@ -40,17 +76,18 @@ a:hover {
   text-decoration: underline;
 }
 
-.masthead a:hover {
-  text-decoration: none;
-}
-
 /*  #Headers
 -------------------------------------------------------------- */
 .masthead {
-  font-size: 1.8em;
+  float: left;
+  font-size: 1.5em;
   font-family: "proxima-nova",sans-serif;
   line-height: 1em;
   margin-bottom: 0;
+}
+
+.masthead a:hover {
+  text-decoration: none;
 }
 
 h1, h2, h3, h4 {
@@ -61,10 +98,18 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 2.4em;
-  line-height: 1em;
+  font-size: 2.2em;
+  line-height: 1.1em;
   margin-bottom: 0.5em;
   font-weight: 600;
+}
+
+.remove-bottom {
+  margin-bottom: 0;
+}
+
+.add-bottom {
+  margin-bottom: 1em;
 }
 
 h2 {
@@ -110,10 +155,9 @@ h4 a:hover {
 }
 
 .date {
-  color: #A0A0A0;
+  color: #8c9397;
   font-size: 1em;
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 /*  #Basic Styles
@@ -674,6 +718,9 @@ ul.posts li:nth-last-of-type(1) a {
   .row .column:last-child {
     margin-right: 0;
     clear: right;
+  }
+  .nav li {
+    font-size: 0.9em;
   }
 }
 

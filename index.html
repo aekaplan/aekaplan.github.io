@@ -1,49 +1,24 @@
 ---
-layout: home
+layout: default
 title: Adam Kaplan
 ---
-<hr>
+<div id="fade">
+<h3 class="section-header">Hello, I'm Adam.</h3>
+<p class="bio">
+I'm a resident design apprentice at <a href='http://www.8thlight.com/' target='_blank'>8th Light</a>. Say
+<a href='mailto:adam.kaplan@icloud.com'>hello</a> or <a href='https://twitter.com/helloadamkaplan' target='_blank'>follow me</a> on Twitter. 
+<a href='http://www.adamkaplandesign.com/feed.xml' target='_blank'>RSS feed</a>.
+</p>
+</div>
 
-<h3 class="section-header">Projects</h3>
+<hr />
 
-<ul class="clean">
-<li>
-  <h4><a href="projects/the-design-process.html">The Design Process at 8th Light, Inc.</a></h4>
-  <span class="date">April 23, 2013</span>
-</li>
-
-<li>
-  <h4><a href="projects/skill-assessment-2.html">Skill Assessment</a></h4>
-  <span class="date">February 19, 2013</span>
-</li>
-
-<li>
-  <h4><a href="projects/units-of-measure.html">Units of Measure</a></h4>
-  <span class="date">February 18, 2013</span>
-</li>
-
-<li>
-  <h4><a href="projects/position-properties.html">Position Properties</a></h4>
-  <span class="date">February 12, 2013</span>
-</li>
-
-<li>
-  <h4><a href="projects/handcrafted-css.html">Handcrafted CSS</a></h4>
-  <span class="date">February 04, 2013</span>
-</li>
-
-<li>
-<h4><a href="projects/semantic-news-article.html">Semantic News Article</a></h4>
-  <span class="date">February 01, 2013</span>
-</li>
-
-<li>
-  <h4><a href="projects/inline-and-block-elements.html">Inline &amp; Block Elements</a></h4>
-  <span class="date">January 29, 2013</span>
-</li>
-
-<li>
-  <h4><a href="projects/skill-assessment.html">Skill Assessment</a></h4>
-  <span class="date">January 28, 2013</span>
-</li>
+<h3 class="section-header">Recent Posts</h3>
+<ul class='clean'>
+  {% for post in site.posts do %}
+  <li>
+  <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+  <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
+  </li>
+  {% endfor %}
 </ul>
