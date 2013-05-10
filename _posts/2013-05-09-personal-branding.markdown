@@ -65,6 +65,8 @@ It's important to consider how scalable your logo is. Ask yourself how well will
 I did some quick testing and the logo I went with was easily recognizable on mobile devices, where space is at a premium. Because I was able to scale it down, I gave myself room to add more navigation items to my blog if needed.
 </p>
 
+<img src="/images/logo-desktop.jpg">
+
 <h3>Take Risks</h3>
 <p>
 Lastly, don't be afraid to take some risks! You need to stand out among the crowd and a unique logo can help immensely. Logo design is new to me, so it was a fun and very rewarding experience, but I still have a lot to learn. I'm really happy with how my logo turned out, but I plan on iterating on it more in the future.
