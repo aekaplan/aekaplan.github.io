@@ -56,7 +56,7 @@ For my logo, the silhouette was extremely important. I tried some colors, includ
 
 <h3>Size Matters</h3>
 <p>
-It's important to consider how scalable your logo is. Ask yourself how well will hold up on mobile, or on a giant billboard. Lots of detail can get lost as the pixels shrink and your logo can become unrecognizable. 
+It's important to consider how scalable your logo is. Ask yourself how well will it hold up on mobile, or on a giant billboard. Lots of detail can get lost as the pixels shrink and your logo can become unrecognizable. 
 </p>
 
 <img src="/images/logo-mobile.jpg">
