@@ -44,7 +44,7 @@ The concept for my logo was simple; replace my initials "AK" with something less
 <img src="/images/logo-outline.jpg">
 
 <p>
-I wanted something unique that would represent my personality, a mark that could grow with me over time and help identify me as a designer. Before going further, I got feedback from the other designers. With comments like it kinda looks like a wave or paper airplane. I liked the fact that it was a little open to interpretation. 
+I wanted something unique that would represent my personality, a mark that could grow with me over time and help identify me as a designer. Before going further, I got feedback from the other designers. With comments like, "it kinda looks like a wave," or "paper airplane." I liked the fact that it was a little open to interpretation. 
 </p>
 
 <h3>Experiment with Color</h3>
