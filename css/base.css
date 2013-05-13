@@ -379,11 +379,15 @@ figure {
   margin-bottom: 1.5em;
 }
 
-.gist-file .gist-data {
-  font-size: .8em !important;
+.gist-data, .gist-syntax .k {
   color: #333 !important;
+  font-weight: normal !important;
+}
+
+.gist-file .gist-data {
   background-color: #fff !important;
   border-bottom: 0 !important;
+  font-size: 0.8em !important;
 }
 
 .gist-meta {
