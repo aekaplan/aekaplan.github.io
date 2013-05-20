@@ -809,10 +809,6 @@ ul.posts li:nth-last-of-type(1) a {
   vertical-align: middle;
 }
 
-.blue a {
-  color: #4183C4;
-}
-
 /*  #Clearfix
 -------------------------------------------------------------- */
 .cf:before,
