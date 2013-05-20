@@ -36,13 +36,6 @@ header {
   width: 34px;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .logo {
-    background: url("/images/logo-2x.png");
-    background-size: 34px 26px;
-  }
-}
-
 .nav {
   float: right;
   margin: 0;
@@ -87,7 +80,6 @@ a {
 }
 
 a:hover {
-  color: #EE4938;
   text-decoration: underline;
 }
 
@@ -216,18 +208,15 @@ img {
 ul, ol {
   margin: 0 0 1.5em 2em;
   padding: 0;
-}
-
-li {
   list-style: disc outside;
- }
+}
 
 .clean {
   margin: 0 0 1.5em 0;
+  list-style: none;
  }
 
 .clean li {
-  list-style: none;
   margin-bottom: 1em;
 }
 
@@ -469,27 +458,6 @@ ul.posts li:nth-last-of-type(1) a {
   float: right;
 }
 
-
-/*  #Clearfix
--------------------------------------------------------------- */
-.cf:before,
-.cf:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
-}
-
-.cf:after {
-  clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-  *zoom: 1;
-}
-
 /* animate.css by Daniel Eden
 -------------------------------------------------------------- */
 .animated {
@@ -710,6 +678,181 @@ ul.posts li:nth-last-of-type(1) a {
   animation-name: fadeInDownBig;
 }
 
+/* Timeline
+-------------------------------------------------------------- */
+.timeline-logo {
+  background: url("/images/logo-2x.png");
+  background-size: 44px 36px;
+  display: inline-block;
+  width: 44px;
+  height: 36px;
+}
+
+.timeline-header {
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.timeline-header h1 {
+   margin-bottom: 0.2em;
+}
+
+.timeline-header h2 {
+  color: #AAA;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.timeline h4 {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+.timeline-footer {
+  font-size: 1em;
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.timeline li {
+  position: relative;
+}
+
+.timeline:before {
+  background: #DDD;
+  content: '';
+  position: absolute;
+  left: 49.9%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+}
+
+.timeline-date {
+  display: none;
+}
+
+.timeline-date-mobile {
+  display: block;
+  color: #AAA;
+  font-size: 1.1em;
+  margin-bottom: 0.7em;
+  text-align: center;
+}
+
+.timeline-box {
+  background: #FFF;
+  border: 1px solid #DDD;
+  -moz-border-radus: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin: 2em 0;
+  position: relative;
+}
+
+.timeline p {
+  color: #AAA;
+  font-size: 1em;
+  margin: 0;
+}
+
+.content-wrap {
+  padding: 0.7em;
+}
+
+.link-wrap {
+  background: #FAFAFA;
+  -moz-border-radus: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  border-top: 1px solid #DDD;
+  padding: 0.3em 0.7em;
+}
+
+.pin {
+  background: url(/images/pin.png);
+  display: inline-block;
+  width: 15px;
+  height: 21px;
+  margin: 0 0.2em 0 0;
+  vertical-align: middle;
+}
+
+.link {
+  background: url(/images/link.png);
+  display: inline-block;
+  width: 24px;
+  height: 21px;
+  margin: 0 0.2em 0 0;
+  vertical-align: middle;
+}
+
+.check {
+  background: url(/images/check.png);
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  margin: 0 0.2em 0 0;
+  vertical-align: middle;
+}
+
+.location {
+  display: inline-block;
+  font-size: 0.9em;
+  vertical-align: middle;
+}
+
+.blue a {
+  color: #4183C4;
+}
+
+/*  #Clearfix
+-------------------------------------------------------------- */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+/*  #Retina Images
+-------------------------------------------------------------- */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .logo {
+    background: url("/images/logo-2x.png");
+    background-size: 34px 26px;
+  }
+
+  .pin {
+    background: url("/images/pin-2x.png");
+    background-size: 15px 21px;
+  }
+
+  .link {
+    background: url(/images/link-2x.png);
+    background-size: 24px 21px;
+  }
+
+  .check {
+    background: url(/images/check-2x.png);
+    background-size: 21px 21px;
+  }
+}
+
 /* Mobile First RWD
 -------------------------------------------------------------- */
 @media screen and (min-width: 640px) {
@@ -738,8 +881,106 @@ ul.posts li:nth-last-of-type(1) a {
     margin-right: 0;
     clear: right;
   }
+
   .nav li {
     font-size: 0.9em;
+  }
+
+  .timeline-header {
+    margin-bottom: 3em;
+  }
+
+  .timeline:before {
+    background: #DDD;
+    content: '';
+    position: absolute;
+    left: 31%;
+    top: 20px;
+    bottom: 0;
+    width: 1px;
+  }
+
+  .timeline-date-wrap {
+    display: block;
+    left: 0;
+    top: 14px;
+    position: absolute;
+    width: 24%;
+  }
+
+  .timeline-date {
+    color: #AAA;
+    display: block;
+    font-size: 0.9em;
+    text-align: right;
+  }
+
+  .timeline-date-mobile {
+    display: none;
+  }
+
+  .timeline-circle {
+    background: #FFF;
+    border: 2px solid #333;
+    -moz-border-radus: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    left: 29.7%;
+    top: 20px;
+    position: absolute;
+  }
+
+  .timeline-box {
+    background: #FFF;
+    border: 1px solid #DDD;
+    -moz-border-radus: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 0 2em 40%;
+    position: relative;
+  }
+
+  .timeline-box:after, .timeline-box:before {
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    right: 100%;
+  }
+
+  .timeline-box:before {
+    border-color: rgba(221, 221, 221, 0);
+    border-right-color: #DDD;
+    border-width: 15px;
+    left: auto;
+    margin-left: 0;
+    top: 12px;
+  }
+
+  .timeline-box:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #FFF;
+    border-width: 14px;
+    left: auto;
+    margin-left: 0;
+    top: 13px;
+  }
+
+  .timeline p {
+    font-size: 0.9em;
+  }
+
+  .location {
+    font-size: 0.8em;
+  }
+
+  .timeline-footer {
+    font-size: 0.8em;
+    margin-top: 3em;
   }
 }
 
