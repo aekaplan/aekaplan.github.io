@@ -20,7 +20,9 @@
 
 <div class='container'>
   <header class="cf">
-    <a href="/" class="logo"></a>
+    <a href="/" class="logo-wrap">
+      <span class="logo"></span>
+    </a>
     <ul class="nav">
       <li><a href="/">Blog</a></li>
       <li><a href="/projects">Projects</a></li>
@@ -29,7 +31,7 @@
 
   <article>
     <h1 class="remove-bottom">{{ page.title }}</h1>
-    <div class='date add-bottom'>{{ page.date | date: "%B %d, %Y" }}</div>
+    <span class='date add-bottom'>{{ page.date | date: "%B %d, %Y" }}</span>
     {{ content }}
   </article>
 

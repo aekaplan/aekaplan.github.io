@@ -122,8 +122,13 @@ There are a lot of great resources to help you pick color palettes. I use these 
 </p>
 
 <ul>
+
 <li>
-<a href="http://colorschemedesigner.com/" target="_blank">Color Scheme Designer</a> was Nick's recommendation and my new favorite  tool. You can try out different colors and even see how they might look on a dark or light website. Thanks Nick!
+<a href="http://0to255.com/" target="_blank">0 to 255</a> a simple tool that helps web designers find variations of any color.
+</li>
+
+<li>
+<a href="http://colorschemedesigner.com/" target="_blank">Color Scheme Designer</a> was Nick's recommendation and my new favorite tool. You can try out different colors and even see how they might look on a dark or light website. Thanks Nick!
 </li>
 
 <li>
