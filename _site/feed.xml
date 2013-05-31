@@ -26,12 +26,14 @@ These pseudo-classes are used to insert text, character codes or images before o
 Pretty neat, right? You'll have more control over your markup by combining pseudo-classes with CSS classes.
 &lt;/p&gt;&lt;p&gt;
 You can use &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; in new and creative ways. For example, I often use &lt;code&gt;:before&lt;/code&gt; on lists or elements that need character codes or icons. Let's try adding a red star before each item in a list:
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/5679880.js'&gt; &lt;/script&gt;&lt;p&gt;But &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; are not the only pseudo-classes. There are many more:&lt;/p&gt;&lt;ul class='example'&gt;
+&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/5679880.js'&gt; &lt;/script&gt;&lt;p&gt;But &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; are not the only pseudo-classes. There are many more:&lt;/p&gt;&lt;div class='row'&gt;
+&lt;ul class='example'&gt;
 &lt;li&gt;&lt;code&gt;:visited&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;:hover&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;:focus&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;:first-letter&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;p&gt;
 You can't use &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; without a &lt;code&gt;content&lt;/code&gt; property. You can, however, leave the &lt;code&gt;content&lt;/code&gt; property blank if you don't want to add extra content.
 &lt;/p&gt;&lt;h3&gt;Content Property&lt;/h3&gt;&lt;img src='/images/timeline.jpg' /&gt;&lt;p&gt;
 Let's look at another example from &lt;a href='projects/timeline.html'&gt;my timeline project&lt;/a&gt;. I used the required &lt;code&gt;content&lt;/code&gt; property, but left it blank to achieve the timeline's gray line. Now I won't have to write extra markup to get the same result.

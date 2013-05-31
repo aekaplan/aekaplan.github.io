@@ -43,12 +43,14 @@ You can use <code>:before</code> and <code>:after</code> in new and creative way
 
 <p>But <code>:before</code> and <code>:after</code> are not the only pseudo-classes. There are many more:</p>
 
+<div class="row">
 <ul class="example">
 <li><code>:visited</code></li>
 <li><code>:hover</code></li>
 <li><code>:focus</code></li>
 <li><code>:first-letter</code></li>
 </ul>
+</div>
 
 <p>
 You can't use <code>:before</code> and <code>:after</code> without a <code>content</code> property. You can, however, leave the <code>content</code> property blank if you don't want to add extra content.
