@@ -22,69 +22,30 @@
   </head>
 
   <body id='top'>
-    <header class="fade">
-    <div class="container">
-      <a href="/"class="logo"></a>
-      <h1>Style Guide</h1>
-      <p>A simple set of HTML and CSS. Made with love by <a href="/">Adam</a>.</p>
-    </div>
+    <header>
+      <div class="container fade">
+        <h1>Style Guide</h1>
+        <p>A simple set of HTML and CSS to get you started.</p>
+      </div>
     </header>
 
-    <section id="navigation">
-    <div class="container">
-      <div class="column">
-      <h2>Forms</h2>
-        <ul class="nav">
-          <li><a href="#inputs" class="scroll">Inputs</a></li>
-          <li><a href="#label" class="scroll">Label</a></li>
-          <li><a href="#search" class="scroll">Checkbox</a></li>
+  <div class="container">
+    <div class="column third">
+      <nav class="fixed">
+        <ul>
+          <li>Navigation</li>
+          <li><a href="#forms" class="scroll">Forms</a></li>
+          <li><a href="#buttons" class="scroll">Buttons</a></li>
           <li><a href="#notes" class="scroll">Notes</a></li>
+          <li><a href="#columns" class="scroll">Columns</a></li>
         </ul>
-      </div>
-
-      <div class="column">
-      <h2>Buttons</h2>
-        <ul class="nav">
-          <li><a href="#inputs" class="scroll">Inputs</a></li>
-          <li><a href="#buttons" class="scroll">Buttons</a></li>
-          <li><a href="#buttons" class="scroll">Buttons</a></li>
-          <li><a href="#buttons" class="scroll">Buttons</a></li>
-        </ul>
-      </div>
-
-      <div class="column">
-      <h2>Elements</h2>
-        <ul class="nav">
-          <li><a href="#inputs" class="scroll">Inputs</a></li>
-          <li><a href="#buttons" class="scroll">Buttons</a></li>
-          <li><a href="#buttons" class="scroll">Buttons</a></li>
-          <li><a href="#buttons" class="scroll">Buttons</a></li>
-        </ul>
-      </div>
+      </nav>
     </div>
-    </section>
 
-    <section id="why">
-    <div class="container">
-      <div class="column">
-        <h2>simple</h2>
-        <p>a useful set of elements to help you get started.</p>
-      </div>
-
-      <div class="column">
-        <h2>clean</h2>
-        <p>organized, alphabetized and reusable.</p>
-      </div>
-
-      <div class="column">
-        <h2>responsive</h2>
-        <p>built with mobile first responsive web design.</p>
-      </div>
-    </div>
-    </section>
-
-    <section id="inputs">
-    <div class="container">
+    <div class="column two-third">
+    <section id="forms">
+    <h1>Forms</h1>
+    <article>
       <h2>Inputs</h2>
       <div class="example-wrap">
         <div class="example">
@@ -114,12 +75,9 @@
             <script src="https://gist.github.com/aekaplan/5640867.js"></script>
           </div>
         </div>
-      </div>
-    </div>
-    </section>
+      </article>
 
-    <section id="label">
-    <div class="container">
+      <article>
       <h2>Label</h2>
       <div class="example-wrap">
         <div class="example">
@@ -152,12 +110,9 @@
           </div>
         </div>
       </div>
-    </div>
-    </section>
+      </article>
 
-    <section id="checkbox">
-    <div class="container">
-
+      <article>
       <h2>Checkbox</h2>
       <div class="example-wrap">
         <div class="example"></div>
@@ -179,8 +134,86 @@
           </div>
         </div>
       </div>
-    </div>
-    </section>
+      </article>
+      </section>
 
+    <section id="buttons">
+    <h1>Buttons</h1>
+
+    <article>
+      <h2>Inputs</h2>
+      <div class="example-wrap">
+        <div class="example">
+          <input type="text" placeholder="Basic Input"></input>
+          <input type="text" placeholder="Error" class="error"></input>
+          <textarea placeholder="Text Area"></textarea>
+        </div>
+      </div>
+
+      <div class="tab-wrap">
+        <ul class="tab-nav cf">
+          <li class="active-tab" data-tab-name="html">HTML</li>
+          <li data-tab-name="css">CSS</li>
+          <li data-tab-name="scss">SCSS</li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active html">
+            <script src="https://gist.github.com/aekaplan/5636802.js"></script>
+          </div>
+
+          <div class="tab-pane css">
+            <script src="https://gist.github.com/aekaplan/5636900.js"></script>
+          </div>
+
+          <div class="tab-pane scss">
+            <script src="https://gist.github.com/aekaplan/5640867.js"></script>
+          </div>
+        </div>
+      </div>
+      </article>
+
+      <article>
+      <h2>Label</h2>
+      <div class="example-wrap">
+        <div class="example">
+          <label>First Name</label>
+          <input type="text" placeholder="Adam"></input>
+
+          <label>Last Name</label>
+          <input type="text" placeholder="Kaplan"></input>
+        </div>
+      </div>
+
+      <div class="tab-wrap">
+        <ul class="tab-nav cf">
+          <li class="active-tab" data-tab-name="html">HTML</li>
+          <li data-tab-name="css">CSS</li>
+          <li data-tab-name="scss">SCSS</li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active html">
+            <script src="https://gist.github.com/aekaplan/5645883.js"></script>
+          </div>
+
+          <div class="tab-pane css">
+            <script src="https://gist.github.com/aekaplan/5636900.js"></script>
+          </div>
+
+          <div class="tab-pane scss">
+            <script src="https://gist.github.com/aekaplan/5640867.js"></script>
+          </div>
+        </div>
+        </article>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Made with love by <a href="/">Adam</a>. Code can be found via <a href="https://gist.github.com/aekaplan" target="_blank">GitHub Gist</a>.</p>
+        <p><a href="#top" class="scroll">Back to top ↑</a></p>
+      </div>
+    </footer>
   </body>
 </html>
