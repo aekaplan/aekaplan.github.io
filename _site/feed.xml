@@ -26,7 +26,7 @@ These pseudo-classes are used to insert text, character codes or images before o
 Pretty neat, right? You'll have more control over your markup by combining pseudo-classes with CSS classes.
 &lt;/p&gt;&lt;p&gt;
 You can use &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; in new and creative ways. For example, I often use &lt;code&gt;:before&lt;/code&gt; on lists or elements that need character codes or icons. Let's try adding a red star before each item in a list:
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/5679880.js'&gt; &lt;/script&gt;&lt;p&gt;But &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; are not the only pseudo-classes. There are many more:&lt;/p&gt;&lt;div class='row'&gt;
+&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/5679880.js'&gt; &lt;/script&gt;&lt;p&gt;But &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; are not the only pseudo-classes. There are many more:&lt;/p&gt;&lt;div class='row-example'&gt;
 &lt;ul class='example'&gt;
 &lt;li&gt;&lt;code&gt;:visited&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;:hover&lt;/code&gt;&lt;/li&gt;
@@ -41,7 +41,7 @@ Let's look at another example from &lt;a href='projects/timeline.html'&gt;my tim
 &lt;a href='http://nicolasgallagher.com/micro-clearfix-hack/' target='_blank'&gt;Nicolas Gallager's popular clearfix&lt;/a&gt; uses pseudo-classes to clear floats. This eliminates the need to hide generated content and reduces the amount of code you need to write. I always add this clearfix to my container classes to keep floats cleared properly.
 &lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/5680048.js'&gt; &lt;/script&gt;&lt;h3&gt;:first-child and :last-child&lt;/h3&gt;&lt;p&gt;
 &lt;code&gt;:first-child&lt;/code&gt; and &lt;code&gt;:last-child&lt;/code&gt; allow you to select the first or last child of its parent element. I like to use them to remove extra margins or borders on columns in my layouts:
-&lt;/p&gt;&lt;div class='row'&gt;
+&lt;/p&gt;&lt;div class='row-example'&gt;
   &lt;div class='column-example-bad first'&gt;
     &lt;p&gt;Column 1&lt;/p&gt;
   &lt;/div&gt;

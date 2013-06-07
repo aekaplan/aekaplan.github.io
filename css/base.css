@@ -858,7 +858,7 @@ ul.example li:before {
   padding-right: 0.5em;
 }
 
-.row {
+.row-example {
   border: 1px dashed #dedede;
   margin-bottom: 1.5em;
   padding: 1.5em 1.5em 0 1.5em;

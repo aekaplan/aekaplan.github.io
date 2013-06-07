@@ -33,6 +33,55 @@ header {
   letter-spacing: 0;
 }
 
+/*  #Nav
+-------------------------------------------------------------- */
+.logo-wrap {
+  float: left;
+  padding: 0.5em 0;
+}
+
+.logo {
+  background: url("/images/logo.png");
+  display: inline-block;
+  height: 26px;
+  width: 34px;
+}
+
+.nav {
+  float: right;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.nav li {
+  font-size: 1em;
+  float: left;
+  line-height: 1em;
+  list-style: none;
+  margin-left: 1.5em;
+}
+
+.nav li:first-child {
+  margin-left: 0;
+}
+
+.nav li a {
+  color: #8c9397;
+  display: block;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
+  -ms-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+  padding: 0.9em 0;
+}
+
+.nav li a:hover {
+  color: #EE4938;
+  text-decoration: none;
+}
+
 /*  #Background Images
 ================================================== */
 .gray  {

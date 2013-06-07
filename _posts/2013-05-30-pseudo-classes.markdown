@@ -43,7 +43,7 @@ You can use <code>:before</code> and <code>:after</code> in new and creative way
 
 <p>But <code>:before</code> and <code>:after</code> are not the only pseudo-classes. There are many more:</p>
 
-<div class="row">
+<div class="row-example">
 <ul class="example">
 <li><code>:visited</code></li>
 <li><code>:hover</code></li>
@@ -79,7 +79,7 @@ Let's look at another example from <a href="projects/timeline.html">my timeline 
 <code>:first-child</code> and <code>:last-child</code> allow you to select the first or last child of its parent element. I like to use them to remove extra margins or borders on columns in my layouts:
 </p>
 
-<div class="row">
+<div class="row-example">
   <div class="column-example-bad first">
     <p>Column 1</p>
   </div>
