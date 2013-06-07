@@ -18,7 +18,7 @@ The prefix pseudo (from the Greek word &lt;em&gt;pseudēs&lt;/em&gt;, meaning &q
 This definition gives you a good idea of what these selectors do. Since pseudo-classes add no markup, they look &quot;invisible&quot; to the user because everything is done through CSS. You're basically gaining one or more &quot;free&quot; elements that you would otherwise have to write markup for.
 &lt;/p&gt;&lt;h3&gt;:before and :after&lt;/h3&gt;&lt;p&gt;
 These pseudo-classes are used to insert text, character codes or images before or after elements. The syntax for pseudo-classes is quite simple:
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/5679831.js'&gt; &lt;/script&gt;&lt;div class='row'&gt;
+&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/5679831.js'&gt; &lt;/script&gt;&lt;div class='row-example'&gt;
   &lt;p class='example'&gt;
   This is some example text with &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; pseudo-classes.
   &lt;/p&gt;
@@ -57,7 +57,7 @@ Let's look at another example from &lt;a href='projects/timeline.html'&gt;my tim
 You'll notice we need a margin-left to separate the columns, but we don't want a margin on the first column. I had to write a separate class and add more markup to remove the margin. 
 &lt;/p&gt;&lt;p&gt;
 I could also just use the &lt;code&gt;:first-child&lt;/code&gt; pseudo-class:
-&lt;/p&gt;&lt;div class='row'&gt;
+&lt;/p&gt;&lt;div class='row-example'&gt;
   &lt;div class='column-example'&gt;
     &lt;p&gt;Column 1&lt;/p&gt;
   &lt;/div&gt;

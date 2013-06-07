@@ -896,20 +896,20 @@ ul.example li:before {
 /*  #Clearfix
 -------------------------------------------------------------- */
 .container:before, .cf:before,
-.row:before, .row:after,
+.row-example:before, .row-example:after,
 .container:after, .cf:after {
   content: " ";
   display: table;
 }
 
 .container:after,
-.row:after,
+.row-example:after,
 .cf:after {
   clear: both;
 }
 
 .container,
-.row,
+.row-example,
 .cf {
   *zoom: 1;
 }

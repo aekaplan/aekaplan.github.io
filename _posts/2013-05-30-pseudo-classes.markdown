@@ -25,7 +25,7 @@ These pseudo-classes are used to insert text, character codes or images before o
 
 <script src="https://gist.github.com/aekaplan/5679831.js"> </script>
 
-<div class="row">
+<div class="row-example">
   <p class="example">
   This is some example text with <code>:before</code> and <code>:after</code> pseudo-classes.
   </p>
@@ -105,7 +105,7 @@ You'll notice we need a margin-left to separate the columns, but we don't want a
 I could also just use the <code>:first-child</code> pseudo-class:
 </p>
 
-<div class="row">
+<div class="row-example">
   <div class="column-example">
     <p>Column 1</p>
   </div>
