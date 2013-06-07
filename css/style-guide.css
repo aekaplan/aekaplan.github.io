@@ -42,11 +42,15 @@ header, footer {
 }
 
 header h1 {
-  font-size: 2.5em;
-  font-family: "reklame-script", sans-serif;
+  font-size: 2em;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 100;
   margin-bottom: 0.2em;
+  text-transform: uppercase;
+}
+
+header p {
+  color: #8d9da3;
 }
 
 .column {
@@ -162,6 +166,8 @@ a:hover {
   color: #fff;
   content: "Example";
   display: inline-block;
+  font-size: 0.9em;
+  font-weight: 100;
   text-align: center;
   padding: 0.4em 1em;
 }
@@ -187,7 +193,6 @@ a:hover {
   color: #8c9397;
   cursor: pointer;
   font-size: 0.9em;
-  font-weight: 600;
   float: left;
   margin: 0 -1px -1px 0;
   text-align: center;
