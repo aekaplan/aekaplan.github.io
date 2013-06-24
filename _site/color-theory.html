@@ -15,24 +15,38 @@
   <!-- Typekit -->
   <script type="text/javascript" src="//use.typekit.net/vcp0eam.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/js/toggle-nav.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fade').addClass('animated fadeInDown');
+    });
+  </script>
   </head>
 <body>
 
-<div class='container'>
   <header class="cf">
+  <div class="container">
     <a href="/" class="logo-wrap">
       <span class="logo"></span>
     </a>
-    <ul class="nav">
-      <li><a href="/">Blog</a></li>
-      <li><a href="/projects">Projects</a></li>
-    </ul>
+    <div class="toggle-nav"></div>
+    <nav>
+      <ul>
+        <li><a href="/">Blog</a></li>
+        <li><a href="/projects">Projects</a></li>
+      </ul>
+    </nav>
+  </div>
   </header>
 
-  <article>
-    <h1 class="remove-bottom">Color Theory</h1>
-    <span class='date add-bottom'>April 05, 2013</span>
-    <h2>
+  <div class="container">
+    <article>
+      <h1 class="remove-bottom">Color Theory</h1>
+      <span class='date add-bottom'>April 05, 2013</span>
+      <h2>
 Color is a great way to make your website beautiful while enhancing its usability.
 </h2><p>
 Color plays an important role in design in general. However, you have to be more mindful of color when you use it on the web, as there are a lot of <a href='usability-testing.html' target='_blank'>usability</a> problems that can arise from its misuse. </p><p>
@@ -135,9 +149,15 @@ Learning to use color in your designs takes practice and a bit of innate taste. 
 If you're having trouble choosing colors, just remember to only pick a few of them and keep them subtle.
 </p>
 </div>
-  </article>
+    </article>
 
-<div class="prev_next post_nav">  <p class="previous"><a href="/write-better-css.html" rel="previous" title="Write Better CSS">← Previous</a> </p>   <p class="next"> <a href="/apprentice-learning-hour.html" rel="next" title="Apprentice Learning Hour Presentation">Next →</a></p>  </div>
+    <div class="prev_next post_nav">
+      
+      <p class="previous"><a href="/write-better-css.html" rel="previous" title="Write Better CSS">← Previous</a></p>
+
+       
+      <p class="next"> <a href="/apprentice-learning-hour.html" rel="next" title="Apprentice Learning Hour Presentation">Next →</a></p> 
+    </div>
 
  <hr />
 
@@ -166,6 +186,6 @@ If you're having trouble choosing colors, just remember to only pick a few of th
     
   </ul>
 
-</div><!-- container -->
+</div>
 </body>
 </html>

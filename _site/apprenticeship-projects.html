@@ -15,24 +15,38 @@
   <!-- Typekit -->
   <script type="text/javascript" src="//use.typekit.net/vcp0eam.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/js/toggle-nav.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fade').addClass('animated fadeInDown');
+    });
+  </script>
   </head>
 <body>
 
-<div class='container'>
   <header class="cf">
+  <div class="container">
     <a href="/" class="logo-wrap">
       <span class="logo"></span>
     </a>
-    <ul class="nav">
-      <li><a href="/">Blog</a></li>
-      <li><a href="/projects">Projects</a></li>
-    </ul>
+    <div class="toggle-nav"></div>
+    <nav>
+      <ul>
+        <li><a href="/">Blog</a></li>
+        <li><a href="/projects">Projects</a></li>
+      </ul>
+    </nav>
+  </div>
   </header>
 
-  <article>
-    <h1 class="remove-bottom">Apprenticeship Projects</h1>
-    <span class='date add-bottom'>February 18, 2013</span>
-    <h2>I have learned so much over the past few weeks and wanted to share my current projects.</h2><p>
+  <div class="container">
+    <article>
+      <h1 class="remove-bottom">Apprenticeship Projects</h1>
+      <span class='date add-bottom'>February 18, 2013</span>
+      <h2>I have learned so much over the past few weeks and wanted to share my current projects.</h2><p>
   Each week, Stephanie gives me a new assignment to work on. I really enjoy how each project builds off one another. This helps concepts stick while still providing a new challenge. Take a look!
 </p><h3>Projects</h3><ul class='post'>
   <li><a href='http://adamkaplandesign.com/units-of-measure.html' target='_blank'>CSS Units of Measurement</a></li>
@@ -45,9 +59,15 @@
     This post was written in Vim, which I'm currently learning.
   </p>
 </div>
-  </article>
+    </article>
 
-<div class="prev_next post_nav">  <p class="previous"><a href="/optimize-your-images.html" rel="previous" title="Optimize your Images">← Previous</a> </p>   <p class="next"> <a href="/usability-testing.html" rel="next" title="Usability Testing">Next →</a></p>  </div>
+    <div class="prev_next post_nav">
+      
+      <p class="previous"><a href="/optimize-your-images.html" rel="previous" title="Optimize your Images">← Previous</a></p>
+
+       
+      <p class="next"> <a href="/usability-testing.html" rel="next" title="Usability Testing">Next →</a></p> 
+    </div>
 
  <hr />
 
@@ -76,6 +96,6 @@
     
   </ul>
 
-</div><!-- container -->
+</div>
 </body>
 </html>

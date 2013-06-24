@@ -8,6 +8,10 @@ h1, h2, h3 {
   font-family: "adelle", serif;
 }
 
+.container {
+  padding: 2em 0;
+}
+
 .code {
   background: #333;
   margin-bottom: 1.5em;

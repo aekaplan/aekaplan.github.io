@@ -15,24 +15,38 @@
   <!-- Typekit -->
   <script type="text/javascript" src="//use.typekit.net/vcp0eam.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/js/toggle-nav.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fade').addClass('animated fadeInDown');
+    });
+  </script>
   </head>
 <body>
 
-<div class='container'>
   <header class="cf">
+  <div class="container">
     <a href="/" class="logo-wrap">
       <span class="logo"></span>
     </a>
-    <ul class="nav">
-      <li><a href="/">Blog</a></li>
-      <li><a href="/projects">Projects</a></li>
-    </ul>
+    <div class="toggle-nav"></div>
+    <nav>
+      <ul>
+        <li><a href="/">Blog</a></li>
+        <li><a href="/projects">Projects</a></li>
+      </ul>
+    </nav>
+  </div>
   </header>
 
-  <article>
-    <h1 class="remove-bottom">Thinking with Type</h1>
-    <span class='date add-bottom'>January 24, 2013</span>
-    <h2>I just finished reading <a href='http://www.thinkingwithtype.com/' target='blank'>Thinking with Type</a> by Ellen Lupton.</h2><p>There are a lot of great concepts in this book, so I decided to create a few designs using typography to show off my favorites.</p><blockquote>
+  <div class="container">
+    <article>
+      <h1 class="remove-bottom">Thinking with Type</h1>
+      <span class='date add-bottom'>January 24, 2013</span>
+      <h2>I just finished reading <a href='http://www.thinkingwithtype.com/' target='blank'>Thinking with Type</a> by Ellen Lupton.</h2><p>There are a lot of great concepts in this book, so I decided to create a few designs using typography to show off my favorites.</p><blockquote>
 	<p>Think more, design less.</p>
 </blockquote><p>Some type crimes to be aware of:</p><ul>
 	<li>Horizontal and vertical scaling</li>
@@ -40,9 +54,15 @@
 	<li>Using too many signals (bold, italic, underlined, caps)</li>
 	<li>Don't trap data in heavily guarded cells</li>
 </ul><img src='/images/type1.jpg' /><img src='/images/type2.jpg' /><img src='/images/type3.jpg' /><img src='/images/type4.jpg' />
-  </article>
+    </article>
 
-<div class="prev_next post_nav">  <p class="previous"><a href="/working-with-typography.html" rel="previous" title="Working with Typography">← Previous</a> </p>   <p class="next"> <a href="/moved-from-wordpress-to-jekyll.html" rel="next" title="Moved from Wordpress to Jekyll">Next →</a></p>  </div>
+    <div class="prev_next post_nav">
+      
+      <p class="previous"><a href="/working-with-typography.html" rel="previous" title="Working with Typography">← Previous</a></p>
+
+       
+      <p class="next"> <a href="/moved-from-wordpress-to-jekyll.html" rel="next" title="Moved from Wordpress to Jekyll">Next →</a></p> 
+    </div>
 
  <hr />
 
@@ -71,6 +91,6 @@
     
   </ul>
 
-</div><!-- container -->
+</div>
 </body>
 </html>

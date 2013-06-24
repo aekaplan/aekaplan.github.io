@@ -15,24 +15,38 @@
   <!-- Typekit -->
   <script type="text/javascript" src="//use.typekit.net/vcp0eam.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/js/toggle-nav.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fade').addClass('animated fadeInDown');
+    });
+  </script>
   </head>
 <body>
 
-<div class='container'>
   <header class="cf">
+  <div class="container">
     <a href="/" class="logo-wrap">
       <span class="logo"></span>
     </a>
-    <ul class="nav">
-      <li><a href="/">Blog</a></li>
-      <li><a href="/projects">Projects</a></li>
-    </ul>
+    <div class="toggle-nav"></div>
+    <nav>
+      <ul>
+        <li><a href="/">Blog</a></li>
+        <li><a href="/projects">Projects</a></li>
+      </ul>
+    </nav>
+  </div>
   </header>
 
-  <article>
-    <h1 class="remove-bottom">Optimize your Images</h1>
-    <span class='date add-bottom'>February 01, 2013</span>
-    <h2>When using images on the web, always remove unnecessary bytes.</h2><p>Here are a few simple guidelines when using Photoshop:</p><ul>
+  <div class="container">
+    <article>
+      <h1 class="remove-bottom">Optimize your Images</h1>
+      <span class='date add-bottom'>February 01, 2013</span>
+      <h2>When using images on the web, always remove unnecessary bytes.</h2><p>Here are a few simple guidelines when using Photoshop:</p><ul>
 <li>Always use the <strong>Save for Web</strong> option</li>
 <li>Try to find a balance between <strong>image quality</strong> and <strong>file size</strong></li>
 <li>Use <strong>High</strong> if the image will be visible, <strong>Medium</strong> or <strong>Low</strong> for backgrounds</li>
@@ -46,9 +60,15 @@
 <li><a href='https://developers.google.com/speed/articles/optimizing-images' target='blank'>Google Developers: Optimizing Images</a></li>
 <li><a href='http://www.smushit.com/ysmush.it/' target='blank'>Smush It: A free online tool to help you optimize your images.</a></li>
 </ul>
-  </article>
+    </article>
 
-<div class="prev_next post_nav">  <p class="previous"><a href="/moved-from-wordpress-to-jekyll.html" rel="previous" title="Moved from Wordpress to Jekyll">← Previous</a> </p>   <p class="next"> <a href="/apprenticeship-projects.html" rel="next" title="Apprenticeship Projects">Next →</a></p>  </div>
+    <div class="prev_next post_nav">
+      
+      <p class="previous"><a href="/moved-from-wordpress-to-jekyll.html" rel="previous" title="Moved from Wordpress to Jekyll">← Previous</a></p>
+
+       
+      <p class="next"> <a href="/apprenticeship-projects.html" rel="next" title="Apprenticeship Projects">Next →</a></p> 
+    </div>
 
  <hr />
 
@@ -77,6 +97,6 @@
     
   </ul>
 
-</div><!-- container -->
+</div>
 </body>
 </html>

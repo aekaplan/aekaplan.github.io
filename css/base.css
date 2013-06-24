@@ -16,7 +16,21 @@ body {
 }
 
 header {
-  margin: 1em 0;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  margin-bottom: 1.5em;
+  padding: 0.5em 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+header .container {
+  padding: 0;
 }
 
 .column {
@@ -29,57 +43,79 @@ header {
   box-sizing: border-box;
 }
 
-/*  #Nav
+/*  #Navigation
 -------------------------------------------------------------- */
 .logo-wrap {
+  display: block;
   float: left;
+  overflow: hidden;
   padding: 0.5em 0;
 }
 
 .logo {
   background: url("/images/logo.png");
-  display: inline-block;
+  display: block;
   height: 26px;
   width: 34px;
+  margin: 0;
 }
 
-.nav {
+.toggle-nav {
+  background: url("/images/toggle-nav.png");
+  cursor: pointer;
+  display: block;
   float: right;
+  height: 26px;
+  width: 27px;
+  margin: 0.5em 0;
+}
+
+nav {
+  height: 0;
   margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+
+nav.hidden {
+  height: 0;
+}
+
+nav.visible {
+  height: auto;
+}
+
+nav ul {
+  margin: 0.5em 0 0 0;
   overflow: hidden;
   padding: 0;
 }
 
-.nav li {
+nav li {
+  border-top: 1px solid #eee;
   font-size: 1em;
-  float: left;
-  line-height: 1em;
+  font-weight: 600;
   list-style: none;
-  margin-left: 1.5em;
+  text-align: center;
 }
 
-.nav li:first-child {
-  margin-left: 0;
-}
-
-.nav li a {
+nav li a {
   color: #8c9397;
   display: block;
-  -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
-  -o-transition: color 0.2s ease-out;
-  -ms-transition: color 0.2s ease-out;
+  -webkit-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
-  padding: 0.9em 0;
+  padding: 0.8em 0;
 }
 
-.nav li a:hover {
-  color: #EE4938;
+nav li:last-child a {
+  padding-bottom: 0.3em;
+}
+
+nav li a:hover {
+  color: #ee4938;
   text-decoration: none;
-}
-
-.bio {
-  color: #8c9397;
 }
 
 /*  #Links
@@ -176,6 +212,10 @@ h4 a:hover {
   display: block;
   font-size: 1em;
   font-weight: 400;
+}
+
+.bio {
+  color: #8c9397;
 }
 
 /*  #Basic Styles
@@ -922,6 +962,11 @@ ul.example li:before {
     background-size: 34px 26px;
   }
 
+  .toggle-nav {
+    background: url("/images/toggle-nav@2x.png");
+    background-size: 31px 26px;
+  }
+
   .pin {
     background: url("/images/pin-2x.png");
     background-size: 15px 21px;
@@ -945,8 +990,41 @@ ul.example li:before {
     font-size: 112.5%;
   }
 
-  header {
-    margin: 2em 0;
+  .toggle-nav {
+    display: none;
+  }
+
+  nav {
+    float: right;
+    height: auto;
+    width: auto;
+  }
+
+  nav.hidden {
+    height: auto;
+  }
+
+  nav ul {
+    margin-top: 0;
+  }
+
+  nav li {
+    border: 0;
+    float: left;
+    font-size: 0.9em;
+    margin-left: 1.5em;
+  }
+
+  nav li:first-child {
+    margin-left: 0;
+  }
+
+  nav li a {
+    padding: 0.5em 0;
+  }
+
+  nav li:last-child a {
+    padding-bottom: 0.5em;
   }
 
   .column {
@@ -991,10 +1069,6 @@ ul.example li:before {
   .column-example:first-child {
     border: 1px solid #008080;
     margin-left: 0;
-  }
-
-  .nav li {
-    font-size: 0.9em;
   }
 
   .timeline-header {
