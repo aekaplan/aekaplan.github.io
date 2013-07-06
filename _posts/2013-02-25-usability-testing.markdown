@@ -15,9 +15,7 @@ So what is usability testing?
 </p>
 
 <blockquote>
-<p>
-Watching people try to use what your creating, with the intention of (a) making it easier to use or (b) proving that it is easy to use.
-</p>
+<p>Watching people try to use what your creating, with the intention of (a) making it easier to use or (b) proving that it is easy to use.</p>
 </blockquote>
 
 <p>

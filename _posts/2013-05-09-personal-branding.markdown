@@ -8,9 +8,7 @@ date: May 9, 2013
 <p>What, exactly, is a logo?</p>
 
 <blockquote>
-<p>
-A logo is a graphic mark or emblem commonly used by commercial enterprises, organizations and even individuals to aid and promote instant public recognition. 
-</p>
+<p>A logo is a graphic mark or emblem commonly used by commercial enterprises, organizations and even individuals to aid and promote instant public recognition.</p>
 </blockquote>
 
 <p>

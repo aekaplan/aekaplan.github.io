@@ -9,9 +9,7 @@ date: March 21, 2013
 <p>What is wireframing?</p>
 
 <blockquote>
-<p>
-A basic visual guide used to suggest the layout of fundamental elements in a web interface.
-</p>
+<p>A basic visual guide used to suggest the layout of fundamental elements in a web interface.</p>
 </blockquote>
 
 <p>Wireframing allows you to focus on:</p>

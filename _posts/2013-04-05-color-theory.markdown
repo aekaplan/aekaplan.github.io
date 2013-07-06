@@ -15,9 +15,7 @@ I won't get too scientific, as I want to keep this relevant to web design. Let's
 </p>
 
 <blockquote>
-<p>
-Color theory is a body of practical guidance to color mixing and the visual effects of specific color combination.
-</p>
+<p>Color theory is a body of practical guidance to color mixing and the visual effects of specific color combination.</p>
 </blockquote>
 
 <a href="http://en.wikipedia.org/wiki/Color_wheel" target="_blank">

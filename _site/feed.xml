@@ -11,9 +11,7 @@
 				<description>&lt;h2&gt;
 Pseudo-classes allow you to do more with less code.
 &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;
-The prefix pseudo (from the Greek word &lt;em&gt;pseudēs&lt;/em&gt;, meaning &quot;lying&quot; or &quot;false&quot;) is used to mark something as false, fraudulent, or pretending to be something it is not.
-&lt;/p&gt;
+&lt;p&gt;The prefix pseudo (from the Greek word &lt;em&gt;pseudēs&lt;/em&gt;, meaning &quot;lying&quot; or &quot;false&quot;) is used to mark something as false, fraudulent, or pretending to be something it is not.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
 This definition gives you a good idea of what these selectors do. Since pseudo-classes add no markup, they look &quot;invisible&quot; to the user because everything is done through CSS. You're basically gaining one or more &quot;free&quot; elements that you would otherwise have to write markup for.
 &lt;/p&gt;&lt;h3&gt;:before and :after&lt;/h3&gt;&lt;p&gt;
@@ -88,9 +86,7 @@ Greater than 86% of all users' browsers support pseudo-classes. Feel free to use
 			<item>
 				<title>Personal Branding</title>
 				<description>&lt;h2&gt;A logo can embody a unique identity that can help promote you and your brand by making it easily recognizable.&lt;/h2&gt;&lt;p&gt;What, exactly, is a logo?&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;
-A logo is a graphic mark or emblem commonly used by commercial enterprises, organizations and even individuals to aid and promote instant public recognition. 
-&lt;/p&gt;
+&lt;p&gt;A logo is a graphic mark or emblem commonly used by commercial enterprises, organizations and even individuals to aid and promote instant public recognition.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
 Logos can come in many forms. Some are purely graphic (symbols/icons), while others are typographic (a logotype or word mark).
 &lt;/p&gt;&lt;h3&gt;My Assignment&lt;/h3&gt;&lt;p&gt;
@@ -121,55 +117,30 @@ Lastly, don't be afraid to take some risks! You need to stand out among the crow
 		
 			<item>
 				<title>Pairing</title>
-				<description>&lt;h2&gt;Pairing when coding produces higher quality work and minimizes mistakes. When designing, collaboration can also increase creativity.&lt;/h2&gt;&lt;p&gt;
-I find my designs to be stronger and more polished when I pair. The constant feedback from my pair makes for a better design and adds more polish to the final design.
-&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;
-Pair programming is an &lt;a href='http://en.wikipedia.org/wiki/Agile_software_development' target='_blank'&gt;agile software development&lt;/a&gt; technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.
-&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;
+				<description>&lt;h2&gt;Pairing when coding produces higher quality work and minimizes mistakes.&lt;/h2&gt;&lt;p&gt;
+When designing, collaboration can also increase creativity. I find my designs to be stronger and more polished when I pair. The constant feedback from my pair makes for a better design and adds more polish to the final design.
+&lt;/p&gt;&lt;p&gt;Pair programing is one part &quot;driver&quot; and one part &quot;navigator&quot;:&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;Pair programming is an &lt;a href='http://en.wikipedia.org/wiki/Agile_software_development' target='_blank'&gt;agile software development&lt;/a&gt; technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;
 At 8th Light, pairing is part of our culture and provides many benefits:
-&lt;/p&gt;
-
-&lt;ul&gt;
+&lt;/p&gt;&lt;ul&gt;
   &lt;li&gt;Increases collaboration&lt;/li&gt;
   &lt;li&gt;Leads to better designs&lt;/li&gt;
   &lt;li&gt;Produces higher quality software&lt;/li&gt;
   &lt;li&gt;Provides quality assurance&lt;/li&gt;
   &lt;li&gt;Encourages diversity of thought&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Collaboration is Key&lt;/h3&gt;
-&lt;p&gt;
+&lt;/ul&gt;&lt;h3&gt;Collaboration is Key&lt;/h3&gt;&lt;p&gt;
 They say two minds are better than one, and it's absolutely true. When you're working alone, you can't have your ideas validated, but when you put two creative minds on the same project so much can happen. Ideas come quickly, designs are more polished, and layouts become more refined. And just as I refactor my code, my pair can help me refactor my design. A second opinion can help guide you in the right direction and call out issues.
-&lt;/p&gt;
-
-&lt;h3&gt;Fewer Mistakes&lt;/h3&gt;
-&lt;p&gt;
-Another set of eyes will catch typos and simple mistakes when coding. It's the job of the &quot;observer&quot; or &quot;navigator&quot; to watch for these simple mistakes but it's also a good opportunity to learn from a more experienced pair. I might do some research or troubleshoot some issues while my pair works through something else. Just like how factories use quality control in production, I feel more confident showing off my work because I know someone was inspecting it as I wrote it.&lt;/p&gt;
-
-&lt;h3&gt;Higher Quality Code&lt;/h3&gt;
-&lt;p&gt;
+&lt;/p&gt;&lt;h3&gt;Fewer Mistakes&lt;/h3&gt;&lt;p&gt;
+Another set of eyes will catch typos and simple mistakes when coding. It's the job of the &quot;observer&quot; or &quot;navigator&quot; to watch for these simple mistakes but it's also a good opportunity to learn from a more experienced pair. I might do some research or troubleshoot some issues while my pair works through something else. Just like how factories use quality control in production, I feel more confident showing off my work because I know someone was inspecting it as I wrote it.&lt;/p&gt;&lt;h3&gt;Higher Quality Code&lt;/h3&gt;&lt;p&gt;
 Pairing also allows you to refractor your code while you're writing. For example, I might argue that two CSS classes could really be combined into one while my pair continues to work. Another set of eyes to watch you code allows one person to think about the overall design while the other continues to produce code. Pairing allows me to tap into someone else's knowledge about better ways to write code, as well as share experiences and resources.
-&lt;/p&gt;
-
-&lt;h3&gt;Instant Feedback&lt;/h3&gt;
-&lt;p&gt;
+&lt;/p&gt;&lt;h3&gt;Instant Feedback&lt;/h3&gt;&lt;p&gt;
 Getting instant feedback is really helpful. These tight feedback loops can speed up the design process without losing quality. I also find my creativity is increased when I pair, as I might come up with a few undeveloped ideas and then have the other designers help me grow them. Don't be afraid to share your opinion of your pair's work, either. Just be sure keep it constructive and not step on your pair's toes.
-&lt;/p&gt;
-
-&lt;h3&gt;Put Ownership Aside&lt;/h3&gt;
-&lt;p&gt;
+&lt;/p&gt;&lt;h3&gt;Put Ownership Aside&lt;/h3&gt;&lt;p&gt;
 The old saying still holds true; there is no “I” in team. It's not important who created what, only that the final design delivers on what the client wants. I believe in a design culture where collaboration is key and everyone helps each other out. Helping out in this way can be as simple as providing feedback that will lead to a better user experience or a suggestion on a layout tweak.
-&lt;/p&gt;
-
-&lt;h2&gt;
+&lt;/p&gt;&lt;h2&gt;
 The success of a pairing session shares a common goal: work together to create an outstanding product that the client will love.
-&lt;/h2&gt;
-
-&lt;p&gt;
+&lt;/h2&gt;&lt;p&gt;
 If you're feeling stuck (CSS problem? &lt;a href='mailto:adam.kaplan@icloud.com'&gt;Ask me anything&lt;/a&gt;!) or in need of some inspiration, give pairing a try. It really helps me and I know it will benefit you too. Thanks for reading!
 &lt;/p&gt;</description>
 				<pubDate>Wed, 01 May 2013 00:00:00 -0500</pubDate>
@@ -197,9 +168,7 @@ Color is a great way to make your website beautiful while enhancing its usabilit
 Color plays an important role in design in general. However, you have to be more mindful of color when you use it on the web, as there are a lot of &lt;a href='usability-testing.html' target='_blank'&gt;usability&lt;/a&gt; problems that can arise from its misuse. &lt;/p&gt;&lt;p&gt;
 I won't get too scientific, as I want to keep this relevant to web design. Let's go over some of the basics of color theory.
 &lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;
-Color theory is a body of practical guidance to color mixing and the visual effects of specific color combination.
-&lt;/p&gt;
+&lt;p&gt;Color theory is a body of practical guidance to color mixing and the visual effects of specific color combination.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;a href='http://en.wikipedia.org/wiki/Color_wheel' target='_blank'&gt;
 &lt;img src='/images/color-wheel.jpg' /&gt;
 &lt;/a&gt;&lt;h3&gt;The Color Wheel&lt;/h3&gt;&lt;p&gt;In 1666, &lt;a href='http://en.wikipedia.org/wiki/Isaac_Newton' target='_blank'&gt;Sir Isaac Newton&lt;/a&gt; developed the first circular diagram of colors. The color wheel, based on red, yellow and blue, is still the basis for most color theory.&lt;/p&gt;&lt;p&gt;There are 3 important sections of the color wheel:&lt;/p&gt;&lt;ul&gt;
@@ -313,9 +282,7 @@ Steps to writing better CSS (I couldn't help myself with the naming):
 &lt;/ul&gt;&lt;h3&gt;Normalize&lt;/h3&gt;&lt;p&gt;
 Resets remove the default styles for all elements while &lt;a href='http://necolas.github.com/normalize.css/' target='_blank'&gt;normalize&lt;/a&gt; retains most of the useful default browser styles. When starting a new project, I prefer normalize over resets.
 &lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;
-Normalize.css is a small CSS file that provides better cross-browser consistency in the default styling of HTML elements. It’s a modern, HTML5-ready, alternative to the traditional CSS reset. 
-&lt;/p&gt;
+&lt;p&gt;Normalize.css is a small CSS file that provides better cross-browser consistency in the default styling of HTML elements. It’s a modern, HTML5-ready, alternative to the traditional CSS reset.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
 It also corrects bugs commonly found in browser inconsistencies and doesn't clutter your debugging tool. Simply download and use &lt;a href='http://necolas.github.com/normalize.css/' target='_blank'&gt;normalize.css&lt;/a&gt; as-is, or customize it to meet your requirements.
 &lt;/p&gt;&lt;h3&gt;Organize&lt;/h3&gt;&lt;p&gt;
@@ -355,9 +322,7 @@ My &quot;Write Better CSS&quot; presentation will be on April 12.
 			<item>
 				<title>Wireframing</title>
 				<description>&lt;h2&gt;Wireframing is a useful first step in the design process, allowing you to focus on defining the information hierarchy and user experience.&lt;/h2&gt;&lt;p&gt;What is wireframing?&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;
-A basic visual guide used to suggest the layout of fundamental elements in a web interface.
-&lt;/p&gt;
+&lt;p&gt;A basic visual guide used to suggest the layout of fundamental elements in a web interface.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;Wireframing allows you to focus on:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;planning the general layout&lt;/li&gt;
 &lt;li&gt;determing how the user will interact with your interface&lt;/li&gt;
@@ -396,9 +361,7 @@ Just remember to keep it simple, put usability first, seek out feedback and expe
 				<description>&lt;h2&gt;I’ve been learning some Sassy CSS and wanted to talk about three awesome features that it provides: variables, nesting and mixins.&lt;/h2&gt;&lt;p&gt;
   At a high level, Sass is simply a CSS preprocessor with two syntaxes:
 &lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;
-The most commonly used syntax is known as “SCSS” (for “Sassy CSS”), and is a superset of CSS3’s syntax. This means that every valid CSS3 stylesheet is valid SCSS as well. SCSS files use the extension .scss.
-&lt;/p&gt;
+&lt;p&gt;The most commonly used syntax is known as “SCSS” (for “Sassy CSS”), and is a superset of CSS3’s syntax. This means that every valid CSS3 stylesheet is valid SCSS as well. SCSS files use the extension .scss.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;blockquote&gt;
 &lt;p&gt;
 The second, older syntax is known as the &lt;a href='http://sass-lang.com/docs/yardoc/file.INDENTED_SYNTAX.html' target='_blank'&gt; indented syntax&lt;/a&gt; (or just “.sass”). Inspired by &lt;a href='http://haml.info/' target='_blank'&gt;Haml’s&lt;/a&gt; terseness, it’s intended for people who prefer conciseness over similarity to CSS.
@@ -464,9 +427,7 @@ Steve Krug and how it applied to an application that I recently designed.
 &lt;/p&gt;&lt;p&gt;
 So what is usability testing?
 &lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;
-Watching people try to use what your creating, with the intention of (a) making it easier to use or (b) proving that it is easy to use.
-&lt;/p&gt;
+&lt;p&gt;Watching people try to use what your creating, with the intention of (a) making it easier to use or (b) proving that it is easy to use.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
 There are two different types of testing available each with their own implications:
 &lt;/p&gt;&lt;div class='row cf'&gt;

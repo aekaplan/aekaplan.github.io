@@ -26,9 +26,7 @@ Resets remove the default styles for all elements while <a href="http://necolas.
 </p>
 
 <blockquote>
-<p>
-Normalize.css is a small CSS file that provides better cross-browser consistency in the default styling of HTML elements. It’s a modern, HTML5-ready, alternative to the traditional CSS reset. 
-</p>
+<p>Normalize.css is a small CSS file that provides better cross-browser consistency in the default styling of HTML elements. It’s a modern, HTML5-ready, alternative to the traditional CSS reset.</p>
 </blockquote>
 
 <p>

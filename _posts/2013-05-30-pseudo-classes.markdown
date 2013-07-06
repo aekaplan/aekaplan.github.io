@@ -8,9 +8,7 @@ Pseudo-classes allow you to do more with less code.
 </h2>
 
 <blockquote>
-<p>
-The prefix pseudo (from the Greek word <em>pseudēs</em>, meaning "lying" or "false") is used to mark something as false, fraudulent, or pretending to be something it is not.
-</p>
+<p>The prefix pseudo (from the Greek word <em>pseudēs</em>, meaning "lying" or "false") is used to mark something as false, fraudulent, or pretending to be something it is not.</p>
 </blockquote>
 
 <p>

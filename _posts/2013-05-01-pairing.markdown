@@ -3,20 +3,16 @@ layout: posts
 title: Pairing
 date: May 1, 2013
 ---
-<h2>Pairing when coding produces higher quality work and minimizes mistakes. When designing, collaboration can also increase creativity.</h2>
+<h2>Pairing when coding produces higher quality work and minimizes mistakes.</h2>
 
 <p>
-I find my designs to be stronger and more polished when I pair. The constant feedback from my pair makes for a better design and adds more polish to the final design.
+When designing, collaboration can also increase creativity. I find my designs to be stronger and more polished when I pair. The constant feedback from my pair makes for a better design and adds more polish to the final design.
 </p>
 
-<p
-Pair programing is one part "driver" and one part "navigator":
-</p>
+<p>Pair programing is one part "driver" and one part "navigator":</p>
 
 <blockquote>
-<p>
-Pair programming is an <a href="http://en.wikipedia.org/wiki/Agile_software_development" target="_blank">agile software development</a> technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.
-</p>
+<p>Pair programming is an <a href="http://en.wikipedia.org/wiki/Agile_software_development" target="_blank">agile software development</a> technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.</p>
 </blockquote>
 
 <p>
