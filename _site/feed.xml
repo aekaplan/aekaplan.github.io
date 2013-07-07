@@ -29,7 +29,7 @@ Using &lt;code&gt;block&lt;/code&gt; elements is better, since there will be a l
 &lt;/p&gt;&lt;h3&gt;Toggle Navigation&lt;/h3&gt;&lt;p&gt;
 Using &lt;code&gt;jQuery&lt;/code&gt; and some simple &lt;code&gt;CSS&lt;/code&gt;, Rylan and I were able to get the best of both worlds. I gain back my precious real estate on mobile while keeping the usability of &lt;code&gt;block&lt;/code&gt; level links. Simply awesome!
 &lt;/p&gt;&lt;img alt='mobile-toggle' src='/images/mobile-toggle.png' /&gt;&lt;p&gt;
-I hide the navigation items and present a widely-used “menu” icon, a “three line” symbol. Jordan Moore wrote a great article all about it in &lt;a href='http://mobile.smashingmagazine.com/2012/10/08/the-semantic-responsive-design-navicon/' target='_blank'&gt;The Semantic, Responsive Navicon&lt;/a&gt; for Smashing Magazine.
+I hide the navigation items and present a widely-used “menu” icon, a “three line” symbol. Jordan Moore wrote a great article all about it in &lt;a href='http://mobile.smashingmagazine.com/2012/10/08/the-semantic-responsive-design-navicon/' target='_blank'&gt;The Semantic, Responsive Navicon&lt;/a&gt; for Smashing Magazine:
 &lt;/p&gt;&lt;blockquote&gt;
 &lt;p&gt;Part of its power lies in its versatility, as the icon itself doesn’t clearly represent a precise object nor method, which means it can be applied to a variety of navigation-based design patterns without showing a preference to a particular pattern.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;

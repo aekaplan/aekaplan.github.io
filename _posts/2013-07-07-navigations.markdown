@@ -53,7 +53,7 @@ Using <code>jQuery</code> and some simple <code>CSS</code>, Rylan and I were abl
 <img src="/images/mobile-toggle.png" alt="mobile-toggle">
 
 <p>
-I hide the navigation items and present a widely-used “menu” icon, a “three line” symbol. Jordan Moore wrote a great article all about it in <a href="http://mobile.smashingmagazine.com/2012/10/08/the-semantic-responsive-design-navicon/" target="_blank">The Semantic, Responsive Navicon</a> for Smashing Magazine.
+I hide the navigation items and present a widely-used “menu” icon, a “three line” symbol. Jordan Moore wrote a great article all about it in <a href="http://mobile.smashingmagazine.com/2012/10/08/the-semantic-responsive-design-navicon/" target="_blank">The Semantic, Responsive Navicon</a> for Smashing Magazine:
 </p>
 
 <blockquote>
