@@ -8,7 +8,7 @@ Having a clear, easy-to-use navigation is essential to good web design.
 </h2>
 
 <p>
-A navigation is often one of the most useful parts of your website, so it's really important to get it right. Having too many of navigation items can overload the user and take up too much screen real estate, especially on mobile devices.
+A navigation is often one of the most useful parts of your website, so it's really important to get it right. Having too many navigation items can overload the user and take up too much screen real estate, especially on mobile devices.
 </p>
 
 

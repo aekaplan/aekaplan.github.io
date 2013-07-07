@@ -55,9 +55,7 @@ I recently had the opportunity to work on an application with Brian Pratt and Ry
 </p>
 
 <blockquote>
-<p>
-Chiditarod (think <a href="http://en.wikipedia.org/wiki/Iditarod_Trail_Sled_Dog_Race" target="_blank">Iditarod</a>) is Chicago's Epic Urban Iditarod. A charity food drive, beauty pageant, costumed shopping cart race, talent show, fundraiser and chaos generator all in one. And probably the world's largest mobile food drive, benefitting the <a href="http://www.chicagosfoodbank.org/site/PageServer" target="_blank">Greater Chicago Food Depository</a>.
-</p>
+<p>Chiditarod (think <a href="http://en.wikipedia.org/wiki/Iditarod_Trail_Sled_Dog_Race" target="_blank">Iditarod</a>) is Chicago's Epic Urban Iditarod. A charity food drive, beauty pageant, costumed shopping cart race, talent show, fundraiser and chaos generator all in one. And probably the world's largest mobile food drive, benefitting the <a href="http://www.chicagosfoodbank.org/site/PageServer" target="_blank">Greater Chicago Food Depository</a>.</p>
 </blockquote>
 
 <p>
@@ -88,9 +86,7 @@ Brian presented to over 40 volunteers and organizers. I went around the room and
 </p>
 
 <blockquote>
-<p>
-In usability testing, we call the people we're observing "test participants," not "test subjects," to remind ourselves that we really aren't testing them &mdash; we're testing the thing they're using.
-</p>
+<p>In usability testing, we call the people we're observing "test participants," not "test subjects," to remind ourselves that we really aren't testing them &mdash; we're testing the thing they're using.</p>
 </blockquote>
 
 <p>
@@ -116,9 +112,7 @@ When it came time to implement these changes, I turned to my reading to help me:
 </p>
 
 <blockquote>
-<p>
-When you're trying to fix a usability problem, the question you should always be asking is: What's the smallest, simplest change we can make that's likely to keep people from having the problem we observed?
-</p>
+<p>When you're trying to fix a usability problem, the question you should always be asking is: What's the smallest, simplest change we can make that's likely to keep people from having the problem we observed?</p>
 </blockquote>
 
 <p>
