@@ -66,5 +66,5 @@ This icon is used everywhere; you can find it on Facebook and YouTube and even a
 
 <h3>Conclusion</h3>
 <p>
-You can take this concept even further. Along with presenting the “menu” icon on mobile devices, <a href="http://mailchimp.com/" target="_blank">MailChimp</a> takes this one step further. On desktop, they hide the navigation when you scroll down but when you scroll up shows it again. This is such a simple, subtle design decision that keeps the navigation out of the way of the site's content.
+You can take this concept even further. Along with presenting the “menu” icon on mobile devices, <a href="http://mailchimp.com/" target="_blank">MailChimp</a> does a good job of keeping the navigation out of the way. On desktop, they hide the navigation when you scroll down but when you scroll up shows it again. This is an effective design decision that puts the site's content first.
 </p>
