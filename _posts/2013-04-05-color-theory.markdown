@@ -49,9 +49,7 @@ Choosing colors is extremely important and worth the effort to consider them car
 </p>
 
 <blockquote>
-<p>
-Red is the color of fire and blood, so it is associated with energy, war, danger, strength, power, and determination. It can also represent passion, desire, and love.
-</p>
+<p>Red is the color of fire and blood, so it is associated with energy, war, danger, strength, power, and determination. It can also represent passion, desire, and love.</p>
 </blockquote>
 
 <p>
@@ -59,9 +57,7 @@ Red also symbolizes prosperity and happiness in China, and mourning in South Afr
 </p>
 
 <blockquote>
-<p>
-Blue is the color of the sky and sea. It is often associated with depth and stability. It symbolizes trust, loyalty, wisdom, confidence, intelligence, faith and truth.
-</p>
+<p>Blue is the color of the sky and sea. It is often associated with depth and stability. It symbolizes trust, loyalty, wisdom, confidence, intelligence, faith and truth.</p>
 </blockquote>
 
 <p>

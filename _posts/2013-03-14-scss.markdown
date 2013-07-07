@@ -4,10 +4,12 @@ title: SCSS
 date: March  14, 2013
 ---
 
-<h2>I’ve been learning some Sassy CSS and wanted to talk about three awesome features that it provides: variables, nesting and mixins.</h2>
+<h2>
+I’ve been learning some Sassy CSS and wanted to talk about three awesome features tha  it provides: variables, nesting and mixins.
+</h2>
 
 <p>
-  At a high level, Sass is simply a CSS preprocessor with two syntaxes:
+At a high level, Sass is simply a CSS preprocessor with two syntaxes:
 </p>
 
 <blockquote>
@@ -15,9 +17,7 @@ date: March  14, 2013
 </blockquote>
 
 <blockquote>
-<p>
-The second, older syntax is known as the <a href="http://sass-lang.com/docs/yardoc/file.INDENTED_SYNTAX.html" target="_blank"> indented syntax</a> (or just “.sass”). Inspired by <a href="http://haml.info/" target="_blank">Haml’s</a> terseness, it’s intended for people who prefer conciseness over similarity to CSS.
-</p>
+<p>The second, older syntax is known as the <a href="http://sass-lang.com/docs/yardoc/file.INDENTED_SYNTAX.html" target="_blank"> indented syntax</a> (or just “.sass”). Inspired by <a href="http://haml.info/" target="_blank">Haml’s</a> terseness, it’s intended for people who prefer conciseness over similarity to CSS.</p>
 </blockquote>
 
 <p>
@@ -47,9 +47,7 @@ This is where variables becomes a huge time saver:
 </p>
 
 <blockquote>
-<p>
-Variables allow you to re-use colors, sizes, and other values without repeating yourself. This means that changes that should be small, such as tweaking the coloring or the sizing, can be done in one place, not all over the stylesheet.
-</p>
+<p>Variables allow you to re-use colors, sizes, and other values without repeating yourself. This means that changes that should be small, such as tweaking the coloring or the sizing, can be done in one place, not all over the stylesheet.</p>
 </blockquote>
 
 <p>
@@ -104,9 +102,8 @@ Mixins are one of Sass’s most powerful features. They allow re-use of styles w
 </p>
 
 <blockquote>
-  <p>
-  Mixins are defined using the “@mixin” directive, which takes a block of styles that can then be included in another selector using the “@include” directive.
-  </p>
+<p>
+ Mixins are defined using the “@mixin” directive, which takes a block of styles that can then be included in another selector using the “@include” directive.</p>
 </blockquote>
 
 <p>

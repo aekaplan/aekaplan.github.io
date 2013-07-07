@@ -54,9 +54,7 @@ Jen Myers' post on <a href="http://jenmyers.tumblr.com/post/45339751868/why-you-
 </p>
 
 <blockquote>
-<p>
-Here’s the simple truth up-front: alphabetical CSS ordering makes your CSS most easily accessible to the widest group of people with the least amount of clutter in your stylesheets.
-</p>
+<p>Here’s the simple truth up-front: alphabetical CSS ordering makes your CSS most easily accessible to the widest group of people with the least amount of clutter in your stylesheets.</p>
 </blockquote>
 
 <p>

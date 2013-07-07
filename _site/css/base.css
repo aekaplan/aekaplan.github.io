@@ -113,14 +113,14 @@ nav li:last-child a {
 }
 
 nav li a:hover {
-  color: #ee4938;
+  color: #4183C4;
   text-decoration: none;
 }
 
 /*  #Links
 -------------------------------------------------------------- */
 a {
-  color: #EE4938;
+  color: #4183C4;
   text-decoration: none;
 }
 
@@ -150,18 +150,17 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 1.1em;
   margin-bottom: 0.5em;
   font-weight: 600;
 }
 
-.remove-bottom {
-  margin-bottom: 0;
-}
-
-.add-bottom {
+.article-title {
+  font-size: 1.8em;
+  font-weight: 600;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 h2 {
@@ -179,7 +178,7 @@ h3 {
 }
 
 .section-header {
-  font-size: 1.8em;
+  font-size: 1.6em;
   line-height: 1.4em;
   margin-bottom: 0.5em;
   font-weight: 600;
@@ -202,7 +201,7 @@ h4 a {
 }
 
 h4 a:hover {
-  color: #EE4938;
+  color: #4183C4;
   text-decoration: none;
 }
 
