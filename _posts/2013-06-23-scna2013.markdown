@@ -12,7 +12,6 @@ I had the opportinity to design and build this year's <a href="http://scna.softw
 </p>
 
 <img src="/images/scna.png" alt="SCNA">
-
 <p>
 Special thanks to those who helped out:
 </p>
