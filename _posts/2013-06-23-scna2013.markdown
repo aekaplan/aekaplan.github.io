@@ -11,7 +11,8 @@ SCNA is a conference for software professionals interested in improving their cr
 I had the opportinity to design and build this year's <a href="http://scna.softwarecraftsmanship.com/" target="_blank">SCNA website</a>. I'm really excited to share some of the work I did with Alejandra on this project!
 </p>
 
-<img src="/images/scna.png" alt="SCNA">
+<img src="/images/scna-logo.png" alt="SCNA">
+
 <p>
 Special thanks to those who helped out:
 </p>
