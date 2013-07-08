@@ -19,7 +19,7 @@ header {
   background: #fff;
   border-bottom: 1px solid #eee;
   overflow: hidden;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   padding: 0.5em 0;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -96,6 +96,7 @@ nav li {
   border-top: 1px solid #eee;
   font-size: 1em;
   list-style: none;
+  margin-bottom: 0;
   text-align: center;
 }
 
@@ -150,16 +151,22 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 1.8em;
+  font-size: 2em;
   line-height: 1.1em;
   margin-bottom: 0.5em;
   font-weight: 600;
 }
 
 .article-title {
-  font-size: 1.8em;
-  font-weight: 600;
-  margin-bottom: 1em;
+  margin-bottom: 0.3em;
+  text-align: center;
+}
+
+.article-date {
+  color: #8c9397;
+  display: block;
+  font-weight: 400;
+  margin-bottom: 2em;
   text-align: center;
 }
 
@@ -180,7 +187,7 @@ h3 {
 .section-header {
   font-size: 1.6em;
   line-height: 1.4em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.8em;
   font-weight: 600;
 }
 
@@ -250,6 +257,10 @@ ul, ol {
   margin: 0 0 1.5em 2em;
   padding: 0;
   list-style: disc outside;
+}
+
+li {
+  margin-bottom: 0.5em;
 }
 
 .clean {
@@ -994,6 +1005,10 @@ ul.example li:before {
 @media screen and (min-width: 640px) {
   body {
     font-size: 125%;
+  }
+
+  header, .article-date {
+    margin-bottom: 4em;
   }
 
   .toggle-nav {

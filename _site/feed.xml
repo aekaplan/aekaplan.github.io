@@ -43,6 +43,26 @@ You can take this concept even further. Along with presenting the “menu” ico
 			</item>
 		
 			<item>
+				<title>SCNA 2013</title>
+				<description>&lt;h2&gt;
+SCNA is a conference for software professionals interested in improving their craft, their community, and themselves.
+&lt;/h2&gt;&lt;p&gt;
+I had the opportinity to design and build this year's &lt;a href='http://scna.softwarecraftsmanship.com/' target='_blank'&gt;SCNA website&lt;/a&gt;. I'm really excited to share some of the work I did with Alejandra on this project!
+&lt;/p&gt;&lt;img alt='SCNA' src='/images/scna.png' /&gt;&lt;p&gt;
+Special thanks to those who helped out:
+&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://alejandraluaces.com/' target='_blank'&gt;Alejandra Luaces&lt;/a&gt; for icons&lt;/li&gt;
+&lt;li&gt;&lt;a href='http://gorilla-studios.com/' target='_blank'&gt;Chris Peak&lt;/a&gt; for the conference photos&lt;/li&gt;
+&lt;li&gt;&lt;a href='http://nickmeccia.tumblr.com/' target='_blank'&gt;Nick Meccia&lt;/a&gt; for the logo&lt;/li&gt;
+&lt;li&gt;&lt;a href='http://rylandirksen.com/' target='_blank'&gt;Rylan Dirksen&lt;/a&gt; for some jQuery help&lt;/li&gt;
+&lt;li&gt;&lt;a href='http://stephaniebriones.com/' target='_blank'&gt;Stephanie Briones&lt;/a&gt; for guidance and support&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Interested in attending? &lt;a href='http://scna.eventbrite.com/' target='_blank'&gt;Register Today&lt;/a&gt; and get an early bird rate!&lt;/p&gt;</description>
+				<pubDate>Wed, 26 Jun 2013 00:00:00 -0500</pubDate>
+				<link>http://www.adamkaplandesign.com/scna2013.html</link>
+				<guid isPermaLink="true">http://www.adamkaplandesign.com/scna2013.html</guid>
+			</item>
+		
+			<item>
 				<title>Personal Branding</title>
 				<description>&lt;h2&gt;A logo can embody a unique identity that can help promote you and your brand by making it easily recognizable.&lt;/h2&gt;&lt;p&gt;What, exactly, is a logo?&lt;/p&gt;&lt;blockquote&gt;
 &lt;p&gt;A logo is a graphic mark or emblem commonly used by commercial enterprises, organizations and even individuals to aid and promote instant public recognition.&lt;/p&gt;
@@ -353,8 +373,7 @@ Boom! This is a great example of how to &lt;a href='http://en.wikipedia.org/wiki
 &lt;/p&gt;&lt;h3&gt;Mixins&lt;/h3&gt;&lt;p&gt;
 Mixins are one of Sass’s most powerful features. They allow re-use of styles without having to memorize or copy and paste them.
 &lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;
- Mixins are defined using the “@mixin” directive, which takes a block of styles that can then be included in another selector using the “@include” directive.&lt;/p&gt;
+&lt;p&gt;Mixins are defined using the “@mixin” directive, which takes a block of styles that can then be included in another selector using the “@include” directive.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
 So let's say I want to add a nice fade transition to my link and button classes:
 &lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/c0b66222424af6b1c0d9.js'&gt; &lt;/script&gt;&lt;p&gt;
@@ -461,26 +480,6 @@ Just ask a friend, family member or coworker. You will be surprised what another
 				<pubDate>Mon, 25 Feb 2013 00:00:00 -0600</pubDate>
 				<link>http://www.adamkaplandesign.com/usability-testing.html</link>
 				<guid isPermaLink="true">http://www.adamkaplandesign.com/usability-testing.html</guid>
-			</item>
-		
-			<item>
-				<title>Apprenticeship Projects</title>
-				<description>&lt;h2&gt;I have learned so much over the past few weeks and wanted to share my current projects.&lt;/h2&gt;&lt;p&gt;
-  Each week, Stephanie gives me a new assignment to work on. I really enjoy how each project builds off one another. This helps concepts stick while still providing a new challenge. Take a look!
-&lt;/p&gt;&lt;h3&gt;Projects&lt;/h3&gt;&lt;ul class='post'&gt;
-  &lt;li&gt;&lt;a href='http://adamkaplandesign.com/projects/units-of-measure.html' target='_blank'&gt;CSS Units of Measurement&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href='http://adamkaplandesign.com/projects/position-properties.html' target='_blank'&gt;Position Properties&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href='http://adamkaplandesign.com/projects/handcrafted-css' target='_blank'&gt;Handcrafted CSS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href='http://adamkaplandesign.com/projects/semantic-news-article.html' target='_blank'&gt;Semantic News Article&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href='http://adamkaplandesign.com/projects/inline-and-block-elements.html' target='_blank'&gt;Inline and Block Elements&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;div class='note'&gt;
-  &lt;p&gt;
-    This post was written in Vim, which I'm currently learning.
-  &lt;/p&gt;
-&lt;/div&gt;</description>
-				<pubDate>Mon, 18 Feb 2013 00:00:00 -0600</pubDate>
-				<link>http://www.adamkaplandesign.com/apprenticeship-projects.html</link>
-				<guid isPermaLink="true">http://www.adamkaplandesign.com/apprenticeship-projects.html</guid>
 			</item>
 		
 	</channel>

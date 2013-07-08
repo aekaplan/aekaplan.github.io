@@ -102,8 +102,7 @@ Mixins are one of Sass’s most powerful features. They allow re-use of styles w
 </p>
 
 <blockquote>
-<p>
- Mixins are defined using the “@mixin” directive, which takes a block of styles that can then be included in another selector using the “@include” directive.</p>
+<p>Mixins are defined using the “@mixin” directive, which takes a block of styles that can then be included in another selector using the “@include” directive.</p>
 </blockquote>
 
 <p>
