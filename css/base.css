@@ -131,6 +131,11 @@ a:hover {
   text-decoration: underline;
 }
 
+.back-to-top {
+  font-size: 0.9em;
+  text-align: center;
+}
+
 /*  #Headers
 -------------------------------------------------------------- */
 .masthead {
