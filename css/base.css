@@ -288,13 +288,13 @@ hr {
 }
 
 blockquote {
-  margin: 0 0 1.5em;
+  margin: 0 0 1.5em 0;
 }
 
 blockquote p {
   font-style: italic;
   margin-bottom: 0;
-  padding-left: 1.5em;
+  padding-left: 0;
 }
 
 code {
@@ -1189,6 +1189,10 @@ ul.example li:before {
 
   .article-title {
     margin: 0 17% 0.3em 17%;
+  }
+
+  blockquote {
+    padding-left: 1.5em;
   }
 }
 
