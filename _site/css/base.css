@@ -158,14 +158,14 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 1.1em;
   margin-bottom: 0.5em;
   font-weight: 600;
 }
 
 .article-title {
-  margin-bottom: 0.3em;
+  margin: 0 0 0.3em 0;
   text-align: center;
 }
 
@@ -1015,7 +1015,7 @@ ul.example li:before {
   }
 
   header, .article-date {
-    margin-bottom: 4em;
+    margin-bottom: 3em;
   }
 
   .toggle-nav {
@@ -1195,9 +1195,13 @@ ul.example li:before {
     font-size: 0.8em;
     margin-top: 3em;
   }
+
+  .article-title {
+    margin: 0 17% 0.3em 17%;
+  }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   body {
     font-size: 137.5%;
   }
