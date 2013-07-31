@@ -289,21 +289,12 @@ hr {
 
 blockquote {
   margin: 0 0 1.5em;
-  quotes:"\201C""\201D""\2018""\2019";
 }
 
 blockquote p {
-  color: #8c9397;
   font-style: italic;
   margin-bottom: 0;
-}
-
-blockquote p:before {
-  content: open-quote;
-}
-
-blockquote p:after {
-  content: close-quote;
+  padding-left: 1.5em;
 }
 
 code {
