@@ -132,7 +132,7 @@ a:hover {
 }
 
 .back-to-top {
-  font-size: 0.9em;
+  font-size: 1em;
   text-align: center;
 }
 
@@ -1193,6 +1193,11 @@ ul.example li:before {
 
   blockquote {
     padding-left: 1.5em;
+  }
+
+  .back-to-top {
+    font-size: 0.9em;
+    text-align: center;
   }
 }
 
