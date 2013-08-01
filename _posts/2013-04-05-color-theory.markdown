@@ -90,7 +90,7 @@ Here is her quick reference guide for some common meanings of color that I find 
 <h3>Using Color in Web Design</h3>
 
 <p>
-Color can be a great tool to enhance user experience and improve usability. Using color for links and buttons is a great way to communicate to the user that an action is available. Links should be obvious and clearly defined or the user might miss them entirely. For this reason, I typically use bright colors, like <a href="http://en.wikipedia.org/wiki/Red" target="_blank">red</a>, green, purple or orange, for links.
+Color can be a great tool to enhance user experience and improve usability. Using color for links and buttons is a great way to communicate to the user that an action is available. Links should be obvious and clearly defined or the user might miss them entirely. For this reason, I typically use bright colors, like red, green, purple or orange, for links.
 </p>
 
 <p>
@@ -122,7 +122,7 @@ There are a lot of great resources to help you pick color palettes. I use these 
 </li>
 
 <li>
-<a href="http://colorschemedesigner.com/" target="_blank">Color Scheme Designer</a> was Nick's recommendation and my new favorite tool. You can try out different colors and even see how they might look on a dark or light website. Thanks Nick!
+<a href="http://colorschemedesigner.com/" target="_blank">Color Scheme Designer</a> you can try out different colors and even see how they might look on a dark or light website. Thanks Nick!
 </li>
 
 <li>
