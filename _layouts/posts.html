@@ -41,16 +41,7 @@
 
   <header id="top">
   <div class="container">
-    <a href="/" class="logo-wrap">
-      <span class="logo"></span>
-    </a>
-    <div class="toggle-nav"></div>
-    <nav>
-      <ul>
-        <li><a href="/">Blog</a></li>
-        <li><a href="/projects">Projects</a></li>
-      </ul>
-    </nav>
+    {% include navigation.html %}
   </div>
   </header>
 
@@ -70,5 +61,11 @@
       <p class="next"> <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}">Next →</a></p> {% endif %}
     </div>
   </div>
+
+  <footer>
+    <div class='container'>
+      &copy; 2013 Adam Kaplan
+    </div>
+  </footer>
 </body>
 </html>

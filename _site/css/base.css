@@ -45,6 +45,15 @@ header .container {
   width: 100%;
 }
 
+footer {
+  color: #8c9397;
+  text-align: center;
+}
+
+footer .container {
+  padding: 2em;
+}
+
 /*  #Navigation
 -------------------------------------------------------------- */
 .logo-wrap {
@@ -280,7 +289,7 @@ li {
 }
 
 hr {
-  border: solid #ddd;
+  border: solid #eee;
   border-width: 1px 0 0;
   clear: both;
   margin: 1.5em 0;
@@ -946,6 +955,12 @@ ul.example li:before {
 .column-example:first-child {
   border: 1px solid #008080;
   margin-left: 0;
+}
+
+/*  #Twitter Follow Button
+-------------------------------------------------------------- */
+iframe {
+  margin-bottom: 0;
 }
 
 /*  #Clearfix

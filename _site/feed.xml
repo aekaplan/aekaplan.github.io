@@ -7,35 +7,43 @@
 		<atom:link href="http://www.adamkaplandesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Lessons on Apprenticeship</title>
+				<description>&lt;h2&gt;One of the things that makes 8th Light so special is its apprenticeship program.&lt;/h2&gt;&lt;p&gt;Regardless of prior experience, everyone here goes through an apprenticeship before being hired and there are many benefits. I wanted to share what I believe creates a strong bond between a mentor and an apprentice and why we go through all the trouble of an apprenticeship.&lt;/p&gt;&lt;h3&gt;Learn Best Practices&lt;/h3&gt;&lt;p&gt;8th Light is committed to growing your career through education. Many of us come from non-traditional backgrounds; I actually studied film in college and was a video editor for many years. It&#39;s an incredible feeling being able to do something new and work in such a positive environment were education is so highly valued. We believe that teaching others can be one of the best ways to learn and our mentors constantly challenge us to teach others.&lt;/p&gt;&lt;p&gt;Earlier this year, I had the chance to give a short presentation on writing better CSS. For me, it was an accomplishment to be in the position to teach others. There really is no faster way to learn a topic than to give a presentation on it!&lt;/p&gt;&lt;p&gt;Apprentices are often given projects where their mentors play the role of the client by being stakeholder and setting requirements and deadlines. This gives us plenty of practice and a chance to demonstrate that we can communicate, estimate and deliver. It&#39;s also designed to challenge us so that the mentors can see what skills we need to improve on.&lt;/p&gt;&lt;p&gt;One of best pieces of advice I got from Stephanie, my mentor, was to keep things simple. It&#39;s a guideline that I was taught early and something that I apply to all of my design work. I was stuck on one of my first projects trying to decide between many font choices. I couldn&#39;t decide on a set of fonts to use and asked her for help. She simply said, &quot;keep it simple,&quot; and it has stuck with me since.&lt;/p&gt;&lt;h3&gt;Pair (Work Better Together)&lt;/h3&gt;&lt;p&gt;Pair programming is an important part of our culture at 8th Light. Everyone does it. It gives the pair an opportunity to share knowledge and find mistakes, which results in higher quality work.&lt;/p&gt;&lt;p&gt;I was lucky to work closely with my mentor during my apprenticeship, and I now feel like other Craftsmen can expect the same level of quality out of me as they would from Stephanie. Craftsman developers have high standards for code, and as designers, we match that level of quality in our designs.&lt;/p&gt;&lt;p&gt;Being one of the few designers, I got the chance to pair with and teach other developers some of the things I was learning. I loved sharing CSS best practices and I would often learn about code in the process. As an apprentice, even as a developer, you can tap into the knowledge of others in the office.&lt;/p&gt;&lt;h3&gt;Build Trust&lt;/h3&gt;&lt;p&gt;Solid, continual communication helps builds trust. To learn how to effectively communicate with clients, our mentors give us the chance to join in on weekly iteration planning meetings from time to time. With the client actively involved in the ongoing process, the lines of communication are opened, eliminating misinterpretation and ensuring that everyone is on the same page.&lt;/p&gt;&lt;p&gt;Apprentices are given weekly assignments, and tasked with estimating how much time it would take to complete. This is great practice in delivering  work on time while still maintaining a high level of quality. It also gives apprentices the chance to prove that an they can pull their own weight and be trusted with commitments.&lt;/p&gt;&lt;p&gt;But the need for trust goes both ways; apprentices must also trust that their mentor is going to teach them everything that they need to know to successfully complete their apprenticeship. With the lines of communication open and trust built both ways, a strong bond can form between a mentor and an apprentice.&lt;/p&gt;&lt;h3&gt;Be Challenged and Grow&lt;/h3&gt;&lt;p&gt;Before 8th Light, the idea of being challenged scared me. As an apprentice, I was challenged to do better and to be better. My mentor would watch me struggle and become frustrated as I learned something new, but it is the most incredible feeling when things that were difficult just clicked. I remember coming in to work early and showing my mentor what I had been struggling with all week. I said, &quot;I figured it out!&quot; and she just smiled as if to say, &quot;I always knew you could do it&quot;. These are the kind of moments that make our apprenticeship program so special.&lt;/p&gt;&lt;p&gt;I had the amazing opportunity to work with my mentor on designs for an actual client project. My mentor always likes to challenge me by throwing me into situations outside of my comfort zone, but since we built up trust, she knew she could depend on me to get things done. The time I spent pairing on a real project was some of the most rewarding work I did. It gave me a chance to experience what it will be like as Craftsmen while still providing me with the protection of being an apprentice.&lt;/p&gt;&lt;h3&gt;Maintain a Culture&lt;/h3&gt;&lt;p&gt;Along with creating a bond, the apprenticeship program creates a strong sense of company culture. It encourages a close working relationship between you and your mentor and gives you a sense of community, knowing everyone else had to go through the same kinds of challenges. The apprenticeship program is also designed to make sure you are a good cultural fit for 8th Light. You should love to learn, teach and I would even argue that you should be a bit of an overachiever.&lt;/p&gt;&lt;p&gt;8th Light have no shortage of company activities including bike tours, company conferences like SCNA and more for us to better get to know each other and share our knowledge with others. We have a close relationship with our coworkers even outside of work. Building these friendships improves working relationships. I think you can learn a lot about someone by spending time with them outside of work. It&#39;s a great way to start building trust both in and out of the workplace.&lt;/p&gt;&lt;h3&gt;Gain a Friend&lt;/h3&gt;&lt;p&gt;The best part about the apprenticeship program is that you will gain a friend who will challenge you to be better person. I&#39;m lucky to have had such an amazing mentor, Stephanie Briones. She became one of my best friends and I feel so privileged to apprentice under her.&lt;/p&gt;&lt;p&gt;Interested in starting your journey as an apprentice? Please visit our &lt;a href=&#39;http://www.8thlight.com/apprenticeship&#39; target=&#39;_blank&#39;&gt;apprenticeship page&lt;/a&gt; for more information.&lt;/p&gt;</description>
+				<pubDate>Thu, 01 Aug 2013 00:00:00 -0500</pubDate>
+				<link>http://www.adamkaplandesign.com/lessons-on-apprenticeship.html</link>
+				<guid isPermaLink="true">http://www.adamkaplandesign.com/lessons-on-apprenticeship.html</guid>
+			</item>
+		
+			<item>
 				<title>Navigations</title>
 				<description>&lt;h2&gt;
 Having a clear, easy-to-use navigation is essential to good web design.
 &lt;/h2&gt;&lt;p&gt;
-A navigation is often one of the most useful parts of your website, so it's really important to get it right. Having too many navigation items can overload the user and take up too much screen real estate, especially on mobile devices.
+A navigation is often one of the most useful parts of your website, so it&#39;s really important to get it right. Having too many navigation items can overload the user and take up too much screen real estate, especially on mobile devices.
 &lt;/p&gt;&lt;h3&gt;What makes a good navigation?&lt;/h3&gt;&lt;p&gt;
 There are a couple of rules I keep in mind when designing navigations:
 &lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Make it easy to find.&lt;/strong&gt; Placement is really important. Put your navigation in a prominent, intuitive place and make sure it stands out.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Don't distract from your content.&lt;/strong&gt; Don't be afraid to hide your navigation when it's not necessary!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Don&#39;t distract from your content.&lt;/strong&gt; Don&#39;t be afraid to hide your navigation when it&#39;s not necessary!&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Only include the most important links.&lt;/strong&gt; Decide what really needs to go in your navigation and what might be better placed in the footer or a sub-navigation.&lt;/li&gt;
-&lt;/ul&gt;&lt;img alt='desktop' src='/images/desktop.png' /&gt;&lt;h3&gt;Desktop&lt;/h3&gt;&lt;p&gt;
+&lt;/ul&gt;&lt;img alt=&#39;desktop&#39; src=&#39;/images/desktop.png&#39; /&gt;&lt;h3&gt;Desktop&lt;/h3&gt;&lt;p&gt;
 With larger screens, the additional real estate allows for larger navigations or even items in a sidebar. Creating an &lt;code&gt;inline&lt;/code&gt;, or horizontal, list is pretty standard. I like to use light, subtle colors on the links themselves and go bolder for the background color to provide contrast between the navigation and the content. 
 &lt;/p&gt;&lt;p&gt;
-&lt;a href='http://www.polygon.com/' target='_blank'&gt;Some sites&lt;/a&gt; present articles above the navigation, but as you scroll down, the navigation becomes fixed. This keeps the navigation accessible so the user doesn't have to scroll all the way back to the top, especially if they are using &lt;a href='http://uxdesign.smashingmagazine.com/2013/05/03/infinite-scrolling-get-bottom/' target='_blank'&gt;infinite scrolling&lt;/a&gt; for their content. Keep in mind, however, that you want to keep the navigation accessible but not overwhelming to the user.
+&lt;a href=&#39;http://www.polygon.com/&#39; target=&#39;_blank&#39;&gt;Some sites&lt;/a&gt; present articles above the navigation, but as you scroll down, the navigation becomes fixed. This keeps the navigation accessible so the user doesn&#39;t have to scroll all the way back to the top, especially if they are using &lt;a href=&#39;http://uxdesign.smashingmagazine.com/2013/05/03/infinite-scrolling-get-bottom/&#39; target=&#39;_blank&#39;&gt;infinite scrolling&lt;/a&gt; for their content. Keep in mind, however, that you want to keep the navigation accessible but not overwhelming to the user.
 &lt;/p&gt;&lt;h3&gt;Mobile&lt;/h3&gt;&lt;p&gt;
-Once you get down to mobile sizes, you can run into other kinds of issues. Keeping your list &lt;code&gt;inline&lt;/code&gt;, or horizontal, will break the layout and shove half of your content off screen. I find you can have a few navigation items if you make the font size smaller, but once you try to fit in too much, there's just not enough room. It's also not an ideal user experience, because you have to shrink the clickable area, rendering it unusable for touch devices.
-&lt;/p&gt;&lt;img alt='mobile' src='/images/mobile.png' /&gt;&lt;p&gt;
+Once you get down to mobile sizes, you can run into other kinds of issues. Keeping your list &lt;code&gt;inline&lt;/code&gt;, or horizontal, will break the layout and shove half of your content off screen. I find you can have a few navigation items if you make the font size smaller, but once you try to fit in too much, there&#39;s just not enough room. It&#39;s also not an ideal user experience, because you have to shrink the clickable area, rendering it unusable for touch devices.
+&lt;/p&gt;&lt;img alt=&#39;mobile&#39; src=&#39;/images/mobile.png&#39; /&gt;&lt;p&gt;
 Using &lt;code&gt;block&lt;/code&gt; elements is better, since there will be a larger clickable area and the links stack on top of one another, making room for all your items. This, however, takes up precious real estate and delays the user from reaching the most important part of your website, the content. To solve this issue, I ended up getting help from Rylan, one of the Software Craftsmen at 8th Light.
 &lt;/p&gt;&lt;h3&gt;Toggle Navigation&lt;/h3&gt;&lt;p&gt;
 Using &lt;code&gt;jQuery&lt;/code&gt; and some simple &lt;code&gt;CSS&lt;/code&gt;, Rylan and I were able to get the best of both worlds. I gain back my precious real estate on mobile while keeping the usability of &lt;code&gt;block&lt;/code&gt; level links. Simply awesome!
-&lt;/p&gt;&lt;img alt='mobile-toggle' src='/images/mobile-toggle.png' /&gt;&lt;p&gt;
-I hide the navigation items and present a widely-used “menu” icon, a “three line” symbol. Jordan Moore wrote a great article all about it in &lt;a href='http://mobile.smashingmagazine.com/2012/10/08/the-semantic-responsive-design-navicon/' target='_blank'&gt;The Semantic, Responsive Navicon&lt;/a&gt; for Smashing Magazine:
+&lt;/p&gt;&lt;img alt=&#39;mobile-toggle&#39; src=&#39;/images/mobile-toggle.png&#39; /&gt;&lt;p&gt;
+I hide the navigation items and present a widely-used “menu” icon, a “three line” symbol. Jordan Moore wrote a great article all about it in &lt;a href=&#39;http://mobile.smashingmagazine.com/2012/10/08/the-semantic-responsive-design-navicon/&#39; target=&#39;_blank&#39;&gt;The Semantic, Responsive Navicon&lt;/a&gt; for Smashing Magazine:
 &lt;/p&gt;&lt;blockquote&gt;
 &lt;p&gt;Part of its power lies in its versatility, as the icon itself doesn’t clearly represent a precise object nor method, which means it can be applied to a variety of navigation-based design patterns without showing a preference to a particular pattern.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
 This icon is used everywhere; you can find it on Facebook and YouTube and even applications like Google Chrome. You just click or tap once on the “menu” icon to toggle the navigation items. This gives users the ability to easily control their experience and show the navigation only when they want to see it.
 &lt;/p&gt;&lt;h3&gt;Conclusion&lt;/h3&gt;&lt;p&gt;
-You can take this concept even further. Along with presenting the “menu” icon on mobile devices, &lt;a href='http://mailchimp.com/' target='_blank'&gt;MailChimp&lt;/a&gt; does a good job of keeping the navigation out of the way. On desktop, they hide the navigation when you scroll down but when you scroll up shows it again. This is an effective design decision that puts the site's content first.
+You can take this concept even further. Along with presenting the “menu” icon on mobile devices, &lt;a href=&#39;http://mailchimp.com/&#39; target=&#39;_blank&#39;&gt;MailChimp&lt;/a&gt; does a good job of keeping the navigation out of the way. On desktop, they hide the navigation when you scroll down but when you scroll up shows it again. This is an effective design decision that puts the site&#39;s content first.
 &lt;/p&gt;</description>
 				<pubDate>Sun, 07 Jul 2013 00:00:00 -0500</pubDate>
 				<link>http://www.adamkaplandesign.com/navigations.html</link>
@@ -47,16 +55,16 @@ You can take this concept even further. Along with presenting the “menu” ico
 				<description>&lt;h2&gt;
 SCNA is a conference for software professionals interested in improving their craft, their community, and themselves.
 &lt;/h2&gt;&lt;p&gt;
-I had the opportinity to design and build this year's &lt;a href='http://scna.softwarecraftsmanship.com/' target='_blank'&gt;SCNA website&lt;/a&gt;. I'm really excited to share some of the work I did with Alejandra on this project!
-&lt;/p&gt;&lt;img alt='SCNA' src='/images/scna-logo.png' /&gt;&lt;p&gt;
+I had the opportinity to design and build this year&#39;s &lt;a href=&#39;http://scna.softwarecraftsmanship.com/&#39; target=&#39;_blank&#39;&gt;SCNA website&lt;/a&gt;. I&#39;m really excited to share some of the work I did with Alejandra on this project!
+&lt;/p&gt;&lt;img alt=&#39;SCNA&#39; src=&#39;/images/scna-logo.png&#39; /&gt;&lt;p&gt;
 Special thanks to those who helped out:
 &lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href='http://alejandraluaces.com/' target='_blank'&gt;Alejandra Luaces&lt;/a&gt; for icons&lt;/li&gt;
-&lt;li&gt;&lt;a href='http://gorilla-studios.com/' target='_blank'&gt;Chris Peak&lt;/a&gt; for the conference photos&lt;/li&gt;
-&lt;li&gt;&lt;a href='http://nickmeccia.tumblr.com/' target='_blank'&gt;Nick Meccia&lt;/a&gt; for the logo&lt;/li&gt;
-&lt;li&gt;&lt;a href='http://rylandirksen.com/' target='_blank'&gt;Rylan Dirksen&lt;/a&gt; for some jQuery help&lt;/li&gt;
-&lt;li&gt;&lt;a href='http://stephaniebriones.com/' target='_blank'&gt;Stephanie Briones&lt;/a&gt; for guidance and support&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Interested in attending? &lt;a href='http://scna.eventbrite.com/' target='_blank'&gt;Register Today&lt;/a&gt; and get an early bird rate!&lt;/p&gt;</description>
+&lt;li&gt;&lt;a href=&#39;http://alejandraluaces.com/&#39; target=&#39;_blank&#39;&gt;Alejandra Luaces&lt;/a&gt; for icons&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://gorilla-studios.com/&#39; target=&#39;_blank&#39;&gt;Chris Peak&lt;/a&gt; for the conference photos&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://nickmeccia.tumblr.com/&#39; target=&#39;_blank&#39;&gt;Nick Meccia&lt;/a&gt; for the logo&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://rylandirksen.com/&#39; target=&#39;_blank&#39;&gt;Rylan Dirksen&lt;/a&gt; for some jQuery help&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://stephaniebriones.com/&#39; target=&#39;_blank&#39;&gt;Stephanie Briones&lt;/a&gt; for guidance and support&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Interested in attending? &lt;a href=&#39;http://scna.eventbrite.com/&#39; target=&#39;_blank&#39;&gt;Register Today&lt;/a&gt; and get an early bird rate!&lt;/p&gt;</description>
 				<pubDate>Wed, 26 Jun 2013 00:00:00 -0500</pubDate>
 				<link>http://www.adamkaplandesign.com/scna2013.html</link>
 				<guid isPermaLink="true">http://www.adamkaplandesign.com/scna2013.html</guid>
@@ -73,21 +81,21 @@ My assignment for the week was to do some personal branding and spruce up my blo
 &lt;/p&gt;&lt;p&gt;
 I realized I needed a logo to replace my existing &quot;AK&quot; initials. This post will cover some of the experiences and lessons I learned along the way!
 &lt;/p&gt;&lt;h3&gt;Plan (Grow Your Ideas)&lt;/h3&gt;&lt;p&gt;
-It is really important to think through your ideas before you even pick up a piece of paper or open your laptop. After you've had time to think through and mature your idea, start sketching and playing with it a bit. Let this be the time to really think outside of the box! Use a piece of paper or a whiteboard to quickly get your ideas out. Only move to Illustrator once you're ready to refine your idea and create a more finished logo.
-&lt;/p&gt;&lt;img src='/images/logo-sketch.jpg' /&gt;&lt;p&gt;
-Lately, I have been spending a little more time in the planning stage and I've found that my work is better for it. I had a simple idea for my logo, but I let the idea mature for awhile before I created anything.
+It is really important to think through your ideas before you even pick up a piece of paper or open your laptop. After you&#39;ve had time to think through and mature your idea, start sketching and playing with it a bit. Let this be the time to really think outside of the box! Use a piece of paper or a whiteboard to quickly get your ideas out. Only move to Illustrator once you&#39;re ready to refine your idea and create a more finished logo.
+&lt;/p&gt;&lt;img src=&#39;/images/logo-sketch.jpg&#39; /&gt;&lt;p&gt;
+Lately, I have been spending a little more time in the planning stage and I&#39;ve found that my work is better for it. I had a simple idea for my logo, but I let the idea mature for awhile before I created anything.
 &lt;/p&gt;&lt;p&gt;
 The concept for my logo was simple; replace my initials &quot;AK&quot; with something less typographical. I still wanted it to be about my name, so I started with shapes that mimic a slanted &quot;A&quot; and &quot;K&quot;.
-&lt;/p&gt;&lt;img src='/images/logo-outline.jpg' /&gt;&lt;p&gt;
+&lt;/p&gt;&lt;img src=&#39;/images/logo-outline.jpg&#39; /&gt;&lt;p&gt;
 I wanted something unique that would represent my personality, a mark that could grow with me over time and help identify me as a designer. Before going further, I got feedback from the other designers. With comments like, &quot;it kinda looks like a wave,&quot; or &quot;paper airplane.&quot; I liked the fact that it was a little open to interpretation. 
 &lt;/p&gt;&lt;h3&gt;Experiment with Color&lt;/h3&gt;&lt;p&gt;
 For my logo, the silhouette was extremely important. I tried some colors, including the red from my blog and a shade of blue I really liked. In the end, I went with the gray because I felt it made the header less obtrusive. I wanted it to be part of the page, not overpowering it.
-&lt;/p&gt;&lt;img src='/images/logo-color.jpg' /&gt;&lt;h3&gt;Size Matters&lt;/h3&gt;&lt;p&gt;
-It's important to consider how scalable your logo is. Ask yourself how well will it hold up on mobile, or on a giant billboard. Lots of detail can get lost as the pixels shrink and your logo can become unrecognizable. 
-&lt;/p&gt;&lt;img src='/images/logo-mobile.jpg' /&gt;&lt;p&gt;
+&lt;/p&gt;&lt;img src=&#39;/images/logo-color.jpg&#39; /&gt;&lt;h3&gt;Size Matters&lt;/h3&gt;&lt;p&gt;
+It&#39;s important to consider how scalable your logo is. Ask yourself how well will it hold up on mobile, or on a giant billboard. Lots of detail can get lost as the pixels shrink and your logo can become unrecognizable. 
+&lt;/p&gt;&lt;img src=&#39;/images/logo-mobile.jpg&#39; /&gt;&lt;p&gt;
 I did some quick testing and the logo I went with was easily recognizable on mobile devices, where space is at a premium. Because I was able to scale it down, I gave myself room to add more navigation items to my blog if needed.
-&lt;/p&gt;&lt;img src='/images/logo-desktop.jpg' /&gt;&lt;h3&gt;Take Risks&lt;/h3&gt;&lt;p&gt;
-Lastly, don't be afraid to take some risks! You need to stand out among the crowd and a unique logo can help immensely. Logo design is new to me, so it was a fun and very rewarding experience, but I still have a lot to learn. I'm really happy with how my logo turned out, but I plan on iterating on it more in the future.
+&lt;/p&gt;&lt;img src=&#39;/images/logo-desktop.jpg&#39; /&gt;&lt;h3&gt;Take Risks&lt;/h3&gt;&lt;p&gt;
+Lastly, don&#39;t be afraid to take some risks! You need to stand out among the crowd and a unique logo can help immensely. Logo design is new to me, so it was a fun and very rewarding experience, but I still have a lot to learn. I&#39;m really happy with how my logo turned out, but I plan on iterating on it more in the future.
 &lt;/p&gt;</description>
 				<pubDate>Thu, 09 May 2013 00:00:00 -0500</pubDate>
 				<link>http://www.adamkaplandesign.com/personal-branding.html</link>
@@ -99,7 +107,7 @@ Lastly, don't be afraid to take some risks! You need to stand out among the crow
 				<description>&lt;h2&gt;Pairing when coding produces higher quality work and minimizes mistakes.&lt;/h2&gt;&lt;p&gt;
 When designing, collaboration can also increase creativity. I find my designs to be stronger and more polished when I pair. The constant feedback from my pair makes for a better design and adds more polish to the final design.
 &lt;/p&gt;&lt;p&gt;Pair programing is one part &quot;driver&quot; and one part &quot;navigator&quot;:&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;Pair programming is an &lt;a href='http://en.wikipedia.org/wiki/Agile_software_development' target='_blank'&gt;agile software development&lt;/a&gt; technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.&lt;/p&gt;
+&lt;p&gt;Pair programming is an &lt;a href=&#39;http://en.wikipedia.org/wiki/Agile_software_development&#39; target=&#39;_blank&#39;&gt;agile software development&lt;/a&gt; technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
 At 8th Light, pairing is part of our culture and provides many benefits:
 &lt;/p&gt;&lt;ul&gt;
@@ -109,18 +117,18 @@ At 8th Light, pairing is part of our culture and provides many benefits:
   &lt;li&gt;Provides quality assurance&lt;/li&gt;
   &lt;li&gt;Encourages diversity of thought&lt;/li&gt;
 &lt;/ul&gt;&lt;h3&gt;Collaboration is Key&lt;/h3&gt;&lt;p&gt;
-They say two minds are better than one, and it's absolutely true. When you're working alone, you can't have your ideas validated, but when you put two creative minds on the same project so much can happen. Ideas come quickly, designs are more polished, and layouts become more refined. And just as I refactor my code, my pair can help me refactor my design. A second opinion can help guide you in the right direction and call out issues.
+They say two minds are better than one, and it&#39;s absolutely true. When you&#39;re working alone, you can&#39;t have your ideas validated, but when you put two creative minds on the same project so much can happen. Ideas come quickly, designs are more polished, and layouts become more refined. And just as I refactor my code, my pair can help me refactor my design. A second opinion can help guide you in the right direction and call out issues.
 &lt;/p&gt;&lt;h3&gt;Fewer Mistakes&lt;/h3&gt;&lt;p&gt;
-Another set of eyes will catch typos and simple mistakes when coding. It's the job of the &quot;observer&quot; or &quot;navigator&quot; to watch for these simple mistakes but it's also a good opportunity to learn from a more experienced pair. I might do some research or troubleshoot some issues while my pair works through something else. Just like how factories use quality control in production, I feel more confident showing off my work because I know someone was inspecting it as I wrote it.&lt;/p&gt;&lt;h3&gt;Higher Quality Code&lt;/h3&gt;&lt;p&gt;
-Pairing also allows you to refractor your code while you're writing. For example, I might argue that two CSS classes could really be combined into one while my pair continues to work. Another set of eyes to watch you code allows one person to think about the overall design while the other continues to produce code. Pairing allows me to tap into someone else's knowledge about better ways to write code, as well as share experiences and resources.
+Another set of eyes will catch typos and simple mistakes when coding. It&#39;s the job of the &quot;observer&quot; or &quot;navigator&quot; to watch for these simple mistakes but it&#39;s also a good opportunity to learn from a more experienced pair. I might do some research or troubleshoot some issues while my pair works through something else. Just like how factories use quality control in production, I feel more confident showing off my work because I know someone was inspecting it as I wrote it.&lt;/p&gt;&lt;h3&gt;Higher Quality Code&lt;/h3&gt;&lt;p&gt;
+Pairing also allows you to refractor your code while you&#39;re writing. For example, I might argue that two CSS classes could really be combined into one while my pair continues to work. Another set of eyes to watch you code allows one person to think about the overall design while the other continues to produce code. Pairing allows me to tap into someone else&#39;s knowledge about better ways to write code, as well as share experiences and resources.
 &lt;/p&gt;&lt;h3&gt;Instant Feedback&lt;/h3&gt;&lt;p&gt;
-Getting instant feedback is really helpful. These tight feedback loops can speed up the design process without losing quality. I also find my creativity is increased when I pair, as I might come up with a few undeveloped ideas and then have the other designers help me grow them. Don't be afraid to share your opinion of your pair's work, either. Just be sure keep it constructive and not step on your pair's toes.
+Getting instant feedback is really helpful. These tight feedback loops can speed up the design process without losing quality. I also find my creativity is increased when I pair, as I might come up with a few undeveloped ideas and then have the other designers help me grow them. Don&#39;t be afraid to share your opinion of your pair&#39;s work, either. Just be sure keep it constructive and not step on your pair&#39;s toes.
 &lt;/p&gt;&lt;h3&gt;Put Ownership Aside&lt;/h3&gt;&lt;p&gt;
-The old saying still holds true; there is no “I” in team. It's not important who created what, only that the final design delivers on what the client wants. I believe in a design culture where collaboration is key and everyone helps each other out. Helping out in this way can be as simple as providing feedback that will lead to a better user experience or a suggestion on a layout tweak.
+The old saying still holds true; there is no “I” in team. It&#39;s not important who created what, only that the final design delivers on what the client wants. I believe in a design culture where collaboration is key and everyone helps each other out. Helping out in this way can be as simple as providing feedback that will lead to a better user experience or a suggestion on a layout tweak.
 &lt;/p&gt;&lt;h2&gt;
 The success of a pairing session shares a common goal: work together to create an outstanding product that the client will love.
 &lt;/h2&gt;&lt;p&gt;
-If you're feeling stuck (CSS problem? &lt;a href='mailto:adam.kaplan@icloud.com'&gt;Ask me anything&lt;/a&gt;!) or in need of some inspiration, give pairing a try. It really helps me and I know it will benefit you too. Thanks for reading!
+If you&#39;re feeling stuck (CSS problem? &lt;a href=&#39;mailto:adam.kaplan@icloud.com&#39;&gt;Ask me anything&lt;/a&gt;!) or in need of some inspiration, give pairing a try. It really helps me and I know it will benefit you too. Thanks for reading!
 &lt;/p&gt;</description>
 				<pubDate>Wed, 01 May 2013 00:00:00 -0500</pubDate>
 				<link>http://www.adamkaplandesign.com/pairing.html</link>
@@ -132,7 +140,7 @@ If you're feeling stuck (CSS problem? &lt;a href='mailto:adam.kaplan@icloud.com'
 				<description>&lt;p&gt;
 Learn how to write better CSS in 3 easy steps: reset, order and dry up. I received a lot of positive feedback on my first presentation. 
 &lt;/p&gt;&lt;p&gt;
-You can &lt;a href='https://speakerdeck.com/aekaplan/write-better-css' target='_blank'&gt;view my slides&lt;/a&gt; on Speaker Deck.
+You can &lt;a href=&#39;https://speakerdeck.com/aekaplan/write-better-css&#39; target=&#39;_blank&#39;&gt;view my slides&lt;/a&gt; on Speaker Deck.
 &lt;/p&gt;</description>
 				<pubDate>Fri, 12 Apr 2013 00:00:00 -0500</pubDate>
 				<link>http://www.adamkaplandesign.com/apprentice-learning-hour.html</link>
@@ -144,13 +152,13 @@ You can &lt;a href='https://speakerdeck.com/aekaplan/write-better-css' target='_
 				<description>&lt;h2&gt;
 Color is a great way to make your website beautiful while enhancing its usability.
 &lt;/h2&gt;&lt;p&gt;
-Color plays an important role in design in general. However, you have to be more mindful of color when you use it on the web, as there are a lot of &lt;a href='usability-testing.html' target='_blank'&gt;usability&lt;/a&gt; problems that can arise from its misuse. &lt;/p&gt;&lt;p&gt;
-I won't get too scientific, as I want to keep this relevant to web design. Let's go over some of the basics of color theory.
+Color plays an important role in design in general. However, you have to be more mindful of color when you use it on the web, as there are a lot of &lt;a href=&#39;usability-testing.html&#39; target=&#39;_blank&#39;&gt;usability&lt;/a&gt; problems that can arise from its misuse. &lt;/p&gt;&lt;p&gt;
+I won&#39;t get too scientific, as I want to keep this relevant to web design. Let&#39;s go over some of the basics of color theory.
 &lt;/p&gt;&lt;blockquote&gt;
 &lt;p&gt;Color theory is a body of practical guidance to color mixing and the visual effects of specific color combination.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;a href='http://en.wikipedia.org/wiki/Color_wheel' target='_blank'&gt;
-&lt;img src='/images/color-wheel.jpg' /&gt;
-&lt;/a&gt;&lt;h3&gt;The Color Wheel&lt;/h3&gt;&lt;p&gt;In 1666, &lt;a href='http://en.wikipedia.org/wiki/Isaac_Newton' target='_blank'&gt;Sir Isaac Newton&lt;/a&gt; developed the first circular diagram of colors. The color wheel, based on red, yellow and blue, is still the basis for most color theory.&lt;/p&gt;&lt;p&gt;There are 3 important sections of the color wheel:&lt;/p&gt;&lt;ul&gt;
+&lt;/blockquote&gt;&lt;a href=&#39;http://en.wikipedia.org/wiki/Color_wheel&#39; target=&#39;_blank&#39;&gt;
+&lt;img src=&#39;/images/color-wheel.jpg&#39; /&gt;
+&lt;/a&gt;&lt;h3&gt;The Color Wheel&lt;/h3&gt;&lt;p&gt;In 1666, &lt;a href=&#39;http://en.wikipedia.org/wiki/Isaac_Newton&#39; target=&#39;_blank&#39;&gt;Sir Isaac Newton&lt;/a&gt; developed the first circular diagram of colors. The color wheel, based on red, yellow and blue, is still the basis for most color theory.&lt;/p&gt;&lt;p&gt;There are 3 important sections of the color wheel:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;strong&gt;Primary Colors&lt;/strong&gt; are sets of colors (red, yellow and blue) that can be combined to make a useful range of colors. All other colors are derived from these 3 hues.
 &lt;/li&gt;
@@ -171,9 +179,9 @@ Red also symbolizes prosperity and happiness in China, and mourning in South Afr
 &lt;/p&gt;&lt;blockquote&gt;
 &lt;p&gt;Blue is the color of the sky and sea. It is often associated with depth and stability. It symbolizes trust, loyalty, wisdom, confidence, intelligence, faith and truth.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
-In India, blue is assocated with the Hindu deity Krishna, and is considered a holy color in Judiasm. The 8th Light logo uses a darker, subdued blue. It's a smart choice, considering blue is one of the safest colors to use internationally.
+In India, blue is assocated with the Hindu deity Krishna, and is considered a holy color in Judiasm. The 8th Light logo uses a darker, subdued blue. It&#39;s a smart choice, considering blue is one of the safest colors to use internationally.
 &lt;/p&gt;&lt;p&gt;
-While there are no set rules when selecting colors, it's important to be mindful of your choices. Do some research! For further reading, I suggest reading Cameron Chapman's wonderful article on &lt;a href='http://www.smashingmagazine.com/2010/01/28/color-theory-for-designers-part-1-the-meaning-of-color/' target='_blank'&gt;Color Theory for Designers: The Meaning of Color&lt;/a&gt;.
+While there are no set rules when selecting colors, it&#39;s important to be mindful of your choices. Do some research! For further reading, I suggest reading Cameron Chapman&#39;s wonderful article on &lt;a href=&#39;http://www.smashingmagazine.com/2010/01/28/color-theory-for-designers-part-1-the-meaning-of-color/&#39; target=&#39;_blank&#39;&gt;Color Theory for Designers: The Meaning of Color&lt;/a&gt;.
 &lt;/p&gt;&lt;p&gt;
 Here is her quick reference guide for some common meanings of color that I find really helpful:
 &lt;/p&gt;&lt;ul&gt;
@@ -192,50 +200,50 @@ Here is her quick reference guide for some common meanings of color that I find 
 &lt;/ul&gt;&lt;h3&gt;Using Color in Web Design&lt;/h3&gt;&lt;p&gt;
 Color can be a great tool to enhance user experience and improve usability. Using color for links and buttons is a great way to communicate to the user that an action is available. Links should be obvious and clearly defined or the user might miss them entirely. For this reason, I typically use bright colors, like red, green, purple or orange, for links.
 &lt;/p&gt;&lt;p&gt;
-For buttons, you can use colors like green, blue and orange for submitting and saving. They stand out more and help the user navigate the page more easily. Take Twitter's sign up page, for example:
-&lt;/p&gt;&lt;img src='/images/twitter.jpg' /&gt;&lt;p&gt;
+For buttons, you can use colors like green, blue and orange for submitting and saving. They stand out more and help the user navigate the page more easily. Take Twitter&#39;s sign up page, for example:
+&lt;/p&gt;&lt;img src=&#39;/images/twitter.jpg&#39; /&gt;&lt;p&gt;
 Colors like red and gray can be used for deleting, closing and archiving. Red is often assoicated with actions with repercussions, like the admin section of a Github repository:
-&lt;/p&gt;&lt;img src='/images/github.jpg' /&gt;&lt;p&gt;
-There isn't a right or wrong answer here. I have seen plenty of websites break the rules and still work. The point is to stay consistent so the user can easily recognize what color is associated with what action.
+&lt;/p&gt;&lt;img src=&#39;/images/github.jpg&#39; /&gt;&lt;p&gt;
+There isn&#39;t a right or wrong answer here. I have seen plenty of websites break the rules and still work. The point is to stay consistent so the user can easily recognize what color is associated with what action.
 &lt;/p&gt;&lt;h3&gt;Color Tools&lt;/h3&gt;&lt;p&gt;
 There are a lot of great resources to help you pick color palettes. I use these all the time for inspiration and to help me find matching or complimentary colors:
 &lt;/p&gt;&lt;ul&gt;
 
 &lt;li&gt;
-&lt;a href='http://0to255.com/' target='_blank'&gt;0 to 255&lt;/a&gt; a simple tool that helps web designers find variations of any color.
+&lt;a href=&#39;http://0to255.com/&#39; target=&#39;_blank&#39;&gt;0 to 255&lt;/a&gt; a simple tool that helps web designers find variations of any color.
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;a href='http://colorschemedesigner.com/' target='_blank'&gt;Color Scheme Designer&lt;/a&gt; you can try out different colors and even see how they might look on a dark or light website. Thanks Nick!
+&lt;a href=&#39;http://colorschemedesigner.com/&#39; target=&#39;_blank&#39;&gt;Color Scheme Designer&lt;/a&gt; you can try out different colors and even see how they might look on a dark or light website. Thanks Nick!
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;a href='https://kuler.adobe.com/' target='_blank'&gt;Adobe's Kuler&lt;/a&gt; is a design resource of exploring, creating and sharing color themes.
+&lt;a href=&#39;https://kuler.adobe.com/&#39; target=&#39;_blank&#39;&gt;Adobe&#39;s Kuler&lt;/a&gt; is a design resource of exploring, creating and sharing color themes.
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;a href='http://www.colourlovers.com/' target='_blank'&gt;COLOURlovers&lt;/a&gt; is a website with a big community of users who create and share color palettes, much like Kuler.
+&lt;a href=&#39;http://www.colourlovers.com/&#39; target=&#39;_blank&#39;&gt;COLOURlovers&lt;/a&gt; is a website with a big community of users who create and share color palettes, much like Kuler.
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;a href='http://www.colorhexa.com/' target='_blank'&gt;ColorHexa&lt;/a&gt;
-is an online resource that's useful for finding different color variations and complimentary colors. I will often search for hex colors (e.g. #b1e1ed) to experiment with different shades.
+&lt;a href=&#39;http://www.colorhexa.com/&#39; target=&#39;_blank&#39;&gt;ColorHexa&lt;/a&gt;
+is an online resource that&#39;s useful for finding different color variations and complimentary colors. I will often search for hex colors (e.g. #b1e1ed) to experiment with different shades.
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;a href='http://pltts.me/' target='_blank'&gt;PLTTS&lt;/a&gt; makes it's easy to find matching color-palettes for your project. Thanks Chris!
+&lt;a href=&#39;http://pltts.me/&#39; target=&#39;_blank&#39;&gt;PLTTS&lt;/a&gt; makes it&#39;s easy to find matching color-palettes for your project. Thanks Chris!
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;a href='http://www.blendoku.com/' target='_blank'&gt;Blendoku&lt;/a&gt; is puzzle game that will challenge your ability to distinguish and arrange colors. The game is based on color principles and exercises taught in art schools around the world.
+&lt;a href=&#39;http://www.blendoku.com/&#39; target=&#39;_blank&#39;&gt;Blendoku&lt;/a&gt; is puzzle game that will challenge your ability to distinguish and arrange colors. The game is based on color principles and exercises taught in art schools around the world.
 &lt;/li&gt;
 &lt;/ul&gt;&lt;h2&gt;
-While there is a science behind color theory, it's also very much an art.
+While there is a science behind color theory, it&#39;s also very much an art.
 &lt;/h2&gt;&lt;p&gt;
-Learning to use color in your designs takes practice and a bit of innate taste. I'm still learning about and playing with color, but I really love its meanings and I'm fascinated by how easily it can change a design.
-&lt;/p&gt;&lt;div class='note'&gt;
+Learning to use color in your designs takes practice and a bit of innate taste. I&#39;m still learning about and playing with color, but I really love its meanings and I&#39;m fascinated by how easily it can change a design.
+&lt;/p&gt;&lt;div class=&#39;note&#39;&gt;
 &lt;p&gt;
-If you're having trouble choosing colors, just remember to only pick a few of them and keep them subtle.
+If you&#39;re having trouble choosing colors, just remember to only pick a few of them and keep them subtle.
 &lt;/p&gt;
 &lt;/div&gt;</description>
 				<pubDate>Fri, 05 Apr 2013 00:00:00 -0500</pubDate>
@@ -246,43 +254,43 @@ If you're having trouble choosing colors, just remember to only pick a few of th
 			<item>
 				<title>Write Better CSS</title>
 				<description>&lt;h2&gt;Writing better CSS can be easy. Remember to normalize, organize and alphabetize!&lt;/h2&gt;&lt;p&gt;
-I'm going to be giving a short presentation titled &quot;Write Better CSS&quot; at Apprentice Learning Hour but wanted to start collecting my thoughts here first. Spoilers ahead!
+I&#39;m going to be giving a short presentation titled &quot;Write Better CSS&quot; at Apprentice Learning Hour but wanted to start collecting my thoughts here first. Spoilers ahead!
 &lt;/p&gt;&lt;p&gt;
-Steps to writing better CSS (I couldn't help myself with the naming):
+Steps to writing better CSS (I couldn&#39;t help myself with the naming):
 &lt;/p&gt;&lt;ul&gt;
   &lt;li&gt;Normalize&lt;/li&gt;
   &lt;li&gt;Organize&lt;/li&gt;
   &lt;li&gt;Alphabetize&lt;/li&gt;
   &lt;li&gt;DRY and write reusable CSS&lt;/li&gt;
 &lt;/ul&gt;&lt;h3&gt;Normalize&lt;/h3&gt;&lt;p&gt;
-Resets remove the default styles for all elements while &lt;a href='http://necolas.github.com/normalize.css/' target='_blank'&gt;normalize&lt;/a&gt; retains most of the useful default browser styles. When starting a new project, I prefer normalize over resets.
+Resets remove the default styles for all elements while &lt;a href=&#39;http://necolas.github.com/normalize.css/&#39; target=&#39;_blank&#39;&gt;normalize&lt;/a&gt; retains most of the useful default browser styles. When starting a new project, I prefer normalize over resets.
 &lt;/p&gt;&lt;blockquote&gt;
 &lt;p&gt;Normalize.css is a small CSS file that provides better cross-browser consistency in the default styling of HTML elements. It’s a modern, HTML5-ready, alternative to the traditional CSS reset.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
-It also corrects bugs commonly found in browser inconsistencies and doesn't clutter your debugging tool. Simply download and use &lt;a href='http://necolas.github.com/normalize.css/' target='_blank'&gt;normalize.css&lt;/a&gt; as-is, or customize it to meet your requirements.
+It also corrects bugs commonly found in browser inconsistencies and doesn&#39;t clutter your debugging tool. Simply download and use &lt;a href=&#39;http://necolas.github.com/normalize.css/&#39; target=&#39;_blank&#39;&gt;normalize.css&lt;/a&gt; as-is, or customize it to meet your requirements.
 &lt;/p&gt;&lt;h3&gt;Organize&lt;/h3&gt;&lt;p&gt;
-Organize your CSS code to reflect the flow of your website's layout. For example, your navigation CSS should be at the top of your file and your footer should be closer to the bottom:
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/4f1cad35c6c791542c10.js'&gt; &lt;/script&gt;&lt;p&gt;
+Organize your CSS code to reflect the flow of your website&#39;s layout. For example, your navigation CSS should be at the top of your file and your footer should be closer to the bottom:
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/4f1cad35c6c791542c10.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
 Put properties related to one another close together and &lt;em&gt;use comments sparingly&lt;/em&gt; to break up the different sections of your CSS. The combination of a few comments and grouping similar elements together will make it much easier to quickly find what your looking for.
 &lt;/p&gt;&lt;h3&gt;Alphabetize Your Properties&lt;/h3&gt;&lt;p&gt;
 Write your CSS properties in alphabetical order; it will help reduce the time it takes to find a specific property.
 &lt;/p&gt;&lt;p&gt;
-Jen Myers' post on &lt;a href='http://jenmyers.tumblr.com/post/45339751868/why-you-should-order-css-properties-alphabetically' target='_blank'&gt;Why you should order CSS properties alphabetically&lt;/a&gt; made me a believer:
+Jen Myers&#39; post on &lt;a href=&#39;http://jenmyers.tumblr.com/post/45339751868/why-you-should-order-css-properties-alphabetically&#39; target=&#39;_blank&#39;&gt;Why you should order CSS properties alphabetically&lt;/a&gt; made me a believer:
 &lt;/p&gt;&lt;blockquote&gt;
 &lt;p&gt;Here’s the simple truth up-front: alphabetical CSS ordering makes your CSS most easily accessible to the widest group of people with the least amount of clutter in your stylesheets.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
 This principle is fairly new to me, but has really helped make my code more navigable. Which example makes it easier to find specific properties:
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/8f0f05409107f339cafb.js'&gt; &lt;/script&gt;&lt;p&gt;
-The second CSS block is easter to skim through, right? I know the z-index will always be at the bottom of the block. Don't worry about alphabetizing vendor prefixes (like box-sizing or transition, for example) with the rest of your properties, as you will want to keep those grouped together.
-&lt;/p&gt;&lt;h3&gt;Don't Repeat Yourself and Write Reusable CSS&lt;/h3&gt;&lt;p&gt;
-&lt;a href='http://en.wikipedia.org/wiki/Don&amp;apos;t_repeat_yourself' target='_blank'&gt;DRY&lt;/a&gt; up your code! Repeating yourself leads to huge CSS files and unnecessary code bloat. Take the time to plan out your elements in a simple and reusable way. Reuse your classes and tag on additional classes when needed.
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/8f0f05409107f339cafb.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
+The second CSS block is easter to skim through, right? I know the z-index will always be at the bottom of the block. Don&#39;t worry about alphabetizing vendor prefixes (like box-sizing or transition, for example) with the rest of your properties, as you will want to keep those grouped together.
+&lt;/p&gt;&lt;h3&gt;Don&#39;t Repeat Yourself and Write Reusable CSS&lt;/h3&gt;&lt;p&gt;
+&lt;a href=&#39;http://en.wikipedia.org/wiki/Don&amp;apos;t_repeat_yourself&#39; target=&#39;_blank&#39;&gt;DRY&lt;/a&gt; up your code! Repeating yourself leads to huge CSS files and unnecessary code bloat. Take the time to plan out your elements in a simple and reusable way. Reuse your classes and tag on additional classes when needed.
 &lt;/p&gt;&lt;p&gt;
-Here's some really repetitive code:
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/4cf7c42030c0885770d8.js'&gt; &lt;/script&gt;&lt;script src='https://gist.github.com/aekaplan/1cd17e1728522e397c33.js'&gt; &lt;/script&gt;&lt;p&gt;
+Here&#39;s some really repetitive code:
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/4cf7c42030c0885770d8.js&#39;&gt; &lt;/script&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/1cd17e1728522e397c33.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
 Lets DRY this up and make it a bit more reusable:
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/1de0549cc4ee559823d9.js'&gt; &lt;/script&gt;&lt;script src='https://gist.github.com/aekaplan/c068be2d748c8c9f03c1.js'&gt; &lt;/script&gt;&lt;h3&gt;Be Consistent and Thoughtful... and Clean up Your Code!&lt;/h3&gt;&lt;p&gt;
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/1de0549cc4ee559823d9.js&#39;&gt; &lt;/script&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/c068be2d748c8c9f03c1.js&#39;&gt; &lt;/script&gt;&lt;h3&gt;Be Consistent and Thoughtful... and Clean up Your Code!&lt;/h3&gt;&lt;p&gt;
 These simple steps will make your CSS more organized, lightweight and easier to read. This will only benefit you and anyone else who needs to make changes to your code.
-&lt;/p&gt;&lt;div class='note'&gt;
+&lt;/p&gt;&lt;div class=&#39;note&#39;&gt;
 &lt;p&gt;
 My &quot;Write Better CSS&quot; presentation will be on April 12.
 &lt;/p&gt;
@@ -302,23 +310,23 @@ My &quot;Write Better CSS&quot; presentation will be on April 12.
 &lt;li&gt;the range of functions available to your user&lt;/li&gt;
 &lt;li&gt;the kinds of information displayed&lt;/li&gt;
 &lt;/ul&gt;&lt;h3&gt;Meet Balsamiq&lt;/h3&gt;&lt;p&gt;
-&lt;a href='http://www.balsamiq.com/' target='_blank'&gt;Balsamiq&lt;/a&gt; is a wireframing application for quick mockups. It's like sketching except that it's digital, allowing you to easily tweak and rearrange your ideas. 
+&lt;a href=&#39;http://www.balsamiq.com/&#39; target=&#39;_blank&#39;&gt;Balsamiq&lt;/a&gt; is a wireframing application for quick mockups. It&#39;s like sketching except that it&#39;s digital, allowing you to easily tweak and rearrange your ideas. 
 &lt;/p&gt;&lt;p&gt;
-I prefer low-fidelity wireframes because they allow you to focus on the core functionality and user experience while avoiding time-consuming specifics. Oftentimes if you deliver a wireframe that look &amp;#8220;too finished&amp;#8221; the client might think it's the final design. 
+I prefer low-fidelity wireframes because they allow you to focus on the core functionality and user experience while avoiding time-consuming specifics. Oftentimes if you deliver a wireframe that look &amp;#8220;too finished&amp;#8221; the client might think it&#39;s the final design. 
 &lt;/p&gt;&lt;p&gt;
 This keeps the conversations focused on what matters: the user experience!
 &lt;/p&gt;&lt;h3&gt;Distraction Free&lt;/h3&gt;&lt;p&gt;
-Wireframing lets you work distraction-free because you don't have to worry about picking fonts, colors or writing copy. You also have the freedom to try as many layouts or options you'd like. Moving around elements and playing with how placement effects on ease of use is a very rewarding experience. Put on some music and experiment!
+Wireframing lets you work distraction-free because you don&#39;t have to worry about picking fonts, colors or writing copy. You also have the freedom to try as many layouts or options you&#39;d like. Moving around elements and playing with how placement effects on ease of use is a very rewarding experience. Put on some music and experiment!
 &lt;/p&gt;&lt;h3&gt;Iterate&lt;/h3&gt;&lt;p&gt;
-Remember that nothing is final. You &lt;strong&gt;will&lt;/strong&gt; iterate on your wireframes before you move on to the prototyping stage; it's almost unavoidable. Don't be afraid to throw out ideas that don't work and try out several layouts.
+Remember that nothing is final. You &lt;strong&gt;will&lt;/strong&gt; iterate on your wireframes before you move on to the prototyping stage; it&#39;s almost unavoidable. Don&#39;t be afraid to throw out ideas that don&#39;t work and try out several layouts.
 &lt;/p&gt;&lt;p&gt;
-It's better to spend the time iterating and experimenting with wireframes while the project is still lightweight and easy to change.
+It&#39;s better to spend the time iterating and experimenting with wireframes while the project is still lightweight and easy to change.
 &lt;/p&gt;&lt;h3&gt;Think more, design less&lt;/h3&gt;&lt;p&gt;
-This quote from &lt;a href='http://www.thinkingwithtype.com/' target='_blank'&gt;&amp;#8220;Thinking with Type&amp;#8221;&lt;/a&gt; by Ellen Lupton really applies in the real world. I spend a lot of time thinking about the user experience and walking through every aspect of my design, asking myself questions like, &amp;#8220;Do I need this?&amp;#8221; or &amp;#8220;Is this too complicated?&amp;#8221; This critical thinking will prove invaluable when you get to prototyping.
+This quote from &lt;a href=&#39;http://www.thinkingwithtype.com/&#39; target=&#39;_blank&#39;&gt;&amp;#8220;Thinking with Type&amp;#8221;&lt;/a&gt; by Ellen Lupton really applies in the real world. I spend a lot of time thinking about the user experience and walking through every aspect of my design, asking myself questions like, &amp;#8220;Do I need this?&amp;#8221; or &amp;#8220;Is this too complicated?&amp;#8221; This critical thinking will prove invaluable when you get to prototyping.
 &lt;/p&gt;&lt;p&gt;
 The time you spend developing the user experience while wireframing will serve as a guide to building an awesome product.
 &lt;/p&gt;&lt;h3&gt;Feedback is Welcome&lt;/h3&gt;&lt;p&gt;
-It's important to get feedback as soon as possible. Don't be afraid to show your wireframes. Get some initial thoughts from the client. Sit some users down for informal &lt;a href='http://adamkaplandesign.com/usability-testing.html' target='_blank'&gt;usability testing&lt;/a&gt;. The sooner you let the client or user into the process, the sooner you know how successful your design is.
+It&#39;s important to get feedback as soon as possible. Don&#39;t be afraid to show your wireframes. Get some initial thoughts from the client. Sit some users down for informal &lt;a href=&#39;http://adamkaplandesign.com/usability-testing.html&#39; target=&#39;_blank&#39;&gt;usability testing&lt;/a&gt;. The sooner you let the client or user into the process, the sooner you know how successful your design is.
 &lt;/p&gt;&lt;p&gt;
 I often pair with my mentor, Stephanie, and get instant feedback on my decisions. We bounce ideas off each other all the time, leading to more developed user experiences and better designs.
 &lt;/p&gt;&lt;p&gt;
@@ -338,16 +346,16 @@ At a high level, Sass is simply a CSS preprocessor with two syntaxes:
 &lt;/p&gt;&lt;blockquote&gt;
 &lt;p&gt;The most commonly used syntax is known as “SCSS” (for “Sassy CSS”), and is a superset of CSS3’s syntax. This means that every valid CSS3 stylesheet is valid SCSS as well. SCSS files use the extension .scss.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;blockquote&gt;
-&lt;p&gt;The second, older syntax is known as the &lt;a href='http://sass-lang.com/docs/yardoc/file.INDENTED_SYNTAX.html' target='_blank'&gt; indented syntax&lt;/a&gt; (or just “.sass”). Inspired by &lt;a href='http://haml.info/' target='_blank'&gt;Haml’s&lt;/a&gt; terseness, it’s intended for people who prefer conciseness over similarity to CSS.&lt;/p&gt;
+&lt;p&gt;The second, older syntax is known as the &lt;a href=&#39;http://sass-lang.com/docs/yardoc/file.INDENTED_SYNTAX.html&#39; target=&#39;_blank&#39;&gt; indented syntax&lt;/a&gt; (or just “.sass”). Inspired by &lt;a href=&#39;http://haml.info/&#39; target=&#39;_blank&#39;&gt;Haml’s&lt;/a&gt; terseness, it’s intended for people who prefer conciseness over similarity to CSS.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
 I prefer using SCSS because it uses brackets and semi-colons, just like CSS. It also doesn’t care about indentation levels or white-space, like the second syntax. SCSS contains all the features of CSS, but has been expanded to include the features of Sass as well.
 &lt;/p&gt;&lt;h3&gt;Installing SCSS&lt;/h3&gt;&lt;p&gt;
 You will need to get Sass setup on your project before you can start using it. A lot of the new frameworks come with Sass pre-installed. Here are some great resources to help you:
 &lt;/p&gt;&lt;ul&gt;
-  &lt;li&gt;&lt;a href='http://sass-lang.com/download.html' target='_blank'&gt;Install Sass&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Check out the &lt;a href='http://sass-lang.com/'&gt;sassy documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The Rails &lt;a href='http://guides.rubyonrails.org/asset_pipeline.html'&gt;asset pipeline&lt;/a&gt; supports SCSS&lt;/li&gt;
-  &lt;li&gt;&lt;a href='http://middlemanapp.com/' target='_blank'&gt;Middleman&lt;/a&gt; comes with SCSS by default.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#39;http://sass-lang.com/download.html&#39; target=&#39;_blank&#39;&gt;Install Sass&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check out the &lt;a href=&#39;http://sass-lang.com/&#39;&gt;sassy documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The Rails &lt;a href=&#39;http://guides.rubyonrails.org/asset_pipeline.html&#39;&gt;asset pipeline&lt;/a&gt; supports SCSS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#39;http://middlemanapp.com/&#39; target=&#39;_blank&#39;&gt;Middleman&lt;/a&gt; comes with SCSS by default.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3&gt;Variables&lt;/h3&gt;&lt;p&gt;
 I was recently pairing with my mentor Stephanie and we decided on the blue hex #25A8E0 for our links and buttons. Now try remembering that hex number each time you need to use it. Hard, right? We kept forgetting and had to stop and look it up.
 &lt;/p&gt;&lt;p&gt;
@@ -356,130 +364,36 @@ This is where variables becomes a huge time saver:
 &lt;p&gt;Variables allow you to re-use colors, sizes, and other values without repeating yourself. This means that changes that should be small, such as tweaking the coloring or the sizing, can be done in one place, not all over the stylesheet.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
 SCSS allows you to set variables that can be used throughout your stylesheet. Variables start with $ and are declared just like properties. You can use any value that the CSS property allows such as colors, numbers or text.
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/3b4f85f8e2702beae02f.js'&gt; &lt;/script&gt;&lt;p&gt;
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/3b4f85f8e2702beae02f.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
 Pretty awesome right? I just set my variables and label them. Now I only have to remember $blue rather than #25A8E0.
 &lt;/p&gt;&lt;h3&gt;Nesting&lt;/h3&gt;&lt;p&gt;
 Repeating yourself in your CSS is annoying and makes your files unnecessarily long. SCSS allows you to avoid this by nesting child selectors within parent selectors.
-&lt;/p&gt;&lt;p&gt;With CSS, you might be writing something like this:&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/bda0d4a3a13010d47348.js'&gt; &lt;/script&gt;&lt;blockquote&gt;
+&lt;/p&gt;&lt;p&gt;With CSS, you might be writing something like this:&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/bda0d4a3a13010d47348.js&#39;&gt; &lt;/script&gt;&lt;blockquote&gt;
 &lt;p&gt;&amp;amp; is a Sass special character. In a selector, &amp;amp; will be replaced verbatim with the parent selector.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
-Let's take the previous example and nest them:
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/40517eb78456c82dd0f3.js'&gt; &lt;/script&gt;&lt;p&gt;
-Much cleaner! Now let's look at an example for a navigation:
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/7f752f6b4634dfce0592.js'&gt; &lt;/script&gt;&lt;p&gt;
+Let&#39;s take the previous example and nest them:
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/40517eb78456c82dd0f3.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
+Much cleaner! Now let&#39;s look at an example for a navigation:
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/7f752f6b4634dfce0592.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
 That’s a lot of repeating. Instead, let’s nest this bad boy:
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/0507587eb3a9b40693ac.js'&gt; &lt;/script&gt;&lt;p&gt;
-Boom! This is a great example of how to &lt;a href='http://en.wikipedia.org/wiki/Don&amp;apos;t_repeat_yourself' target='_blank'&gt;DRY up&lt;/a&gt; your CSS code. It does take some getting use to, but after a short while you’ll never want to go back to plain ole CSS.
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/0507587eb3a9b40693ac.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
+Boom! This is a great example of how to &lt;a href=&#39;http://en.wikipedia.org/wiki/Don&amp;apos;t_repeat_yourself&#39; target=&#39;_blank&#39;&gt;DRY up&lt;/a&gt; your CSS code. It does take some getting use to, but after a short while you’ll never want to go back to plain ole CSS.
 &lt;/p&gt;&lt;h3&gt;Mixins&lt;/h3&gt;&lt;p&gt;
 Mixins are one of Sass’s most powerful features. They allow re-use of styles without having to memorize or copy and paste them.
 &lt;/p&gt;&lt;blockquote&gt;
 &lt;p&gt;Mixins are defined using the “@mixin” directive, which takes a block of styles that can then be included in another selector using the “@include” directive.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
-So let's say I want to add a nice fade transition to my link and button classes:
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/c0b66222424af6b1c0d9.js'&gt; &lt;/script&gt;&lt;p&gt;
+So let&#39;s say I want to add a nice fade transition to my link and button classes:
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/c0b66222424af6b1c0d9.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
 That’s a lot of repetition! Let’s use @mixin directive and set a name of fade:
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/2c7f314ff56abd923d95.js'&gt; &lt;/script&gt;&lt;p&gt;
-Pretty handy right? Let's get more complicated with some properties that would be harder to remember:
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/a58c4838a609b5eff1bb.js'&gt; &lt;/script&gt;&lt;p&gt;
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/2c7f314ff56abd923d95.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
+Pretty handy right? Let&#39;s get more complicated with some properties that would be harder to remember:
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/a58c4838a609b5eff1bb.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
 Now we can reuse box-border on other properties quickly without all the mess.
 &lt;/p&gt;&lt;h2&gt;Give SCSS a try! It makes your front-end coding easier and faster.&lt;/h2&gt;&lt;p&gt;While SCSS is not an extension of the CSS standard itself, it gives you powerful new features that CSS lacks. Thanks for reading!&lt;/p&gt;</description>
 				<pubDate>Thu, 14 Mar 2013 00:00:00 -0500</pubDate>
 				<link>http://www.adamkaplandesign.com/scss.html</link>
 				<guid isPermaLink="true">http://www.adamkaplandesign.com/scss.html</guid>
-			</item>
-		
-			<item>
-				<title>Usability Testing</title>
-				<description>&lt;h2&gt;Usability testing is crucial to making your website easier to use.&lt;/h2&gt;&lt;p&gt;
-In this article, I'll explore my reading of &lt;a href='http://www.sensible.com/rsme.html' target='_blank'&gt;Rocket Surgery Made Easy&lt;/a&gt; by
-Steve Krug and how it applied to an application that I recently designed.
-&lt;/p&gt;&lt;p&gt;
-So what is usability testing?
-&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;Watching people try to use what your creating, with the intention of (a) making it easier to use or (b) proving that it is easy to use.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;
-There are two different types of testing available each with their own implications:
-&lt;/p&gt;&lt;div class='row cf'&gt;
-&lt;div class='column half'&gt;
-&lt;h3&gt;Qualitative&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Deals with descriptions&lt;/li&gt;
-  &lt;li&gt;Do it yourself or with a few people&lt;/li&gt;
-  &lt;li&gt;Gain insight through context&lt;/li&gt;
-  &lt;li&gt;Capture emotion&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div class='column half'&gt;
-&lt;h3&gt;Quantitative&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Deals with numbers&lt;/li&gt;
-  &lt;li&gt;Requires larger sample size&lt;/li&gt;
-  &lt;li&gt;Data/fact driven&lt;/li&gt;
-  &lt;li&gt;Prove something&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;
-I'm more interested in gaining insight through qualitative research so I can actually apply my learnings rather than rely on pure, emotionless statistics. The whole idea behind &lt;a href='http://www.sensible.com/rsme.html' target='_blank'&gt;Rocket Surgery Made Easy&lt;/a&gt; is that you can do qualitative testing yourself or with just a few people.
-&lt;/p&gt;&lt;h3&gt;ChiScore&lt;/h3&gt;&lt;p&gt;
-I recently had the opportunity to work on an application with Brian Pratt and Rylan Dirksen. It's called ChiScore and was built to track teams for the 2013 &lt;a href='http://www.chiditarod.org/' target='_blank'&gt;Chiditarod&lt;/a&gt;:
-&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;Chiditarod (think &lt;a href='http://en.wikipedia.org/wiki/Iditarod_Trail_Sled_Dog_Race' target='_blank'&gt;Iditarod&lt;/a&gt;) is Chicago's Epic Urban Iditarod. A charity food drive, beauty pageant, costumed shopping cart race, talent show, fundraiser and chaos generator all in one. And probably the world's largest mobile food drive, benefitting the &lt;a href='http://www.chicagosfoodbank.org/site/PageServer' target='_blank'&gt;Greater Chicago Food Depository&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;
-My role in this project was to design and implement the front end interface. I decided to challenge myself by making the application responsive too!
-&lt;/p&gt;&lt;p&gt;
-Brian wanted ChiScore to be clean and simple, but trusted me with the details. I started with some layout sketches then did almost all of my designing in-browser. I rarely do traditional mockups in Photoshop or Illustrator these days, and I believe that we've entered the &lt;a href='http://bradfrostweb.com/blog/post/the-post-psd-era/' target='_blank'&gt;The Post-PSD Era&lt;/a&gt;.
-&lt;/p&gt;&lt;p&gt;
-The final design was simple and clean, just like we wanted:
-&lt;/p&gt;&lt;img alt='Desktop Checkin' src='/images/checkin3-desktop.jpg' /&gt;&lt;p&gt;
-With the design ready to go, we had to demo the app for the Chiditerod volunteers and organizers. I didn't realize it at the time, but I was about to get my first opportunity to do some qualitative usability testing.
-&lt;/p&gt;&lt;h3&gt;(Unwitting) Test Participants&lt;/h3&gt;&lt;p&gt;
-We finally had a working prototype (with responsive elements) and it was time to show off the app to the Chiditarod team for feedback. This was such a rewarding experience.
-&lt;/p&gt;&lt;p&gt;
-Brian presented to over 40 volunteers and organizers. I went around the room and helped the volunteers load up ChiScore and realized that I just gained a room full of vocal test participants!
-&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;In usability testing, we call the people we're observing &quot;test participants,&quot; not &quot;test subjects,&quot; to remind ourselves that we really aren't testing them &amp;mdash; we're testing the thing they're using.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;
-I walked around observing volunteers using ChiScore on their phones, tablets and laptops. Sometimes I just watched, other times I took notes and asked for feedback.
-&lt;/p&gt;&lt;p&gt;
-I gathered some useful insights:
-&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;Volunteers were impressed by the speed and the &quot;clean new look&quot;&lt;/li&gt;
-&lt;li&gt;Everyone was really excited that they could use ChiScore on their phone&lt;/li&gt;
-&lt;li&gt;Long team names were breaking to another line, wasting precious space&lt;/li&gt;
-&lt;li&gt;Test participants were confused whether the &quot;X&quot; button deleted or checked out teams&lt;/li&gt;
-&lt;li&gt;Comments were made regarding the extra white space, font and button sizes&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;Fixing the Problems&lt;/h3&gt;&lt;p&gt;
-When it came time to implement these changes, I turned to my reading to help me:
-&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;When you're trying to fix a usability problem, the question you should always be asking is: What's the smallest, simplest change we can make that's likely to keep people from having the problem we observed?&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;
-I gained so much insight from watching the volunteers use ChiScore. It's one thing to design a feature and test it yourself, but to have a whole group of
-people test it is invaluable. Having another set of eyes catches things that you might have missed.
-&lt;/p&gt;&lt;h3&gt;The Final Design&lt;/h3&gt;&lt;p&gt;
-I came up with a few simple solutions and I'm really happy with the results! Here is the final design incorporating all my notes and feedback from the meeting:
-&lt;/p&gt;&lt;img alt='Checkin Limit Desktop' src='/images/checkin-limit-desktop.jpg' /&gt;&lt;p&gt;
-When the team names get too long, I hide them using some css:
-&lt;/p&gt;&lt;script src='https://gist.github.com/aekaplan/67c25d2358791c079013.js'&gt; &lt;/script&gt;&lt;p&gt;
-For the mobile layout, I completely redesigned the Check Out button by changing the language back to &quot;Check Out&quot; from the icon &quot;X&quot;.
-&lt;/p&gt;&lt;div class='row cf'&gt;
-  &lt;div class='column half'&gt;
-    &lt;img alt='Mobile Checkin' src='/images/checkin2-mobile.jpg' /&gt;
-  &lt;/div&gt;
-
-  &lt;div class='column half'&gt;
-    &lt;img alt='Mobile Checkin' src='/images/checkin3-mobile.jpg' /&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;
-The Check Out link also becomes a button making it easier to see and tap. To allow for more information on the screen, I decreased the font size and tightened the overall white space.
-&lt;/p&gt;&lt;h2&gt;You have no excuse not to test your websites. Qualitative usability testing is really quite simple!&lt;/h2&gt;&lt;p&gt;
-Just ask a friend, family member or coworker. You will be surprised what another set of eyes finds. The insight is invaluable and will almost always make your website easier to use.
-&lt;/p&gt;&lt;div class='note'&gt;
-&lt;p&gt;This article uses my own handcrafted framework for easily making columns responsive.&lt;/p&gt;
-&lt;/div&gt;</description>
-				<pubDate>Mon, 25 Feb 2013 00:00:00 -0600</pubDate>
-				<link>http://www.adamkaplandesign.com/usability-testing.html</link>
-				<guid isPermaLink="true">http://www.adamkaplandesign.com/usability-testing.html</guid>
 			</item>
 		
 	</channel>

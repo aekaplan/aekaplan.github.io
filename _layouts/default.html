@@ -36,21 +36,18 @@
 <body>
   <header>
   <div class="container">
-    <a href="/" class="logo-wrap">
-      <span class="logo"></span>
-    </a>
-    <div class="toggle-nav"></div>
-    <nav>
-      <ul>
-        <li><a href="/">Blog</a></li>
-        <li><a href="/projects">Projects</a></li>
-      </ul>
-    </nav>
+    {% include navigation.html %}
   </div>
   </header>
 
   <div class='container'>
     {{ content }}
   </div>
+
+  <footer>
+    <div class='container'>
+      &copy; 2013 Adam Kaplan
+    </div>
+  </footer>
 </body>
 </html>
