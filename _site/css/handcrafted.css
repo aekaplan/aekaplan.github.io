@@ -54,6 +54,7 @@ ul.lst {
 
 ul.lst li {
   list-style: none;
+  margin: 0;
 }
 
 ul.lst li a {
@@ -86,6 +87,7 @@ ul.lst2 {
 
 ul.lst2 li {
   list-style: none;
+  margin: 0;
 }
 
 ul.lst2 li a {
@@ -129,6 +131,7 @@ ul.lst3 {
 
 ul.lst3 li {
   list-style: none;
+  margin: 0;
 }
 
 ul.lst3 li a {
