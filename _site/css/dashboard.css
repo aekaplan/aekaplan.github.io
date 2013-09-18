@@ -174,6 +174,7 @@ h1 {
 ================================================== */
 ul {
   margin: 0;
+  padding: 0;
 }
 
 ul li {
@@ -213,19 +214,36 @@ ul li:nth-of-type(odd) {
 
 /*  #Images
 ================================================== */
-.il {
+.dashboard-logo {
+  background: url("/images/dashboard-logo.png");
+  height: 162px;
+  width: 164px;
   display: block;
-  margin: 0 auto .6em;
+  margin: 0 auto 0.6em;
+}
+
+.il {
+  background: url("/images/il.png");
+  height: 153px;
+  width: 95px;
+  display: block;
+  margin: 0 auto 0.6em;
 }
 
 .fl {
+  background: url("/images/fl.png");
+  height: 153px;
+  width: 176px;
   display: block;
-  margin: 0 auto .6em;
+  margin: 0 auto 0.6em;
 }
 
 .university {
+  background: url("/images/8lu.png");
+  height: 53px;
+  width: 115px;
   display: block;
-  margin: 0 auto .1em;
+  margin: 0 auto 0.6em;
 }
 
 .logo-image {
@@ -264,6 +282,10 @@ ul li:nth-of-type(odd) {
 .content {
   text-align: center;
   padding: 5%;
+}
+
+.content p {
+  margin: 0;
 }
 
 .date-box {
