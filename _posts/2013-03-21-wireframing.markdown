@@ -60,7 +60,7 @@ The time you spend developing the user experience while wireframing will serve a
 
 <h3>Feedback is Welcome</h3>
 <p>
-It's important to get feedback as soon as possible. Don't be afraid to show your wireframes. Get some initial thoughts from the client. Sit some users down for informal <a href="http://adamkaplandesign.com/usability-testing.html" target="_blank">usability testing</a>. The sooner you let the client or user into the process, the sooner you know how successful your design is.
+It's important to get feedback as soon as possible. Don't be afraid to show your wireframes. Get some initial thoughts from the client. Sit some users down for informal <a href="/usability-testing.html" target="_blank">usability testing</a>. The sooner you let the client or user into the process, the sooner you know how successful your design is.
 </p>
 
 <p>

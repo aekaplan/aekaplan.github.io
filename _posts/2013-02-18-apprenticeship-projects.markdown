@@ -12,11 +12,11 @@ date: February 18, 2013
 <h3>Projects</h3>
 
 <ul class='post'>
-  <li><a href='http://adamkaplandesign.com/projects/units-of-measure.html' target='_blank'>CSS Units of Measurement</a></li>
-  <li><a href='http://adamkaplandesign.com/projects/position-properties.html' target='_blank'>Position Properties</a></li>
-  <li><a href='http://adamkaplandesign.com/projects/handcrafted-css' target='_blank'>Handcrafted CSS</a></li>
-  <li><a href='http://adamkaplandesign.com/projects/semantic-news-article.html' target='_blank'>Semantic News Article</a></li>
-  <li><a href='http://adamkaplandesign.com/projects/inline-and-block-elements.html' target='_blank'>Inline and Block Elements</a></li>
+  <li><a href='/projects/units-of-measure.html' target='_blank'>CSS Units of Measurement</a></li>
+  <li><a href='/projects/position-properties.html' target='_blank'>Position Properties</a></li>
+  <li><a href='/projects/handcrafted-css.html' target='_blank'>Handcrafted CSS</a></li>
+  <li><a href='/projects/semantic-news-article.html' target='_blank'>Semantic News Article</a></li>
+  <li><a href='/projects/inline-and-block-elements.html' target='_blank'>Inline and Block Elements</a></li>
 </ul>
 
 <div class='note'>
