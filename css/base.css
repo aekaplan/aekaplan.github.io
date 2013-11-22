@@ -297,13 +297,18 @@ hr {
 }
 
 blockquote {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   margin: 0 0 1.5em 0;
+  padding: 2.4em 1.2em;
 }
 
 blockquote p {
+  color: #8c9397;
+  font-size: 1.2em;
   font-style: italic;
   margin-bottom: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 code {
