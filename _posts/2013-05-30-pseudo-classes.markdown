@@ -118,16 +118,8 @@ I could also just use the <code>:first-child</code> pseudo-class:
 I let the CSS do all the work; no extra markup needed! The browser will re-evaluate the styles even if I add more columns later.
 </p>
 
-<blockquote>
-  <p>The ability to add extra design elements without additional markup or classes is extremely powerful.</p>
-</blockquote>
+<p>The ability to add extra design elements without additional markup or classes is extremely powerful. I use these pseudo-classes every day. As designers and developers we should try to use as little markup as possible.</p>
 
-<p>
-I use these pseudo-classes every day. As designers and developers we should try to use as little markup as possible.
-</p>
-
-<div class="note">
-<p>
-Greater than 86% of all users' browsers support pseudo-classes. Feel free to use them on your project.
-</p>
-</div>
+<em>
+Note: Greater than 86% of all users' browsers support pseudo-classes. Feel free to use them on your project.
+</em>

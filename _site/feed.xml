@@ -141,15 +141,9 @@ I could also just use the &lt;code&gt;:first-child&lt;/code&gt; pseudo-class:
 &lt;/div&gt;
 &lt;/div&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5682861.js&#39;&gt; &lt;/script&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5682773.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
 I let the CSS do all the work; no extra markup needed! The browser will re-evaluate the styles even if I add more columns later.
-&lt;/p&gt;&lt;blockquote&gt;
-  &lt;p&gt;The ability to add extra design elements without additional markup or classes is extremely powerful.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;
-I use these pseudo-classes every day. As designers and developers we should try to use as little markup as possible.
-&lt;/p&gt;&lt;div class=&#39;note&#39;&gt;
-&lt;p&gt;
-Greater than 86% of all users&#39; browsers support pseudo-classes. Feel free to use them on your project.
-&lt;/p&gt;
-&lt;/div&gt;</description>
+&lt;/p&gt;&lt;p&gt;The ability to add extra design elements without additional markup or classes is extremely powerful. I use these pseudo-classes every day. As designers and developers we should try to use as little markup as possible.&lt;/p&gt;&lt;em&gt;
+Note: Greater than 86% of all users&#39; browsers support pseudo-classes. Feel free to use them on your project.
+&lt;/em&gt;</description>
 				<pubDate>Thu, 30 May 2013 00:00:00 -0500</pubDate>
 				<link>http://www.adamkaplandesign.com/pseudo-classes.html</link>
 				<guid isPermaLink="true">http://www.adamkaplandesign.com/pseudo-classes.html</guid>
