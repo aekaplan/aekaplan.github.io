@@ -189,7 +189,7 @@ h1 {
 h2 {
   font-size: 1.3em;
   line-height: 1.3em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.1em;
   font-weight: 400;
 }
 
@@ -297,10 +297,10 @@ hr {
 }
 
 blockquote {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
   margin: 0 0 1.5em 0;
-  padding: 2.4em 1.2em;
+  padding: 1.5em 1.2em;
 }
 
 blockquote p {
@@ -460,6 +460,10 @@ figure {
   background-color: #fff !important;
   border-bottom: 0 !important;
   font-size: 0.8em !important;
+}
+
+.gist .gist-file {
+  overflow: hidden;
 }
 
 .gist-meta {
@@ -927,7 +931,7 @@ ul.example li:before {
 }
 
 .row-example {
-  border: 1px dashed #dedede;
+  border: 1px solid #eee;
   margin-bottom: 1.5em;
   padding: 1.5em 1.5em 0 1.5em;
 }
@@ -1211,7 +1215,7 @@ iframe {
   }
 
   blockquote {
-    padding-left: 1.5em;
+    padding: 2em 1.2em;
   }
 
   .back-to-top {

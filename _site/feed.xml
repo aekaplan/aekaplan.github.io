@@ -81,6 +81,81 @@ Special thanks to those who helped out:
 			</item>
 		
 			<item>
+				<title>Pseudo-Classes</title>
+				<description>&lt;p&gt;
+Pseudo-classes allow you to do more with less code. Since pseudo-classes add no markup, they look &quot;invisible&quot; to the user because everything is done through CSS. You&#39;re basically gaining one or more &quot;free&quot; elements that you would otherwise have to write markup for.
+&lt;/p&gt;&lt;p&gt;
+This definition gives you a good idea of what these selectors do:
+&lt;/p&gt;&lt;blockquote&gt;
+&lt;p&gt;
+The prefix pseudo (from the Greek word &lt;em&gt;pseudes&lt;/em&gt;, meaning &quot;lying&quot; or &quot;false&quot;) is used to mark something as false, fraudulent, or pretending to be something it is not.
+&lt;/p&gt;
+&lt;/blockquote&gt;&lt;h3&gt;:before and :after&lt;/h3&gt;&lt;p&gt;
+These pseudo-classes are used to insert text, character codes or images before or after elements. The syntax for pseudo-classes is quite simple:
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5679831.js&#39;&gt; &lt;/script&gt;&lt;p class=&#39;example&#39;&gt;
+This is some example text with &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; pseudo-classes.
+&lt;/p&gt;&lt;p&gt;
+Pretty neat, right? You&#39;ll have more control over your markup by combining pseudo-classes with CSS classes.
+&lt;/p&gt;&lt;p&gt;
+You can use &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; in new and creative ways. For example, I often use &lt;code&gt;:before&lt;/code&gt; on lists or elements that need character codes or icons. Let&#39;s try adding a red star before each item in a list:
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5679880.js&#39;&gt; &lt;/script&gt;&lt;p&gt;But &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; are not the only pseudo-classes. There are many more:&lt;/p&gt;&lt;ul class=&#39;example&#39;&gt;
+&lt;li&gt;:visited&lt;/li&gt;
+&lt;li&gt;:hover&lt;/li&gt;
+&lt;li&gt;:focus&lt;/li&gt;
+&lt;li&gt;:first-letter&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+You can&#39;t use &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; without a content property. You can, however, leave the content property blank if you don&#39;t want to add extra content.
+&lt;/p&gt;&lt;h3&gt;Content Property&lt;/h3&gt;&lt;p&gt;
+Let&#39;s look at another example from &lt;a href=&#39;projects/timeline.html&#39; target=&#39;_blank&#39;&gt;my timeline project&lt;/a&gt;. I used the required &lt;code&gt;content&lt;/code&gt; property, but left it blank to achieve the timeline&#39;s gray line. Now I won&#39;t have to write extra markup to get the same result.
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5679711.js&#39;&gt; &lt;/script&gt;&lt;h3&gt;Clearfix&lt;/h3&gt;&lt;p&gt;
+&lt;a href=&#39;http://nicolasgallagher.com/micro-clearfix-hack/&#39; target=&#39;_blank&#39;&gt;Nicolas Gallager&#39;s popular clearfix&lt;/a&gt; uses pseudo-class selectors to clear floats. This eliminates the need to hide generated content and reduces the amount of code you need to write. I always add this clearfix to my container classes to keep floats cleared properly.
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5680048.js&#39;&gt; &lt;/script&gt;&lt;h3&gt;:first-child and :last-child&lt;/h3&gt;&lt;p&gt;
+&lt;code&gt;:first-child&lt;/code&gt; and &lt;code&gt;:last-child&lt;/code&gt; allow you to select the first or last child of its parent element. I like to use them to remove extra margins or borders on columns in my layouts:
+&lt;/p&gt;&lt;div class=&#39;row-example&#39;&gt;
+&lt;div class=&#39;column-example-bad first&#39;&gt;
+&lt;p&gt;Column 1&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&#39;column-example-bad&#39;&gt;
+&lt;p&gt;Column 2&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&#39;column-example-bad&#39;&gt;
+&lt;p&gt;Column 3&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5682833.js&#39;&gt; &lt;/script&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5682842.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
+You&#39;ll notice we need a margin-left to separate the columns, but we don&#39;t want a margin on the first column. I had to write a separate class and add more markup to remove the margin. 
+&lt;/p&gt;&lt;p&gt;
+I could also just use the &lt;code&gt;:first-child&lt;/code&gt; pseudo-class:
+&lt;/p&gt;&lt;div class=&#39;row-example&#39;&gt;
+&lt;div class=&#39;column-example&#39;&gt;
+&lt;p&gt;Column 1&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&#39;column-example&#39;&gt;
+&lt;p&gt;Column 2&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&#39;column-example&#39;&gt;
+&lt;p&gt;Column 3&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5682861.js&#39;&gt; &lt;/script&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5682773.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
+I let the CSS do all the work; no extra markup needed! The browser will re-evaluate the styles even if I add more columns later.
+&lt;/p&gt;&lt;blockquote&gt;
+  &lt;p&gt;The ability to add extra design elements without additional markup or classes is extremely powerful.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;
+I use these pseudo-classes every day. As designers and developers we should try to use as little markup as possible.
+&lt;/p&gt;&lt;div class=&#39;note&#39;&gt;
+&lt;p&gt;
+Greater than 86% of all users&#39; browsers support pseudo-classes. Feel free to use them on your project.
+&lt;/p&gt;
+&lt;/div&gt;</description>
+				<pubDate>Thu, 30 May 2013 00:00:00 -0500</pubDate>
+				<link>http://www.adamkaplandesign.com/pseudo-classes.html</link>
+				<guid isPermaLink="true">http://www.adamkaplandesign.com/pseudo-classes.html</guid>
+			</item>
+		
+			<item>
 				<title>Personal Branding</title>
 				<description>&lt;h2&gt;A logo can embody a unique identity that can help promote you and your brand by making it easily recognizable.&lt;/h2&gt;&lt;p&gt;What, exactly, is a logo?&lt;/p&gt;&lt;blockquote&gt;
 &lt;p&gt;A logo is a graphic mark or emblem commonly used by commercial enterprises, organizations and even individuals to aid and promote instant public recognition.&lt;/p&gt;
@@ -308,43 +383,6 @@ My &quot;Write Better CSS&quot; presentation will be on April 12.
 				<pubDate>Thu, 28 Mar 2013 00:00:00 -0500</pubDate>
 				<link>http://www.adamkaplandesign.com/write-better-css.html</link>
 				<guid isPermaLink="true">http://www.adamkaplandesign.com/write-better-css.html</guid>
-			</item>
-		
-			<item>
-				<title>Wireframing</title>
-				<description>&lt;h2&gt;Wireframing is a useful first step in the design process, allowing you to focus on defining the information hierarchy and user experience.&lt;/h2&gt;&lt;p&gt;What is wireframing?&lt;/p&gt;&lt;blockquote&gt;
-&lt;p&gt;A basic visual guide used to suggest the layout of fundamental elements in a web interface.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;p&gt;Wireframing allows you to focus on:&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;planning the general layout&lt;/li&gt;
-&lt;li&gt;determing how the user will interact with your interface&lt;/li&gt;
-&lt;li&gt;the range of functions available to your user&lt;/li&gt;
-&lt;li&gt;the kinds of information displayed&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;Meet Balsamiq&lt;/h3&gt;&lt;p&gt;
-&lt;a href=&#39;http://www.balsamiq.com/&#39; target=&#39;_blank&#39;&gt;Balsamiq&lt;/a&gt; is a wireframing application for quick mockups. It&#39;s like sketching except that it&#39;s digital, allowing you to easily tweak and rearrange your ideas. 
-&lt;/p&gt;&lt;p&gt;
-I prefer low-fidelity wireframes because they allow you to focus on the core functionality and user experience while avoiding time-consuming specifics. Oftentimes if you deliver a wireframe that look &amp;#8220;too finished&amp;#8221; the client might think it&#39;s the final design. 
-&lt;/p&gt;&lt;p&gt;
-This keeps the conversations focused on what matters: the user experience!
-&lt;/p&gt;&lt;h3&gt;Distraction Free&lt;/h3&gt;&lt;p&gt;
-Wireframing lets you work distraction-free because you don&#39;t have to worry about picking fonts, colors or writing copy. You also have the freedom to try as many layouts or options you&#39;d like. Moving around elements and playing with how placement effects on ease of use is a very rewarding experience. Put on some music and experiment!
-&lt;/p&gt;&lt;h3&gt;Iterate&lt;/h3&gt;&lt;p&gt;
-Remember that nothing is final. You &lt;strong&gt;will&lt;/strong&gt; iterate on your wireframes before you move on to the prototyping stage; it&#39;s almost unavoidable. Don&#39;t be afraid to throw out ideas that don&#39;t work and try out several layouts.
-&lt;/p&gt;&lt;p&gt;
-It&#39;s better to spend the time iterating and experimenting with wireframes while the project is still lightweight and easy to change.
-&lt;/p&gt;&lt;h3&gt;Think more, design less&lt;/h3&gt;&lt;p&gt;
-This quote from &lt;a href=&#39;http://www.thinkingwithtype.com/&#39; target=&#39;_blank&#39;&gt;&amp;#8220;Thinking with Type&amp;#8221;&lt;/a&gt; by Ellen Lupton really applies in the real world. I spend a lot of time thinking about the user experience and walking through every aspect of my design, asking myself questions like, &amp;#8220;Do I need this?&amp;#8221; or &amp;#8220;Is this too complicated?&amp;#8221; This critical thinking will prove invaluable when you get to prototyping.
-&lt;/p&gt;&lt;p&gt;
-The time you spend developing the user experience while wireframing will serve as a guide to building an awesome product.
-&lt;/p&gt;&lt;h3&gt;Feedback is Welcome&lt;/h3&gt;&lt;p&gt;
-It&#39;s important to get feedback as soon as possible. Don&#39;t be afraid to show your wireframes. Get some initial thoughts from the client. Sit some users down for informal &lt;a href=&#39;/usability-testing.html&#39; target=&#39;_blank&#39;&gt;usability testing&lt;/a&gt;. The sooner you let the client or user into the process, the sooner you know how successful your design is.
-&lt;/p&gt;&lt;p&gt;
-I often pair with my mentor, Stephanie, and get instant feedback on my decisions. We bounce ideas off each other all the time, leading to more developed user experiences and better designs.
-&lt;/p&gt;&lt;p&gt;
-Just remember to keep it simple, put usability first, seek out feedback and experiment.
-&lt;/p&gt;</description>
-				<pubDate>Thu, 21 Mar 2013 00:00:00 -0500</pubDate>
-				<link>http://www.adamkaplandesign.com/wireframing.html</link>
-				<guid isPermaLink="true">http://www.adamkaplandesign.com/wireframing.html</guid>
 			</item>
 		
 	</channel>
