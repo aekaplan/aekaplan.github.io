@@ -19,6 +19,8 @@ body {
   font-size: 100%;
   line-height: 1.5em;
   color: #333;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 header {
@@ -112,12 +114,16 @@ nav li {
 }
 
 nav li a {
-  color: #8c9397;
+  letter-spacing: 2px;
+  color: #333;
+  font-size: 0.8em;
+  font-weight: 700;
   display: block;
   -moz-transition: color 0.2s ease-out;
   -webkit-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
   padding: 0.8em 0;
+  text-transform: uppercase;
 }
 
 nav li:last-child a {
@@ -125,7 +131,7 @@ nav li:last-child a {
 }
 
 nav li a:hover {
-  color: #4183C4;
+  color: #777;
   text-decoration: none;
 }
 
@@ -164,13 +170,13 @@ h1, h2, h3, h4 {
   font-style: normal;
   color: #333;
   margin: 0;
+  font-weight: 700;
 }
 
 h1 {
   font-size: 1.8em;
   line-height: 1.1em;
   margin-bottom: 0.5em;
-  font-weight: 600;
 }
 
 .article-title {
@@ -197,7 +203,6 @@ h3 {
   font-size: 1.3em;
   line-height: 1.3em;
   margin-bottom: 0.6em;
-  font-weight: 600;
 }
 
 .section-header {
@@ -211,7 +216,6 @@ h4 {
   font-size: 1.2em;
   line-height: 1.3em;
   margin-bottom: 0;
-  font-weight: 600;
 }
 
 h4 a {
@@ -1062,7 +1066,7 @@ iframe {
   }
 
   nav li a {
-    padding: 0.5em 0;
+    padding: 0.7em 0 0.5em 0;
   }
 
   nav li:last-child a {

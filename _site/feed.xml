@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Adam Kaplan</title>
-		<description>Design Apprentice at 8th Light</description>
-		<link>http://www.adamkaplandesign.com</link>
-		<atom:link href="http://www.adamkaplandesign.com/feed.xml" rel="self" type="application/rss+xml" />
+		<description>UX Craftsman at 8th Light</description>
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Yes, and...</title>
@@ -12,16 +12,16 @@
 &lt;p&gt;“The first rule of improvisation is AGREE. [...] The second rule of improvisation is not only to say yes, but YES, AND. [...] To me YES, AND means don’t be afraid to contribute. It’s your responsibility to contribute. Always make sure you’re adding something to the discussion. Your initiations are worthwhile. [...] The next rule is MAKE STATEMENTS. [...] In other words: Whatever the problem, be part of the solution.”&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;These rules apply to client conversations; you could very easily swap out “improvisation” for “meetings.” You are, after all, often generating ideas or helping steer the discussion on-the-fly during a meeting. Take this moment of collaboration as a chance to provide value.&lt;/p&gt;&lt;p&gt;Consider a meeting with the client at a music talent agency. The agent asks, “Can we have a image slider on the homepage with all of our two hundred artists?” You could just respond with a  “no”, but where would that leave the conversation? Now consider responding with, “Yes, and rather than loading all two hundred artists at once we can pick five random ones so a new artist appears on the page every time someone loads it.”&lt;/p&gt;&lt;p&gt;Easy, right? Answering in this way allows for collaboration and reflection on the original idea. In this case, we directed the conversation from something potentially negative to an exciting new feature. But, imagine if you had said “no”; you might have had to build a poor quality feature or even upset the client.&lt;/p&gt;&lt;p&gt;Granted, it doesn’t always go this smoothly. The truth is that it sometimes doesn’t matter what you say; a boss or client may shut you down regardless. Just do your best to respectfully raise your concerns and try to compromise where you can. The practice will do wonders for your communication skills.&lt;/p&gt;&lt;h3&gt;In Closing&lt;/h3&gt;&lt;p&gt;Thinking about conversations in this way has helped me in the workplace by allowing me to be opinionated and honest while still respectful. It takes practice to improvise and respond well on-the-spot, but it’s something that you will get better at over time.&lt;/p&gt;&lt;p&gt;So before you respond to that next pressing question from a boss/client/colleague, think about the consequences of the way in which you approach your answer. It really can mean the difference between a productive conversation and digging yourself or your team into a hole.&lt;/p&gt;</description>
 				<pubDate>Fri, 18 Oct 2013 00:00:00 -0500</pubDate>
-				<link>http://www.adamkaplandesign.com/yes-and.html</link>
-				<guid isPermaLink="true">http://www.adamkaplandesign.com/yes-and.html</guid>
+				<link>/yes-and.html</link>
+				<guid isPermaLink="true">/yes-and.html</guid>
 			</item>
 		
 			<item>
 				<title>Lessons on Apprenticeship</title>
 				<description>&lt;h2&gt;One of the things that makes 8th Light so special is its apprenticeship program.&lt;/h2&gt;&lt;p&gt;Regardless of prior experience, everyone here goes through an apprenticeship before being hired and there are many benefits. I wanted to share what I believe creates a strong bond between a mentor and an apprentice and why we go through all the trouble of an apprenticeship.&lt;/p&gt;&lt;h3&gt;Learn Best Practices&lt;/h3&gt;&lt;p&gt;8th Light is committed to growing your career through education. Many of us come from non-traditional backgrounds; I actually studied film in college and was a video editor for many years. It&#39;s an incredible feeling being able to do something new and work in such a positive environment were education is so highly valued. We believe that teaching others can be one of the best ways to learn and our mentors constantly challenge us to teach others.&lt;/p&gt;&lt;p&gt;Earlier this year, I had the chance to give a short presentation on writing better CSS. For me, it was an accomplishment to be in the position to teach others. There really is no faster way to learn a topic than to give a presentation on it!&lt;/p&gt;&lt;p&gt;Apprentices are often given projects where their mentors play the role of the client by being stakeholder and setting requirements and deadlines. This gives us plenty of practice and a chance to demonstrate that we can communicate, estimate and deliver. It&#39;s also designed to challenge us so that the mentors can see what skills we need to improve on.&lt;/p&gt;&lt;p&gt;One of best pieces of advice I got from Stephanie, my mentor, was to keep things simple. It&#39;s a guideline that I was taught early and something that I apply to all of my design work. I was stuck on one of my first projects trying to decide between many font choices. I couldn&#39;t decide on a set of fonts to use and asked her for help. She simply said, &quot;keep it simple,&quot; and it has stuck with me since.&lt;/p&gt;&lt;h3&gt;Pair (Work Better Together)&lt;/h3&gt;&lt;p&gt;Pair programming is an important part of our culture at 8th Light. Everyone does it. It gives the pair an opportunity to share knowledge and find mistakes, which results in higher quality work.&lt;/p&gt;&lt;p&gt;I was lucky to work closely with my mentor during my apprenticeship, and I now feel like other Craftsmen can expect the same level of quality out of me as they would from Stephanie. Craftsman developers have high standards for code, and as designers, we match that level of quality in our designs.&lt;/p&gt;&lt;p&gt;Being one of the few designers, I got the chance to pair with and teach other developers some of the things I was learning. I loved sharing CSS best practices and I would often learn about code in the process. As an apprentice, even as a developer, you can tap into the knowledge of others in the office.&lt;/p&gt;&lt;h3&gt;Build Trust&lt;/h3&gt;&lt;p&gt;Solid, continual communication helps builds trust. To learn how to effectively communicate with clients, our mentors give us the chance to join in on weekly iteration planning meetings from time to time. With the client actively involved in the ongoing process, the lines of communication are opened, eliminating misinterpretation and ensuring that everyone is on the same page.&lt;/p&gt;&lt;p&gt;Apprentices are given weekly assignments, and tasked with estimating how much time it would take to complete. This is great practice in delivering  work on time while still maintaining a high level of quality. It also gives apprentices the chance to prove that an they can pull their own weight and be trusted with commitments.&lt;/p&gt;&lt;p&gt;But the need for trust goes both ways; apprentices must also trust that their mentor is going to teach them everything that they need to know to successfully complete their apprenticeship. With the lines of communication open and trust built both ways, a strong bond can form between a mentor and an apprentice.&lt;/p&gt;&lt;h3&gt;Be Challenged and Grow&lt;/h3&gt;&lt;p&gt;Before 8th Light, the idea of being challenged scared me. As an apprentice, I was challenged to do better and to be better. My mentor would watch me struggle and become frustrated as I learned something new, but it is the most incredible feeling when things that were difficult just clicked. I remember coming in to work early and showing my mentor what I had been struggling with all week. I said, &quot;I figured it out!&quot; and she just smiled as if to say, &quot;I always knew you could do it&quot;. These are the kind of moments that make our apprenticeship program so special.&lt;/p&gt;&lt;p&gt;I had the amazing opportunity to work with my mentor on designs for an actual client project. My mentor always likes to challenge me by throwing me into situations outside of my comfort zone, but since we built up trust, she knew she could depend on me to get things done. The time I spent pairing on a real project was some of the most rewarding work I did. It gave me a chance to experience what it will be like as Craftsmen while still providing me with the protection of being an apprentice.&lt;/p&gt;&lt;h3&gt;Maintain a Culture&lt;/h3&gt;&lt;p&gt;Along with creating a bond, the apprenticeship program creates a strong sense of company culture. It encourages a close working relationship between you and your mentor and gives you a sense of community, knowing everyone else had to go through the same kinds of challenges. The apprenticeship program is also designed to make sure you are a good cultural fit for 8th Light. You should love to learn, teach and I would even argue that you should be a bit of an overachiever.&lt;/p&gt;&lt;p&gt;8th Light have no shortage of company activities including bike tours, company conferences like SCNA and more for us to better get to know each other and share our knowledge with others. We have a close relationship with our coworkers even outside of work. Building these friendships improves working relationships. I think you can learn a lot about someone by spending time with them outside of work. It&#39;s a great way to start building trust both in and out of the workplace.&lt;/p&gt;&lt;h3&gt;Gain a Friend&lt;/h3&gt;&lt;p&gt;The best part about the apprenticeship program is that you will gain a friend who will challenge you to be better person. I&#39;m lucky to have had such an amazing mentor, Stephanie Briones. She became one of my best friends and I feel so privileged to apprentice under her.&lt;/p&gt;&lt;p&gt;Interested in starting your journey as an apprentice? Please visit our &lt;a href=&#39;http://www.8thlight.com/apprenticeship&#39; target=&#39;_blank&#39;&gt;apprenticeship page&lt;/a&gt; for more information.&lt;/p&gt;</description>
 				<pubDate>Thu, 01 Aug 2013 00:00:00 -0500</pubDate>
-				<link>http://www.adamkaplandesign.com/lessons-on-apprenticeship.html</link>
-				<guid isPermaLink="true">http://www.adamkaplandesign.com/lessons-on-apprenticeship.html</guid>
+				<link>/lessons-on-apprenticeship.html</link>
+				<guid isPermaLink="true">/lessons-on-apprenticeship.html</guid>
 			</item>
 		
 			<item>
@@ -56,8 +56,8 @@ This icon is used everywhere; you can find it on Facebook and YouTube and even a
 You can take this concept even further. Along with presenting the “menu” icon on mobile devices, &lt;a href=&#39;http://mailchimp.com/&#39; target=&#39;_blank&#39;&gt;MailChimp&lt;/a&gt; does a good job of keeping the navigation out of the way. On desktop, they hide the navigation when you scroll down but when you scroll up shows it again. This is an effective design decision that puts the site&#39;s content first.
 &lt;/p&gt;</description>
 				<pubDate>Sun, 07 Jul 2013 00:00:00 -0500</pubDate>
-				<link>http://www.adamkaplandesign.com/navigations.html</link>
-				<guid isPermaLink="true">http://www.adamkaplandesign.com/navigations.html</guid>
+				<link>/navigations.html</link>
+				<guid isPermaLink="true">/navigations.html</guid>
 			</item>
 		
 			<item>
@@ -76,8 +76,8 @@ Special thanks to those who helped out:
 &lt;li&gt;&lt;a href=&#39;http://stephaniebriones.com/&#39; target=&#39;_blank&#39;&gt;Stephanie Briones&lt;/a&gt; for guidance and support&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;Interested in attending? &lt;a href=&#39;http://scna.eventbrite.com/&#39; target=&#39;_blank&#39;&gt;Register Today&lt;/a&gt; and get an early bird rate!&lt;/p&gt;</description>
 				<pubDate>Wed, 26 Jun 2013 00:00:00 -0500</pubDate>
-				<link>http://www.adamkaplandesign.com/scna2013.html</link>
-				<guid isPermaLink="true">http://www.adamkaplandesign.com/scna2013.html</guid>
+				<link>/scna2013.html</link>
+				<guid isPermaLink="true">/scna2013.html</guid>
 			</item>
 		
 			<item>
@@ -145,8 +145,8 @@ I let the CSS do all the work; no extra markup needed! The browser will re-evalu
 Note: Greater than 86% of all users&#39; browsers support pseudo-classes. Feel free to use them on your project.
 &lt;/em&gt;</description>
 				<pubDate>Thu, 30 May 2013 00:00:00 -0500</pubDate>
-				<link>http://www.adamkaplandesign.com/pseudo-classes.html</link>
-				<guid isPermaLink="true">http://www.adamkaplandesign.com/pseudo-classes.html</guid>
+				<link>/pseudo-classes.html</link>
+				<guid isPermaLink="true">/pseudo-classes.html</guid>
 			</item>
 		
 			<item>
@@ -177,8 +177,8 @@ I did some quick testing and the logo I went with was easily recognizable on mob
 Lastly, don&#39;t be afraid to take some risks! You need to stand out among the crowd and a unique logo can help immensely. Logo design is new to me, so it was a fun and very rewarding experience, but I still have a lot to learn. I&#39;m really happy with how my logo turned out, but I plan on iterating on it more in the future.
 &lt;/p&gt;</description>
 				<pubDate>Thu, 09 May 2013 00:00:00 -0500</pubDate>
-				<link>http://www.adamkaplandesign.com/personal-branding.html</link>
-				<guid isPermaLink="true">http://www.adamkaplandesign.com/personal-branding.html</guid>
+				<link>/personal-branding.html</link>
+				<guid isPermaLink="true">/personal-branding.html</guid>
 			</item>
 		
 			<item>
@@ -210,8 +210,8 @@ The success of a pairing session shares a common goal: work together to create a
 If you&#39;re feeling stuck (CSS problem? &lt;a href=&#39;mailto:adam.kaplan@icloud.com&#39;&gt;Ask me anything&lt;/a&gt;!) or in need of some inspiration, give pairing a try. It really helps me and I know it will benefit you too. Thanks for reading!
 &lt;/p&gt;</description>
 				<pubDate>Wed, 01 May 2013 00:00:00 -0500</pubDate>
-				<link>http://www.adamkaplandesign.com/pairing.html</link>
-				<guid isPermaLink="true">http://www.adamkaplandesign.com/pairing.html</guid>
+				<link>/pairing.html</link>
+				<guid isPermaLink="true">/pairing.html</guid>
 			</item>
 		
 			<item>
@@ -222,8 +222,8 @@ Learn how to write better CSS in 3 easy steps: reset, order and dry up. I receiv
 You can &lt;a href=&#39;https://speakerdeck.com/aekaplan/write-better-css&#39; target=&#39;_blank&#39;&gt;view my slides&lt;/a&gt; on Speaker Deck.
 &lt;/p&gt;</description>
 				<pubDate>Fri, 12 Apr 2013 00:00:00 -0500</pubDate>
-				<link>http://www.adamkaplandesign.com/apprentice-learning-hour.html</link>
-				<guid isPermaLink="true">http://www.adamkaplandesign.com/apprentice-learning-hour.html</guid>
+				<link>/apprentice-learning-hour.html</link>
+				<guid isPermaLink="true">/apprentice-learning-hour.html</guid>
 			</item>
 		
 			<item>
@@ -326,8 +326,8 @@ If you&#39;re having trouble choosing colors, just remember to only pick a few o
 &lt;/p&gt;
 &lt;/div&gt;</description>
 				<pubDate>Fri, 05 Apr 2013 00:00:00 -0500</pubDate>
-				<link>http://www.adamkaplandesign.com/color-theory.html</link>
-				<guid isPermaLink="true">http://www.adamkaplandesign.com/color-theory.html</guid>
+				<link>/color-theory.html</link>
+				<guid isPermaLink="true">/color-theory.html</guid>
 			</item>
 		
 			<item>
@@ -375,8 +375,8 @@ My &quot;Write Better CSS&quot; presentation will be on April 12.
 &lt;/p&gt;
 &lt;/div&gt;</description>
 				<pubDate>Thu, 28 Mar 2013 00:00:00 -0500</pubDate>
-				<link>http://www.adamkaplandesign.com/write-better-css.html</link>
-				<guid isPermaLink="true">http://www.adamkaplandesign.com/write-better-css.html</guid>
+				<link>/write-better-css.html</link>
+				<guid isPermaLink="true">/write-better-css.html</guid>
 			</item>
 		
 	</channel>
