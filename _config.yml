@@ -1,4 +1,6 @@
 name: Adam Kaplan
 description: UX Craftsman at 8th Light
+url: http://www.adamkaplan.me
+
 pygments: true
-permalink: /:title.html
+permalink: pretty
