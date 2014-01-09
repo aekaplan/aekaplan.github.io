@@ -2,22 +2,16 @@
 layout: default
 title: Adam Kaplan
 ---
-<div id="fade">
-  <h3 class="section-header">Hi, I'm Adam.</h3>
-  <p>I'm a UX Craftsman at <a href='http://www.8thlight.com/' target='_blank'>8th Light</a>. Say <a href='mailto:adam.kaplan@icloud.com'>hello</a> and <a href="http://instagram.com/adamekaplan" target="_blank">view my photos</a> on Instagram. <a href='/feed.xml' target='_blank'>RSS feed</a>.</p>
+<section class="intro">
+  <h1>Hi, I’m Adam.</h1>
+  <p>Designer at <a href='http://www.8thlight.com/' target='_blank'>8th Light</a> in Chicago. I create things for the web
+  and like to keep it simple.</p>
+
+  <hr>
+
+  <p>Say <a href='mailto:adam.kaplan@icloud.com'>hello</a>, view my <a href="https://github.com/aekaplan" target="_blank">code</a> 
+  and check out my <a href="http://instagram.com/adamekaplan" target="_blank">photos</a>.</p>
 
   <a href="https://twitter.com/helloadamkaplan" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @helloadamkaplan</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</div>
-
-<hr />
-
-<h3 class="section-header">Recent Posts</h3>
-<ul class='clean'>
-  {% for post in site.posts limit: 4 %}
-    <li>
-      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-      <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
-    </li>
-  {% endfor %}
-</ul>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</section>

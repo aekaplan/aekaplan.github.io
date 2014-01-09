@@ -8,7 +8,9 @@ Color is a great way to make your website beautiful while enhancing its usabilit
 </h2>
 
 <p>
-Color plays an important role in design in general. However, you have to be more mindful of color when you use it on the web, as there are a lot of <a href="usability-testing.html" target="_blank">usability</a> problems that can arise from its misuse. </p>
+Color plays an important role in design in general. However, you have to be more mindful of color when you use it on the web,
+as there are a lot of <a href="/usability-testing" target="_blank">usability</a> problems that can arise from its misuse.
+</p>
 
 <p>
 I won't get too scientific, as I want to keep this relevant to web design. Let's go over some of the basics of color theory.

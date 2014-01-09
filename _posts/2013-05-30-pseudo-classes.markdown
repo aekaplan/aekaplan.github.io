@@ -120,6 +120,4 @@ I let the CSS do all the work; no extra markup needed! The browser will re-evalu
 
 <p>The ability to add extra design elements without additional markup or classes is extremely powerful. I use these pseudo-classes every day. As designers and developers we should try to use as little markup as possible.</p>
 
-<em>
-Note: Greater than 86% of all users' browsers support pseudo-classes. Feel free to use them on your project.
-</em>
+<p><em>Note: Greater than 86% of all users' browsers support pseudo-classes. Feel free to use them on your project.</em></p>

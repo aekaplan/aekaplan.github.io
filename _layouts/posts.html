@@ -49,10 +49,11 @@
     <article>
       <h1 class="article-title">{{ page.title }}</h1>
       <span class="article-date">{{ page.date | date: "%B %d, %Y" }}</span>
+      <hr>
+
       {{ content }}
     </article>
 
-    <hr />
     <div class="prev_next post_nav">
       {% if page.previous.url %}
       <p class="previous"><a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}">← Previous</a></p>
@@ -64,7 +65,7 @@
 
   <footer>
     <div class='container'>
-      &copy; {{ site.time | date: "%Y" }} Adam Kaplan
+      <p>&copy; {{ site.time | date: "%Y" }} Adam Kaplan</p>
     </div>
   </footer>
 </body>
