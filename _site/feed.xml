@@ -106,7 +106,7 @@ You can use &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt;
 &lt;/ul&gt;&lt;p&gt;
 You can&#39;t use &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; without a content property. You can, however, leave the content property blank if you don&#39;t want to add extra content.
 &lt;/p&gt;&lt;h3&gt;Content Property&lt;/h3&gt;&lt;p&gt;
-Let&#39;s look at another example from &lt;a href=&#39;projects/timeline.html&#39; target=&#39;_blank&#39;&gt;my timeline project&lt;/a&gt;. I used the required &lt;code&gt;content&lt;/code&gt; property, but left it blank to achieve the timeline&#39;s gray line. Now I won&#39;t have to write extra markup to get the same result.
+Let&#39;s look at another example from &lt;a href=&#39;/projects/timeline.html&#39; target=&#39;_blank&#39;&gt;my timeline project&lt;/a&gt;. I used the required &lt;code&gt;content&lt;/code&gt; property, but left it blank to achieve the timeline&#39;s gray line. Now I won&#39;t have to write extra markup to get the same result.
 &lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5679711.js&#39;&gt; &lt;/script&gt;&lt;h3&gt;Clearfix&lt;/h3&gt;&lt;p&gt;
 &lt;a href=&#39;http://nicolasgallagher.com/micro-clearfix-hack/&#39; target=&#39;_blank&#39;&gt;Nicolas Gallager&#39;s popular clearfix&lt;/a&gt; uses pseudo-class selectors to clear floats. This eliminates the need to hide generated content and reduces the amount of code you need to write. I always add this clearfix to my container classes to keep floats cleared properly.
 &lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5680048.js&#39;&gt; &lt;/script&gt;&lt;h3&gt;:first-child and :last-child&lt;/h3&gt;&lt;p&gt;

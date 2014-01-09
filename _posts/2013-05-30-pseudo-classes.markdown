@@ -55,7 +55,7 @@ You can't use <code>:before</code> and <code>:after</code> without a content pro
 
 <h3>Content Property</h3>
 <p>
-Let's look at another example from <a href="projects/timeline.html" target="_blank">my timeline project</a>. I used the required <code>content</code> property, but left it blank to achieve the timeline's gray line. Now I won't have to write extra markup to get the same result.
+Let's look at another example from <a href="/projects/timeline.html" target="_blank">my timeline project</a>. I used the required <code>content</code> property, but left it blank to achieve the timeline's gray line. Now I won't have to write extra markup to get the same result.
 </p>
 
 <script src="https://gist.github.com/aekaplan/5679711.js"> </script>
