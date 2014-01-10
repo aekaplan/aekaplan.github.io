@@ -17,16 +17,27 @@
 
   <!-- Typekit
   ================================================== -->
-  <script type="text/javascript" src="//use.typekit.net/jsh1liy.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+  <!-- Scripts
+  ================================================== -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script type='text/javascript'>
+    jQuery(document).ready(function($) {
+      $('.fade').addClass('animated fadeInUp');
+    });
+  </script>
   </head>
   <body>
 
   <header>
     <div class='container'>
-      <h1>grid</h1>
-      <p>A simple responsive framework. Made by <a href="http://www.twitter.com/helloadamkaplan" target="_blank">Adam</a>.</p>
+      <a href="/grid">
+        <h1>grid <sup>WIP</sup></h1>
+      </a>
+      <p>A simple responsive framework. Made by <a href="/" target="_blank">Adam</a>.</p>
       <p>Code samples provided by <a href="https://gist.github.com/aekaplan" target="_blank">GitHub Gist</a>.</p>
+    <img src="/images/grid/intro.svg" alt="Intro" class="fade">
     </div>
   </header>
 
@@ -43,11 +54,64 @@
   <section>
     <div class='container'>
       <div class="circle">2</div>
-      <h1>Always use Box-sizing: Border-box</h1>
-      <p>Place at the top of your <code>CSS</code> file.</p>
-      <p>Padding and borders are drawn inside the set width and height. <a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug#Background" target="_blank">How it works</a>.
+      <h1>Always use box-sizing: border-box</h1>
+      <p>Place at the top of your <code>CSS</code> file. <a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug" target="_blank">Learn more</a>.</p>
       <hr>
       <script src="https://gist.github.com/aekaplan/8247563.js"></script>
+  </section>
+
+  <section class="example">
+    <h1>The Box Modal</h1>
+    <img src="/images/grid/box-model.svg" alt="Box Model">
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="column half">
+        <img src="/images/grid/margin.svg" alt="Margin">
+        <h3 class="margin">Margin</h1>
+        <p>The <code>margin</code> clears an area around an element (outside the <code>border</code>). The margin does not
+        have a background color, and is completely transparent.</p>
+      </div>
+
+      <div class="column half">
+        <img src="/images/grid/border.svg" alt="Border">
+        <h3 class="border">Border</h1>
+        <p>Set the style of an element's four <code>borders</code>. This property can have from one to four values.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="column half">
+        <img src="/images/grid/padding.svg" alt="Padding">
+        <h3 class="padding">Padding</h1>
+        <p>The <code>padding</code> clears an area around the <code>content</code> (inside the <code>border</code>) of an
+        element. The <code>padding</code> is affected by the background color of the element.</p>
+      </div>
+
+      <div class="column half">
+        <img src="/images/grid/content.svg" alt="Content">
+        <h3 class="content">Content</h1>
+        <p>Copy</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="column half">
+        <img src="/images/grid/without-box-model.svg" alt="Without Box Model">
+        <h3>Without box-sizing: border-box</h1>
+        <p>Margin, borders and padding are drawn outside the set width of your content.</p>
+      </div>
+
+      <div class="column half">
+        <img src="/images/grid/with-box-model.svg" alt="With Box Model">
+        <h3>With box-sizing: border-box</h1>
+        <p>Borders and padding are drawn inside the set width of your content. The margin is drawn outside.</p>
+      </div>
     </div>
   </section>
 
@@ -60,6 +124,10 @@
       <script src="https://gist.github.com/aekaplan/8246124.js"></script>
       <script src="https://gist.github.com/aekaplan/8246032.js"></script>
     </div>
+  </section>
+
+  <section class="example">
+    <img src="/images/grid/chrome.svg" alt="With Box Model">
   </section>
 
   <section>
