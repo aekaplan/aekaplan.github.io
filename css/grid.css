@@ -26,9 +26,10 @@ body {
 
 header {
   background: #ec6f66;
+  color: #555;
+  overflow: hidden;
   padding-top: 3rem;
   text-align: center;
-  color: #555;
 }
 
 header h1 {
