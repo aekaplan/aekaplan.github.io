@@ -314,7 +314,7 @@ code {
   border: 1px solid #ddd;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-size: 0.75rem;
-  padding: .1rem .3rem;
+  padding: 0.1rem 0.3rem;
   position: relative;
   top: -1px;
   white-space: nowrap;
