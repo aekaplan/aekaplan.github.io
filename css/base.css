@@ -307,15 +307,17 @@ blockquote p {
 }
 
 code {
-  background-color: #F8F8F8;
-  border: 1px solid #DDD;
+  background-color: #f8f8f8;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
+  border: 1px solid #ddd;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-size: 0.8rem;
-  padding: 0 0.3rem;
-  margin: 0 0.2rem;
+  font-size: 0.75rem;
+  padding: .1rem .3rem;
+  position: relative;
+  top: -1px;
+  white-space: nowrap;
 }
 
 /*  #Boxes
