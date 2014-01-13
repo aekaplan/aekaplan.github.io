@@ -28,8 +28,11 @@ header {
   background: #ec6f66;
   color: #555;
   overflow: hidden;
-  padding-top: 4rem;
   text-align: center;
+}
+
+.intro {
+  margin: 4rem 0;
 }
 
 header h1 {
@@ -65,7 +68,7 @@ header a:hover {
 }
 
 header img {
-  margin: 4rem auto 0 auto;
+  margin: 0 auto;
 }
 
 section {
@@ -327,7 +330,9 @@ img {
 -------------------------------------------------------------- */
 @media screen and (max-width: 480px) {
   html { font-size: 100%; }
-  section { padding: 2rem 0;}
+  section { padding: 2rem 0; }
+  hr { margin: 2rem auto; }
+  .intro { margin: 2rem 0; }
 
   .column.full,
   .column.two-thirds,
@@ -338,6 +343,6 @@ img {
     width: 100%;
   }
 
-  .column:first-child { margin-top: 0;}
-  hr { margin: 2rem auto; }
+  .column:first-child { margin-top: 0; }
+
 }
