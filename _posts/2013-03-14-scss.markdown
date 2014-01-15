@@ -5,7 +5,7 @@ date: March  14, 2013
 ---
 
 <h2>
-I’ve been learning some Sassy CSS and wanted to talk about three awesome features tha  it provides: variables, nesting and mixins.
+I’ve been learning some Sassy CSS and wanted to talk about three awesome features that it provides: variables, nesting and mixins.
 </h2>
 
 <p>
@@ -13,16 +13,10 @@ At a high level, Sass is simply a CSS preprocessor with two syntaxes:
 </p>
 
 <blockquote>
-<p>The most commonly used syntax is known as “SCSS” (for “Sassy CSS”), and is a superset of CSS3’s syntax. This means that every valid CSS3 stylesheet is valid SCSS as well. SCSS files use the extension .scss.</p>
+<p>The most commonly used syntax is known as “SCSS” (for “Sassy CSS”), and is a superset of CSS3’s syntax. This means that every valid CSS3 stylesheet is valid SCSS as well. SCSS files use the extension .scss. The second, older syntax is known as the <a href="http://sass-lang.com/docs/yardoc/file.INDENTED_SYNTAX.html" target="_blank"> indented syntax</a> (or just “.sass”). Inspired by <a href="http://haml.info/" target="_blank">Haml’s</a> terseness, it’s intended for people who prefer conciseness over similarity to CSS.</p>
 </blockquote>
 
-<blockquote>
-<p>The second, older syntax is known as the <a href="http://sass-lang.com/docs/yardoc/file.INDENTED_SYNTAX.html" target="_blank"> indented syntax</a> (or just “.sass”). Inspired by <a href="http://haml.info/" target="_blank">Haml’s</a> terseness, it’s intended for people who prefer conciseness over similarity to CSS.</p>
-</blockquote>
-
-<p>
-I prefer using SCSS because it uses brackets and semi-colons, just like CSS. It also doesn’t care about indentation levels or white-space, like the second syntax. SCSS contains all the features of CSS, but has been expanded to include the features of Sass as well.
-</p>
+<p>I prefer using SCSS because it uses brackets and semi-colons, just like CSS. It also doesn’t care about indentation levels or white-space, like the second syntax. SCSS contains all the features of CSS, but has been expanded to include the features of Sass as well.</p>
 
 <h3>Installing SCSS</h3>
 <p>
@@ -31,7 +25,7 @@ You will need to get Sass setup on your project before you can start using it. A
 
 <ul>
   <li><a href="http://sass-lang.com/download.html" target="_blank">Install Sass</a></li>
-  <li>Check out the <a href="http://sass-lang.com/">sassy documentation</a></li>
+  <li>Check out the <a href="http://sass-lang.com/guide">sassy documentation</a></li>
   <li>The Rails <a href="http://guides.rubyonrails.org/asset_pipeline.html">asset pipeline</a> supports SCSS</li>
   <li><a href="http://middlemanapp.com/" target="_blank">Middleman</a> comes with SCSS by default.</li>
 </ul>
@@ -39,7 +33,7 @@ You will need to get Sass setup on your project before you can start using it. A
 <h3>Variables</h3>
 
 <p>
-I was recently pairing with my mentor Stephanie and we decided on the blue hex #25A8E0 for our links and buttons. Now try remembering that hex number each time you need to use it. Hard, right? We kept forgetting and had to stop and look it up.
+I was recently pairing with my mentor Stephanie and we decided on the blue hex <code>#25a8e0</code> for our links and buttons. Now try remembering that hex number each time you need to use it. Hard, right? We kept forgetting and had to stop and look it up.
 </p>
 
 <p>
@@ -51,13 +45,13 @@ This is where variables becomes a huge time saver:
 </blockquote>
 
 <p>
-SCSS allows you to set variables that can be used throughout your stylesheet. Variables start with $ and are declared just like properties. You can use any value that the CSS property allows such as colors, numbers or text.
+SCSS allows you to set variables that can be used throughout your stylesheet. Variables start with <code>$</code> and are declared just like properties. You can use any value that the CSS property allows such as colors, numbers or text.
 </p>
 
 <script src="https://gist.github.com/aekaplan/3b4f85f8e2702beae02f.js"> </script>
 
 <p>
-Pretty awesome right? I just set my variables and label them. Now I only have to remember $blue rather than #25A8E0.
+Pretty awesome right? I just set my variables and label them. Now I only have to remember <code>$blue</code> rather than <code>#25a8e0</code>.
 </p>
 
 <h3>Nesting</h3>
@@ -112,7 +106,7 @@ So let's say I want to add a nice fade transition to my link and button classes:
 <script src="https://gist.github.com/aekaplan/c0b66222424af6b1c0d9.js"> </script>
 
 <p>
-That’s a lot of repetition! Let’s use @mixin directive and set a name of fade:
+That’s a lot of repetition! Let’s use <code>@mixin</code> directive and set a name of fade:
 </p>
 
 <script src="https://gist.github.com/aekaplan/2c7f314ff56abd923d95.js"> </script>
