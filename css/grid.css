@@ -24,6 +24,8 @@ body {
   width: 90%;
 }
 
+/* Header
+-------------------------------------------------------------- */
 header {
   background: #ec6f66;
   color: #555;
@@ -71,6 +73,8 @@ header img {
   margin: 0 auto;
 }
 
+/* Section
+-------------------------------------------------------------- */
 section {
   border-top: 1px solid #eee;
   text-align: center;
@@ -223,6 +227,55 @@ img {
 .padding { color: #c2ddb6; }
 .content { color: #9ec3e5; }
 
+/* Grid
+-------------------------------------------------------------- */
+.grid {
+  text-align: center;
+}
+
+.grid span {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.grid .container {
+  border: 2px dashed #fff;
+  padding: 2em;
+}
+
+.grid .row {
+  margin-top: 1.5em;
+}
+
+.grid .row:first-child {
+  margin-top: 0;
+}
+
+.grid .column {
+  border: 2px solid #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: rgba(225,255,255,0.1);
+  padding: 1.5em;
+}
+
+/* Grid Row Example
+-------------------------------------------------------------- */
+.row-example .container{
+  border: 2px dashed #fff;
+  padding: 2em;
+}
+
+.row-example .row {
+  background: rgba(225,255,255,0.1);
+  border: 2px dashed #fff;
+  padding: 2em;
+}
+
+.row-example .column {
+  background: #ec6f66;
+}
+
 /* Gist Overrides
 -------------------------------------------------------------- */
 .gist .gist-file {
@@ -344,5 +397,4 @@ img {
   }
 
   .column:first-child { margin-top: 0; }
-
 }
