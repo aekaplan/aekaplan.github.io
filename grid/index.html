@@ -115,8 +115,8 @@
         <div class='container'>
           <div class="circle">3</div>
           <h1>Create a Container</h1>
-          <p>Holds all your elements in place and allows you to set a max-width for your content. A <code>container</code> makes
-          designing for responsive easier because it keeps everything in contained.</p>
+          <p>Holds all your content in place and allows you to set a max-width for your content. Having a
+          <code>container</code> makes designing for responsive easier!</p>
           <hr>
           <script src="https://gist.github.com/aekaplan/8246124.js"></script>
           <script src="https://gist.github.com/aekaplan/8246032.js"></script>
@@ -133,7 +133,7 @@
         <div class='container'>
           <div class="circle">4</div>
           <h1>Create a Column</h1>
-          <p>A reuseable <code>div</code> that holds all your content. The first margin is removed using the
+          <p>A <code>div</code> that holds all your content. The first margin is removed using the
           <a href="/pseudo-classes/">pseudo-class</a> <code>first-child</code>.</p>
           <hr>
           <script src="https://gist.github.com/aekaplan/8246868.js"></script>
@@ -153,7 +153,7 @@
         <div class='container'>
           <div class="circle">5</div>
           <h1>Create Column Sizes</h1>
-          <p>Tag on different sizes to create a reuseable layout that is fluid.</p>
+          <p>Tag on different sizes to create a reuseable layout.</p>
           <hr>
           <script src="https://gist.github.com/aekaplan/8247360.js"></script>
           <script src="https://gist.github.com/aekaplan/8247386.js"></script>
@@ -226,7 +226,8 @@
         <div class='container'>
           <div class="circle">6</div>
           <h1>Create Rows</h1>
-          <p>Columns are wrapped in rows to prevent clearing and margin issues. Rows are cleared with either a <code>clearfix</code> or <code>overflow: hidden</code>.</p>
+          <p>Columns are wrapped in rows to prevent clearing issues. Rows are cleared with either a <code>clearfix</code> or
+          <code>overflow: hidden</code>. Clearfix created by <a href="http://nicolasgallagher.com/micro-clearfix-hack/" target="_blank">Nicolas Gallager</a>.</p>
           <hr>
           <script src="https://gist.github.com/aekaplan/8467436.js"></script>
           <script src="https://gist.github.com/aekaplan/8467460.js"></script>
@@ -266,7 +267,7 @@
         <div class='container'>
           <div class="circle">7</div>
           <h1>Add a Mobile Breakpoint</h1>
-          <p>A media querey will change the layout once the browser is within the set range.</p>
+          <p>The media query will change the layout once the browser is within the set range.</p>
           <hr>
           <script src="https://gist.github.com/aekaplan/8430704.js"></script>
         </div>
@@ -302,23 +303,28 @@
         </div>
       </section>
 
-      <section>
-        <h1>Further Reading</h1>
-        <hr>
-        <ul>
-          <li>A Book Apart <a href="http://www.abookapart.com/products/responsive-web-design" target="_blank">Responsive Web Design</a></li>
-          <li>Code samples provided by <a href="https://gist.github.com/aekaplan" target="_blank">GitHub Gist</a>.</li>
-        </ul>
-      </section>
+      <section class="resources">
+        <div class="container">
+          <div class="column half">
+            <h1>Further Reading</h1>
+            <hr>
+            <ul>
+              <li>A Book Apart <a href="http://www.abookapart.com/products/responsive-web-design" target="_blank">Responsive Web Design</a></li>
+              <li>Code samples provided by <a href="https://gist.github.com/aekaplan" target="_blank">GitHub Gist</a>.</li>
+            </ul>
+          </div>
 
-      <section>
-        <h1>References</h1>
-        <hr>
-        <ul>
-          <li><a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug" target="_blank">Internet Explorer Box Model</a></li>
-          <li><a href="http://www.w3schools.com/css/css_boxmodel.asp" target="_blank">W3Schools Box Model</a></li>
-          <li><a href="https://developers.google.com/chrome-developer-tools/" target="_blank">Chrome Developer Tools</a></li>
-        </ul>
-      </section>
-    </body>
-  </html>
+          <div class="column half">
+            <h1>References</h1>
+            <hr>
+            <ul>
+              <li><a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug" target="_blank">Internet Explorer Box Model</a></li>
+              <li><a href="http://www.w3schools.com/css/css_boxmodel.asp" target="_blank">W3Schools Box Model</a></li>
+              <li><a href="https://developers.google.com/chrome-developer-tools/" target="_blank">Chrome Developer Tools</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
