@@ -115,9 +115,8 @@
         <div class='container'>
           <div class="circle">3</div>
           <h1>Create a Container</h1>
-          <p>Holds all your elements by making the width and spacing consistent. Using a <code>container</code> makes
-          designing for responsive easier because it takes care of the width and margins/padding without the need for
-          extra CSS.</p>
+          <p>Holds all your elements in place and allows you to set a max-width for your content. A <code>container</code> makes
+          designing for responsive easier because it keeps everything in contained.</p>
           <hr>
           <script src="https://gist.github.com/aekaplan/8246124.js"></script>
           <script src="https://gist.github.com/aekaplan/8246032.js"></script>
@@ -154,7 +153,7 @@
         <div class='container'>
           <div class="circle">5</div>
           <h1>Create Column Sizes</h1>
-          <p>Tag on different sizes to create a flexible layout that is reusable.</p>
+          <p>Tag on different sizes to create a reuseable layout that is fluid.</p>
           <hr>
           <script src="https://gist.github.com/aekaplan/8247360.js"></script>
           <script src="https://gist.github.com/aekaplan/8247386.js"></script>
@@ -227,8 +226,10 @@
         <div class='container'>
           <div class="circle">6</div>
           <h1>Create Rows</h1>
-          <p>Columns are wrapped in rows to prevent clearing and margin issues.</p>
+          <p>Columns are wrapped in rows to prevent clearing and margin issues. Rows are cleared with either a <code>clearfix</code> or <code>overflow: hidden</code>.</p>
           <hr>
+          <script src="https://gist.github.com/aekaplan/8467436.js"></script>
+          <script src="https://gist.github.com/aekaplan/8467460.js"></script>
           <script src="https://gist.github.com/aekaplan/8430571.js"></script>
         </div>
       </section>
@@ -241,13 +242,13 @@
             </div>
 
             <div class="column half">
-              <span>.column .full</span>
+              <span>.column .half</span>
             </div>
           </div>
 
           <div class="row">
             <div class="column one-third">
-              <span>.column .two-thirds</span>
+              <span>.column .one-third</span>
             </div>
 
             <div class="column one-third">
@@ -265,9 +266,39 @@
         <div class='container'>
           <div class="circle">7</div>
           <h1>Add a Mobile Breakpoint</h1>
-          <p>Coming Soon!</p>
+          <p>A media querey will change the layout once the browser is within the set range.</p>
           <hr>
           <script src="https://gist.github.com/aekaplan/8430704.js"></script>
+        </div>
+      </section>
+
+      <section class="example grid">
+        <div class="mobile-background">
+          <div class="container mobile">
+            <div class="row">
+              <div class="column half">
+                <span>.column .half</span>
+              </div>
+
+              <div class="column half">
+                <span>.column .half</span>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column one-third">
+                <span>.column .one-third</span>
+              </div>
+
+              <div class="column one-third">
+                <span>.column .one-third</span>
+              </div>
+
+              <div class="column one-third">
+                <span>.column .one-third</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 

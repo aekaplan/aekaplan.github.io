@@ -20,7 +20,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1000px;
   width: 90%;
 }
 
@@ -239,11 +239,12 @@ img {
 }
 
 .grid .container {
-  border: 2px dashed #fff;
+  border: 2px dashed rgba(255,255,255,0.3);
   padding: 2em;
 }
 
 .grid .row {
+  overflow: hidden;
   margin-top: 1.5em;
 }
 
@@ -262,7 +263,7 @@ img {
 /* Grid Row Example
 -------------------------------------------------------------- */
 .row-example .container{
-  border: 2px dashed #fff;
+  border: 2px dashed rgba(255,255,255,0.2);
   padding: 2em;
 }
 
@@ -272,8 +273,30 @@ img {
   padding: 2em;
 }
 
-.row-example .column {
-  background: #ec6f66;
+/* Grid Mobile
+-------------------------------------------------------------- */
+.mobile-background {
+  background-image: url("/images/grid/mobile.png");
+  width: 320px;
+  height: 668px;
+  background-size: 320px 668px;
+  margin: 0 auto;
+}
+
+.container.mobile {
+  border: none;
+  max-width: 320px;
+  padding: 114px 24px 0;
+}
+
+.container.mobile .row {
+  margin: 0;
+}
+
+.container.mobile .column {
+  margin: 0 0 1em 0;
+  padding: 22px;
+  width: 100%;
 }
 
 /* Gist Overrides
@@ -381,7 +404,7 @@ img {
 
 /* Media Queries
 -------------------------------------------------------------- */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   html { font-size: 100%; }
   section { padding: 2rem 0; }
   hr { margin: 2rem auto; }
