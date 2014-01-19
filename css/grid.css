@@ -99,6 +99,12 @@ section.resources {
   color: rgba(255,255,255,0.7);
 }
 
+.fragmentation {
+  background-image: url("/images/grid/fragmentation.png");
+  background-size: cover;
+  min-height: 500px;
+}
+
 /* Grid
 -------------------------------------------------------------- */
 .column {

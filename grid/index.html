@@ -41,11 +41,80 @@
 
     <section>
       <div class='container'>
+        <h1>Why bother with responsive?</h1>
+        <p>We want our websites to be useable on all devices by responding to
+        the user’s behavior, screen size and screen orientation.</p>
+      </div>
+    </section>
+
+    <section class="example fragmentation">
+      <div class="container"></div>
+    </section>
+
+    <section>
+      <div class='container'>
+        <h1>A Fragmented World</h1>
+        <p><a href='http://opensignal.com/reports/fragmentation-2013/'>As of 2013</a>, there are thousands of different devices and screen sizes that browse the
+        internet, so it's impossible to design layouts to target them all. Instead, we must take a more fluid approach to
+        design.</p>
+      </div>
+    </section>
+
+    <section class="example">
+      <div class="container">
+        <h1>Let's get started!</h1>
+        <p>Follow these five simple steps.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class='container'>
         <div class="circle">1</div>
         <h1>Add the Viewport Meta Tag</h1>
         <p>Place in the <code>&lt;head&gt;</code> of your HTML. This enables use of media queries for cross-device layouts.
         <hr>
         <script src="https://gist.github.com/aekaplan/8243831.js"></script>
+      </div>
+    </section>
+
+    <section class="example">
+      <div class="container">
+        <img src="/images/grid/box-model.png" alt="Box Model">
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h1>CSS Box Model</h1>
+        <p>It's important to understand the basics, like how elements are generated and behave in the browser, before
+        diving into responsive web design. The CSS Box Model consists of four distinct parts.</p>
+        <hr>
+
+        <div class="row">
+          <div class="column one-fourth">
+            <img src="/images/grid/content.png" alt="content">
+            <h3 class="content">Content</h1>
+            <p>The content of the box, where text and images appear.</p>
+          </div>
+
+          <div class="column one-fourth">
+            <img src="/images/grid/padding.png" alt="padding">
+            <h3 class="padding">Padding</h1>
+            <p>Clears an area around the content.</p>
+          </div>
+
+          <div class="column one-fourth">
+            <img src="/images/grid/border.png" alt="border">
+            <h3 class="border">Border</h1>
+            <p>A border that goes around the padding.</p>
+          </div>
+
+          <div class="column one-fourth">
+            <img src="/images/grid/margin.png" alt="margin">
+            <h3 class="margin">Margin</h1>
+            <p>Clears an area around the border.</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -56,47 +125,19 @@
         <p>Place at the top of your <code>CSS</code> file. The <code>*</code> will target all elements on the page.</p>
         <hr>
         <script src="https://gist.github.com/aekaplan/8247563.js"></script>
+      </div>
     </section>
 
-      <section class="example">
-        <div class="container">
-          <img src="/images/grid/box-model.png" alt="Box Model">
-        </div>
-      </section>
 
-      <section class="box-model">
-        <div class="container">
-          <h1>CSS Box Model</h1>
-          <div class="row">
-            <div class="column one-fourth">
-              <img src="/images/grid/margin.png" alt="margin">
-              <h3 class="margin">Margin</h1>
-              <p>Clears an area around the border.</p>
-            </div>
+    <section>
+      <div class="container">
+        <h1>Your Choice</h1>
+        <p><a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug" target="_blank">What was once a bug</a>
+        is now widely used CSS property. It basically means you can choose whether or not to include borders and padding in
+        the width of your content.</p>
+        <hr>
 
-            <div class="column one-fourth">
-              <img src="/images/grid/border.png" alt="border">
-              <h3 class="border">Border</h1>
-              <p>A border that goes around the padding and content.</p>
-            </div>
-
-            <div class="column one-fourth">
-              <img src="/images/grid/padding.png" alt="padding">
-              <h3 class="padding">Padding</h1>
-              <p>Clears an area around the content.</p>
-            </div>
-
-            <div class="column one-fourth">
-              <img src="/images/grid/content.png" alt="content">
-              <h3 class="content">Content</h1>
-              <p>The content of the box, where text and images appear.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
+        <div class="row">
           <div class="column half">
             <img src="/images/grid/without-box-model.png" alt="Without Box Model">
             <h3>Without box-sizing: border-box</h1>
@@ -109,50 +150,52 @@
             <p>Borders and padding are drawn inside the set width of your content. The margin is drawn outside.</p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section>
-        <div class='container'>
-          <div class="circle">3</div>
-          <h1>Create a Container</h1>
-          <p>Holds all your content in place by setting a <code>max-width</code>. Using a <code>container</code> will make designing for responsive easier!</p>
-          <hr>
-          <script src="https://gist.github.com/aekaplan/8246124.js"></script>
-          <script src="https://gist.github.com/aekaplan/8246032.js"></script>
+    <section>
+      <div class='container'>
+        <div class="circle">3</div>
+        <h1>Create a Container</h1>
+        <p>A container holds all elements and controls the page's maximum width. Using a container will make designing for
+        responsive easier!</p>
+        <hr>
+        <script src="https://gist.github.com/aekaplan/8246124.js"></script>
+        <script src="https://gist.github.com/aekaplan/8246032.js"></script>
+      </div>
+    </section>
+
+    <section class="example">
+      <div class="container">
+        <img src="/images/grid/container.png" alt="Container">
+      </div>
+    </section>
+
+    <section>
+      <div class='container'>
+        <div class="circle">4</div>
+        <h1>Create a Column</h1>
+        <p>A column is a class used for stacking content horizontally. The first margin is removed using the
+        <a href="/pseudo-classes/">pseudo-class</a> <code>first-child</code>.</p>
+        <hr>
+        <script src="https://gist.github.com/aekaplan/8246868.js"></script>
+        <script src="https://gist.github.com/aekaplan/8246935.js"></script>
+      </div>
+    </section>
+
+    <section class="example grid">
+      <div class="container">
+        <div class="column">
+          <span>.column</span>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="example">
-        <div class="container">
-          <img src="/images/grid/container.png" alt="Container">
-        </div>
-      </section>
-
-      <section>
-        <div class='container'>
-          <div class="circle">4</div>
-          <h1>Create a Column</h1>
-          <p>A <code>div</code> that holds all your content. The first margin is removed using the
-          <a href="/pseudo-classes/">pseudo-class</a> <code>first-child</code>.</p>
-          <hr>
-          <script src="https://gist.github.com/aekaplan/8246868.js"></script>
-          <script src="https://gist.github.com/aekaplan/8246935.js"></script>
-        </div>
-      </section>
-
-      <section class="example grid">
-        <div class="container">
-          <div class="column">
-            <span>.column</span>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class='container'>
-          <div class="circle">5</div>
-          <h1>Create Column Sizes</h1>
-          <p>Tag on different sizes to create a reuseable layout.</p>
+    <section>
+      <div class='container'>
+        <div class="circle">5</div>
+        <h1>Create Column Sizes</h1>
+          <p>Add size classes to columns to create a reuseable grid system.</p>
           <hr>
           <script src="https://gist.github.com/aekaplan/8247360.js"></script>
           <script src="https://gist.github.com/aekaplan/8247386.js"></script>
@@ -225,8 +268,9 @@
         <div class='container'>
           <div class="circle">6</div>
           <h1>Create Rows</h1>
-          <p>Columns are wrapped in rows to prevent clearing issues. Rows are cleared with either a <code>clearfix</code> or
-          <code>overflow: hidden</code>. Clearfix created by <a href="http://nicolasgallagher.com/micro-clearfix-hack/" target="_blank">Nicolas Gallager</a>.</p>
+          <p>Columns are wrapped in rows to prevent other elements from stacking next to them, otherwise know as clearing
+          issues. Rows are cleared with either a <code>clearfix</code> or <code>overflow: hidden</code>. This clearfix was
+          created by <a href="http://nicolasgallagher.com/micro-clearfix-hack/" target="_blank">Nicolas Gallager</a>:</p>
           <hr>
           <script src="https://gist.github.com/aekaplan/8467436.js"></script>
           <script src="https://gist.github.com/aekaplan/8467460.js"></script>
@@ -266,7 +310,9 @@
         <div class='container'>
           <div class="circle">7</div>
           <h1>Add a Mobile Breakpoint</h1>
-          <p>The media query will change the layout once the browser is within the set range.</p>
+          <p>If the browser's screen size is within a set range, a media query
+          will replace the CSS the browser uses. This is the bread and butter of
+          responsive web design.</p>
           <hr>
           <script src="https://gist.github.com/aekaplan/8430704.js"></script>
         </div>
@@ -302,6 +348,15 @@
         </div>
       </section>
 
+      <section>
+        <div class='container'>
+          <h1>Practice Makes Perfect</h1>
+          <p>By following these simple steps, you are on the path to responsive
+          web design mastery. Keep practicing and help make the web a better,
+          more useable place.</p>
+        </div>
+      </section>
+
       <section class="resources">
         <div class="container">
           <div class="column half">
@@ -318,6 +373,7 @@
             <h3>References</h3>
             <hr class="small">
             <ul>
+              <li><a href="http://opensignal.com/reports/fragmentation-2013/" target="_blank">Android Fragmentation Visualized</a></li>
               <li><a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug" target="_blank">Internet Explorer Box Model</a></li>
               <li><a href="http://www.w3schools.com/css/css_boxmodel.asp" target="_blank">W3Schools Box Model</a></li>
               <li><a href="https://developers.google.com/chrome-developer-tools/" target="_blank">Chrome Developer Tools</a></li>
