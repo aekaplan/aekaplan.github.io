@@ -99,6 +99,10 @@ section.resources {
   color: rgba(255,255,255,0.7);
 }
 
+.example img {
+  margin: 0;
+}
+
 .fragmentation {
   background-image: url("/images/grid/fragmentation.png");
   background-size: cover;
@@ -230,6 +234,11 @@ img {
   height: auto;
   margin: 0 auto 1.5rem auto;
   width: 100%;
+}
+
+.rwd {
+  margin: 0 auto 1.5em auto;
+  max-width: 380px;
 }
 
 /* Box Model
@@ -423,6 +432,7 @@ img {
   section { padding: 2rem 0; }
   hr { margin: 2rem auto; }
   .intro { margin: 2rem 0; }
+  .fragmentation { min-height: 250px; }
 
   .column.full,
   .column.two-thirds,
@@ -434,6 +444,5 @@ img {
   }
 
   .column:first-child { margin-top: 0; }
-
   .container.mobile .column { padding: 18px; }
 }
