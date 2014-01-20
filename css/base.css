@@ -288,11 +288,10 @@ li {
 }
 
 hr {
-  border: solid #ddd;
-  border-width: 1px 0 0;
-  margin: 2rem auto;
-  height: 0;
-  width: 3rem;
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 3em auto;
+  max-width: 6rem;
 }
 
 blockquote {
