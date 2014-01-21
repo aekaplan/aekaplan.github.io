@@ -204,8 +204,8 @@ a:hover {
 hr {
   border: 0;
   border-top: 1px solid #ddd;
-  margin: 3em auto;
-  max-width: 5rem;
+  margin: 2em auto;
+  max-width: 3rem;
 }
 
 hr.small {
