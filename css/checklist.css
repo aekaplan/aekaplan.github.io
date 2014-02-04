@@ -156,14 +156,22 @@ hr {
 
 img {
   display: block;
-  height: auto;
-  margin: 0 auto 1.5rem auto;
+  margin: 0 auto 0.6rem auto;
+  max-width: 80px;
   width: 100%;
 }
 
-.rwd {
-  margin: 0 auto 1.5em auto;
-  max-width: 380px;
+.progress-bar {
+  background: #ececec;
+  height: 2rem;
+  margin-top: 2rem;
+}
+
+figure {
+  background: #111;
+  width: 12%;
+  height: 2rem;
+  margin: 0;
 }
 
 /* Inputs
