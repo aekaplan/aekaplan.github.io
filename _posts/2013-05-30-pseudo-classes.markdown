@@ -62,7 +62,7 @@ Let's look at another example from <a href="/projects/timeline.html" target="_bl
 
 <h3>Clearfix</h3>
 <p>
-<a href="http://nicolasgallagher.com/micro-clearfix-hack/" target="_blank">Nicolas Gallager's popular clearfix</a> uses pseudo-class selectors to clear floats. This eliminates the need to hide generated content and reduces the amount of code you need to write. I always add this clearfix to my container classes to keep floats cleared properly.
+<a href="http://nicolasgallagher.com/micro-clearfix-hack/" target="_blank">Nicolas Gallagher's popular clearfix</a> uses pseudo-class selectors to clear floats. This eliminates the need to hide generated content and reduces the amount of code you need to write. I always add this clearfix to my container classes to keep floats cleared properly.
 </p>
 
 <script src="https://gist.github.com/aekaplan/5680048.js"> </script>
