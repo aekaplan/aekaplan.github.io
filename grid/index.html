@@ -33,7 +33,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="clearfix">
       <div class='container'>
         <div class="intro">
           <a href="/grid"><h1>grid</h1></a>
@@ -70,7 +70,7 @@
         <h1>Mobile First</h1>
         <p>The term “mobile first” gets thrown around a lot lately. What it really means is to start with mobile
         styles and layer on styles optimized for larger screens only as needed. In other words, your mobile styles become
-        the default and you no longer have to override them later. It's much simpler!</p>
+        the default and you no longer have to override them later. It’s much simpler!</p>
         <hr>
         <blockquote>
           <p>By assuming a flexible but simple layout by default, you can better guard against browsers—with viewports wide
@@ -102,7 +102,7 @@
       <div class='container'>
         <div class="circle">1</div>
         <h1>Not All Browsers are Created Equal</h1>
-        <p>Browsers will render your CSS differently. To avoid this, it's a good idea to use a modern
+        <p>Browsers will render your CSS differently. To avoid this, it’s a good idea to use a modern
         alternative to a reset like <a href="http://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a>,
         which will render elements more consistently cross-browser. Remember to include it as-is before your stylesheet.</p>
         <hr>
@@ -133,7 +133,7 @@
         diving into responsive web design. The CSS Box Model consists of four distinct parts.</p>
         <hr>
 
-        <div class="row">
+        <div class="row clearfix">
           <div class="column fourth">
             <img src="/images/grid/content.png" alt="content">
             <h3 class="content">Content</h3>
@@ -179,7 +179,7 @@
         the width of your content.</p>
         <hr>
 
-        <div class="row">
+        <div class="row clearfix">
           <div class="column half">
             <img src="/images/grid/without-box-model.png" alt="Without Box Model">
             <h3>Without box-sizing: border-box</h3>
@@ -393,32 +393,34 @@
 
     <section class="resources">
       <div class="container">
-        <div class="column half">
-          <h3>Further Reading</h3>
-          <hr class="small">
-          <ul>
-            <li><a href="http://bradfrostweb.com/blog/mobile/the-many-faces-of-mobile-first/" target="_blank">The Many Faces of ‘Mobile First’</a></li>
-            <li><a href="http://www.abookapart.com/products/responsive-web-design" target="_blank">A Book Apart: Responsive Web Design</a></li>
-            <li><a href="http://www.abookapart.com/products/mobile-first" target="_blank">A Book Apart: Mobile First</a></li>
-            <li><a href="http://dev.tutsplus.com/articles/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972" target="_blank">Don't Forget the Viewport Meta Tag</a></li>
-            <li><a href="http://fuseinteractive.ca/blog/understanding-humble-clearfix" target="_blank">Understanding the Humble Clearfix</a></li>
-            <li><a href="http://www.paulirish.com/2012/box-sizing-border-box-ftw" target="_blank">Box-sizing: Border-box FTW</a></li>
-            <li><a href="http://blog.teamtreehouse.com/beginners-guide-to-responsive-web-design" target="_blank">Beginner’s Guide to Responsive Web Design</a></li>
-          </ul>
-        </div>
+        <div class="row clearfix">
+          <div class="column half">
+            <h3>Further Reading</h3>
+            <hr class="small">
+            <ul>
+              <li><a href="http://www.abookapart.com/products/mobile-first" target="_blank">A Book Apart: Mobile First</a></li>
+              <li><a href="http://www.abookapart.com/products/responsive-web-design" target="_blank">A Book Apart: Responsive Web Design</a></li>
+              <li><a href="http://blog.teamtreehouse.com/beginners-guide-to-responsive-web-design" target="_blank">Beginner’s Guide to Responsive Web Design</a></li>
+              <li><a href="http://www.paulirish.com/2012/box-sizing-border-box-ftw" target="_blank">Box-sizing: Border-box FTW</a></li>
+              <li><a href="http://dev.tutsplus.com/articles/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972" target="_blank">Don't Forget the Viewport Meta Tag</a></li>
+              <li><a href="http://bradfrostweb.com/blog/mobile/the-many-faces-of-mobile-first/" target="_blank">The Many Faces of ‘Mobile First’</a></li>
+              <li><a href="http://fuseinteractive.ca/blog/understanding-humble-clearfix" target="_blank">Understanding the Humble Clearfix</a></li>
+            </ul>
+          </div>
 
-        <div class="column half">
-          <h3>References</h3>
-          <hr class="small">
-          <ul>
-            <li><a href="http://opensignal.com/reports/fragmentation-2013/" target="_blank">Android Fragmentation Visualized</a></li>
-            <li><a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug" target="_blank">Internet Explorer Box Model</a></li>
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box_model" target="_blank">Box Model</a></li>
-            <li><a href="https://developers.google.com/chrome-developer-tools/" target="_blank">Chrome Developer Tools</a></li>
-            <li><a href="http://coding.smashingmagazine.com/2009/04/22/progressive-enhancement-what-it-is-and-how-to-use-it/" target="_blank">Progressive Enhancement</a></li>
-            <li><a href="http://daneden.github.io/animate.css/" target="_blank">Animate.css</a></li>
-            <li><a href="https://gist.github.com/aekaplan" target="_blank">Code samples by GitHub Gist</a></li>
-          </ul>
+          <div class="column half">
+            <h3>References</h3>
+            <hr class="small">
+            <ul>
+              <li><a href="http://opensignal.com/reports/fragmentation-2013/" target="_blank">Android Fragmentation Visualized</a></li>
+              <li><a href="http://daneden.github.io/animate.css/" target="_blank">Animate.css</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box_model" target="_blank">Box Model</a></li>
+              <li><a href="https://developers.google.com/chrome-developer-tools/" target="_blank">Chrome Developer Tools</a></li>
+              <li><a href="https://gist.github.com/aekaplan" target="_blank">Code samples by GitHub Gist</a></li>
+              <li><a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug" target="_blank">Internet Explorer Box Model</a></li>
+              <li><a href="http://coding.smashingmagazine.com/2009/04/22/progressive-enhancement-what-it-is-and-how-to-use-it/" target="_blank">Progressive Enhancement</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>

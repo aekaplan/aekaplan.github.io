@@ -28,9 +28,8 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 53rem;
   width: 90%;
-  overflow: hidden;
 }
 
 /* Header
@@ -38,7 +37,6 @@ body {
 header {
   background-color: #497bad;
   text-align: center;
-  overflow: hidden;
 }
 
 .intro { margin: 2rem 0; }
@@ -121,9 +119,13 @@ section.resources { text-align: left: }
 
 /* Mobile First Grid
 -------------------------------------------------------------- */
+.column { margin-bottom: 1.5rem; }
+.column:last-of-type { margin-bottom: 0; }
+
 @media (min-width: 40rem) {
   .column {
     float: left;
+    margin: 0;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -213,7 +215,7 @@ a:hover { text-decoration: underline; }
   display: block;
   font-size: 1rem;
   font-weight: bold;
-  padding: 0.6rem 1rem;
+  padding: 0.7rem 1.1rem;
   position: relative;
   vertical-align: middle;
   white-space: nowrap;
