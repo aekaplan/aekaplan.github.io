@@ -14,7 +14,7 @@ html {
 }
 
 @media (min-width: 40rem) {
-  html { color: red !important; font-size: 112%; }
+  html { font-size: 112%; }
 }
 
 @media (min-width: 64rem) {
@@ -93,34 +93,9 @@ section:first-of-type { border-top: none; }
   section { padding: 4rem 0; }
 }
 
-section.resources { text-align: left: }
-
-/* Example
--------------------------------------------------------------- */
-.example {
-  border-top: none;
-  background-color: #497bad;
-  color: #fff;
-}
-
-.example p { color: rgba(255,255,255,0.7); }
-
-.example img { margin: 0; }
-
-.fragmentation {
-  background-image: url("/images/grid/fragmentation.png");
-  background-size: cover;
-  min-height: 250px;
-}
-
-@media (min-width: 40rem) {
-  .fragmentation { min-height: 500px; }
-}
-
 /* Mobile First Grid
 -------------------------------------------------------------- */
 .column { margin-bottom: 1.5rem; }
-.column:last-of-type { margin-bottom: 0; }
 
 @media (min-width: 40rem) {
   .column {
@@ -215,7 +190,7 @@ a:hover { text-decoration: underline; }
   display: block;
   font-size: 1rem;
   font-weight: bold;
-  padding: 0.7rem 1.1rem;
+  padding: 0.7rem 1.5rem;
   position: relative;
   vertical-align: middle;
   white-space: nowrap;
@@ -276,29 +251,33 @@ img {
   max-width: 440px;
 }
 
-/* Box Model
+/* Examples
 -------------------------------------------------------------- */
-.box-model h1 { margin-bottom: 3rem; }
+.example {
+  border-top: none;
+  background-color: #497bad;
+  color: #fff;
+}
 
-.margin { color: #f9cd9d; }
-.border { color: #fce08f; }
-.padding { color: #c2ddb6; }
-.content { color: #9ec3e5; }
+.example p { color: rgba(255,255,255,0.7); }
+.example img { margin: 0; }
 
-/* Grid Example Mobile First
--------------------------------------------------------------- */
+.fragmentation {
+  background-image: url("/images/grid/fragmentation.png");
+  background-size: cover;
+  min-height: 250px;
+}
+
+@media (min-width: 40rem) {
+  .fragmentation { min-height: 500px; }
+}
+
 .mobile-first .column {
   float: none;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
-.mobile-first .column:last-of-type { margin-bottom: 0; }
-
-/* Example Columns
--------------------------------------------------------------- */
-.grid {
-  text-align: center;
-}
+.grid { text-align: center; }
 
 .grid span {
   background: rgba(225,255,255,0.1);
@@ -311,24 +290,41 @@ img {
 
 .grid .container {
   border: 2px dashed rgba(255,255,255,0.3);
-  padding: 2rem 1rem;
+  padding: 1rem 1rem 0 1rem;
 }
 
-.grid .row { margin-bottom: 2rem; }
-.grid .row:last-of-type { margin-bottom: 0; }
+@media (min-width: 40rem) {
+  .grid .container { padding: 1rem 0 0 0; }
+}
 
-/* Example Rows
--------------------------------------------------------------- */
+.grid .column { margin-bottom: 1rem; }
+
 .row-example .container {
   border: 2px dashed rgba(255,255,255,0.2);
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .row-example .row {
   background: rgba(225,255,255,0.1);
-  border: 2px dashed #fff;
-  padding: 2rem 1rem;
+  border: 2px solid rgba(255,255,255,0.2);
+  padding: 1rem 1rem 0 1rem;
+  margin-bottom: 1rem;
 }
+
+.row-example .row:last-of-type { margin-bottom: 0; }
+
+@media (min-width: 40rem) {
+  .row-example .row { padding: 1rem 0 0 0; }
+}
+
+/* Box Model
+-------------------------------------------------------------- */
+.box-model h1 { margin-bottom: 3rem; }
+
+.margin { color: #f9cd9d; }
+.border { color: #fce08f; }
+.padding { color: #c2ddb6; }
+.content { color: #9ec3e5; }
 
 /* Gist Overrides
 -------------------------------------------------------------- */
@@ -354,7 +350,7 @@ img {
   font-weight: normal !important;
 }
 
-/* animate.css by Daniel Eden
+/* Animate.css by Daniel Eden
 -------------------------------------------------------------- */
 .animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes fadeInUp {
   0% {
@@ -414,7 +410,7 @@ img {
 .remove-padding { padding-bottom: 0; }
 .remove-border { border: none; }
 
-/*  #Clearfix by Nicolas Gallagher
+/* Clearfix by Nicolas Gallagher
 -------------------------------------------------------------- */
 .clearfix:before,
 .clearfix:after {
