@@ -13,12 +13,8 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-@media (min-width: 40rem) {
-  html { color: red !important; font-size: 112%; }
-}
-
-@media (min-width: 64rem) {
-  html { font-size: 120%; }
+@media (min-width: 768px) {
+  html { font-size: 112%; }
 }
 
 body {
@@ -30,20 +26,21 @@ body {
   margin: 0 auto;
   max-width: 1000px;
   width: 90%;
-  overflow: hidden;
 }
 
 /* Header
 -------------------------------------------------------------- */
 header {
-  background-color: #497bad;
-  text-align: center;
+  background-color: #528bba;
   overflow: hidden;
+  text-align: center;
 }
 
-.intro { margin: 2rem 0; }
+.intro {
+  margin: 2rem 0;
+}
 
-@media (min-width: 40rem) {
+@media (min-width: 768px) {
   .intro { margin: 4rem 0; }
 }
 
@@ -70,14 +67,16 @@ header a {
   text-decoration: underline;
 }
 
-header a:hover { text-decoration: none; }
+header a:hover {
+  text-decoration: none;
+}
 
 .mobile {
   margin: 0 auto;
   max-width: 150px;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 768px) {
   .mobile { max-width: 250px; }
 }
 
@@ -89,51 +88,49 @@ section {
   padding: 2rem 0;
 }
 
-section:first-of-type { border-top: none; }
-
-@media (min-width: 40rem) {
+@media (min-width: 768px) {
   section { padding: 4rem 0; }
 }
 
+section:first-of-type { border-top: none; }
 section.resources { text-align: left: }
+
+/* Example
+-------------------------------------------------------------- */
+.fragmentation {
+  background-image: url("/images/grid/fragmentation.png");
+  background-size: cover;
+  min-height: 500px;
+}
 
 /* Example
 -------------------------------------------------------------- */
 .example {
   border-top: none;
-  background-color: #497bad;
+  background: #528BBA;
   color: #fff;
 }
 
 .example p { color: rgba(255,255,255,0.7); }
 
-.example img { margin: 0; }
-
-.fragmentation {
-  background-image: url("/images/grid/fragmentation.png");
-  background-size: cover;
-  min-height: 250px;
+.example img {
+  margin: 0;
 }
 
-@media (min-width: 40rem) {
-  .fragmentation { min-height: 500px; }
-}
-
-/* Mobile First Grid
+/* Grid
 -------------------------------------------------------------- */
-@media (min-width: 40rem) {
+@media (min-width: 768px) {
   .column {
     float: left;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin-left: 5%;
   }
+  .column:first-of-type { margin-left: 0; }
 
   .column.full { width: 100%; }
-  .column.two-thirds { width: 66.7%; }
-  .column.half { width: 50%; }
-  .column.third { width: 33.3%; }
-  .column.fourth { width: 24.95%; }
-  .column.flow-opposite { float: right; }
+  .column.two-thirds { width: 65%; }
+  .column.half { width: 47.5%; }
+  .column.one-third { width: 30%; }
+  .column.one-fourth { width: 21.25%; }
 }
 
 /* Typography
@@ -144,13 +141,9 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 1.3em;
   margin-bottom: 1.5rem;
-}
-
-@media (min-width: 40rem) {
-  h1 { font-size: 1.5rem; }
 }
 
 h3 {
@@ -163,16 +156,6 @@ p {
   margin: 0 auto;
   max-width: 30rem;
 }
-
-blockquote { margin: 0; }
-
-blockquote p {
-  color: #bbb;
-  font-style: italic;
-  margin-bottom: 1.5rem;
-}
-
-cite { color: #bbb; }
 
 code {
   background-color: #f8f8f8;
@@ -197,54 +180,27 @@ ul {
 /* Links
 -------------------------------------------------------------- */
 a {
-  color: #497bad;
+  color: #528bba;
   text-decoration: none;
 }
-
 a:hover { text-decoration: underline; }
-
-/* Buttons
--------------------------------------------------------------- */
-.button {
-  background-color: #497bad;
-  border-radius: 3px;
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 0.6rem 1rem;
-  position: relative;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-
-.button:hover {
-  background: #5183b6;
-  text-decoration: none;
-}
-
-@media (min-width: 40rem) {
-  .button {
-    display: inline-block;
-    font-size: 0.9rem;
-  }
-}
 
 /* Elements
 -------------------------------------------------------------- */
 hr {
   border: 0;
   border-top: 1px solid #ddd;
-  margin: 2rem auto;
+  margin: 2em auto;
   width: 3rem;
 }
 
-@media (min-width: 40rem) {
-  hr { margin: 2.5rem auto; }
+@media (min-width: 768px) {
+  hr { margin: 2rem auto; }
 }
 
-hr.small { margin: 1.5rem auto; }
+hr.small {
+  margin: 1.5em auto;
+}
 
 .circle {
   border: 3px solid #555;
@@ -265,13 +221,13 @@ hr.small { margin: 1.5rem auto; }
 img {
   display: block;
   height: auto;
-  margin: 0 auto 1.5rem auto;
+  margin: 0 auto;
   width: 100%;
 }
 
 .rwd {
-  margin: 0 auto 1.5rem auto;
-  max-width: 440px;
+  margin: 0 auto 1.5em auto;
+  max-width: 380px;
 }
 
 /* Box Model
@@ -283,49 +239,72 @@ img {
 .padding { color: #c2ddb6; }
 .content { color: #9ec3e5; }
 
-/* Grid Example Mobile First
+/* Grid
 -------------------------------------------------------------- */
-.mobile-first .column {
-  float: none;
-  margin-bottom: 2rem;
-}
-
-.mobile-first .column:last-of-type { margin-bottom: 0; }
-
-/* Example Columns
--------------------------------------------------------------- */
-.grid {
-  text-align: center;
-}
+.grid { text-align: center; }
 
 .grid span {
-  background: rgba(225,255,255,0.1);
-  border: 2px solid rgba(255,255,255,0.2);
-  display: block;
-  padding: 1rem;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   font-weight: 600;
 }
 
 .grid .container {
   border: 2px dashed rgba(255,255,255,0.3);
-  padding: 2rem 1rem;
+  padding: 2em;
 }
 
-.grid .row { margin-bottom: 2rem; }
-.grid .row:last-of-type { margin-bottom: 0; }
+.grid .row {
+  overflow: hidden;
+  margin-top: 1.5em;
+}
 
-/* Example Rows
+.grid .row:first-child { margin-top: 0; }
+
+.grid .column {
+  border: 2px solid #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: rgba(225,255,255,0.1);
+  padding: 1.5em;
+}
+
+/* Grid Row Example
 -------------------------------------------------------------- */
-.row-example .container {
+.row-example .container{
   border: 2px dashed rgba(255,255,255,0.2);
-  padding: 2rem;
+  padding: 2em;
 }
 
 .row-example .row {
   background: rgba(225,255,255,0.1);
   border: 2px dashed #fff;
-  padding: 2rem 1rem;
+  padding: 2em;
+}
+
+/* Grid Mobile
+-------------------------------------------------------------- */
+.mobile-background {
+  background-image: url("/images/grid/mobile.png");
+  background-size: 286px 600px;
+  width: 286px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.container.mobile {
+  border: none;
+  max-width: 320px;
+  padding: 106px 24px 0;
+}
+
+.container.mobile .row {
+  margin: 0;
+}
+
+.container.mobile .column {
+  margin: 0 0 18px 0;
+  padding: 16.5px;
+  width: 100%;
 }
 
 /* Gist Overrides
@@ -407,18 +386,18 @@ img {
   animation-name: fadeInUp;
 }
 
-/* Utilities
--------------------------------------------------------------- */
-.remove-padding { padding-bottom: 0; }
-.remove-border { border: none; }
-
 /*  #Clearfix by Nicolas Gallagher
 -------------------------------------------------------------- */
-.clearfix:before,
-.clearfix:after {
+.cf:before,
+.cf:after {
   content: " ";
   display: table;
 }
 
-.clearfix:after { clear: both; }
-.clearfix { *zoom: 1; }
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
