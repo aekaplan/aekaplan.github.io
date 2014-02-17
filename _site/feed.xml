@@ -36,17 +36,23 @@ There are a couple of rules I keep in mind when designing navigations:
 &lt;li&gt;&lt;strong&gt;Make it easy to find.&lt;/strong&gt; Placement is really important. Put your navigation in a prominent, intuitive place and make sure it stands out.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Don&#39;t distract from your content.&lt;/strong&gt; Don&#39;t be afraid to hide your navigation when it&#39;s not necessary!&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Only include the most important links.&lt;/strong&gt; Decide what really needs to go in your navigation and what might be better placed in the footer or a sub-navigation.&lt;/li&gt;
-&lt;/ul&gt;&lt;img alt=&#39;desktop&#39; src=&#39;/images/desktop.png&#39; /&gt;&lt;h3&gt;Desktop&lt;/h3&gt;&lt;p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#39;desktop&#39; src=&#39;/images/desktop.png&#39; /&gt;&lt;/p&gt;
+&lt;h3&gt;Desktop&lt;/h3&gt;&lt;p&gt;
 With larger screens, the additional real estate allows for larger navigations or even items in a sidebar. Creating an &lt;code&gt;inline&lt;/code&gt;, or horizontal, list is pretty standard. I like to use light, subtle colors on the links themselves and go bolder for the background color to provide contrast between the navigation and the content. 
 &lt;/p&gt;&lt;p&gt;
 &lt;a href=&#39;http://www.polygon.com/&#39; target=&#39;_blank&#39;&gt;Some sites&lt;/a&gt; present articles above the navigation, but as you scroll down, the navigation becomes fixed. This keeps the navigation accessible so the user doesn&#39;t have to scroll all the way back to the top, especially if they are using &lt;a href=&#39;http://uxdesign.smashingmagazine.com/2013/05/03/infinite-scrolling-get-bottom/&#39; target=&#39;_blank&#39;&gt;infinite scrolling&lt;/a&gt; for their content. Keep in mind, however, that you want to keep the navigation accessible but not overwhelming to the user.
 &lt;/p&gt;&lt;h3&gt;Mobile&lt;/h3&gt;&lt;p&gt;
 Once you get down to mobile sizes, you can run into other kinds of issues. Keeping your list &lt;code&gt;inline&lt;/code&gt;, or horizontal, will break the layout and shove half of your content off screen. I find you can have a few navigation items if you make the font size smaller, but once you try to fit in too much, there&#39;s just not enough room. It&#39;s also not an ideal user experience, because you have to shrink the clickable area, rendering it unusable for touch devices.
-&lt;/p&gt;&lt;img alt=&#39;mobile&#39; src=&#39;/images/mobile.png&#39; /&gt;&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#39;mobile&#39; src=&#39;/images/mobile.png&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;
 Using &lt;code&gt;block&lt;/code&gt; elements is better, since there will be a larger clickable area and the links stack on top of one another, making room for all your items. This, however, takes up precious real estate and delays the user from reaching the most important part of your website, the content. To solve this issue, I ended up getting help from Rylan, one of the Software Craftsmen at 8th Light.
 &lt;/p&gt;&lt;h3&gt;Toggle Navigation&lt;/h3&gt;&lt;p&gt;
 Using &lt;code&gt;jQuery&lt;/code&gt; and some simple &lt;code&gt;CSS&lt;/code&gt;, Rylan and I were able to get the best of both worlds. I gain back my precious real estate on mobile while keeping the usability of &lt;code&gt;block&lt;/code&gt; level links. Simply awesome!
-&lt;/p&gt;&lt;img alt=&#39;mobile-toggle&#39; src=&#39;/images/mobile-toggle.png&#39; /&gt;&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#39;mobile-toggle&#39; src=&#39;/images/mobile-toggle.png&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;
 I hide the navigation items and present a widely-used “menu” icon, a “three line” symbol. Jordan Moore wrote a great article all about it in &lt;a href=&#39;http://mobile.smashingmagazine.com/2012/10/08/the-semantic-responsive-design-navicon/&#39; target=&#39;_blank&#39;&gt;The Semantic, Responsive Navicon&lt;/a&gt; for Smashing Magazine:
 &lt;/p&gt;&lt;blockquote&gt;
 &lt;p&gt;Part of its power lies in its versatility, as the icon itself doesn’t clearly represent a precise object nor method, which means it can be applied to a variety of navigation-based design patterns without showing a preference to a particular pattern.&lt;/p&gt;
@@ -66,7 +72,9 @@ You can take this concept even further. Along with presenting the “menu” ico
 SCNA is a conference for software professionals interested in improving their craft, their community, and themselves.
 &lt;/h2&gt;&lt;p&gt;
 I had the opportinity to design and build this year&#39;s &lt;a href=&#39;http://scna.softwarecraftsmanship.com/&#39; target=&#39;_blank&#39;&gt;SCNA website&lt;/a&gt;. I&#39;m really excited to share some of the work I did with Alejandra on this project!
-&lt;/p&gt;&lt;img alt=&#39;SCNA&#39; src=&#39;/images/scna-logo.png&#39; /&gt;&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#39;SCNA&#39; src=&#39;/images/scna-logo.png&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;
 Special thanks to those who helped out:
 &lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#39;http://alejandraluaces.com/&#39; target=&#39;_blank&#39;&gt;Alejandra Luaces&lt;/a&gt; for icons&lt;/li&gt;
@@ -92,13 +100,13 @@ The prefix pseudo (from the Greek word &lt;em&gt;pseudes&lt;/em&gt;, meaning &qu
 &lt;/p&gt;
 &lt;/blockquote&gt;&lt;h3&gt;:before and :after&lt;/h3&gt;&lt;p&gt;
 These pseudo-classes are used to insert text, character codes or images before or after elements. The syntax for pseudo-classes is quite simple:
-&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5679831.js&#39;&gt; &lt;/script&gt;&lt;p class=&#39;example&#39;&gt;
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5679831.js&#39;&gt;&lt;![CDATA[ ]]&gt;&lt;/script&gt;&lt;p class=&#39;example&#39;&gt;
 This is some example text with &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; pseudo-classes.
 &lt;/p&gt;&lt;p&gt;
 Pretty neat, right? You&#39;ll have more control over your markup by combining pseudo-classes with CSS classes.
 &lt;/p&gt;&lt;p&gt;
 You can use &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; in new and creative ways. For example, I often use &lt;code&gt;:before&lt;/code&gt; on lists or elements that need character codes or icons. Let&#39;s try adding a red star before each item in a list:
-&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5679880.js&#39;&gt; &lt;/script&gt;&lt;p&gt;But &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; are not the only pseudo-classes. There are many more:&lt;/p&gt;&lt;ul class=&#39;example&#39;&gt;
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5679880.js&#39;&gt;&lt;![CDATA[ ]]&gt;&lt;/script&gt;&lt;p&gt;But &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; are not the only pseudo-classes. There are many more:&lt;/p&gt;&lt;ul class=&#39;example&#39;&gt;
 &lt;li&gt;:visited&lt;/li&gt;
 &lt;li&gt;:hover&lt;/li&gt;
 &lt;li&gt;:focus&lt;/li&gt;
@@ -107,9 +115,9 @@ You can use &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt;
 You can&#39;t use &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;:after&lt;/code&gt; without a content property. You can, however, leave the content property blank if you don&#39;t want to add extra content.
 &lt;/p&gt;&lt;h3&gt;Content Property&lt;/h3&gt;&lt;p&gt;
 Let&#39;s look at another example from &lt;a href=&#39;/projects/timeline.html&#39; target=&#39;_blank&#39;&gt;my timeline project&lt;/a&gt;. I used the required &lt;code&gt;content&lt;/code&gt; property, but left it blank to achieve the timeline&#39;s gray line. Now I won&#39;t have to write extra markup to get the same result.
-&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5679711.js&#39;&gt; &lt;/script&gt;&lt;h3&gt;Clearfix&lt;/h3&gt;&lt;p&gt;
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5679711.js&#39;&gt;&lt;![CDATA[ ]]&gt;&lt;/script&gt;&lt;h3&gt;Clearfix&lt;/h3&gt;&lt;p&gt;
 &lt;a href=&#39;http://nicolasgallagher.com/micro-clearfix-hack/&#39; target=&#39;_blank&#39;&gt;Nicolas Gallagher&#39;s popular clearfix&lt;/a&gt; uses pseudo-class selectors to clear floats. This eliminates the need to hide generated content and reduces the amount of code you need to write. I always add this clearfix to my container classes to keep floats cleared properly.
-&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5680048.js&#39;&gt; &lt;/script&gt;&lt;h3&gt;:first-child and :last-child&lt;/h3&gt;&lt;p&gt;
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5680048.js&#39;&gt;&lt;![CDATA[ ]]&gt;&lt;/script&gt;&lt;h3&gt;:first-child and :last-child&lt;/h3&gt;&lt;p&gt;
 &lt;code&gt;:first-child&lt;/code&gt; and &lt;code&gt;:last-child&lt;/code&gt; allow you to select the first or last child of its parent element. I like to use them to remove extra margins or borders on columns in my layouts:
 &lt;/p&gt;&lt;div class=&#39;row-example&#39;&gt;
 &lt;div class=&#39;column-example-bad first&#39;&gt;
@@ -123,7 +131,7 @@ Let&#39;s look at another example from &lt;a href=&#39;/projects/timeline.html&#
 &lt;div class=&#39;column-example-bad&#39;&gt;
 &lt;p&gt;Column 3&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5682833.js&#39;&gt; &lt;/script&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5682842.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
+&lt;/div&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5682833.js&#39;&gt;&lt;![CDATA[ ]]&gt;&lt;/script&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5682842.js&#39;&gt;&lt;![CDATA[ ]]&gt;&lt;/script&gt;&lt;p&gt;
 You&#39;ll notice we need a margin-left to separate the columns, but we don&#39;t want a margin on the first column. I had to write a separate class and add more markup to remove the margin. 
 &lt;/p&gt;&lt;p&gt;
 I could also just use the &lt;code&gt;:first-child&lt;/code&gt; pseudo-class:
@@ -139,7 +147,7 @@ I could also just use the &lt;code&gt;:first-child&lt;/code&gt; pseudo-class:
 &lt;div class=&#39;column-example&#39;&gt;
 &lt;p&gt;Column 3&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5682861.js&#39;&gt; &lt;/script&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5682773.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
+&lt;/div&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5682861.js&#39;&gt;&lt;![CDATA[ ]]&gt;&lt;/script&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/5682773.js&#39;&gt;&lt;![CDATA[ ]]&gt;&lt;/script&gt;&lt;p&gt;
 I let the CSS do all the work; no extra markup needed! The browser will re-evaluate the styles even if I add more columns later.
 &lt;/p&gt;&lt;p&gt;The ability to add extra design elements without additional markup or classes is extremely powerful. I use these pseudo-classes every day. As designers and developers we should try to use as little markup as possible.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Note: Greater than 86% of all users&#39; browsers support pseudo-classes. Feel free to use them on your project.&lt;/em&gt;&lt;/p&gt;</description>
 				<pubDate>Thu, 30 May 2013 00:00:00 -0500</pubDate>
@@ -159,19 +167,29 @@ My assignment for the week was to do some personal branding and spruce up my blo
 I realized I needed a logo to replace my existing &quot;AK&quot; initials. This post will cover some of the experiences and lessons I learned along the way!
 &lt;/p&gt;&lt;h3&gt;Plan (Grow Your Ideas)&lt;/h3&gt;&lt;p&gt;
 It is really important to think through your ideas before you even pick up a piece of paper or open your laptop. After you&#39;ve had time to think through and mature your idea, start sketching and playing with it a bit. Let this be the time to really think outside of the box! Use a piece of paper or a whiteboard to quickly get your ideas out. Only move to Illustrator once you&#39;re ready to refine your idea and create a more finished logo.
-&lt;/p&gt;&lt;img src=&#39;/images/logo-sketch.jpg&#39; /&gt;&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#39;/images/logo-sketch.jpg&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;
 Lately, I have been spending a little more time in the planning stage and I&#39;ve found that my work is better for it. I had a simple idea for my logo, but I let the idea mature for awhile before I created anything.
 &lt;/p&gt;&lt;p&gt;
 The concept for my logo was simple; replace my initials &quot;AK&quot; with something less typographical. I still wanted it to be about my name, so I started with shapes that mimic a slanted &quot;A&quot; and &quot;K&quot;.
-&lt;/p&gt;&lt;img src=&#39;/images/logo-outline.jpg&#39; /&gt;&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#39;/images/logo-outline.jpg&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;
 I wanted something unique that would represent my personality, a mark that could grow with me over time and help identify me as a designer. Before going further, I got feedback from the other designers. With comments like, &quot;it kinda looks like a wave,&quot; or &quot;paper airplane.&quot; I liked the fact that it was a little open to interpretation. 
 &lt;/p&gt;&lt;h3&gt;Experiment with Color&lt;/h3&gt;&lt;p&gt;
 For my logo, the silhouette was extremely important. I tried some colors, including the red from my blog and a shade of blue I really liked. In the end, I went with the gray because I felt it made the header less obtrusive. I wanted it to be part of the page, not overpowering it.
-&lt;/p&gt;&lt;img src=&#39;/images/logo-color.jpg&#39; /&gt;&lt;h3&gt;Size Matters&lt;/h3&gt;&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#39;/images/logo-color.jpg&#39; /&gt;&lt;/p&gt;
+&lt;h3&gt;Size Matters&lt;/h3&gt;&lt;p&gt;
 It&#39;s important to consider how scalable your logo is. Ask yourself how well will it hold up on mobile, or on a giant billboard. Lots of detail can get lost as the pixels shrink and your logo can become unrecognizable. 
-&lt;/p&gt;&lt;img src=&#39;/images/logo-mobile.jpg&#39; /&gt;&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#39;/images/logo-mobile.jpg&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;
 I did some quick testing and the logo I went with was easily recognizable on mobile devices, where space is at a premium. Because I was able to scale it down, I gave myself room to add more navigation items to my blog if needed.
-&lt;/p&gt;&lt;img src=&#39;/images/logo-desktop.jpg&#39; /&gt;&lt;h3&gt;Take Risks&lt;/h3&gt;&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#39;/images/logo-desktop.jpg&#39; /&gt;&lt;/p&gt;
+&lt;h3&gt;Take Risks&lt;/h3&gt;&lt;p&gt;
 Lastly, don&#39;t be afraid to take some risks! You need to stand out among the crowd and a unique logo can help immensely. Logo design is new to me, so it was a fun and very rewarding experience, but I still have a lot to learn. I&#39;m really happy with how my logo turned out, but I plan on iterating on it more in the future.
 &lt;/p&gt;</description>
 				<pubDate>Thu, 09 May 2013 00:00:00 -0500</pubDate>
@@ -235,9 +253,11 @@ as there are a lot of &lt;a href=&#39;/usability-testing&#39; target=&#39;_blank
 I won&#39;t get too scientific, as I want to keep this relevant to web design. Let&#39;s go over some of the basics of color theory.
 &lt;/p&gt;&lt;blockquote&gt;
 &lt;p&gt;Color theory is a body of practical guidance to color mixing and the visual effects of specific color combination.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;a href=&#39;http://en.wikipedia.org/wiki/Color_wheel&#39; target=&#39;_blank&#39;&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#39;http://en.wikipedia.org/wiki/Color_wheel&#39; target=&#39;_blank&#39;&gt;
 &lt;img src=&#39;/images/color-wheel.jpg&#39; /&gt;
-&lt;/a&gt;&lt;h3&gt;The Color Wheel&lt;/h3&gt;&lt;p&gt;In 1666, &lt;a href=&#39;http://en.wikipedia.org/wiki/Isaac_Newton&#39; target=&#39;_blank&#39;&gt;Sir Isaac Newton&lt;/a&gt; developed the first circular diagram of colors. The color wheel, based on red, yellow and blue, is still the basis for most color theory.&lt;/p&gt;&lt;p&gt;There are 3 important sections of the color wheel:&lt;/p&gt;&lt;ul&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;The Color Wheel&lt;/h3&gt;&lt;p&gt;In 1666, &lt;a href=&#39;http://en.wikipedia.org/wiki/Isaac_Newton&#39; target=&#39;_blank&#39;&gt;Sir Isaac Newton&lt;/a&gt; developed the first circular diagram of colors. The color wheel, based on red, yellow and blue, is still the basis for most color theory.&lt;/p&gt;&lt;p&gt;There are 3 important sections of the color wheel:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;strong&gt;Primary Colors&lt;/strong&gt; are sets of colors (red, yellow and blue) that can be combined to make a useful range of colors. All other colors are derived from these 3 hues.
 &lt;/li&gt;
@@ -280,9 +300,13 @@ Here is her quick reference guide for some common meanings of color that I find 
 Color can be a great tool to enhance user experience and improve usability. Using color for links and buttons is a great way to communicate to the user that an action is available. Links should be obvious and clearly defined or the user might miss them entirely. For this reason, I typically use bright colors, like red, green, purple or orange, for links.
 &lt;/p&gt;&lt;p&gt;
 For buttons, you can use colors like green, blue and orange for submitting and saving. They stand out more and help the user navigate the page more easily. Take Twitter&#39;s sign up page, for example:
-&lt;/p&gt;&lt;img src=&#39;/images/twitter.jpg&#39; /&gt;&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#39;/images/twitter.jpg&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;
 Colors like red and gray can be used for deleting, closing and archiving. Red is often assoicated with actions with repercussions, like the admin section of a Github repository:
-&lt;/p&gt;&lt;img src=&#39;/images/github.jpg&#39; /&gt;&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#39;/images/github.jpg&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;
 There isn&#39;t a right or wrong answer here. I have seen plenty of websites break the rules and still work. The point is to stay consistent so the user can easily recognize what color is associated with what action.
 &lt;/p&gt;&lt;h3&gt;Color Tools&lt;/h3&gt;&lt;p&gt;
 There are a lot of great resources to help you pick color palettes. I use these all the time for inspiration and to help me find matching or complimentary colors:
@@ -349,7 +373,7 @@ Resets remove the default styles for all elements while &lt;a href=&#39;http://n
 It also corrects bugs commonly found in browser inconsistencies and doesn&#39;t clutter your debugging tool. Simply download and use &lt;a href=&#39;http://necolas.github.com/normalize.css/&#39; target=&#39;_blank&#39;&gt;normalize.css&lt;/a&gt; as-is, or customize it to meet your requirements.
 &lt;/p&gt;&lt;h3&gt;Organize&lt;/h3&gt;&lt;p&gt;
 Organize your CSS code to reflect the flow of your website&#39;s layout. For example, your navigation CSS should be at the top of your file and your footer should be closer to the bottom:
-&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/4f1cad35c6c791542c10.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/4f1cad35c6c791542c10.js&#39;&gt;&lt;![CDATA[ ]]&gt;&lt;/script&gt;&lt;p&gt;
 Put properties related to one another close together and &lt;em&gt;use comments sparingly&lt;/em&gt; to break up the different sections of your CSS. The combination of a few comments and grouping similar elements together will make it much easier to quickly find what your looking for.
 &lt;/p&gt;&lt;h3&gt;Alphabetize Your Properties&lt;/h3&gt;&lt;p&gt;
 Write your CSS properties in alphabetical order; it will help reduce the time it takes to find a specific property.
@@ -359,15 +383,15 @@ Jen Myers&#39; post on &lt;a href=&#39;http://jenmyers.tumblr.com/post/453397518
 &lt;p&gt;Here’s the simple truth up-front: alphabetical CSS ordering makes your CSS most easily accessible to the widest group of people with the least amount of clutter in your stylesheets.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;p&gt;
 This principle is fairly new to me, but has really helped make my code more navigable. Which example makes it easier to find specific properties:
-&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/8f0f05409107f339cafb.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/8f0f05409107f339cafb.js&#39;&gt;&lt;![CDATA[ ]]&gt;&lt;/script&gt;&lt;p&gt;
 The second CSS block is easter to skim through, right? I know the z-index will always be at the bottom of the block. Don&#39;t worry about alphabetizing vendor prefixes (like box-sizing or transition, for example) with the rest of your properties, as you will want to keep those grouped together.
 &lt;/p&gt;&lt;h3&gt;Don&#39;t Repeat Yourself and Write Reusable CSS&lt;/h3&gt;&lt;p&gt;
 &lt;a href=&#39;http://en.wikipedia.org/wiki/Don&amp;apos;t_repeat_yourself&#39; target=&#39;_blank&#39;&gt;DRY&lt;/a&gt; up your code! Repeating yourself leads to huge CSS files and unnecessary code bloat. Take the time to plan out your elements in a simple and reusable way. Reuse your classes and tag on additional classes when needed.
 &lt;/p&gt;&lt;p&gt;
 Here&#39;s some really repetitive code:
-&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/4cf7c42030c0885770d8.js&#39;&gt; &lt;/script&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/1cd17e1728522e397c33.js&#39;&gt; &lt;/script&gt;&lt;p&gt;
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/4cf7c42030c0885770d8.js&#39;&gt;&lt;![CDATA[ ]]&gt;&lt;/script&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/1cd17e1728522e397c33.js&#39;&gt;&lt;![CDATA[ ]]&gt;&lt;/script&gt;&lt;p&gt;
 Lets DRY this up and make it a bit more reusable:
-&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/1de0549cc4ee559823d9.js&#39;&gt; &lt;/script&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/c068be2d748c8c9f03c1.js&#39;&gt; &lt;/script&gt;&lt;h3&gt;Be Consistent and Thoughtful... and Clean up Your Code!&lt;/h3&gt;&lt;p&gt;
+&lt;/p&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/1de0549cc4ee559823d9.js&#39;&gt;&lt;![CDATA[ ]]&gt;&lt;/script&gt;&lt;script src=&#39;https://gist.github.com/aekaplan/c068be2d748c8c9f03c1.js&#39;&gt;&lt;![CDATA[ ]]&gt;&lt;/script&gt;&lt;h3&gt;Be Consistent and Thoughtful... and Clean up Your Code!&lt;/h3&gt;&lt;p&gt;
 These simple steps will make your CSS more organized, lightweight and easier to read. This will only benefit you and anyone else who needs to make changes to your code.
 &lt;/p&gt;&lt;div class=&#39;note&#39;&gt;
 &lt;p&gt;
