@@ -107,7 +107,7 @@ h1 {
   text-transform: uppercase;
   font-weight: normal;
   text-align: center;
-  margin-bottom: 0.8em;
+  margin-bottom: 1.3em;
   letter-spacing: .1em;
 }
 
@@ -130,7 +130,6 @@ h3 {
 }
 
 h4 {
-  font-family: "adelle", serif;
   color: #00b3b3;
   font-size: 6vw;
   line-height: 1.2em;
@@ -156,7 +155,10 @@ h2:before {
   content:"";
   margin: 0 auto;
   position: absolute;
-  top: 20px; left: 0; right: 0; bottom: 0;
+  top: 20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 3em;
   z-index: -1;
 }
@@ -167,9 +169,9 @@ h2:before {
 
 .of {
   font-style: italic;
-  font-family: "adelle", serif;
+  font-family: georgia, serif;
   display: block;
-  font-size: .6em;
+  font-size: .5em;
   position: relative;
   text-align: center;
   text-transform: none;
@@ -182,7 +184,10 @@ h2:before {
   content:"";
   margin: 0 auto;
   position: absolute;
-  top: .9em; left: 0; right: 0; bottom: 0;
+  top: 1em;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 9em;
   z-index: -1;
 }
@@ -438,6 +443,9 @@ a:hover {
   body {
     font-size: 125%;
   }
+
+  .container { padding: 4em 0; }
+
 
   ul.units li a {
     padding: 1em;

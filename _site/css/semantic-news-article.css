@@ -5,7 +5,7 @@
 }
 
 .title, sub-title, .author {
-  font-family: "adelle", serif;
+  font-family: "georgia", serif;
   font-style: normal;
 }
 
@@ -42,7 +42,7 @@
   text-transform: uppercase;
   font-weight: 700;
   color: #000;
-  font-family: "adelle";
+  font-family: "georgia", serif;
 }
 
 .light {
