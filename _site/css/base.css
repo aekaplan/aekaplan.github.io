@@ -124,6 +124,8 @@ nav li a {
   padding: 0.8rem 0;
 }
 
+nav li.current a { color: #333; }
+
 nav li:last-child a {
   padding-bottom: 0.3rem;
 }
@@ -276,15 +278,6 @@ ul, ol {
 
 li {
   margin-bottom: 0.5rem;
-}
-
-.clean {
-  margin: 0 0 1.5rem 0;
-  list-style: none;
- }
-
-.clean li {
-  margin-bottom: 1rem;
 }
 
 hr {
@@ -488,78 +481,37 @@ figure {
 
 /*  #Posts
 -------------------------------------------------------------- */
-ul.posts {
-  margin: 0 0 1.5rem;
-  background: #fff;
+.posts {
+  list-style: none;
+  margin: 0;
   padding: 0;
 }
 
-ul.posts:last-child {
-  margin: 0;
-}
-
-ul.posts li {
-  list-style: none;
-}
-
-ul.posts li a {
-  display: block;
-  overflow: hidden;
-  padding: .5rem 0;
+.posts li {
   border-bottom: 1px solid #eee;
-  -webkit-transition: background 0.3s ease;
-  -moz-transition: background 0.3s ease;
-  -o-transition: background 0.3s ease;
-  -ms-transition: background 0.3s ease;
-  transition: background 0.3s ease;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
-ul.posts li span {
-  float: left;
-  width: 70%;
-  font-weight: 400;
+@media (min-width: 640px) {
+  .posts li {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
 }
 
-ul.posts li em {
-  font-family: "droid-sans-mono", sans-serif;
-  float: right;
-  font-style: normal;
-  font-weight: 300;
-  color: #999;
-  font-size: .9rem;
-}
+.posts h3 a { color: #333; }
+.posts h3 a:hover { text-decoration: none; }
 
-ul.posts li p {
-  float: left;
-  padding-top: 1%;
-  margin-bottom: 0;
+.posts li span {
   font-size: .9rem;
   font-weight: 400;
-  color: #555;
+  margin-bottom: 1rem;
 }
 
-/*remove the bottom border*/
-ul.posts li:nth-last-of-type(1) a {
-  border-bottom: 0;
-}
-
-/*highlight even rows*/
-/*ul.posts li:nth-of-type(even) a {
-  background: #f8f8f8;
-}*/
-
-/*highlight first posts*/
-/*ul.posts li:nth-of-type(1) a {
-  background: #fff8dc;
-}*/
-
-.previous {
-  float: left;
-}
-
-.next {
-  float: right;
-}
+.posts h3, .posts p { margin-bottom: 0; }
+.previous { float: left; }
+.next { float: right; }
 
 /* animate.css by Daniel Eden
 -------------------------------------------------------------- */
