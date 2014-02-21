@@ -118,9 +118,10 @@ nav li a {
   font-size: 1rem;
   font-weight: 600;
   display: block;
-  -moz-transition: color 0.2s ease-out;
-  -webkit-transition: color 0.2s ease-out;
-  transition: color 0.2s ease-out;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
   padding: 0.8rem 0;
 }
 
@@ -218,14 +219,7 @@ h4 {
   margin-bottom: 0;
 }
 
-h4 a {
-  color: #333;
-  -webkit-transition: color 0.2s ease-out;
-  -moz-transition: color 0.2s ease-out;
-  -o-transition: color 0.2s ease-out;
-  -ms-transition: color 0.2s ease-out;
-  transition: color 0.2s ease-out
-}
+h4 a { color: #333; }
 
 h4 a:hover {
   color: #4183C4;
@@ -288,7 +282,7 @@ hr {
 }
 
 blockquote {
-  border-left: 1px solid #ccc;
+  border-left: 1px solid #ddd;
   margin: 0 0 1.5rem 0;
   padding: 0 0 0 1.5rem;
 }
@@ -500,8 +494,18 @@ figure {
   }
 }
 
-.posts h3 a { color: #333; }
-.posts h3 a:hover { text-decoration: none; }
+.posts h3 a {
+  color: #333;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.posts h3 a:hover {
+  color: #4183C4;
+  text-decoration: none;
+}
 
 .posts li span {
   font-size: .9rem;
