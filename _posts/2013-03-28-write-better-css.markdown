@@ -36,7 +36,7 @@ Write your CSS properties in alphabetical order; it will help reduce the time it
 
 Jen Myers' post on <a href="http://jenmyers.tumblr.com/post/45339751868/why-you-should-order-css-properties-alphabetically" target="_blank">Why you should order CSS properties alphabetically</a> made me a believer:
 
->Here’s the simple truth up-front: alphabetical CSS ordering makes your CSS most easily accessible to the widest group of people with the least amount of clutter in your stylesheets.</p>
+>Here’s the simple truth up-front: alphabetical CSS ordering makes your CSS most easily accessible to the widest group of people with the least amount of clutter in your stylesheets.
 
 This principle is fairly new to me, but has really helped make my code more navigable. Which example makes it easier to find specific properties:
 

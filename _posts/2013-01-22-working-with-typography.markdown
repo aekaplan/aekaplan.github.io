@@ -7,7 +7,7 @@ date: January 22, 2013
 ##One of the things that I really wanted to get out of this apprenticeship was to learn how to use typography.
 
 To get started, Stephanie sent me the video <a href='http://vimeo.com/17079380' target='blank'>More Perfect Typography</a>
-by Tim Brown. I got a lot out of his presentation:</p>
+by Tim Brown. I got a lot out of his presentation:
 
 * Start with type!
 * Type sets the tone for the experience.

@@ -36,7 +36,7 @@ Saying “yes, and…” is, in fact, an improv technique. In Tina Fey’s Bossy
 
 These rules apply to client conversations; you could very easily swap out “improvisation” for “meetings.” You are, after all, often generating ideas or helping steer the discussion on-the-fly during a meeting. Take this moment of collaboration as a chance to provide value.
 
-Consider a meeting with the client at a music talent agency. The agent asks, “Can we have a image slider on the homepage with all of our two hundred artists?” You could just respond with a  “no”, but where would that leave the conversation? Now consider responding with, “Yes, and rather than loading all two hundred artists at once we can pick five random ones so a new artist appears on the page every time someone loads it.”</p>
+Consider a meeting with the client at a music talent agency. The agent asks, “Can we have a image slider on the homepage with all of our two hundred artists?” You could just respond with a  “no”, but where would that leave the conversation? Now consider responding with, “Yes, and rather than loading all two hundred artists at once we can pick five random ones so a new artist appears on the page every time someone loads it.”
 
 Easy, right? Answering in this way allows for collaboration and reflection on the original idea. In this case, we directed the conversation from something potentially negative to an exciting new feature. But, imagine if you had said “no”; you might have had to build a poor quality feature or even upset the client.
 

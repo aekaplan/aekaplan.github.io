@@ -32,7 +32,7 @@ Choosing colors is extremely important and worth the effort to consider them car
 
 Red also symbolizes prosperity and happiness in China, and mourning in South Africa. Red is used in many US-based AIDS awareness campaigns in Africa. Just remember that your audience may interperet colors differently.
 
->Blue is the color of the sky and sea. It is often associated with depth and stability. It symbolizes trust, loyalty, wisdom, confidence, intelligence, faith and truth.</p>
+>Blue is the color of the sky and sea. It is often associated with depth and stability. It symbolizes trust, loyalty, wisdom, confidence, intelligence, faith and truth.
 
 In India, blue is assocated with the Hindu deity Krishna, and is considered a holy color in Judiasm. The 8th Light logo uses a darker, subdued blue. It's a smart choice, considering blue is one of the safest colors to use internationally.
 
