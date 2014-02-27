@@ -4,24 +4,20 @@ title: Thinking with Type
 date: January 24, 2013
 ---
 
-<h2>I just finished reading <a href='http://www.thinkingwithtype.com/' target='blank'>Thinking with Type</a> by Ellen Lupton.</h2>
+##I just finished reading <a href='http://www.thinkingwithtype.com/' target='blank'>Thinking with Type</a> by Ellen Lupton.
 
-<p>There are a lot of great concepts in this book, so I decided to create a few designs using typography to show off my favorites.</p>
+There are a lot of great concepts in this book, so I decided to create a few designs using typography to show off my favorites.
 
-<blockquote>
-  <p>Think more, design less.</p>
-</blockquote>
+> Think more, design less.
 
-<p>Some type crimes to be aware of:</p>
+Some type crimes to be aware of:
 
-<ul>
-	<li>Horizontal and vertical scaling</li>
-	<li>Vertically stacking lowercase</li>
-	<li>Using too many signals (bold, italic, underlined, caps)</li>
-	<li>Don't trap data in heavily guarded cells</li>
-</ul>
+* Horizontal and vertical scaling
+* Vertically stacking lowercase
+* Using too many signals (bold, italic, underlined, caps)
+* Don't trap data in heavily guarded cells
 
-<img src='/images/type1.jpg' />
-<img src='/images/type2.jpg' />
-<img src='/images/type3.jpg' />
-<img src='/images/type4.jpg' />
+![Type 1]({{ site.url }}/images/type1.jpg)
+![Type 2]({{ site.url }}/images/type2.jpg)
+![Type 3]({{ site.url }}/images/type3.jpg)
+![Type 4]({{ site.url }}/images/type4.jpg)
