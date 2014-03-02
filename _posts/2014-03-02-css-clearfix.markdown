@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: CSS Clearfix
-date: February 28, 2014
+date: March 2, 2014
 ---
 
 Unlike positioning, <a href="http://css-tricks.com/all-about-floats/" target="_blank">floats</a> are helpful for creating layouts without

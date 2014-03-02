@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Moved from Wordpress to Jekyll
-date: January 29, 2013
+date: January 28, 2013
 ---
 
 ##I accomplished my goal of leaving Wordpress today!

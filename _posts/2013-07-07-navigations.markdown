@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Navigations
-date: July 07, 2013
+date: July 7, 2013
 ---
 
 ##Having a clear, easy-to-use navigation is essential to good web design.

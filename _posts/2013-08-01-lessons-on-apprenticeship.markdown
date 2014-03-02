@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Lessons on Apprenticeship
-date: August 01, 2013
+date: August 1, 2013
 ---
 
 ##One of the things that makes 8th Light so special is its apprenticeship program.

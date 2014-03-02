@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Color Theory
-date: April 05, 2013
+date: April 5, 2013
 ---
 ##Color is a great way to make your website beautiful while enhancing its usability.
 
