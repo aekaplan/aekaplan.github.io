@@ -7,6 +7,53 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>CSS Clearfix</title>
+				<description>&lt;p&gt;Unlike positioning, &lt;a href=&quot;http://css-tricks.com/all-about-floats/&quot; target=&quot;_blank&quot;&gt;floats&lt;/a&gt; are helpful for creating layouts without
+changing the flow of a web page.&lt;/p&gt;
+
+&lt;p&gt;If you don’t clear floats, however, they will misbehave. Un-cleared floats stack next to one another or collapse the height of their parent container if floated children elements are present.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/clearfix/collapse.svg&quot; alt=&quot;Collapsed parent container&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fortunately there’s a popular clearfix, made by &lt;a href=&quot;http://nicolasgallagher.com/micro-clearfix-hack/&quot; target=&quot;_blank&quot;&gt;Nicolas Gallagher&lt;/a&gt;, that solves these issues:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/9274193.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/8467436.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/clearfix/clearfix.svg&quot; alt=&quot;Clearfix onº parent container&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the above example, you can see how it would look when all the elements properly clear—the height is no longer collapsed. Using a clearfix in this way, however, adds additional markup and creates a lot of repetitive CSS.&lt;/p&gt;
+
+&lt;h3 id=&quot;sass-clearfix&quot;&gt;Sass Clearfix&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;/scss/&quot; target=&quot;_blank&quot;&gt;Sass brings a bunch of benefits&lt;/a&gt; over plain ‘ole CSS like nesting and &lt;code&gt;@extend&lt;/code&gt;, which we can use to make a better clearfix. &lt;code&gt;@extend&lt;/code&gt; basically tells Sass that one selector should inherit the styles of another selector.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/9274372.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Sass supports the special placeholder selector &lt;code&gt;%&lt;/code&gt;, a silent class, which only compiles to CSS until we use it, eliminating repetitive CSS! You can use these to replace the class/id selectors.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/9274422.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://gist.github.com/aekaplan/9276515.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;By using Sass we end up with a much cleaner/simpler approach. We no longer have to add the clearfix class to our markup instead we just &lt;code&gt;@extend&lt;/code&gt; anywhere a clearfix is needed.&lt;/p&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nicolasgallagher.com/micro-clearfix-hack/&quot; target=&quot;_blank&quot;&gt;A New Micro Clearfix Hack&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://css-tricks.com/all-about-floats/&quot; target=&quot;_blank&quot;&gt;All About Floats&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.teamtreehouse.com/a-better-clearfix-with-sass&quot; target=&quot;_blank&quot;&gt;CSS Tip: A Better Clearfix with Sass&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend&quot; target=&quot;_blank&quot;&gt;Sass Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Fri, 28 Feb 2014 00:00:00 -0600</pubDate>
+				<link>/css-clearfix/</link>
+				<guid isPermaLink="true">/css-clearfix/</guid>
+			</item>
+		
+			<item>
 				<title>Yes, and...</title>
 				<description>&lt;p&gt;Saying “no” is hard, even if it’s to a close friend. In a professional environment, however, it can be important and often far more difficult. So how do you soften the blow of a straight “no” answer? Say yes… and offer something more!&lt;/p&gt;
 
@@ -570,82 +617,6 @@ is an online resource that’s useful for finding different color variations and
 				<pubDate>Fri, 05 Apr 2013 00:00:00 -0500</pubDate>
 				<link>/color-theory/</link>
 				<guid isPermaLink="true">/color-theory/</guid>
-			</item>
-		
-			<item>
-				<title>Write Better CSS</title>
-				<description>&lt;h2 id=&quot;writing-better-css-can-be-easy-remember-to-normalize-organize-and-alphabetize&quot;&gt;Writing better CSS can be easy. Remember to normalize, organize and alphabetize!&lt;/h2&gt;
-
-&lt;p&gt;I’m going to be giving a short presentation titled “Write Better CSS” at Apprentice Learning Hour but wanted to start collecting my thoughts here first. Spoilers ahead!&lt;/p&gt;
-
-&lt;p&gt;Steps to writing better CSS (I couldn’t help myself with the naming):&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Normalize&lt;/li&gt;
-  &lt;li&gt;Organize&lt;/li&gt;
-  &lt;li&gt;Alphabetize&lt;/li&gt;
-  &lt;li&gt;DRY and write reusable CSS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;normalize&quot;&gt;Normalize&lt;/h3&gt;
-
-&lt;p&gt;Resets remove the default styles for all elements while &lt;a href=&quot;http://necolas.github.com/normalize.css/&quot; target=&quot;_blank&quot;&gt;normalize&lt;/a&gt; retains most of the useful default browser styles. When starting a new project, I prefer normalize over resets.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Normalize.css is a small CSS file that provides better cross-browser consistency in the default styling of HTML elements. It’s a modern, HTML5-ready, alternative to the traditional CSS reset.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It also corrects bugs commonly found in browser inconsistencies and doesn’t clutter your debugging tool. Simply download and use &lt;a href=&quot;http://necolas.github.com/normalize.css/&quot; target=&quot;_blank&quot;&gt;normalize.css&lt;/a&gt; as-is, or customize it to meet your requirements.&lt;/p&gt;
-
-&lt;h3 id=&quot;organize&quot;&gt;Organize&lt;/h3&gt;
-
-&lt;p&gt;Organize your CSS code to reflect the flow of your website’s layout. For example, your navigation CSS should be at the top of your file and your footer should be closer to the bottom:&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/aekaplan/4f1cad35c6c791542c10.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Put properties related to one another close together and &lt;em&gt;use comments sparingly&lt;/em&gt; to break up the different sections of your CSS. The combination of a few comments and grouping similar elements together will make it much easier to quickly find what your looking for.&lt;/p&gt;
-
-&lt;h3 id=&quot;alphabetize-your-properties&quot;&gt;Alphabetize Your Properties&lt;/h3&gt;
-
-&lt;p&gt;Write your CSS properties in alphabetical order; it will help reduce the time it takes to find a specific property.&lt;/p&gt;
-
-&lt;p&gt;Jen Myers’ post on &lt;a href=&quot;http://jenmyers.tumblr.com/post/45339751868/why-you-should-order-css-properties-alphabetically&quot; target=&quot;_blank&quot;&gt;Why you should order CSS properties alphabetically&lt;/a&gt; made me a believer:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Here’s the simple truth up-front: alphabetical CSS ordering makes your CSS most easily accessible to the widest group of people with the least amount of clutter in your stylesheets.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This principle is fairly new to me, but has really helped make my code more navigable. Which example makes it easier to find specific properties:&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/aekaplan/8f0f05409107f339cafb.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;The second CSS block is easter to skim through, right? I know the z-index will always be at the bottom of the block. Don’t worry about alphabetizing vendor prefixes (like box-sizing or transition, for example) with the rest of your properties, as you will want to keep those grouped together.&lt;/p&gt;
-
-&lt;h3 id=&quot;dont-repeat-yourself-and-write-reusable-css&quot;&gt;Don’t Repeat Yourself and Write Reusable CSS&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Don&#39;t_repeat_yourself&quot; target=&quot;_blank&quot;&gt;DRY&lt;/a&gt; up your code! Repeating yourself leads to huge CSS files and unnecessary code bloat. Take the time to plan out your elements in a simple and reusable way. Reuse your classes and tag on additional classes when needed.&lt;/p&gt;
-
-&lt;p&gt;Here’s some really repetitive code:&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/aekaplan/4cf7c42030c0885770d8.js&quot;&gt;&lt;/script&gt;
-
-&lt;script src=&quot;https://gist.github.com/aekaplan/1cd17e1728522e397c33.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Lets DRY this up and make it a bit more reusable:&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/aekaplan/1de0549cc4ee559823d9.js&quot;&gt;&lt;/script&gt;
-
-&lt;script src=&quot;https://gist.github.com/aekaplan/c068be2d748c8c9f03c1.js&quot;&gt;&lt;/script&gt;
-
-&lt;h3 id=&quot;be-consistent-and-thoughtful-and-clean-up-your-code&quot;&gt;Be Consistent and Thoughtful… and Clean up Your Code!&lt;/h3&gt;
-
-&lt;p&gt;These simple steps will make your CSS more organized, lightweight and easier to read. This will only benefit you and anyone else who needs to make changes to your code.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note: My “Write Better CSS” presentation will be on April 12.&lt;/em&gt;&lt;/p&gt;
-</description>
-				<pubDate>Thu, 28 Mar 2013 00:00:00 -0500</pubDate>
-				<link>/write-better-css/</link>
-				<guid isPermaLink="true">/write-better-css/</guid>
 			</item>
 		
 	</channel>
