@@ -38,6 +38,7 @@ body {
 
 header {
   background-color: #497bad;
+  overflow: hidden;
   text-align: center;
 }
 
