@@ -42,7 +42,7 @@ This principle is fairly new to me, but has really helped make my code more navi
 
 <script src="https://gist.github.com/aekaplan/8f0f05409107f339cafb.js"></script>
 
-The second CSS block is easter to skim through, right? I know the z-index will always be at the bottom of the block. Don't worry about alphabetizing vendor prefixes (like box-sizing or transition, for example) with the rest of your properties, as you will want to keep those grouped together.
+The second CSS block is easier to skim through, right? I know the z-index will always be at the bottom of the block. Don't worry about alphabetizing vendor prefixes (like box-sizing or transition, for example) with the rest of your properties, as you will want to keep those grouped together.
 
 ###Don't Repeat Yourself and Write Reusable CSS
 
