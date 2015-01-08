@@ -3,7 +3,6 @@
 body {
   font-size: 125%;
   line-height: 1.5em;
-  font-family: "proxima-nova", sans-serif;
   font-weight: 400;
   background: #fff;
   color: #333;
@@ -22,7 +21,6 @@ header {
 }
 
 .masthead {
-  font-family: "proxima-nova",sans-serif;
   margin-bottom: 0;
   line-height: 1em;
   font-size: 2em;
@@ -95,7 +93,6 @@ header {
 /*  #Headers
 ================================================== */
 h1, h2, h3, h4 {
-  font-family: "proxima-nova",sans-serif;
   font-style: normal;
   color: #333;
   margin: 0;

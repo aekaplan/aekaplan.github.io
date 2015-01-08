@@ -30,7 +30,6 @@
 }
 
 .focus {
-  font-family: "proxima-nova", sans-serif;
   font-weight: 400;
   color: #fff;
   font-size: .9em;
@@ -81,7 +80,6 @@
 }
 
 .multimedia {
-  font-family: "proxima-nova", sans-serif;
   font-weight: 300;
   font-size: .7em;
   color: #fff;

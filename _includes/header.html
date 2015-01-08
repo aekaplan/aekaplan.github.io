@@ -1,0 +1,19 @@
+<header>
+  <div class="container">
+    <a href="/" class="logo-wrap">
+      <span class="logo"></span>
+    </a>
+    <div class="toggle-nav"></div>
+
+    <nav>
+      <ul>
+        <li {% if page.blog %}class="current"{% endif %}>
+          <a href="{{ site.url }}/blog/">Blog</a>
+        </li>
+        <li {% if page.projects %}class="current"{% endif %}>
+          <a href="{{ site.url }}/projects/">Projects</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

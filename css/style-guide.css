@@ -9,7 +9,6 @@
 body {
   background: #fff;
   color: #2d3538;
-  font-family: "proxima-nova", sans-serif;
   font-size: 100%;
   line-height: 1.5em;
 }
@@ -107,7 +106,6 @@ article:last-child {
 /*  #Basic Styles
 -------------------------------------------------------------- */
 h1, h2, h3, h4, p {
-  font-family: "proxima-nova", sans-serif;
   font-weight: 400;
   margin: 0;
   padding: 0;
