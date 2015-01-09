@@ -7,14 +7,15 @@
 }
 
 html {
-  font: 100%/1.5 "ff-tisa-web-pro", serif;
+  font: 100%/1.5 "proxima-nova", sans-serif;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background-color: #fff;
+  background-color: #f8f8f8;
   color: #333;
 }
 
@@ -25,8 +26,6 @@ body {
 }
 
 header {
-  background: #fff;
-  border-bottom: 1px solid #eee;
   overflow: hidden;
   margin-bottom: 2rem;
   padding: 0.5rem 0;
@@ -50,11 +49,19 @@ header .container {
 
 footer {
   color: #999;
-  text-align: center;
 }
 
 footer .container {
-  padding: 2rem;
+  padding: 2rem 0;
+}
+
+.copyright {
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .copyright { font-size: .875rem; }
 }
 
 /*  #Navigation
@@ -101,13 +108,14 @@ nav.visible {
 }
 
 nav ul {
+  border-top: 1px solid #eee;
   margin: 0.5rem 0 0 0;
   overflow: hidden;
   padding: 0;
 }
 
 nav li {
-  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
   list-style: none;
   margin-bottom: 0;
   text-align: center;
@@ -122,28 +130,78 @@ nav li a {
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
   padding: 0.8rem 0;
+  text-decoration: none;
 }
 
 nav li.current a { color: #333; }
-
-nav li:last-child a {
-  padding-bottom: 0.3rem;
-}
 
 nav li a:hover {
   color: #333;
   text-decoration: none;
 }
 
+@media (min-width: 640px) {
+  html {
+    font-size: 125%;
+  }
+
+  .intro {
+    padding: 3rem 0;
+  }
+
+  header {
+    margin-bottom: 2.9rem;
+  }
+
+  .toggle-nav {
+    display: none;
+  }
+
+  nav {
+    float: right;
+    height: auto;
+    width: auto;
+  }
+
+  nav.hidden {
+    height: auto;
+  }
+
+  nav ul {
+    border: none;
+    margin-top: 0;
+  }
+
+  nav li {
+    border: none;
+    float: left;
+    font-size: 0.9rem;
+    margin-left: 1.5rem;
+  }
+
+  nav li:first-child {
+    margin-left: 0;
+  }
+
+  nav li a {
+    font-size: .875em;
+    padding: 0.6rem 0 0.4rem 0;
+  }
+
+  nav li:last-child a {
+    padding-bottom: 0.4rem;
+  }
+}
+
 /*  #Links
 -------------------------------------------------------------- */
 a {
-  color: #4183C4;
-  text-decoration: none;
+  color: #333;
+  text-decoration: underline;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .back-to-top {
@@ -355,15 +413,12 @@ code {
   margin: 0 auto 1.5rem auto;
 }
 
-.intro {
-  margin: 0 auto;
-  max-width: 24em;
-  text-align: center;
+.hello {
+  font-size: 2em;
+  margin-bottom: .3em;
 }
 
-.intro p {
-  color: #999;
-}
+.responsive { margin-bottom: 2em; }
 
 /*  #Skill Assessment 2
 -------------------------------------------------------------- */
@@ -497,10 +552,6 @@ figure {
   -ms-transition: color 0.3s ease;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
-}
-
-.posts h3 a:hover {
-  color: #4183C4;
   text-decoration: none;
 }
 
@@ -511,6 +562,12 @@ figure {
 }
 
 .posts h3, .posts p { margin-bottom: 0; }
+
+.previous a,
+.next a {
+  text-decoration: none;
+}
+
 .previous { float: left; }
 .next { float: right; }
 
@@ -992,57 +1049,7 @@ iframe {
 
 /* Mobile First RWD
 -------------------------------------------------------------- */
-@media screen and (min-width: 640px) {
-  html {
-    font-size: 125%;
-  }
-
-  .intro {
-    padding: 3rem 0;
-  }
-
-  header {
-    margin-bottom: 2.9rem;
-  }
-
-  .toggle-nav {
-    display: none;
-  }
-
-  nav {
-    float: right;
-    height: auto;
-    width: auto;
-  }
-
-  nav.hidden {
-    height: auto;
-  }
-
-  nav ul {
-    margin-top: 0;
-  }
-
-  nav li {
-    border: 0;
-    float: left;
-    font-size: 0.9rem;
-    margin-left: 1.5rem;
-  }
-
-  nav li:first-child {
-    margin-left: 0;
-  }
-
-  nav li a {
-    font-size: .875em;
-    padding: 0.6rem 0 0.4rem 0;
-  }
-
-  nav li:last-child a {
-    padding-bottom: 0.4rem;
-  }
-
+@media (min-width: 640px) {
   .column {
     float: left;
     margin-right: 5%;
