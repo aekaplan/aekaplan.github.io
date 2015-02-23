@@ -1,0 +1,30 @@
+/* Mixins
+========================================================================== */
+
+@mixin prefix-property($property, $value) {
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
+
+@mixin transition($arguments) {
+  @include prefix-property(transition, $arguments);
+}
+
+@mixin transform($arguments) {
+  @include prefix-property(transform, $arguments);
+}
+
+@mixin ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin clean-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

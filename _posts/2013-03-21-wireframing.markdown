@@ -4,7 +4,7 @@ title: Wireframing
 date: March 21, 2013
 ---
 
-##Wireframing is a useful first step in the design process, allowing you to focus on defining the information hierarchy and user experience.
+Wireframing is a useful first step in the design process, allowing you to focus on defining the information hierarchy and user experience.
 
 What is wireframing?
 
@@ -43,7 +43,7 @@ The time you spend developing the user experience while wireframing will serve a
 
 ###Feedback is Welcome
 
-It's important to get feedback as soon as possible. Don't be afraid to show your wireframes. Get some initial thoughts from the client. Sit some users down for informal <a href="/usability-testing.html" target="_blank">usability testing</a>. The sooner you let the client or user into the process, the sooner you know how successful your design is.
+It's important to get feedback as soon as possible. Don't be afraid to show your wireframes. Get some initial thoughts from the client. Sit some users down for informal usability testing. The sooner you let the client or user into the process, the sooner you know how successful your design is.
 
 I often pair with my mentor, Stephanie, and get instant feedback on my decisions. We bounce ideas off each other all the time, leading to more developed user experiences and better designs.
 

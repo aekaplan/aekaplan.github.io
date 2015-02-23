@@ -1,6 +1,13 @@
+# Site settings
 name: Adam Kaplan
-description: UX Craftsman at 8th Light
+title: Adam Kaplan
+description: "Designer"
+permalink: /:title
 
-highlighter: pygments
-permalink: /:categories/:title/
+# Build settings
 markdown: kramdown
+
+# Sass settings
+sass:
+  sass_dir: _sass
+  style: :compressed

@@ -1,0 +1,66 @@
+.hero {
+  background: $light-gray;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 15em;
+
+  @media #{$medium} {
+    height: 25em;
+  }
+
+  .container { margin: 0 auto; }
+
+  /* Grid Retrospective */
+  &.hero--grid { background: url("/images/work/work-grid.svg"); }
+}
+
+.hero_inner {
+  @include transform (translateY(-50%));
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.hero-title {
+  color: $white;
+  margin-bottom: .2em;
+}
+
+.hero-date {
+  color: $white;
+  margin: 0;
+}
+
+/* Hero Nav
+========================================================================== */
+
+.photo-nav {
+  @extend %clearfix;
+  @include clean-list;
+  border-top: 1px solid $border-light;
+  border-bottom: 1px solid $border-light;
+}
+
+.photo-nav_item {
+  color: $white;
+  display: block;
+  padding: 2em;
+  text-align: center;
+  text-decoration: none;
+
+  &:first-child { border-bottom: 1px solid $border-light; }
+
+  &:hover { background: $light-gray; }
+
+  @media #{$medium} {
+    float: left;
+    width: 50%;
+
+    &:first-child {
+      border-bottom: none;
+      border-right: 1px solid $border-light;
+    }
+  }
+}

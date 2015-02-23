@@ -3,10 +3,10 @@ layout: posts
 title: Color Theory
 date: April 5, 2013
 ---
-##Color is a great way to make your website beautiful while enhancing its usability.
+Color is a great way to make your website beautiful while enhancing its usability.
 
 Color plays an important role in design in general. However, you have to be more mindful of color when you use it on the web,
-as there are a lot of <a href="/usability-testing" target="_blank">usability</a> problems that can arise from its misuse.
+as there are a lot of usability problems that can arise from its misuse.
 
 I won't get too scientific, as I want to keep this relevant to web design. Let's go over some of the basics of color theory.
 
@@ -72,16 +72,14 @@ There isn't a right or wrong answer here. I have seen plenty of websites break t
 There are a lot of great resources to help you pick color palettes. I use these all the time for inspiration and to help me find matching or complimentary colors:
 
 * <a href="http://0to255.com/" target="_blank">0 to 255</a> a simple tool that helps web designers find variations of any color.
-* <a href="http://colorschemedesigner.com/" target="_blank">Color Scheme Designer</a> you can try out different colors and even see how they might look on a dark or light website. Thanks Nick!
+* <a href="http://colorschemedesigner.com/" target="_blank">Color Scheme Designer</a> you can try out different colors and even see how they might look on a dark or light website.
 * <a href="https://kuler.adobe.com/" target="_blank">Adobe's Kuler</a> is a design resource of exploring, creating and sharing color themes.
 * <a href="http://www.colourlovers.com/" target="_blank">COLOURlovers</a> is a website with a big community of users who create and share color palettes, much like Kuler.
 * <a href="http://www.colorhexa.com/" target="_blank">ColorHexa</a>
 is an online resource that's useful for finding different color variations and complimentary colors. I will often search for hex colors (e.g. #b1e1ed) to experiment with different shades.
-* <a href="http://pltts.me/" target="_blank">PLTTS</a> makes it's easy to find matching color-palettes for your project. Thanks Chris!
+* <a href="http://pltts.me/" target="_blank">PLTTS</a> makes it's easy to find matching color-palettes for your project.
 * <a href="http://www.blendoku.com/" target="_blank">Blendoku</a> is puzzle game that will challenge your ability to distinguish and arrange colors. The game is based on color principles and exercises taught in art schools around the world.
 
-##While there is a science behind color theory, it's also very much an art.
+While there is a science behind color theory, it's also very much an art.
 
 Learning to use color in your designs takes practice and a bit of innate taste. I'm still learning about and playing with color, but I really love its meanings and I'm fascinated by how easily it can change a design.
-
-*Remember: If you're having trouble choosing colors, just remember to only pick a few of them and keep them subtle.*

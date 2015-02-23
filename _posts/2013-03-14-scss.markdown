@@ -4,7 +4,7 @@ title: SCSS
 date: March  14, 2013
 ---
 
-##I’ve been learning some Sassy CSS and wanted to talk about three awesome features that it provides: variables, nesting and mixins.
+I’ve been learning some Sassy CSS and wanted to talk about three awesome features that it provides: variables, nesting and mixins.
 
 At a high level, Sass is simply a CSS preprocessor with two syntaxes:
 
@@ -31,7 +31,20 @@ This is where variables becomes a huge time saver:
 
 SCSS allows you to set variables that can be used throughout your stylesheet. Variables start with `$` and are declared just like properties. You can use any value that the CSS property allows such as colors, numbers or text.
 
-<script src="https://gist.github.com/aekaplan/3b4f85f8e2702beae02f.js"></script>
+<div class="example scss">
+<button class="copy-button">Copy</button>
+<div class="copy-area">
+{% highlight scss %}
+/* Variables */
+$blue: #25a8e0;
+$dark-blue: #2197c9;
+
+/* Basic Styles */
+a { color: $blue; }
+a:hover { color: $dark-blue; }
+{% endhighlight %}
+</div>
+</div>
 
 Pretty awesome right? I just set my variables and label them. Now I only have to remember `$blue` rather than `#25a8e0`.
 
@@ -40,21 +53,116 @@ Pretty awesome right? I just set my variables and label them. Now I only have to
 Repeating yourself in your CSS is annoying and makes your files unnecessarily long. SCSS allows you to avoid this by nesting child selectors within parent selectors.
 
 With CSS, you might be writing something like this:
-<script src="https://gist.github.com/aekaplan/bda0d4a3a13010d47348.js"></script>
+
+<div class="example scss">
+<button class="copy-button">Copy</button>
+<div class="copy-area">
+{% highlight scss %}
+a { color: $blue; }
+a:hover { color: $dark-blue; }
+{% endhighlight %}
+</div>
+</div>
 
 >&amp; is a Sass special character. In a selector, &amp; will be replaced verbatim with the parent selector.
 
 Let's take the previous example and nest them:
 
-<script src="https://gist.github.com/aekaplan/40517eb78456c82dd0f3.js"></script>
+<div class="example scss">
+<button class="copy-button">Copy</button>
+<div class="copy-area">
+{% highlight scss %}
+a {
+  color: $blue;
+  &:hover { color: $dark-blue; }
+}
+{% endhighlight %}
+</div>
+</div>
 
 Much cleaner! Now let's look at an example for a navigation:
 
-<script src="https://gist.github.com/aekaplan/7f752f6b4634dfce0592.js"></script>
+<div class="example scss">
+<button class="copy-button">Copy</button>
+<div class="copy-area">
+{% highlight scss %}
+nav {
+  float: right;
+  margin: 0.75em 0;
+}
+
+nav ul {
+  list-style: none;
+  line-height: 2.25em;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+  margin-right: 5px;
+}
+
+nav ul li a {
+  font-size: .9em;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: .5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  background: #222;
+  color: #FFF;
+  text-decoration: none;
+}
+{% endhighlight %}
+</div>
+</div>
 
 That’s a lot of repeating. Instead, let’s nest this bad boy:
 
-<script src="https://gist.github.com/aekaplan/0507587eb3a9b40693ac.js"></script>
+<div class="example scss">
+<button class="copy-button">Copy</button>
+<div class="copy-area">
+{% highlight scss %}
+nav {
+  float: right;
+  margin: .75em 0;
+
+  ul {
+    list-style: none;
+    line-height: 2.25em;
+    padding: 0;
+  }
+
+  li {
+    float: left;
+    margin-right: 5px;
+  }
+
+  a {
+    border-radius: 3px;
+    color: #fff;
+    font-size: .9em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: .5em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      background: #222;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+{% endhighlight %}
+</div>
+</div>
 
 Boom! This is a great example of how to <a href="http://en.wikipedia.org/wiki/Don't_repeat_yourself" target="_blank">DRY up</a> your CSS code. It does take some getting use to, but after a short while you’ll never want to go back to plain ole CSS.
 
@@ -66,17 +174,100 @@ Mixins are one of Sass’s most powerful features. They allow re-use of styles w
 
 So let's say I want to add a nice fade transition to my link and button classes:
 
-<script src="https://gist.github.com/aekaplan/c0b66222424af6b1c0d9.js"></script>
+<div class="example scss">
+<button class="copy-button">Copy</button>
+<div class="copy-area">
+{% highlight scss %}
+a {
+  color: $blue;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+a:hover { color: $dark-blue; }
+
+.button {
+  color: $blue;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+.button:hover { color: $dark-blue; }
+{% endhighlight %}
+</div>
+</div>
 
 That’s a lot of repetition! Let’s use `@mixin` directive and set a name of fade:
 
-<script src="https://gist.github.com/aekaplan/2c7f314ff56abd923d95.js"></script>
+<div class="example scss">
+<button class="copy-button">Copy</button>
+<div class="copy-area">
+{% highlight scss %}
+/* Mixins */
+@mixin transition {
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+/* Basic Styles */
+a {
+  @include transition;
+  color: $blue;
+
+  &:hover { color: $dark-blue; }
+}
+
+.button {
+  @include transition;
+  color: $blue;
+
+  &:hover { color: $dark-blue; }
+}
+{% endhighlight %}
+</div>
+</div>
 
 Pretty handy right? Let's get more complicated with some properties that would be harder to remember:
 
-<script src="https://gist.github.com/aekaplan/a58c4838a609b5eff1bb.js"></script>
+<div class="example scss">
+<button class="copy-button">Copy</button>
+<div class="copy-area">
+{% highlight scss %}
+/* Mixins */
+@mixin box-shadow {
+  -moz-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+  -webkit-box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+  box-shadow: 0 1px 3px rgba(64, 56, 41, 0.2);
+}
 
-Now we can reuse box-border on other properties quickly without all the mess.
+/* Elements */
+.box {
+  @include box-shadow;
+  background: #ddd;
+  padding: 1em;
+}
+
+.data-box {
+  background: #fff;
+  @include box-border;
+}
+{% endhighlight %}
+</div>
+</div>
+
+Now we can reuse `box-shadow` on other properties quickly without all the mess.
 
 Give SCSS a try! It makes your front-end coding easier and faster. While SCSS is
 not an extension of the CSS standard itself, it gives you powerful new features

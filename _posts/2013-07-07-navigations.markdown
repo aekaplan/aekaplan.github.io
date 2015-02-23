@@ -4,7 +4,7 @@ title: Navigations
 date: July 7, 2013
 ---
 
-##Having a clear, easy-to-use navigation is essential to good web design.
+Having a clear, easy-to-use navigation is essential to good web design.
 
 A navigation is often one of the most useful parts of your website, so it's really important to get it right. Having too many navigation items can overload the user and take up too much screen real estate, especially on mobile devices.
 

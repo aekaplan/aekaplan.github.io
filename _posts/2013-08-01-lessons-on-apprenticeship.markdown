@@ -4,7 +4,7 @@ title: Lessons on Apprenticeship
 date: August 1, 2013
 ---
 
-##One of the things that makes 8th Light so special is its apprenticeship program.
+One of the things that makes 8th Light so special is its apprenticeship program.
 
 Regardless of prior experience, everyone here goes through an apprenticeship before
 being hired and there are many benefits. I wanted to share what I believe creates a

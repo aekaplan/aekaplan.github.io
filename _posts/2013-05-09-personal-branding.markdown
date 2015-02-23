@@ -3,7 +3,7 @@ layout: posts
 title: Personal Branding
 date: May 9, 2013
 ---
-##A logo can embody a unique identity that can help promote you and your brand by making it easily recognizable.
+A logo can embody a unique identity that can help promote you and your brand by making it easily recognizable.
 
 What, exactly, is a logo?
 

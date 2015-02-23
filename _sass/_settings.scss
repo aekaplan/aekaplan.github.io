@@ -1,0 +1,41 @@
+// Font Weights
+$regular: 400;
+$bold:    600;
+
+// Body Font
+$body-font: $regular 100%/1.5 "proxima-nova", sans-serif;
+
+// Header Font
+$header-font: $bold 100%/1.25 "proxima-nova", sans-serif;
+
+// Colors
+$primary-color: #4285f4;
+$white:         #fff;
+$black:         #333;
+$light-gray:    #f8f8f8;
+$gray:          #aaa;
+$red:           #df7063;
+
+$twitter:       #55acee;
+$dribbble:      #ea4c89;
+
+// Border Colors
+$border-light:   #eee;
+
+// Primary Button Color
+$primary-button:       $primary-color;
+$primary-button-hover: darken($primary-color, 5%);
+
+// Grid
+$content-width: 32em;
+
+// Medium screens
+$medium: "(min-width: 40em)";
+
+// Large screens
+$large: "(min-width: 64em)";
+
+// Z-index
+$overlay-high:   9999;
+$overlay-medium: 9000;
+$overlay-low:    8000;

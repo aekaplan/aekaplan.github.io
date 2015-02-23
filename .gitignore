@@ -1,15 +1,22 @@
-Gemfile.lock
-test/dest
-*.gem
-pkg/
-*.swp
-*~
+# Ignore docs files
+_gh_pages
 _site
-.bundle/
-.DS_Store
-bbin/
-gh-pages/
-site/_site/
-coverage
 .ruby-version
+
+# OS or editor artifacts
+.DS_Store
+._*
 .sass-cache
+.cache
+
+# Ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~

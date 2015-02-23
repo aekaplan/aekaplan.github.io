@@ -3,9 +3,7 @@ layout: posts
 title: Write Better CSS
 date: March 28, 2013
 ---
-##Writing better CSS can be easy. Remember to normalize, organize and alphabetize!
-
-I'm going to be giving a short presentation titled "Write Better CSS" at Apprentice Learning Hour but wanted to start collecting my thoughts here first. Spoilers ahead!
+Writing better CSS can be easy. Remember to normalize, organize and alphabetize!
 
 Steps to writing better CSS (I couldn't help myself with the naming):
 
@@ -26,7 +24,53 @@ It also corrects bugs commonly found in browser inconsistencies and doesn't clut
 
 Organize your CSS code to reflect the flow of your website's layout. For example, your navigation CSS should be at the top of your file and your footer should be closer to the bottom:
 
-<script src="https://gist.github.com/aekaplan/4f1cad35c6c791542c10.js"></script>
+<div class="example css">
+<button class="copy-button">Copy</button>
+<div class="copy-area">
+{% highlight css %}
+/* Layout */
+body {
+  background: #fff;
+  color: #333;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 32em;
+  padding: 1.5em 0;
+  width: 90%;
+}
+
+/* Header */
+header {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1.5em;
+}
+
+nav {
+  float: right;
+  padding: .5em;
+}
+
+/* Basic Styles */
+p {
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 1.5em;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  padding: 1em; 0;
+}
+{% endhighlight %}
+</div>
+</div>
 
 Put properties related to one another close together and *use comments sparingly* to break up the different sections of your CSS. The combination of a few comments and grouping similar elements together will make it much easier to quickly find what your looking for.
 
@@ -40,7 +84,34 @@ Jen Myers' post on <a href="http://jenmyers.tumblr.com/post/45339751868/why-you-
 
 This principle is fairly new to me, but has really helped make my code more navigable. Which example makes it easier to find specific properties:
 
-<script src="https://gist.github.com/aekaplan/8f0f05409107f339cafb.js"></script>
+<div class="example css">
+<button class="copy-button">Copy</button>
+<div class="copy-area">
+{% highlight css %}
+.box {
+  z-index: 1;
+  padding: .5em;
+  border: 1px solid #aaa;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.box {
+  border: 1px solid #aaa;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+  padding: .5em;
+  width: 100%;
+  z-index: 1;
+}
+{% endhighlight %}
+</div>
+</div>
 
 The second CSS block is easier to skim through, right? I know the z-index will always be at the bottom of the block. Don't worry about alphabetizing vendor prefixes (like box-sizing or transition, for example) with the rest of your properties, as you will want to keep those grouped together.
 
@@ -50,16 +121,79 @@ The second CSS block is easier to skim through, right? I know the z-index will a
 
 Here's some really repetitive code:
 
-<script src="https://gist.github.com/aekaplan/4cf7c42030c0885770d8.js"></script>
-<script src="https://gist.github.com/aekaplan/1cd17e1728522e397c33.js"></script>
+<div class="example css">
+<button class="copy-button">Copy</button>
+<div class="copy-area">
+{% highlight css %}
+.tag-red {
+  background: #ff3333;
+  border: 1px solid #ddd;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing; border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: .5em;
+  width: 50%;
+}
+
+.tag-green {
+  background: #66ff66;
+  border: 1px solid #ddd;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing; border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: .5em;
+  width: 50%;
+}
+{% endhighlight %}
+</div>
+</div>
+
+<div class="example html">
+<button class="copy-button">Copy</button>
+<div class="copy-area">
+{% highlight html %}
+<div class="tag-red">Tag Red</div>
+<div class="tag-green">Tag Green</div>
+{% endhighlight %}
+</div>
+</div>
 
 Lets DRY this up and make it a bit more reusable:
 
-<script src="https://gist.github.com/aekaplan/1de0549cc4ee559823d9.js"></script>
-<script src="https://gist.github.com/aekaplan/c068be2d748c8c9f03c1.js"></script>
+<div class="example css">
+<button class="copy-button">Copy</button>
+<div class="copy-area">
+{% highlight css %}
+.tag {
+  border: 1px solid #ddd;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing; border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: .5em;
+  width: 50%;
+}
+
+.red { background: #ff3333; }
+.green { background: #66ff66; }
+{% endhighlight %}
+</div>
+</div>
+
+<div class="example html">
+<button class="copy-button">Copy</button>
+<div class="copy-area">
+{% highlight html %}
+<div class="tag red">Tag Red</div>
+<div class="tag green">Tag Green</div>
+{% endhighlight %}
+</div>
+</div>
 
 ###Be Consistent and Thoughtful... and Clean up Your Code!
 
 These simple steps will make your CSS more organized, lightweight and easier to read. This will only benefit you and anyone else who needs to make changes to your code.
 
-*Note: My "Write Better CSS" presentation will be on April 12.*
+You can <a href="https://speakerdeck.com/aekaplan/write-better-css" target="_blank">view my slides</a> on Speaker Deck.

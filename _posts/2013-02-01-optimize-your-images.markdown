@@ -4,7 +4,7 @@ title: Optimize your Images
 date: February 1, 2013
 ---
 
-##When using images on the web, always remove unnecessary bytes.
+When using images on the web, always remove unnecessary bytes.
 
 Here are a few simple guidelines when using Photoshop:
 
