@@ -108,20 +108,6 @@ Let's look at another example from <a href="{{ site.url }}/projects/timeline.htm
 
 `:first-child` and `:last-child` allow you to select the first or last child of its parent element. I like to use them to remove extra margins or borders on columns in my layouts:
 
-<div class="row-example">
-  <div class="column-example-bad first">
-  <p>Column 1</p>
-  </div>
-
-  <div class="column-example-bad">
-  <p>Column 2</p>
-  </div>
-
-  <div class="column-example-bad">
-  <p>Column 3</p>
-  </div>
-</div>
-
 <div class="example html">
 <button class="copy-button">Copy</button>
 <div class="copy-area">
@@ -164,20 +150,6 @@ Let's look at another example from <a href="{{ site.url }}/projects/timeline.htm
 You'll notice we need a margin-left to separate the columns, but we don't want a margin on the first column. I had to write a separate class and add more markup to remove the margin.
 
 I could also just use the `:first-child` pseudo-class:
-
-<div class="row-example">
-  <div class="column-example">
-  <p>Column 1</p>
-  </div>
-
-  <div class="column-example">
-  <p>Column 2</p>
-  </div>
-
-  <div class="column-example">
-  <p>Column 3</p>
-  </div>
-</div>
 
 <div class="example html">
 <button class="copy-button">Copy</button>
