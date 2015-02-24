@@ -65,7 +65,7 @@ You can't use `:before` and `:after` without a content property. You can, howeve
 
 ###Content Property
 
-Let's look at another example from <a href="{{ site.url }}/projects/timeline.html" target="_blank">my timeline project</a>. I used the required `content` property, but left it blank to achieve the timeline's gray line. Now I won't have to write extra markup to get the same result.
+Let's look at another example from my timeline project. I used the required `content` property, but left it blank to achieve the timeline's gray line. Now I won't have to write extra markup to get the same result.
 
 <div class="example css">
 <button class="copy-button">Copy</button>
