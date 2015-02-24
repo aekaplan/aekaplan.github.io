@@ -5,16 +5,20 @@ title: Adam Kaplan
 
 <section>
   <h4>About</h4>
-  <p>Hello. My name is Adam Kaplan and I’m a designer. I create things for the web at <a href='http://www.8thlight.com/' target='_blank'>8th Light</a> in Chicago. You can view my work on <a class="dribbble" href="https://dribbble.com/adamkaplan">Dribbble</a>, my code on <a href="https://github.com/aekaplan" target="_blank">GitHub</a>, and follow me on <a class="twitter" href="https://twitter.com/helloadamkaplan" target="_blank">Twitter</a>.</p>
+  <p>Hi, I'm Adam. I'm a designer at <a href='http://www.8thlight.com/' target='_blank'>8th Light</a> in Chicago. When it comes to design, I like to keep things simple, find collaboration key, and value honest feedback. At times, I <a href="{{ site.url }}/blog/">write</a> about design and front-end development.</p>
+
+  <p>You can follow me on <a href="https://twitter.com/helloadamkaplan" target="_blank">Twitter</a>, <a href="https://github.com/aekaplan" target="_blank">GitHub</a>, <a href="https://dribbble.com/adamkaplan">Dribbble</a>, and <a href="http://instagram.com/adamekaplan/">Instagram</a>.</p>
 </section>
 
 <section>
   <h4>Work</h4>
-    <ul class="clean-list">
-      <li><a href="http://adamkaplan.me/grid" target="_blank">Grid</a></li>
-      <li><a href="http://apprenticeship-checklist.herokuapp.com" target="_blank">Apprenticeship Checklist</a></li>
-      <li><a href="http://citypak.org" target="_blank">Citypak</a></li>
-    </ul>
+  <ul class="clean-list">
+    <li><a href="http://adamkaplan.me/grid" target="_blank">Grid</a></li>
+    <li><a href="http://apprenticeship-checklist.herokuapp.com" target="_blank">Apprenticeship Checklist</a></li>
+    <li><a href="http://citypak.org" target="_blank">Citypak</a></li>
+  </ul>
+
+  <p>Some of my work can't be shared online. Please contact me to see more examples.</p>
 </section>
 
 <section>
@@ -27,10 +31,11 @@ title: Adam Kaplan
 
 <section>
   <h4>Writing</h4>
-  <p>Sometimes I <a href="{{ site.url }}/blog/">write</a> about design and front-end development.</p>
   <ul class="clean-list">
-    {% for post in site.posts limit: 3 %}
+    {% for post in site.posts limit: 4 %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+
+  <a href="{{ site.url }}/blog/">View more</a>
 </section>

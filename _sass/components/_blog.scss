@@ -99,3 +99,11 @@
     &:hover { color: $black; }
   }
 }
+
+.post-footer__title {
+  display: none;
+
+  @media #{$medium} {
+    display: inline;
+  }
+}

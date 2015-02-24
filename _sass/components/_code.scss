@@ -49,12 +49,16 @@
   border-left: 1px solid $border-light;
   color: $gray;
   cursor: pointer;
-  font-size: .8em;
+  font-size: .9em;
   outline: none;
   padding: .6em .8em;
   position: absolute;
   right: 0;
   top: 0;
+
+  @media #{$medium} {
+    font-size: .8em;
+  }
 
   &.zeroclipboard-is-hover {
     background: $light-gray;
@@ -82,8 +86,12 @@ code {
   background: $light-gray;
   border: 1px solid $border-light;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-size: .8em;
+  font-size: .9em;
   padding: .15em .3em;
+
+  @media #{$medium} {
+    font-size: .8em;
+  }
 }
 
 .highlight  { background: #fff; }
