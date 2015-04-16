@@ -1,5 +1,5 @@
 ### Jekyll
-http://jekyllrb.com/
+http://jekyllrb.com
 
 Requires Ruby.
 
@@ -10,7 +10,7 @@ gem install jekyll
 
 #### Start the Server
 ```
-jekyll serve --watch
+jekyll serve
 ```
 
 #### Visit
