@@ -11,7 +11,7 @@ I won't get too scientific, as I want to keep this relevant to web design. Let's
 
 >Color theory is a body of practical guidance to color mixing and the visual effects of specific color combination.
 
-![Color Wheel]({{ site.url }}/assets/images/color-wheel.jpg)
+![Color Wheel](/assets/images/color-wheel.jpg)
 
 ###The Color Wheel
 
@@ -58,11 +58,11 @@ Color can be a great tool to enhance user experience and improve usability. Usin
 
 For buttons, you can use colors like green, blue and orange for submitting and saving. They stand out more and help the user navigate the page more easily. Take Twitter's sign up page, for example:
 
-![Twitter Login]({{ site.url }}/assets/images/twitter.jpg)
+![Twitter Login](/assets/images/twitter.jpg)
 
 Colors like red and gray can be used for deleting, closing and archiving. Red is often assoicated with actions with repercussions, like the admin section of a Github repository:
 
-![Github Danger Zone]({{ site.url }}/assets/images/github.jpg)
+![Github Danger Zone](/assets/images/github.jpg)
 
 There isn't a right or wrong answer here. I have seen plenty of websites break the rules and still work. The point is to stay consistent so the user can easily recognize what color is associated with what action.
 

@@ -43,14 +43,17 @@
 .work__link {
   @include transition (background $duration $timing);
   display: block;
-  min-height: 14rem;
-  padding: 3.5rem 0;
+  padding: 2rem 0;
   text-align: center;
   text-decoration: none;
 
   &:hover {
     background: $light-gray;
     text-decoration: none;
+  }
+
+  @media #{$medium} {
+    padding: 3.5rem 0;
   }
 }
 
@@ -81,7 +84,6 @@
   &.work__logo--vision { background-image: url("/assets/images/work/icons/vision.svg"); }
 }
 
-
 /* Chrome
 ========================================================================== */
 
@@ -92,8 +94,11 @@
 }
 
 .chrome--mobile {
-  margin: 0 auto 1.5rem auto;
-  max-width: 16rem;
+  float: left;
+  width: 48%;
+  margin-bottom: 0;
+
+  &:last-child { margin-left: 4%; }
 }
 
 .chrome__header {
@@ -121,8 +126,8 @@
 
 .chrome__inner {
   border-radius: 0 0 4px 4px;
-  border: 1px solid $border-light;
   border-top: none;
+  border: 1px solid $border-light;
   max-height: 25rem;
   overflow: hidden;
 }

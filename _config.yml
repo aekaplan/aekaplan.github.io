@@ -7,6 +7,9 @@ highlighter: pygments
 
 # Build settings
 markdown: redcarpet
+redcarpet:
+  extensions:
+    - smart
 
 defaults:
   -

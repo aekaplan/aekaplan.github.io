@@ -8,10 +8,10 @@ order: 6
 Vision is an internal application I built for [8th Light](http://www.8thlight.com). 8th Light employees can read updates from management, access other internal applications and edit their profile.
 
 ###Background
-![Vision Background]({{ site.url }}/assets/images/work/vision/vision-background.svg)
+![Vision Background](/assets/images/work/vision/vision-background.svg)
 
 ###Icons
-![Vision Icons]({{ site.url }}/assets/images/work/vision/vision-icons.svg)
+![Vision Icons](/assets/images/work/vision/vision-icons.svg)
 
 ###Web
 This application was built with Rails and Sass.
@@ -25,13 +25,13 @@ This application was built with Rails and Sass.
     </ul>
   </div>
   <div class="chrome__inner">
-    <img src="{{ site.url }}/assets/images/work/beehive/beehive-desktop.png">
+    <img src="/assets/images/work/vision/vision-desktop.png">
   </div>
 </div>
 
 ###Navigation
 
-I had fun design icons for the navigation.
+I had fun designing the icons for the navigation.
 
 <div class="chrome">
   <div class="chrome__header">
@@ -42,11 +42,9 @@ I had fun design icons for the navigation.
     </ul>
   </div>
   <div class="chrome__inner">
-    <img src="{{ site.url }}/assets/images/work/beehive/beehive-desktop.png">
+    <img src="/assets/images/work/vision/vision-navigation-closed-desktop.png">
   </div>
 </div>
-
-This application was built was Sintra and Sass. I built an iOS toggle with pure CSS for turning on and off the lights. CSS animations make the experience fun.
 
 <div class="chrome">
   <div class="chrome__header">
@@ -57,23 +55,35 @@ This application was built was Sintra and Sass. I built an iOS toggle with pure 
     </ul>
   </div>
   <div class="chrome__inner">
-    <img src="{{ site.url }}/assets/images/work/beehive/beehive-desktop.png">
+    <img src="/assets/images/work/vision/vision-navigation-desktop.png">
   </div>
 </div>
-
 
 ###Mobile
-This application was built mobile first for use on my phone.
-
-<div class="chrome chrome--mobile">
-  <div class="chrome__header">
-    <ul class="spotlights">
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-    </ul>
+<div>
+  <div class="chrome chrome--mobile">
+    <div class="chrome__header">
+      <ul class="spotlights">
+        <li class="spotlights__item"></li>
+        <li class="spotlights__item"></li>
+        <li class="spotlights__item"></li>
+      </ul>
+    </div>
+    <div class="chrome__inner">
+      <img src="/assets/images/work/vision/vision-mobile.png">
+    </div>
   </div>
-  <div class="chrome__inner">
-    <img src="{{ site.url }}/assets/images/work/beehive/beehive-mobile.png">
+
+  <div class="chrome chrome--mobile">
+    <div class="chrome__header">
+      <ul class="spotlights">
+        <li class="spotlights__item"></li>
+        <li class="spotlights__item"></li>
+        <li class="spotlights__item"></li>
+      </ul>
+    </div>
+    <div class="chrome__inner">
+      <img src="/assets/images/work/vision/vision-navigation-mobile.png">
+    </div>
   </div>
 </div>

@@ -117,4 +117,4 @@ If anything, I've learned that front-end design is constantly evolving and that 
 
 Thank you to everyone that helped with [Grid]({{site.url}}/grid), especially [Ethan Marcotte](http://ethanmarcotte.com/) for all his feedback!
 
-![Responsive]({{ site.url }}/assets/images/blog/grid/responsive.svg)
+![Responsive](/assets/images/blog/grid/responsive.svg)

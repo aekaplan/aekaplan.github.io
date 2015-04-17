@@ -7,7 +7,7 @@ Unlike positioning, [floats](http://css-tricks.com/all-about-floats) are helpful
 
 If you don't clear floats, however, they will misbehave. Un-cleared floats stack next to one another or collapse the height of their parent container if floated children elements are present.
 
-![Collapsed parent container]({{ site.url }}/assets/images/blog/clearfix/collapse.svg)
+![Collapsed parent container](/assets/images/blog/clearfix/collapse.svg)
 
 Fortunately there's a popular clearfix, made by [Nicolas Gallagher](http://nicolasgallagher.com/micro-clearfix-hack)
 
@@ -30,13 +30,13 @@ Fortunately there's a popular clearfix, made by [Nicolas Gallagher](http://nicol
 .clearfix { *zoom: 1; }
 ```
 
-![Clearfix on parent container]({{ site.url }}/assets/images/blog/clearfix/clearfix.svg)
+![Clearfix on parent container](/assets/images/blog/clearfix/clearfix.svg)
 
 In the above example, you can see how it would look when all the elements properly clear—the height is no longer collapsed. Using a clearfix in this way, however, adds additional markup and creates a lot of repetitive CSS.
 
 ###Sass Clearfix
 
-[Sass brings a bunch of benefits]({{ site.url }}/blog/scss) over plain 'ole CSS like nesting and `@extend`, which we can use to make a better clearfix. `@extend` basically tells Sass that one selector should inherit the styles of another selector.
+[Sass brings a bunch of benefits](/blog/scss) over plain 'ole CSS like nesting and `@extend`, which we can use to make a better clearfix. `@extend` basically tells Sass that one selector should inherit the styles of another selector.
 
 ```scss
 %clearfix {

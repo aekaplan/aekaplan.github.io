@@ -13,7 +13,7 @@ There are a couple of rules I keep in mind when designing navigations:
 * **Don't distract from your content.** Don't be afraid to hide your navigation when it's not necessary!
 * **Only include the most important links.** Decide what really needs to go in your navigation and what might be better placed in the footer or a sub-navigation.
 
-![Desktop Navigation]({{ site.url }}/assets/images/blog/navigations/desktop.png)
+![Desktop Navigation](/assets/images/blog/navigations/desktop.png)
 
 ###Desktop
 
@@ -25,7 +25,7 @@ With larger screens, the additional real estate allows for larger navigations or
 
 Once you get down to mobile sizes, you can run into other kinds of issues. Keeping your list `inline`, or horizontal, will break the layout and shove half of your content off screen. I find you can have a few navigation items if you make the font size smaller, but once you try to fit in too much, there's just not enough room. It's also not an ideal user experience, because you have to shrink the clickable area, rendering it unusable for touch devices.
 
-![Mobile Navigation]({{ site.url }}/assets/images/blog/navigations/mobile.png)
+![Mobile Navigation](/assets/images/blog/navigations/mobile.png)
 
 Using `block` elements is better, since there will be a larger clickable area and the links stack on top of one another, making room for all your items. This, however, takes up precious real estate and delays the user from reaching the most important part of your website, the content. To solve this issue, I ended up getting help from Rylan, one of the Software Craftsmen at 8th Light.
 
@@ -33,7 +33,7 @@ Using `block` elements is better, since there will be a larger clickable area an
 
 Using `jQuery` and some simple `CSS`, Rylan and I were able to get the best of both worlds. I gain back my precious real estate on mobile while keeping the usability of `block` level links. Simply awesome!
 
-![Mobile Toggle]({{ site.url }}/assets/images/blog/navigations/mobile-toggle.png)
+![Mobile Toggle](/assets/images/blog/navigations/mobile-toggle.png)
 
 I hide the navigation items and present a widely-used “menu” icon, a “three line” symbol. Jordan Moore wrote a great article all about it in [The Semantic, Responsive Navicon](http://mobile.smashingmagazine.com/2012/10/08/the-semantic-responsive-design-navicon) for Smashing Magazine:
 
