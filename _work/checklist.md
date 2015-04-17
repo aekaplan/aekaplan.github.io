@@ -1,7 +1,7 @@
 ---
 title: Checklist
 tags: Visual Design, HTML, CSS
-order: 5
+order: 6
 ---
 
 ###Description
@@ -13,55 +13,9 @@ I built this [checklist](http://apprenticeship-checklist.herokuapp.com/) during 
 ###Web
 The website was built with Middleman and stores your data locally in the browser. The sidebar stays fixed as you scroll. The progress bar updates as each task is checked with simple javascript/CSS animations.
 
-<div class="chrome">
-  <div class="chrome__header">
-    <ul class="spotlights">
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-    </ul>
-  </div>
-  <div class="chrome__inner">
-    <img src="/assets/images/work/checklist/checklist-desktop.png">
-  </div>
-</div>
-
-<div class="chrome">
-  <div class="chrome__header">
-    <ul class="spotlights">
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-    </ul>
-  </div>
-  <div class="chrome__inner">
-    <img src="/assets/images/work/checklist/checklist-ux-desktop.png">
-  </div>
-</div>
+{% include browser.html image="checklist/checklist-desktop" %}
+{% include browser.html image="checklist/checklist-ux-desktop" %}
 
 ###Mobile
-<div class="chrome chrome--mobile">
-  <div class="chrome__header">
-    <ul class="spotlights">
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-    </ul>
-  </div>
-  <div class="chrome__inner">
-    <img src="/assets/images/work/checklist/checklist-mobile.png">
-  </div>
-</div>
-
-<div class="chrome chrome--mobile">
-  <div class="chrome__header">
-    <ul class="spotlights">
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-    </ul>
-  </div>
-  <div class="chrome__inner">
-    <img src="/assets/images/work/checklist/checklist-typography-mobile.png">
-  </div>
-</div>
+{% include browser.html mobile=true image="checklist/checklist-mobile" %}
+{% include browser.html mobile=true image="checklist/checklist-typography-mobile" %}

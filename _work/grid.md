@@ -13,55 +13,9 @@ order: 1
 ###Web
 The website was built with [Jekyll](http://jekyllrb.com) and plain CSS. I wanted the code to be accessible to beginners so I stayed away from Sass. [View the code](https://github.com/aekaplan/grid) on GitHub. Simple illustrations help visual harder concepts.
 
-<div class="chrome">
-  <div class="chrome__header">
-    <ul class="spotlights">
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-    </ul>
-  </div>
-  <div class="chrome__inner">
-    <img src="/assets/images/work/grid/grid-desktop.png">
-  </div>
-</div>
-
-<div class="chrome">
-  <div class="chrome__header">
-    <ul class="spotlights">
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-    </ul>
-  </div>
-  <div class="chrome__inner">
-    <img src="/assets/images/work/grid/grid-box-desktop.png">
-  </div>
-</div>
+{% include browser.html image="grid/grid-desktop" %}
+{% include browser.html image="grid/grid-box-desktop" %}
 
 ###Mobile
-<div class="chrome chrome--mobile">
-  <div class="chrome__header">
-    <ul class="spotlights">
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-    </ul>
-  </div>
-  <div class="chrome__inner">
-    <img src="/assets/images/work/grid/grid-mobile.png">
-  </div>
-</div>
-
-<div class="chrome chrome--mobile">
-  <div class="chrome__header">
-    <ul class="spotlights">
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-      <li class="spotlights__item"></li>
-    </ul>
-  </div>
-  <div class="chrome__inner">
-    <img src="/assets/images/work/grid/grid-column-mobile.png">
-  </div>
-</div>
+{% include browser.html mobile=true image="grid/grid-mobile" %}
+{% include browser.html mobile=true image="grid/grid-column-mobile" %}

@@ -18,9 +18,9 @@ Wireframing allows you to focus on:
 
 ###Meet Balsamiq
 
-<a href="http://www.balsamiq.com/" target="_blank">Balsamiq</a> is a wireframing application for quick mockups. It's like sketching except that it's digital, allowing you to easily tweak and rearrange your ideas.
+[Balsamiq](http://www.balsamiq.com/) is a wireframing application for quick mockups. It's like sketching except that it's digital, allowing you to easily tweak and rearrange your ideas.
 
-I prefer low-fidelity wireframes because they allow you to focus on the core functionality and user experience while avoiding time-consuming specifics. Oftentimes if you deliver a wireframe that look &#8220;too finished&#8221; the client might think it's the final design.
+I prefer low-fidelity wireframes because they allow you to focus on the core functionality and user experience while avoiding time-consuming specifics. Oftentimes if you deliver a wireframe that look "too finished"; the client might think it's the final design.
 
 This keeps the conversations focused on what matters: the user experience!
 
@@ -30,13 +30,13 @@ Wireframing lets you work distraction-free because you don't have to worry about
 
 ###Iterate
 
-Remember that nothing is final. You <strong>will</strong> iterate on your wireframes before you move on to the prototyping stage; it's almost unavoidable. Don't be afraid to throw out ideas that don't work and try out several layouts.
+Remember that nothing is final. You will iterate on your wireframes before you move on to the prototyping stage; it's almost unavoidable. Don't be afraid to throw out ideas that don't work and try out several layouts.
 
 It's better to spend the time iterating and experimenting with wireframes while the project is still lightweight and easy to change.
 
 ###Think more, design less
 
-This quote from <a href="http://www.thinkingwithtype.com/" target="_blank">&#8220;Thinking with Type&#8221;</a> by Ellen Lupton really applies in the real world. I spend a lot of time thinking about the user experience and walking through every aspect of my design, asking myself questions like, &#8220;Do I need this?&#8221; or &#8220;Is this too complicated?&#8221; This critical thinking will prove invaluable when you get to prototyping.
+This quote from <a href="http://www.thinkingwithtype.com/" target="_blank">"Thinking with Type"</a> by Ellen Lupton really applies in the real world. I spend a lot of time thinking about the user experience and walking through every aspect of my design, asking myself questions like, "Do I need this?"; or "Is this too complicated?"; This critical thinking will prove invaluable when you get to prototyping.
 
 The time you spend developing the user experience while wireframing will serve as a guide to building an awesome product.
 

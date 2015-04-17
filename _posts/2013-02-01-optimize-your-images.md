@@ -10,7 +10,7 @@ When using images on the web, always remove unnecessary bytes. Here are a few si
 * Use **High** if the image will be visible, **Medium** or **Low** for backgrounds
 * Make sure you have the **Optimized** setting checked
 
-![Save for Web](/assets/images/blog/optimize.jpg)
+![Save for Web](/assets/images/blog/optimize/optimize.jpg)
 
 * Test different file types and optimizations methods
 * Use JPGs for photos and PNGs when you need transparency

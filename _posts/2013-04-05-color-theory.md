@@ -11,11 +11,11 @@ I won't get too scientific, as I want to keep this relevant to web design. Let's
 
 >Color theory is a body of practical guidance to color mixing and the visual effects of specific color combination.
 
-![Color Wheel](/assets/images/color-wheel.jpg)
+![Color Wheel](/assets/images/blog/color-theory/color-wheel.jpg)
 
 ###The Color Wheel
 
-In 1666, <a href="http://en.wikipedia.org/wiki/Isaac_Newton" target="_blank">Sir Isaac Newton</a> developed the first circular diagram of colors. The color wheel, based on red, yellow and blue, is still the basis for most color theory.
+In 1666, [Sir Isaac Newton](http://en.wikipedia.org/wiki/Isaac_Newton) developed the first circular diagram of colors. The color wheel, based on red, yellow and blue, is still the basis for most color theory.
 
 There are 3 important sections of the color wheel:
 
@@ -35,7 +35,7 @@ Red also symbolizes prosperity and happiness in China, and mourning in South Afr
 
 In India, blue is assocated with the Hindu deity Krishna, and is considered a holy color in Judiasm. The 8th Light logo uses a darker, subdued blue. It's a smart choice, considering blue is one of the safest colors to use internationally.
 
-While there are no set rules when selecting colors, it's important to be mindful of your choices. Do some research! For further reading, I suggest reading Cameron Chapman's wonderful article on <a href="http://www.smashingmagazine.com/2010/01/28/color-theory-for-designers-part-1-the-meaning-of-color/" target="_blank">Color Theory for Designers: The Meaning of Color</a>.
+While there are no set rules when selecting colors, it's important to be mindful of your choices. Do some research! For further reading, I suggest reading Cameron Chapman's wonderful article on [Color Theory for Designers: The Meaning of Color](http://www.smashingmagazine.com/2010/01/28/color-theory-for-designers-part-1-the-meaning-of-color/).
 
 Here is her quick reference guide for some common meanings of color that I find really helpful:
 
@@ -58,11 +58,11 @@ Color can be a great tool to enhance user experience and improve usability. Usin
 
 For buttons, you can use colors like green, blue and orange for submitting and saving. They stand out more and help the user navigate the page more easily. Take Twitter's sign up page, for example:
 
-![Twitter Login](/assets/images/twitter.jpg)
+![Twitter Login](/assets/images/blog/color-theory/twitter.jpg)
 
 Colors like red and gray can be used for deleting, closing and archiving. Red is often assoicated with actions with repercussions, like the admin section of a Github repository:
 
-![Github Danger Zone](/assets/images/github.jpg)
+![Github Danger Zone](/assets/images/blog/color-theory/github.jpg)
 
 There isn't a right or wrong answer here. I have seen plenty of websites break the rules and still work. The point is to stay consistent so the user can easily recognize what color is associated with what action.
 
@@ -70,15 +70,11 @@ There isn't a right or wrong answer here. I have seen plenty of websites break t
 
 There are a lot of great resources to help you pick color palettes. I use these all the time for inspiration and to help me find matching or complimentary colors:
 
-* <a href="http://0to255.com/" target="_blank">0 to 255</a> a simple tool that helps web designers find variations of any color.
-* <a href="http://colorschemedesigner.com/" target="_blank">Color Scheme Designer</a> you can try out different colors and even see how they might look on a dark or light website.
-* <a href="https://kuler.adobe.com/" target="_blank">Adobe's Kuler</a> is a design resource of exploring, creating and sharing color themes.
-* <a href="http://www.colourlovers.com/" target="_blank">COLOURlovers</a> is a website with a big community of users who create and share color palettes, much like Kuler.
-* <a href="http://www.colorhexa.com/" target="_blank">ColorHexa</a>
-is an online resource that's useful for finding different color variations and complimentary colors. I will often search for hex colors (e.g. #b1e1ed) to experiment with different shades.
-* <a href="http://pltts.me/" target="_blank">PLTTS</a> makes it's easy to find matching color-palettes for your project.
-* <a href="http://www.blendoku.com/" target="_blank">Blendoku</a> is puzzle game that will challenge your ability to distinguish and arrange colors. The game is based on color principles and exercises taught in art schools around the world.
+* [0 to 255](http://0to255.com/) a simple tool that helps web designers find variations of any color. * [Color Scheme Designer](http://colorschemedesigner.com/) you can try out different colors and even see how they might look on a dark or light website.
+* [Adobe's Kuler](https://kuler.adobe.com/) is a design resource of exploring, creating and sharing color themes.
+* [COLOURlovers](http://www.colourlovers.com/) is a website with a big community of users who create and share color palettes, much like Kuler.
+* [ColorHexa](http://www.colorhexa.com/) is an online resource that's useful for finding different color variations and complimentary colors. I will often search for hex colors (e.g. #b1e1ed) to experiment with different shades.
+* [PLTTS](http://pltts.me/) makes it's easy to find matching color-palettes for your project.
+* [Blendoku](http://www.blendoku.com/) is puzzle game that will challenge your ability to distinguish and arrange colors. The game is based on color principles and exercises taught in art schools around the world.
 
-While there is a science behind color theory, it's also very much an art.
-
-Learning to use color in your designs takes practice and a bit of innate taste. I'm still learning about and playing with color, but I really love its meanings and I'm fascinated by how easily it can change a design.
+While there is a science behind color theory, it's also very much an art. Learning to use color in your designs takes practice and a bit of innate taste. I'm still learning about and playing with color, but I really love its meanings and I'm fascinated by how easily it can change a design.

@@ -56,7 +56,7 @@
 article li {
   margin-bottom: .5rem;
 
-  &:last-child { margin-bottom: 0; } 
+  &:last-child { margin-bottom: 0; }
 }
 
 /* Post Footer
@@ -75,27 +75,38 @@ article li {
     margin: 0;
     width: 50%;
 
-    &:only-of-type { width: 100%; }
+    &:only-of-type {
+      width: 100%;
+      text-align: center;
+    }
   }
 
   .post-footer__link {
     @include ellipsis;
-    @include transition (color $duration $timing);
+    @include transition (background $duration $timing);
     border-left: 1px solid $border-light;
     color: $gray;
     display: block;
-    padding: 2rem;
-    text-align: center;
+    padding: 1.5rem;
     text-decoration: none;
 
-    &:hover { color: $black; }
+    @media #{$medium} {
+      padding: 2rem 4rem;
+    }
+
+    &:hover { background: $light-gray; }
   }
 }
 
 .post-footer__title {
-  display: none;
+  @include ellipsis;
+  color: $black;
+  font-weight: $bold;
+  margin: 0;
+}
 
-  @media #{$medium} {
-    display: inline;
-  }
+.post-footer__subtitle {
+  color: $gray;
+  font-size: .9rem;
+  margin: 0;
 }
