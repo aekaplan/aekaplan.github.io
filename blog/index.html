@@ -7,8 +7,8 @@ title: Blog
   {% for post in site.posts do %}
     <li class="post__item">
       <a class="post__link" href="{{ post.url }}">
-        <h3 class="post__title">{{ post.title }}</h3>
         <p class="post__date">{{ post.date | date: "%B %-d, %Y" }}</p>
+        <h3 class="post__title">{{ post.title }}</h3>
         <p class="post__excerpt">{{ post.content | strip_html | truncatewords:40 }}</p>
       </a>
     </li>

@@ -16,6 +16,9 @@ header .container {
 ========================================================================== */
 
 .logo {
+  background: url("/assets/images/site/logo.svg") no-repeat;
+  width: 36px;
+  height: 27px;
   text-decoration: none;
 
   @media #{$medium} {
