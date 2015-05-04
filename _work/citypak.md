@@ -4,27 +4,28 @@ tags: Visual Design, HTML, CSS
 order: 5
 ---
 
-###Description
 [Citypak](http://www.citypak.org) provides safe, convenient and versatile backpacks uniquely designed to meet the needs of the homeless.
+
+From a design perspective, my two goals for this project were to make it as simple as possible to donate to the cause and give it a real human element by focusing on the people Citypak is trying to help.
+
+To that end, large images serve to showcase the Citypak's features and how people might use them, while handwritten typography adds an organic and rough feel to an otherwise streamlined site. A colorful call to action button makes it easy to donate.
+
+[Rylan Dirksen](http://rylo.github.io) built the custom content management section for this application with Rails. Administrators can manage blog posts and even drag and drop images onto the site for news posts and distribution event photo galleries.
+
+I chose to add [Google Maps integration](https://developers.google.com/maps) for a more dynamic way to see the [many partners](http://citypak.org/partners) of the program.
 
 ###Logo
 ![Checklist Logo](/assets/images/work/citypak/citypak-logo.svg)
 
 ###Web
-The website was built with Rails and includes a custom CMS.
-
 {% include browser.html image="citypak/citypak-desktop" %}
 {% include browser.html image="citypak/citypak-about-desktop" %}
 {% include browser.html image="citypak/citypak-branding-desktop" %}
 
 ###Admin
-The custom admin uses Google authentication for login. Images use drag and drop for posts and gallery creation.
-
 {% include browser.html image="citypak/citypak-admin-posts" %}
 {% include browser.html image="citypak/citypak-admin-gallery" %}
 
 ###Mobile
-In order to save space on mobile, I built a simple toggle that hides and shows the navigation.
-
 {% include browser.html mobile=true image="citypak/citypak-home-mobile" %}
 {% include browser.html mobile=true image="citypak/citypak-navigation-mobile" %}
