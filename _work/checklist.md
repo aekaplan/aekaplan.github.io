@@ -4,15 +4,16 @@ tags: Visual Design, HTML, CSS
 order: 6
 ---
 
-###Description
-I built this [checklist](http://apprenticeship-checklist.herokuapp.com/) during my apperenticeship at [8th Light](http://www.8thlight.com) to help keep track of my progress and assignments. It's now used internally to help apprentices.
+I built this [apprenticeship checklist](http://apprenticeship-checklist.herokuapp.com/) as an apprentice at [8th Light](http://www.8thlight.com) to help keep track of my progress and assignments. It's still used internally to help current design and development apprentices.
+
+I decided on a two pane layout where the sidebar stays fixed as you scroll so the user can see the progress bar change when tasks are checked off the list. By using a bit of Javscript and some CSS animations, the progress bar updates whenever a task is checked, making for a more interactive experience. On mobile, this sidebar moves out of the way of the content.
+
+The website was built with [Middleman](https://middlemanapp.com) and is hosted on [Heroku](https://www.heroku.com).
 
 ###Logo
 ![Checklist Logo](/assets/images/work/checklist/checklist-logo.svg)
 
 ###Web
-The website was built with Middleman and stores your data locally in the browser. The sidebar stays fixed as you scroll. The progress bar updates as each task is checked with simple javascript/CSS animations.
-
 {% include browser.html image="checklist/checklist-desktop" %}
 {% include browser.html image="checklist/checklist-ux-desktop" %}
 
