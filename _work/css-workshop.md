@@ -4,21 +4,20 @@ tags: Branding, Visual Design, HTML, CSS
 order: 3
 ---
 
-###Description
-In this [three part workshop](http://www.adamkaplan.me/css-workshop), [Stephanie Briones](http://www.stephaniebriones.com) and I taught how to write better CSS using best practices. We covered organization, writing reusable CSS and advanced techniques.
+In this [three part workshop](http://www.adamkaplan.me/css-workshop), [Stephanie Briones](http://www.stephaniebriones.com) and I [covered CSS best practices](https://github.com/aekaplan/css-workshop/blob/gh-pages/README.md) including code organization, reusability and more advanced techniques.
 
-I also had the opportunity to do this workshop for the [NCSA](http://www.ncsasports.org) front-end developers. The [syllabus](https://github.com/aekaplan/css-workshop) is available on GitHub.
+I had the opportunity to give this workshop during an internal [8th Light](https://8thlight.com) event and for the front-end developers at [NCSA](http://www.ncsasports.org).
+
+I felt that a clear hiearchy and accessible code examples were a priority for this project. I chose a simple navigation with links to each day of the workshop and added the ability to copy code examples to the user's clipboard with a simple click.
+
+In terms of technology, I built this project mobile-first with [Markdown](http://daringfireball.net/projects/markdown), [Sass](http://sass-lang.com) and [Jekyll](http://jekyllrb.com).
 
 ###Logo
 ![Checklist Logo](/assets/images/work/css-workshop/css-workshop-logo.svg)
 
 ###Web
-The website was built with [Jekyll](http://jekyllrb.com) and Sass. I created a simple navigation for each day of the workshop. Code examples have a copy to clipboard button for easy copying. Headers have anchors for easily sharing specific sections.
-
 {% include browser.html image="css-workshop/css-workshop-desktop" %}
 
 ###Mobile
-Like all my projects, I built this mobile first. Read my guide to [responsive design](http://www.adamkaplan.me/grid) to learn more.
-
 {% include browser.html mobile=true image="css-workshop/css-workshop-mobile" %}
 {% include browser.html mobile=true image="css-workshop/css-workshop-media-mobile" %}
