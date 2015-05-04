@@ -1,0 +1,62 @@
+/* Header
+========================================================================== */
+
+header { border-bottom: 1px solid $border-light; }
+
+header .container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  max-width: $content-width-wide;
+  padding: 1rem 0;
+}
+
+/* Logo
+========================================================================== */
+
+.logo {
+  background: url("/assets/images/site/logo.svg") no-repeat;
+  width: 36px;
+  height: 27px;
+  text-decoration: none;
+
+  @media #{$medium} {
+    font-size: .9rem;
+  }
+}
+
+/* Navigation
+========================================================================== */
+
+nav {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.nav {
+  @include clean-list;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+.nav__item {
+  @include transition (color $duration $timing);
+  color: $gray;
+  padding-left: 1.4rem;
+  text-decoration: none;
+
+  &:hover { color: $black; }
+
+  @media #{$medium} {
+    font-size: .9rem;
+  }
+}
+
+.nav__item--current {
+  color: $black;
+
+  &:hover { color: inherit; }
+}

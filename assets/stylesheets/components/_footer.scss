@@ -1,0 +1,26 @@
+/* Footer
+========================================================================== */
+
+footer {
+  color: $gray;
+  text-align: center;
+
+  .container { padding: 2rem 0; }
+}
+
+.made-with-love {
+  font-size: 1rem;
+  margin: 0;
+
+  @media #{$medium} {
+    font-size: .9rem;
+  }
+}
+
+.heart-icon {
+  background: url("/assets/images/site/heart.svg") no-repeat;
+  display: inline-block;
+  height: 12px;
+  margin: 0 .1rem;
+  width: 14px;
+}

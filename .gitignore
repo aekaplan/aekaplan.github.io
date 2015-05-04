@@ -2,6 +2,7 @@
 _gh_pages
 _site
 .ruby-version
+Gemfile.lock
 
 # OS or editor artifacts
 .DS_Store

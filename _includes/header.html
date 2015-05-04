@@ -1,5 +1,15 @@
 <header>
   <div class="container">
-    <a href="{{ site.url }}/" class="logo"></a>
+    <a href="{{site.url}}/" class="logo"></a>
+    <nav>
+      <ul class="nav">
+        <li>
+          <a class="nav__item{% if page.path == "blog/index.html" %} nav__item--current{% endif %}" href="/blog/">Blog</a>
+        </li>
+        <li>
+          <a class="nav__item{% if page.path == "work/index.html" %} nav__item--current{% endif %}" href="/work/">Work</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>

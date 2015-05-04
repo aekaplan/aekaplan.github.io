@@ -2,12 +2,36 @@
 name: Adam Kaplan
 title: Adam Kaplan
 description: "Designer"
-permalink: /:title
+permalink: /blog/:title
+highlighter: pygments
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - smart
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+  -
+    scope:
+      path: ''
+      type: 'work'
+    values:
+      layout: 'post'
+
+# Collections
+collections:
+  work:
+    output: true
+    permalink: /work/:title/
 
 # Sass settings
 sass:
-  sass_dir: _sass
+  sass_dir: assets/stylesheets
   style: :compressed
