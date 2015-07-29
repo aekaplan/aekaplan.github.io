@@ -1,7 +1,7 @@
 ---
 title: Vision
 tags: Visual Design, HTML, CSS
-order: 4
+order: 5
 ---
 
 Vision is an internal application I helped design for [8th Light](http://www.8thlight.com). Employees can read updates from management and other craftsmen, access internal applications and edit their profile.

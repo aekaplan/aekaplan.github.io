@@ -1,7 +1,7 @@
 ---
 title: Citypak
 tags: Visual Design, HTML, CSS
-order: 5
+order: 1
 ---
 
 [Citypak](http://www.citypak.org) provides safe, convenient and versatile backpacks uniquely designed to meet the needs of the homeless.
@@ -19,12 +19,14 @@ I chose to add [Google Maps integration](https://developers.google.com/maps) for
 
 ###Web
 {% include browser.html image="citypak/citypak-desktop" %}
-{% include browser.html image="citypak/citypak-about-desktop" %}
+{% include browser.html image="citypak/citypak-distributions-desktop" %}
+{% include browser.html image="citypak/citypak-partners-desktop" %}
+{% include browser.html image="citypak/citypak-partners-alt-desktop" %}
 {% include browser.html image="citypak/citypak-branding-desktop" %}
 
 ###Admin
 {% include browser.html image="citypak/citypak-admin-posts" %}
-{% include browser.html image="citypak/citypak-admin-gallery" %}
+{% include browser.html image="citypak/citypak-admin-edit-posts" %}
 
 ###Mobile
 {% include browser.html mobile=true image="citypak/citypak-home-mobile" %}

@@ -1,7 +1,7 @@
 ---
 title: CSS Workshop
 tags: Branding, Visual Design, HTML, CSS
-order: 3
+order: 4
 ---
 
 In this [three part workshop](http://www.adamkaplan.me/css-workshop), [Stephanie Briones](http://www.stephaniebriones.com) and I [covered CSS best practices](https://github.com/aekaplan/css-workshop/blob/gh-pages/README.md) including code organization, reusability and more advanced techniques.
