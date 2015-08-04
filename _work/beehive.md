@@ -1,7 +1,7 @@
 ---
 title: Beehive
 tags: Branding, Visual Design, HTML, CSS
-order: 3
+order: 4
 ---
 
 This project was a fun personal project with home automation. It integrates with [Z-Wave  devices](http://www.z-wave.com) to control lighting and other functions from a web interface.
