@@ -1,7 +1,7 @@
 ---
 title: Checklist
 tags: Visual Design, HTML, CSS
-order: 6
+order: 7
 ---
 
 I built this [apprenticeship checklist](http://apprenticeship-checklist.herokuapp.com/) as an apprentice at [8th Light](http://www.8thlight.com) to help keep track of my progress and assignments. It's still used internally to help current design and development apprentices.
