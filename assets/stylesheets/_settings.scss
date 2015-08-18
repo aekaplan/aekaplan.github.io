@@ -18,10 +18,14 @@ $red:           #df7063;
 
 // Border Colors
 $border-light: #eee;
+$border-dark: #ddd;
 
 // Primary Button Color
 $primary-button:       $primary-color;
 $primary-button-hover: darken($primary-color, 5%);
+
+// Border Radius
+$border-radius: 4px;
 
 // Grid
 $content-width: 38rem;

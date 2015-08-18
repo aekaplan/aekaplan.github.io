@@ -1,0 +1,133 @@
+/* Mobile First Workshop
+========================================================================== */
+
+// Workshop Variables
+$zapier: #ff4a00;
+$zapier-hover: #f04600;
+$zapier-gray: #4e5b61;
+
+// Workshop Overrides
+.mobile-first {
+  color: $zapier-gray;
+  font: 100%/1.5 'Open Sans', sans-serif;
+
+  body { background-color: $light-gray; }
+  
+  .container {
+    max-width: 1200px;
+    margin: 1.5rem auto;
+  }
+
+  h1, h3 {
+    color: $zapier-gray;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+// Workshop
+.workshop {
+  @include clean-list;
+}
+
+.workshop__item {
+  @extend %clearfix;
+  background: $white;
+  border-radius: 4px;
+  border: 1px solid $border-dark;
+  margin-bottom: 1.5em;
+
+  // Medium screens
+  @media #{$medium} {
+    float: left;
+    margin-left: 4%;
+    width: 48%;
+
+    &:first-child,
+    &:last-child {
+      margin-left: 0;
+    }
+  }
+
+  // Large screens
+  @media #{$large} {
+    width: 30%;
+
+    &:last-child { margin-left: 4%; }
+  }
+}
+
+// Workshop Image
+.workshop__image {
+  background: url("/assets/images/workshop/zapier-logomark.svg") center no-repeat;
+  background-size: 40px;
+  border-bottom: 1px solid $border-dark;
+  display: block;
+  height: 80px;
+  width: 100%;
+
+  @media #{$medium} {
+    background-size: 60px;
+    height: 150px;
+  }
+}
+
+// Workshop Content
+.workshop__content {
+  padding: 1.2rem;
+
+  @media #{$medium} {
+    padding: 1.5rem;
+  }
+}
+
+// Workshop Title
+.workshop__title {
+  @include ellipsis;
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+// Workshop Description
+.workshop__description {
+  color: $gray;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+// Workshop Button
+.workshop__button {
+  background: $zapier;
+  border-radius: $border-radius;
+  border: none;
+  color: $white;
+  font-size: .9rem;
+  font-weight: bold;
+  padding: .8rem 1.3rem;
+  transition: background .1s ease;
+  width: 100%;
+
+  &:focus { outline: none; }
+  &:hover { background: $zapier-hover; }
+}
+
+// Workshop Header
+.workshop-header {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+// Workshop Breakpoints
+.medium, .large { display: none; }
+
+@media #{$medium} {
+  .small, .large { display: none; }
+  .medium { display: block; }
+}
+
+@media #{$large} {
+  .small, .medium { display: none; }
+  .large { display: block; }
+}
