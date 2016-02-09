@@ -17,13 +17,9 @@ header .container {
 
 .logo {
   background: url("/assets/images/site/logo.svg") no-repeat;
-  width: 36px;
-  height: 27px;
+  width: 42px;
+  height: 42px;
   text-decoration: none;
-
-  @media #{$medium} {
-    font-size: .9rem;
-  }
 }
 
 /* Navigation
@@ -45,14 +41,14 @@ nav {
 .nav__item {
   @include transition (color $duration $timing);
   color: $gray;
+  font-size: .8em;
+  font-weight: $bold;
+  letter-spacing: 1px;
   padding-left: 1.4rem;
   text-decoration: none;
+  text-transform: uppercase;
 
   &:hover { color: $black; }
-
-  @media #{$medium} {
-    font-size: .9rem;
-  }
 }
 
 .nav__item--current {
