@@ -10,13 +10,13 @@ I decided on a two pane layout where the sidebar stays fixed as you scroll so th
 
 The website was built with [Middleman](https://middlemanapp.com) and is hosted on [Heroku](https://www.heroku.com).
 
-###Logo
+### Logo
 ![Checklist Logo](/assets/images/work/checklist/checklist-logo.svg)
 
-###Web
+### Web
 {% include browser.html image="checklist/checklist-desktop" %}
 {% include browser.html image="checklist/checklist-ux-desktop" %}
 
-###Mobile
+### Mobile
 {% include browser.html mobile=true image="checklist/checklist-mobile" %}
 {% include browser.html mobile=true image="checklist/checklist-typography-mobile" %}

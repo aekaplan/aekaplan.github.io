@@ -3,10 +3,8 @@ name: Adam Kaplan
 title: Adam Kaplan
 description: "Designer"
 permalink: /blog/:title
-highlighter: pygments
 
 # Build settings
-markdown: redcarpet
 redcarpet:
   extensions:
     - smart

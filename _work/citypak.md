@@ -14,20 +14,20 @@ Large images serve to showcase the Citypak's features and how people might use t
 
 I chose to add [Google Maps integration](https://developers.google.com/maps) for a more dynamic way to see the [many partners](http://citypak.org/partners) of the program.
 
-###Logo
+### Logo
 ![Checklist Logo](/assets/images/work/citypak/citypak-logo.svg)
 
-###Web
+### Web
 {% include browser.html image="citypak/citypak-desktop" %}
 {% include browser.html image="citypak/citypak-distributions-desktop" %}
 {% include browser.html image="citypak/citypak-partners-desktop" %}
 {% include browser.html image="citypak/citypak-partners-alt-desktop" %}
 {% include browser.html image="citypak/citypak-branding-desktop" %}
 
-###Admin
+### Admin
 {% include browser.html image="citypak/citypak-admin-posts" %}
 {% include browser.html image="citypak/citypak-admin-edit-posts" %}
 
-###Mobile
+### Mobile
 {% include browser.html mobile=true image="citypak/citypak-home-mobile" %}
 {% include browser.html mobile=true image="citypak/citypak-navigation-mobile" %}

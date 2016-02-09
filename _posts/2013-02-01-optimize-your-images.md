@@ -16,7 +16,7 @@ When using images on the web, always remove unnecessary bytes. Here are a few si
 * Use JPGs for photos and PNGs when you need transparency
 * Use appropriately sized photos when possible
 
-###Results
+### Results
 
 Stephanie noticed that one of the images on my website was loading slow. By
 following these simple guidelines, my image went from 2mb to 80kb!

@@ -9,11 +9,11 @@ This definition gives you a good idea of what these selectors do:
 
 >The prefix pseudo (from the Greek word <em>pseudes</em>, meaning "lying" or "false") is used to mark something as false, fraudulent, or pretending to be something it is not.
 
-###:before and :after
+### :before and :after
 
 These pseudo-classes are used to insert text, character codes or images before or after elements. The syntax for pseudo-classes is quite simple:
 
-```css
+{% highlight css %}
 .example:before {
   background: #d31742;
   content: "before";
@@ -27,7 +27,7 @@ These pseudo-classes are used to insert text, character codes or images before o
   color: #fff;
   padding: 0 0.3em;
 }
-```
+{% endhighlight %}
 
 This is some example text with `:before` and `:after` pseudo-classes.
 
@@ -35,13 +35,13 @@ Pretty neat, right? You'll have more control over your markup by combining pseud
 
 You can use `:before` and `:after` in new and creative ways. For example, I often use `:before` on lists or elements that need character codes or icons. Let's try adding a red star before each item in a list:
 
-```css
+{% highlight css %}
 .example li:before {
   content: "★";
   color: #d31742;
   padding-right: 0.5em;
 }
-```
+{% endhighlight %}
 
 But `:before` and `:after` are not the only pseudo-classes. There are many more:
 
@@ -52,11 +52,11 @@ But `:before` and `:after` are not the only pseudo-classes. There are many more:
 
 You can't use `:before` and `:after` without a content property. You can, however, leave the content property blank if you don't want to add extra content.
 
-###Content Property
+### Content Property
 
 Let's look at another example from my timeline project. I used the required `content` property, but left it blank to achieve the timeline's gray line. Now I won't have to write extra markup to get the same result.
 
-```css
+{% highlight css %}
 .timeline:before {
   background: #ddd;
   content: " ";
@@ -66,12 +66,12 @@ Let's look at another example from my timeline project. I used the required `con
   bottom: 0;
   width: 1px;
 }
-```
+{% endhighlight %}
 
-###Clearfix
+### Clearfix
 [Nicolas Gallagher's popular clearfix](http://nicolasgallagher.com/micro-clearfix-hack) uses pseudo-class selectors to clear floats. This eliminates the need to hide generated content and reduces the amount of code you need to write. I always add this clearfix to my container classes to keep floats cleared properly.
 
-```css
+{% highlight css %}
 .cf:before,
 .cf:after {
   content: " ";
@@ -80,13 +80,13 @@ Let's look at another example from my timeline project. I used the required `con
 
 .cf:after { clear: both; }
 .cf { *zoom: 1; }
-```
+{% endhighlight %}
 
-###:first-child and :last-child
+### :first-child and :last-child
 
 `:first-child` and `:last-child` allow you to select the first or last child of its parent element. I like to use them to remove extra margins or borders on columns in my layouts:
 
-```html
+{% highlight html %}
 <div class="row">
   <div class="column-example-bad first">
     <p>Column 1</p>
@@ -100,9 +100,9 @@ Let's look at another example from my timeline project. I used the required `con
     <p>Column 3</p>
   </div>
 </div>
-```
+{% endhighlight %}
 
-```css
+{% highlight css %}
 .column-example-bad {
   float: left;
   margin-left: 3.2%;
@@ -113,13 +113,13 @@ Let's look at another example from my timeline project. I used the required `con
   border: 1px solid #008080;
   margin-left: 0
 }
-```
+{% endhighlight %}
 
 You'll notice we need a margin-left to separate the columns, but we don't want a margin on the first column. I had to write a separate class and add more markup to remove the margin.
 
 I could also just use the `:first-child` pseudo-class:
 
-```html
+{% highlight html %}
 <div class="row">
   <div class="column-example">
     <p>Column 1</p>
@@ -133,9 +133,9 @@ I could also just use the `:first-child` pseudo-class:
     <p>Column 3</p>
   </div>
 </div>
-```
+{% endhighlight %}
 
-```css
+{% highlight css %}
 .column-example {
   float: left;
   margin-left: 3.2%;
@@ -146,7 +146,7 @@ I could also just use the `:first-child` pseudo-class:
   border: 1px solid #008080;
   margin-left: 0;
 }
-```
+{% endhighlight %}
 
 I let the CSS do all the work; no extra markup needed! The browser will re-evaluate the styles even if I add more columns later.
 

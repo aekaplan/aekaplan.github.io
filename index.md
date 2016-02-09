@@ -3,7 +3,7 @@ layout: default
 title: Adam Kaplan
 ---
 
-#Hi, I’m Adam.
+## Hi, I’m Adam.
 
 I’m a designer and front-end developer living in Chicago. I value simplicity, honest feedback, and collaboration. Currently, I work at [Zapier](http://www.zapier.com) as a Product Designer.
 

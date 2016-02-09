@@ -65,7 +65,7 @@ blockquote {
   padding: 0 1.5rem;
 
   p {
-    color: $gray;
+    font-style: italic;
     margin: 0;
 
     &:before { content: '“'; }

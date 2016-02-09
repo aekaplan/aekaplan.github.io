@@ -8,17 +8,17 @@ order: 3
 
 The project was built with [Jekyll](http://jekyllrb.com) and plain CSS. I wanted [the code](https://github.com/aekaplan/grid) to be accessible to beginners, so I stayed away from language extensions like Sass.
 
-I found that including simple visualizations helped to clarify some of the more complicated concepts, like the CSS box model. Breaking down larger challenges into smaller ones also made the content more easily digestable.
+I found that including simple visualizations helped to clarify some of the more complicated concepts, like the CSS box model. Breaking down larger challenges into smaller ones also made the content more easily digestible.
 
 The feedback I received from the community was amazing and I wrote [a retrospective](/blog/grid-retrospective) on what I learned over the course of the following year.
 
-###Logo
+### Logo
 ![Responsive](/assets/images/work/grid/grid-logo.svg)
 
-###Web
+### Web
 {% include browser.html image="grid/grid-desktop" %}
 {% include browser.html image="grid/grid-box-desktop" %}
 
-###Mobile
+### Mobile
 {% include browser.html mobile=true image="grid/grid-mobile" %}
 {% include browser.html mobile=true image="grid/grid-column-mobile" %}

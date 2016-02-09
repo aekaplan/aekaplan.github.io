@@ -12,19 +12,19 @@ A night sky full of stars inspired the background pattern–dreams and goals for
 
 This application was built with [Rails](http://rubyonrails.org) and [Sass](http://sass-lang.com).
 
-###Background
+### Background
 ![Vision Background](/assets/images/work/vision/vision-background.svg)
 
-###Icons
+### Icons
 ![Vision Icons](/assets/images/work/vision/vision-icons.svg)
 
-###Web
+### Web
 {% include browser.html image="vision/vision-desktop" %}
 
-###Navigation
+### Navigation
 {% include browser.html image="vision/vision-navigation-closed-desktop" %}
 {% include browser.html image="vision/vision-navigation-desktop" %}
 
-###Mobile
+### Mobile
 {% include browser.html mobile=true image="vision/vision-mobile" %}
 {% include browser.html mobile=true image="vision/vision-navigation-mobile" %}

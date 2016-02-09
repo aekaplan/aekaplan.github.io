@@ -11,15 +11,15 @@ If you don't clear floats, however, they will misbehave. Un-cleared floats stack
 
 Fortunately there's a popular clearfix, made by [Nicolas Gallagher](http://nicolasgallagher.com/micro-clearfix-hack)
 
-```html
+{% highlight html %}
 <div class="row clearfix">
   <div class="column">
     <!-- Your Content -->
   </div>
 </div>
-```
+{% endhighlight %}
 
-```css
+{% highlight css %}
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -28,17 +28,17 @@ Fortunately there's a popular clearfix, made by [Nicolas Gallagher](http://nicol
 
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
-```
+{% endhighlight %}
 
 ![Clearfix on parent container](/assets/images/blog/clearfix/clearfix.svg)
 
 In the above example, you can see how it would look when all the elements properly clear—the height is no longer collapsed. Using a clearfix in this way, however, adds additional markup and creates a lot of repetitive CSS.
 
-###Sass Clearfix
+### Sass Clearfix
 
 [Sass brings a bunch of benefits](/blog/scss) over plain 'ole CSS like nesting and `@extend`, which we can use to make a better clearfix. `@extend` basically tells Sass that one selector should inherit the styles of another selector.
 
-```scss
+{% highlight scss %}
 %clearfix {
   *zoom: 1;
   &:before, &:after {
@@ -49,25 +49,25 @@ In the above example, you can see how it would look when all the elements proper
 }
 
 .row { @extend %clearfix; }
-```
+{% endhighlight %}
 
 Sass supports the special placeholder selector `%`, a silent class, which only compiles to CSS until we use it, eliminating repetitive CSS! You can use these to replace the class and id selectors.
 
-```html
+{% highlight html %}
 <div class="row">
   <div class="column">
     <!-- Your Content -->
   </div>
 </div>
-```
+{% endhighlight %}
 
-```scss
+{% highlight scss %}
 .row { @extend %clearfix; }
-```
+{% endhighlight %}
 
 By using Sass we end up with a much cleaner and simpler approach. We no longer have to add the clearfix class to our markup instead we just `@extend` anywhere a clearfix is needed.
 
-###Resources
+### Resources
 
 * [A New Micro Clearfix Hack](http://nicolasgallagher.com/micro-clearfix-hack)
 * [All About Floats](http://css-tricks.com/all-about-floats)

@@ -16,7 +16,7 @@ Wireframing allows you to focus on:
 * the range of functions available to your user
 * the kinds of information displayed
 
-###Meet Balsamiq
+### Meet Balsamiq
 
 [Balsamiq](http://www.balsamiq.com/) is a wireframing application for quick mockups. It's like sketching except that it's digital, allowing you to easily tweak and rearrange your ideas.
 
@@ -24,23 +24,23 @@ I prefer low-fidelity wireframes because they allow you to focus on the core fun
 
 This keeps the conversations focused on what matters: the user experience!
 
-###Distraction Free
+### Distraction Free
 
 Wireframing lets you work distraction-free because you don't have to worry about picking fonts, colors or writing copy. You also have the freedom to try as many layouts or options you'd like. Moving around elements and playing with how placement effects on ease of use is a very rewarding experience. Put on some music and experiment!
 
-###Iterate
+### Iterate
 
 Remember that nothing is final. You will iterate on your wireframes before you move on to the prototyping stage; it's almost unavoidable. Don't be afraid to throw out ideas that don't work and try out several layouts.
 
 It's better to spend the time iterating and experimenting with wireframes while the project is still lightweight and easy to change.
 
-###Think more, design less
+### Think more, design less
 
-This quote from <a href="http://www.thinkingwithtype.com/" target="_blank">"Thinking with Type"</a> by Ellen Lupton really applies in the real world. I spend a lot of time thinking about the user experience and walking through every aspect of my design, asking myself questions like, "Do I need this?"; or "Is this too complicated?"; This critical thinking will prove invaluable when you get to prototyping.
+This quote from [Thinking with Type](http://www.thinkingwithtype.com/) by Ellen Lupton really applies in the real world. I spend a lot of time thinking about the user experience and walking through every aspect of my design, asking myself questions like, "Do I need this?"; or "Is this too complicated?"; This critical thinking will prove invaluable when you get to prototyping.
 
 The time you spend developing the user experience while wireframing will serve as a guide to building an awesome product.
 
-###Feedback is Welcome
+### Feedback is Welcome
 
 It's important to get feedback as soon as possible. Don't be afraid to show your wireframes. Get some initial thoughts from the client. Sit some users down for informal usability testing. The sooner you let the client or user into the process, the sooner you know how successful your design is.
 
