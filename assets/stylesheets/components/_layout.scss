@@ -11,9 +11,6 @@ html { box-sizing: border-box; }
 html {
   font: $body-font;
   font-weight: $regular;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -38,6 +35,8 @@ header,
 footer {
   .container { margin: 0 auto; }
 }
+
+.row { margin-bottom: 1.5em; }
 
 /* Section
 ========================================================================== */
