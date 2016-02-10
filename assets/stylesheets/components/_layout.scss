@@ -14,10 +14,6 @@ html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media #{$medium} {
-    font-size: 124%;
-  }
 }
 
 body {
