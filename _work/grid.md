@@ -2,6 +2,7 @@
 title: Grid
 tags: Visual Design, HTML, CSS
 order: 3
+show_date: false
 ---
 
 [Grid](http://www.adamkaplan.me/grid) was a personal project I created to help teach responsive design to my co-workers. To my surprise, they and many others online found it useful–it was even  translated into five different languages!

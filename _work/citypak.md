@@ -2,6 +2,7 @@
 title: Citypak
 tags: Visual Design, HTML, CSS
 order: 2
+show_date: false
 ---
 
 [Citypak](http://www.citypak.org) provides safe, convenient and versatile backpacks uniquely designed to meet the needs of the homeless.
