@@ -1,8 +1,6 @@
 ---
-layout: post-hero
 title: Grid Retrospective
 date: February 2, 2015
-hero: hero--grid
 ---
 
 It's been over a year since I created [Grid]({{site.url}}/grid). The feedback from the community was amazing and I learned so much about what could be improved.
