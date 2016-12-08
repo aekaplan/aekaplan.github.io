@@ -1,0 +1,57 @@
+.wedding-invite__body {
+  background:url("/assets/images/wedding/waves.svg");
+  color: #515151;
+}
+
+.wedding-invite--container {
+  max-width: 35rem;
+  margin: 2rem auto;
+
+  @media #{$medium} {
+    margin: 4rem auto;
+  }
+}
+
+.wedding-invite {
+  background: $white;
+  box-shadow: 0 0 1px rgba(95,108,114,0.08), 0 2px 18px rgba(95,108,114,0.18);
+  padding: 3.5rem;
+  text-align: center;
+}
+
+.wedding-invite__intro {
+  margin-bottom: 3rem;
+}
+
+.wedding-invite__triforce {
+  background: url("/assets/images/wedding/crest.svg") no-repeat;
+  display: inline-block;
+  height: 61px;
+  margin-bottom: .5rem;
+  width: 104px;
+}
+
+.wedding-invite__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.wedding-invite__header {
+  font-family: "Montserrat", sans-serif;
+  font-size: .9em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.wedding-invite__date {
+  color: #999;
+  font-size: .9em;
+  margin-bottom: 2rem;
+
+  &:last-of-type { margin-bottom: 0; }
+}
