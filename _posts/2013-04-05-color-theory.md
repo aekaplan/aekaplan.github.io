@@ -70,7 +70,8 @@ There isn't a right or wrong answer here. I have seen plenty of websites break t
 
 There are a lot of great resources to help you pick color palettes. I use these all the time for inspiration and to help me find matching or complimentary colors:
 
-* [0 to 255](http://0to255.com/) a simple tool that helps web designers find variations of any color. * [Color Scheme Designer](http://colorschemedesigner.com/) you can try out different colors and even see how they might look on a dark or light website.
+* [Canva](http://www.canva.com/colors/) has everything you need to know about colors.
+* [0 to 255](http://0to255.com/) is a simple tool that helps web designers find variations of any color.
 * [Adobe's Kuler](https://kuler.adobe.com/) is a design resource of exploring, creating and sharing color themes.
 * [COLOURlovers](http://www.colourlovers.com/) is a website with a big community of users who create and share color palettes, much like Kuler.
 * [ColorHexa](http://www.colorhexa.com/) is an online resource that's useful for finding different color variations and complimentary colors. I will often search for hex colors (e.g. #b1e1ed) to experiment with different shades.
